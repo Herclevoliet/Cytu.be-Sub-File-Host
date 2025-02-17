@@ -1,7 +1,6 @@
 {
   "title": "Cytube",
   "duration": 60000,
-  "live": false,
   "sources": [
     {
       "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Keyakizaka46/Others/2x12.mp4",
@@ -12,42 +11,9 @@
   "subTracks": [
         {
             "language": "en",
-            "label": "AI",
+            "label": "AI .ass Subtitles",
             "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2x12.ass",
             "contentType": "text/x-ass"
         }
-  ],
-  "audioTracks": [],
-  "fonts": [
-    "https://resources.pink.horse/fonts/octopus/ALLER_BDIT.TTF",
-    "https://resources.pink.horse/fonts/octopus/ALLER.TTF",
-    "https://resources.pink.horse/fonts/octopus/ArtificeSSK.ttf",
-    "https://resources.pink.horse/fonts/octopus/AVGARDNEclipse.ttf",
-    "https://resources.pink.horse/fonts/octopus/BKANT.TTF",
-    "https://resources.pink.horse/fonts/octopus/Blokletters-Viltstift-FXD.ttf",
-    "https://resources.pink.horse/fonts/octopus/Brianne_s_hand.ttf",
-    "https://resources.pink.horse/fonts/octopus/BRUSHSTP.TTF",
-    "https://resources.pink.horse/fonts/octopus/CALIST.TTF",
-    "https://resources.pink.horse/fonts/octopus/chinrg_.ttf",
-    "https://resources.pink.horse/fonts/octopus/chinrg__.ttf",
-    "https://resources.pink.horse/fonts/octopus/chint___.ttf",
-    "https://resources.pink.horse/fonts/octopus/ClarendonLTStd.otf",
-    "https://resources.pink.horse/fonts/octopus/Copyviol.ttf",
-    "https://resources.pink.horse/fonts/octopus/CopyvlN.ttf",
-    "https://resources.pink.horse/fonts/octopus/corbel.ttf",
-    "https://resources.pink.horse/fonts/octopus/Du766Bd.ttf",
-    "https://resources.pink.horse/fonts/octopus/FRABK.TTF",
-    "https://resources.pink.horse/fonts/octopus/impresja.ttf",
-    "https://resources.pink.horse/fonts/octopus/kaiu.ttf",
-    "https://resources.pink.horse/fonts/octopus/LT_2.ttf",
-    "https://resources.pink.horse/fonts/octopus/LT_70895i.ttf",
-    "https://resources.pink.horse/fonts/octopus/MTCORSVA.TTF",
-    "https://resources.pink.horse/fonts/octopus/NeverSayNever.ttf",
-    "https://resources.pink.horse/fonts/octopus/pala_0.ttf",
-    "https://resources.pink.horse/fonts/octopus/pala.ttf",
-    "https://resources.pink.horse/fonts/octopus/Vesta-Bold.otf",
-    "https://bm.txm1.workers.dev/0:/NotoSansJP-VariableFont_wght.ttf",
-    "https://bm.txm1.workers.dev/0:/tahoma.ttf"
-  ],
-  "textTracks": []
+  ]
 }
