@@ -1,6 +1,6 @@
 {
   "title": "Cytube",
-  "duration": 60000,
+  "duration": 6000,
   "sources": [
     {
       "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Keyakizaka46/Others/2x12.mp4",
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/ass2.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2x12.ass",
             "contentType": "text/x-ass"
         }
   ]
