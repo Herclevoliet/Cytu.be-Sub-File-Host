@@ -1,0 +1,116 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ASS,Arial,50,&H00FFFF00,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4.0,0.0,2,10,10,30,1
+Style: TC,Arial,45,&H00FFFFFF,&H0000FFFF,&H00FF9000,&H00000000,-1,0,0,0,100,100,0,0,1,5.0,0.0,2,10,10,20,1
+Style: Default,Arial,75,&H00FFFF00,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.85,0:00:09.23,ASS,,0,0,0,,Once again for those supporting Keyakizaka46
+Dialogue: 0,0:00:09.23,0:00:10.51,ASS,,0,0,0,,arigatou gozaimasu
+Dialogue: 0,0:00:10.51,0:00:12.78,ASS,,0,0,0,,And then for everything so far in this live stream
+Dialogue: 0,0:00:12.78,0:00:13.95,ASS,,0,0,0,,to those who have been watching
+Dialogue: 0,0:00:13.95,0:00:15.16,ASS,,0,0,0,,arigatou gozaimasu
+Dialogue: 0,0:00:15.16,0:00:17.16,ASS,,0,0,0,,arigatou gozaimasu~
+Dialogue: 0,0:00:22.43,0:00:24.67,ASS,,0,0,0,,Its been so long since we've done a concert
+Dialogue: 0,0:00:24.67,0:00:26.97,ASS,,0,0,0,,Those who have always been there to support us
+Dialogue: 0,0:00:26.97,0:00:29.88,ASS,,0,0,0,,its been awhile since you've seen us moving around on stage
+Dialogue: 0,0:00:29.88,0:00:33.63,ASS,,0,0,0,,with all of us wanting to deliver the power from the messages in our songs
+Dialogue: 0,0:00:33.76,0:00:36.03,ASS,,0,0,0,,its been awhile since they've let us put on a performance for you
+Dialogue: 0,0:00:36.03,0:00:39.48,ASS,,0,0,0,,Hopefully you were able to recapture all those feelings again?
+Dialogue: 0,0:00:45.88,0:00:47.02,ASS,,0,0,0,,And then right here
+Dialogue: 0,0:00:47.47,0:00:50.99,ASS,,0,0,0,,all of us have a message for all of you
+Dialogue: 0,0:00:53.93,0:00:56.20,ASS,,0,0,0,,We the members of Keyakizaka46
+Dialogue: 0,0:00:56.88,0:01:00.17,ASS,,0,0,0,,are closing the curtains on our 5 years of history
+Dialogue: 0,0:01:02.44,0:01:05.10,ASS,,0,0,0,,And then regarding Keyakizaka46
+Dialogue: 0,0:01:05.37,0:01:07.61,ASS,,0,0,0,,we will remain positive as we say goodbye
+Dialogue: 0,0:01:12.67,0:01:16.30,ASS,,0,0,0,,In October...Keyakizaka46 is scheduled
+Dialogue: 0,0:01:16.40,0:01:17.96,ASS,,0,0,0,,to have a final concert
+Dialogue: 0,0:01:18.06,0:01:20.60,ASS,,0,0,0,,As Keyakizaka46
+Dialogue: 0,0:01:21.13,0:01:24.54,ASS,,0,0,0,,that event will mark the end of the group's activities
+Dialogue: 0,0:01:26.25,0:01:27.10,ASS,,0,0,0,,And then
+Dialogue: 0,0:01:27.72,0:01:31.31,ASS,,0,0,0,,we will be given a new group name...there will be a rebirth
+Dialogue: 0,0:01:35.64,0:01:37.84,ASS,,0,0,0,,Of course this decision
+Dialogue: 0,0:01:38.30,0:01:41.91,ASS,,0,0,0,,is not something all the members can take in and accept so quickly
+Dialogue: 0,0:01:44.14,0:01:49.74,ASS,,0,0,0,,For us personally we have an incredibly strong emotional attachment to Keyakizaka46
+Dialogue: 0,0:01:50.44,0:01:55.82,ASS,,0,0,0,,To keep going with these mixed feelings....there is no way we'd be allowed to continue with this group as it is
+Dialogue: 0,0:01:58.84,0:02:02.56,ASS,,0,0,0,,Me personally and the Keyakizaka46 that I love
+Dialogue: 0,0:02:02.99,0:02:05.98,ASS,,0,0,0,,I was hoping I'd be able to protect it forever
+Dialogue: 0,0:02:06.43,0:02:08.04,ASS,,0,0,0,,and I worked to protect it
+Dialogue: 0,0:02:08.54,0:02:09.60,ASS,,0,0,0,,However
+Dialogue: 0,0:02:11.60,0:02:12.57,ASS,,0,0,0,,however
+Dialogue: 0,0:02:15.74,0:02:19.69,ASS,,0,0,0,,in order for this group to become much much stronger
+Dialogue: 0,0:02:20.65,0:02:25.05,ASS,,0,0,0,,following all the discussions between the staff and the members
+Dialogue: 0,0:02:25.05,0:02:27.92,ASS,,0,0,0,,The decision was that now is the time to move forward
+Dialogue: 0,0:02:28.49,0:02:30.65,ASS,,0,0,0,,Its because we are Keyakizaka46
+Dialogue: 0,0:02:30.84,0:02:33.26,ASS,,0,0,0,,that a lot of our dreams have come true
+Dialogue: 0,0:02:35.05,0:02:37.13,ASS,,0,0,0,,Including the members not here with us now
+Dialogue: 0,0:02:37.13,0:02:40.01,ASS,,0,0,0,,our dreams came true together and then
+Dialogue: 0,0:02:40.19,0:02:43.31,ASS,,0,0,0,,its because you were all there supporting us
+Dialogue: 0,0:02:43.31,0:02:45.42,ASS,,0,0,0,,you made so many of our dreams come true
+Dialogue: 0,0:02:46.36,0:02:48.67,ASS,,0,0,0,,The members who gave us strength and all the staff
+Dialogue: 0,0:02:48.67,0:02:50.67,ASS,,0,0,0,,and then the wonderful songs
+Dialogue: 0,0:02:50.67,0:02:54.57,ASS,,0,0,0,,and then the truly wonderful creative team
+Dialogue: 0,0:02:54.57,0:02:55.63,ASS,,0,0,0,,and then
+Dialogue: 0,0:02:56.04,0:03:00.94,ASS,,0,0,0,,the countless number of fans I've had a chance to meet truly makes me proud
+Dialogue: 0,0:03:04.92,0:03:06.19,ASS,,0,0,0,,Really up to now
+Dialogue: 0,0:03:06.68,0:03:09.24,ASS,,0,0,0,,getting to be a part of Keyakizaka46
+Dialogue: 0,0:03:09.24,0:03:12.27,ASS,,0,0,0,,I grew to love Keyakizaka46
+Dialogue: 0,0:03:12.49,0:03:15.16,ASS,,0,0,0,,and all the support Keyakizaka46 has given me
+Dialogue: 0,0:03:15.36,0:03:17.42,ASS,,0,0,0,,I truly want to say....arigatou gozaimashita
+Dialogue: 0,0:03:19.29,0:03:21.08,ASS,,0,0,0,,arigatou gozaimashita
+Dialogue: 0,0:03:25.87,0:03:28.73,ASS,,0,0,0,,But along with all the fun memories
+Dialogue: 0,0:03:29.24,0:03:32.22,ASS,,0,0,0,,to be honest there's been a lot of painful memories
+Dialogue: 0,0:03:34.40,0:03:37.34,ASS,,0,0,0,,In these 2 years especially
+Dialogue: 0,0:03:37.34,0:03:41.88,ASS,,0,0,0,,its felt like we've been walking lost in a tunnel with no visible exit
+Dialogue: 0,0:03:42.64,0:03:45.39,ASS,,0,0,0,,There were so many unpredictable events
+Dialogue: 0,0:03:45.79,0:03:48.57,ASS,,0,0,0,,and there were days we couldn't do our job the way we had hoped
+Dialogue: 0,0:03:49.08,0:03:54.06,ASS,,0,0,0,,There's been days where we wondered if we had let everyone down
+Dialogue: 0,0:03:55.72,0:04:00.22,ASS,,0,0,0,,And then members continued to graduate and withdraw
+Dialogue: 0,0:04:01.72,0:04:04.09,ASS,,0,0,0,,The group name took on a life of its own
+Dialogue: 0,0:04:04.36,0:04:08.94,ASS,,0,0,0,,there were days with events so troubling that it made you want to cover your ears from the outside world
+Dialogue: 0,0:04:12.35,0:04:15.12,ASS,,0,0,0,,But Keyakizaka46
+Dialogue: 0,0:04:15.69,0:04:17.69,ASS,,0,0,0,,the more I think about how much I loved it
+Dialogue: 0,0:04:18.20,0:04:19.50,ASS,,0,0,0,,it starts to hurt
+Dialogue: 0,0:04:19.82,0:04:23.61,ASS,,0,0,0,,more and more I think about what I should have done
+Dialogue: 0,0:04:23.95,0:04:26.33,ASS,,0,0,0,,It feels like I've become obsessed with thinking about it
+Dialogue: 0,0:04:27.08,0:04:27.64,ASS,,0,0,0,,Right now
+Dialogue: 0,0:04:29.52,0:04:31.66,ASS,,0,0,0,,for the group to become strong
+Dialogue: 0,0:04:32.46,0:04:35.90,ASS,,0,0,0,,the new members that joined...the 2nd members and new 2nd members
+Dialogue: 0,0:04:35.90,0:04:37.90,ASS,,0,0,0,,and then 1st members....all 28 of us together
+Dialogue: 0,0:04:38.44,0:04:40.48,ASS,,0,0,0,,From here we must get off to a new start
+Dialogue: 0,0:04:40.91,0:04:47.15,ASS,,0,0,0,,and again we'll all have to work hard to get back to where a lot of our dreams can come true
+Dialogue: 0,0:04:48.88,0:04:49.79,ASS,,0,0,0,,And then
+Dialogue: 0,0:04:50.40,0:04:53.20,ASS,,0,0,0,,in order to become strong in the future..up to this point
+Dialogue: 0,0:04:53.20,0:04:56.99,ASS,,0,0,0,,the things we've held precious will have to be let go
+Dialogue: 0,0:04:56.99,0:04:58.62,ASS,,0,0,0,,and in that open space
+Dialogue: 0,0:04:58.97,0:05:04.01,ASS,,0,0,0,,I truly believe something new and precious can once again fill that void
+Dialogue: 0,0:05:06.08,0:05:07.93,ASS,,0,0,0,,From this point on our restart begins
+Dialogue: 0,0:05:09.16,0:05:11.77,ASS,,0,0,0,,I think a treacherous road awaits us
+Dialogue: 0,0:05:12.91,0:05:13.55,ASS,,0,0,0,,however
+Dialogue: 0,0:05:15.04,0:05:19.02,ASS,,0,0,0,,with us becoming a colorless group with a clean slate again
+Dialogue: 0,0:05:19.02,0:05:21.32,ASS,,0,0,0,,together I'd like to fill those colors in
+Dialogue: 0,0:05:22.04,0:05:25.82,ASS,,0,0,0,,All the experience gained in Keyakizaka46
+Dialogue: 0,0:05:25.82,0:05:28.43,ASS,,0,0,0,,I'm sure it has made us tougher
+Dialogue: 0,0:05:29.82,0:05:32.41,ASS,,0,0,0,,because of that we'll believe in our experience
+Dialogue: 0,0:05:32.99,0:05:33.98,ASS,,0,0,0,,and then
+Dialogue: 0,0:05:34.33,0:05:35.24,ASS,,0,0,0,,once again
+Dialogue: 0,0:05:35.80,0:05:40.08,ASS,,0,0,0,,I promise we will become a strong group
+Dialogue: 0,0:05:41.93,0:05:43.13,ASS,,0,0,0,,with that said
+Dialogue: 0,0:05:45.39,0:05:46.83,ASS,,0,0,0,,from now on as well
+Dialogue: 0,0:05:46.83,0:05:49.23,ASS,,0,0,0,,please expect big things from us
+Dialogue: 0,0:05:50.04,0:05:52.32,ASS,,0,0,0,,In the future....your continued support
+Dialogue: 0,0:05:52.32,0:05:54.12,ASS,,0,0,0,,dozo yoroshiku onegai itashimasu
+Dialogue: 0,0:05:54.48,0:05:56.09,ASS,,0,0,0,,yoroshiku onegaishimasu
+Dialogue: 0,0:06:05.61,0:06:07.63,ASS,,0,0,0,,For our last song
+Dialogue: 0,0:06:08.12,0:06:11.23,ASS,,0,0,0,,this will be Keyakizaka46's last single
+Dialogue: 0,0:06:11.72,0:06:13.23,ASS,,0,0,0,,please listen
