@@ -3,7 +3,7 @@
   "duration": 6000,
   "sources": [
     {
-      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sharings/%E3%80%90TAKANEKO-TV%E3%80%91%236%20%E6%A9%8B%E6%9C%AC&%E6%97%A5%E5%90%91%E7%AB%AF%E3%81%A7%E3%83%9B%E3%83%A9%E3%83%BC%E3%82%B2%E3%83%BC%E3%83%A0%E5%AE%9F%E6%B3%81%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F.mp4",
+      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Keyakizaka46/Others/2020.07.16%20-%20Sugai%20Yuuka%E2%80%99s%20announcement%20speech%20@%20Online%20Live.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/Takaneko%20Ghost%20House.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2020.07.16%20-%20Sugai%20Yuuka%E2%80%99s%20announcement%20speech%20%40%20Online%20Live.ass",
             "contentType": "text/x-ass"
         }
   ]
