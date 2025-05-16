@@ -3,7 +3,7 @@
   "duration": 6000,
   "sources": [
     {
-      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Keyakizaka46/Others/2020.09.27%20-%20KEYAKIZAKA46%20Live%20Online,%20AEON%20CARD%20with%20YOU!%20MC%20Parts.mp4",
+      "url": "https://www.youtube.com/watch?v=s_ekZFxrpGI.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2020.09.27%20-%20KEYAKIZAKA46%20Live%20Online%2C%20AEON%20CARD%20with%20YOU!-cut-merged-1746119749412.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/%E3%80%90TAKANEKO-MAKING%E3%80%91%231%20%E3%82%A2%E3%83%BC%E5%86%99%26ROUND1%E3%82%B3%E3%83%A9%E3%83%9C%E3%83%93%E3%82%B8%E3%83%A5%E3%82%A2%E3%83%AB%E6%92%AE%E5%BD%B1.ass.ass",
             "contentType": "text/x-ass"
         }
   ]
