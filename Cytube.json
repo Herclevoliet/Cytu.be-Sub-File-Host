@@ -3,7 +3,7 @@
   "duration": 6000,
   "sources": [
     {
-      "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/NOGIBINGO!%203x9-00.00.00.000-00.00.08.198.mp4",
+      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sharings/takaneko.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/%5B2x12%5D%20KEYABINGO!2_%20Keyakizaka%20vs.%20Yokosawa%20Natsuko.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/takaneko.ass",
             "contentType": "text/x-ass"
         }
   ]
