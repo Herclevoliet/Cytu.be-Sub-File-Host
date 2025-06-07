@@ -3,7 +3,7 @@
   "duration": 6000,
   "sources": [
     {
-      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Sakurazaka46/Others/2021.12.10%20-%20Sakurazaka46%201st%20YEAR%20ANNIVERSARY%20LIVE.mp4",
+      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Sakurazaka46/Others/2021.12.10%20-%20Sakurazaka46%201st%20YEAR%20ANNIVERSARY%20LIVE%20BTS.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2021.12.10%20-%20Sakurazaka46%201st%20YEAR%20ANNIVERSARY%20LIVE.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2021.12.10%20-%20Sakurazaka46%201st%20YEAR%20ANNIVERSARY%20LIVE%20BTS.ass",
             "contentType": "text/x-ass"
         }
   ]
