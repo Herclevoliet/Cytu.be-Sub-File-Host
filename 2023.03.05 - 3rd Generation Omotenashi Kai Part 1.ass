@@ -1,0 +1,764 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ASS,Arial,50,&H00FFFF00,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4.0,0.0,2,10,10,30,1
+Style: TC,Arial,45,&H00FFFFFF,&H0000FFFF,&H00FF9000,&H00000000,-1,0,0,0,100,100,0,0,1,5.0,0.0,2,10,10,20,1
+Style: Default,Arial,75,&H00FFFF00,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:30.00,0:02:35.00,ASS,,0,0,0,,"Sakurazaka46"
+Dialogue: 0,0:02:39.00,0:02:42.00,ASS,,0,0,0,,Nice to meet you, everyone. We are...
+Dialogue: 0,0:02:42.00,0:02:45.00,ASS,,0,0,0,,"Sakurazaka46"
+Dialogue: 0,0:02:46.00,0:02:47.00,ASS,,0,0,0,,Today...
+Dialogue: 0,0:02:50.00,0:02:50.49,ASS,,0,0,0,,Today...
+Dialogue: 0,0:02:50.49,0:02:54.49,ASS,,0,0,0,,Thank you for coming to Sankisei\NOmotenashi-kai.
+Dialogue: 0,0:02:55.49,0:03:01.49,ASS,,0,0,0,,We will do our best to make you remember\Nus as much as possible.
+Dialogue: 0,0:03:02.49,0:03:03.49,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:03:04.49,0:03:05.49,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:03:13.15,0:03:17.95,ASS,,0,0,0,,Now, I would like to call the person who\Nwill be the host today.
+Dialogue: 0,0:03:17.95,0:03:19.47,ASS,,0,0,0,,It's Yumeka Shoji.
+Dialogue: 0,0:03:19.47,0:03:21.47,ASS,,0,0,0,,Nice to meet you.
+Dialogue: 0,0:03:21.47,0:03:23.47,ASS,,0,0,0,,Good evening, everyone.
+Dialogue: 0,0:03:23.47,0:03:25.47,ASS,,0,0,0,,Good evening.
+Dialogue: 0,0:03:25.47,0:03:27.47,ASS,,0,0,0,,Good evening.
+Dialogue: 0,0:03:29.27,0:03:34.27,ASS,,0,0,0,,I'm Shouju Meka, voice actress, and I'm\Nin charge of narration in "Sakurazaka".
+Dialogue: 0,0:03:34.27,0:03:42.27,ASS,,0,0,0,,Today, I'd like to help with the\Nprogression of this stage.
+Dialogue: 0,0:03:42.27,0:03:45.27,ASS,,0,0,0,,Everyone, please take care of me until\Nthe end.
+Dialogue: 0,0:03:49.27,0:03:51.27,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:03:53.27,0:03:54.59,ASS,,0,0,0,,Thank you, Se-chan.
+Dialogue: 0,0:03:54.59,0:04:01.59,ASS,,0,0,0,,First of all, congratulations on joining\NSakurazaka46!
+Dialogue: 0,0:04:01.59,0:04:03.59,ASS,,0,0,0,,Thank you!
+Dialogue: 0,0:04:03.59,0:04:05.59,ASS,,0,0,0,,Congratulations!
+Dialogue: 0,0:04:08.22,0:04:11.22,ASS,,0,0,0,,What do you think of this view?
+Dialogue: 0,0:04:11.22,0:04:12.22,ASS,,0,0,0,,Kojima-san.
+Dialogue: 0,0:04:12.22,0:04:14.22,ASS,,0,0,0,,Yes, I'm Kojima.
+Dialogue: 0,0:04:14.22,0:04:19.22,ASS,,0,0,0,,Well, I'm very moved to be here.
+Dialogue: 0,0:04:19.22,0:04:22.22,ASS,,0,0,0,,We were very nervous backstage,
+Dialogue: 0,0:04:22.22,0:04:26.22,ASS,,0,0,0,,but the fans welcomed us so warmly,
+Dialogue: 0,0:04:26.22,0:04:28.22,ASS,,0,0,0,,so I'm having a lot of fun now.
+Dialogue: 0,0:04:31.22,0:04:34.22,ASS,,0,0,0,,It's warm, isn't it?
+Dialogue: 0,0:04:35.26,0:04:39.26,ASS,,0,0,0,,I think this is the first time you've\Nseen such a wonderful view.
+Dialogue: 0,0:04:39.26,0:04:41.26,ASS,,0,0,0,,How about you, Murai-san?
+Dialogue: 0,0:04:41.26,0:04:44.26,ASS,,0,0,0,,Yes, I'm Murai Yu. Nice to meet you.
+Dialogue: 0,0:04:44.26,0:04:46.26,ASS,,0,0,0,,I'm so happy.
+Dialogue: 0,0:04:46.26,0:04:47.51,ASS,,0,0,0,,It's my first time.
+Dialogue: 0,0:04:47.51,0:04:52.51,ASS,,0,0,0,,I'm so happy to be able to meet BUDDIES\Ntoday.
+Dialogue: 0,0:04:52.51,0:04:58.51,ASS,,0,0,0,,When I pushed the button earlier, I felt\Nlike I was going to cry.
+Dialogue: 0,0:04:58.51,0:05:00.51,ASS,,0,0,0,,I look forward to working with you\Ntoday.
+Dialogue: 0,0:05:03.51,0:05:06.51,ASS,,0,0,0,,I'm sure you're all a little nervous.
+Dialogue: 0,0:05:06.51,0:05:12.51,ASS,,0,0,0,,BUDDIES, including me, are very kind\Npeople.
+Dialogue: 0,0:05:12.51,0:05:14.51,ASS,,0,0,0,,Right, everyone?
+Dialogue: 0,0:05:16.92,0:05:24.42,ASS,,0,0,0,,So I hope everyone can relax and run\Nthrough with a smile.
+Dialogue: 0,0:05:24.42,0:05:27.92,ASS,,0,0,0,,Let's all have fun with a smile today!
+Dialogue: 0,0:05:27.92,0:05:29.92,ASS,,0,0,0,,Yes!
+Dialogue: 0,0:05:33.63,0:05:46.63,ASS,,0,0,0,,Today, we have prepared a variety of\Nsongs, dances, and various projects to\Nlet everyone know a little bit about the\Ncharm of the 11th generation of 3rd\Ngeneration students who have newly\Njoined SAKURAZAKA46.
+Dialogue: 0,0:05:46.63,0:05:51.63,ASS,,0,0,0,,I hope you enjoy seeing Ui Ui Shi, which\Ncan only be seen today, until the end.
+Dialogue: 0,0:05:51.63,0:05:56.63,ASS,,0,0,0,,Before we go to the first project, I'd\Nlike to hear your enthusiasm for today.
+Dialogue: 0,0:05:56.63,0:06:00.63,ASS,,0,0,0,,First of all, Odakura-san.
+Dialogue: 0,0:06:00.63,0:06:02.63,ASS,,0,0,0,,I'm Reina Odakura.
+Dialogue: 0,0:06:04.09,0:06:11.09,ASS,,0,0,0,,Today, for the sake of today, all the\N3rd Gen students have worked hard,
+Dialogue: 0,0:06:11.09,0:06:18.09,ASS,,0,0,0,,so for the 3rd Gen students and BUDDIES,\NI want to make it a memorable stage.
+Dialogue: 0,0:06:18.09,0:06:22.09,ASS,,0,0,0,,I want to get excited. Thank you.
+Dialogue: 0,0:06:26.09,0:06:29.09,ASS,,0,0,0,,Let's ask one more person.
+Dialogue: 0,0:06:29.09,0:06:31.09,ASS,,0,0,0,,How about Yamashita-san?
+Dialogue: 0,0:06:33.09,0:06:36.09,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:06:36.25,0:06:46.25,ASS,,0,0,0,,I'm very nervous today, but I've been\Npracticing a lot with the 11th\Ngeneration, so I'll do my best to\Nentertain everyone today.
+Dialogue: 0,0:06:46.25,0:06:48.25,ASS,,0,0,0,,Please.
+Dialogue: 0,0:06:51.25,0:06:53.25,ASS,,0,0,0,,Yes, let's get started.
+Dialogue: 0,0:06:53.25,0:07:01.25,ASS,,0,0,0,,First of all, it's a 2-minute show of\NSakura Saka46's 3rd generation, which\Ncontains the individuality of 11 people\Nin 2 minutes.
+Dialogue: 0,0:07:01.25,0:07:02.25,ASS,,0,0,0,,Here you go.
+Dialogue: 0,0:07:02.82,0:07:08.82,ASS,,0,0,0,,"Sakura Saka46"
+Dialogue: 0,0:07:32.82,0:07:47.82,ASS,,0,0,0,,Rika Ishimori
+Dialogue: 0,0:07:48.82,0:07:50.82,ASS,,0,0,0,,I'm Rika Ishimori from Gunma Prefecture.
+Dialogue: 0,0:07:51.55,0:07:55.55,ASS,,0,0,0,,Today, I'm going to wear a handmade\Napron and make omelette rice.
+Dialogue: 0,0:07:55.55,0:07:57.55,ASS,,0,0,0,,Let's get started!
+Dialogue: 0,0:08:01.55,0:08:03.55,ASS,,0,0,0,,First, I'm going to mince the\Ningredients.
+Dialogue: 0,0:08:04.73,0:08:08.73,ASS,,0,0,0,,If you cut it like this,
+Dialogue: 0,0:08:08.73,0:08:14.73,ASS,,0,0,0,,I like to put sausages in omelette rice,\Nso I'll cut the sausages too.
+Dialogue: 0,0:08:16.73,0:08:22.73,ASS,,0,0,0,,Here's what I cut and stir-fried like\Nthis, so I'll use this.
+Dialogue: 0,0:08:23.73,0:08:30.73,ASS,,0,0,0,,And I'll stir-fry the ingredients and\Nthis rice together.
+Dialogue: 0,0:08:30.73,0:08:33.73,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:08:35.23,0:08:39.23,ASS,,0,0,0,,Wow, it smells good.
+Dialogue: 0,0:08:41.23,0:08:45.23,ASS,,0,0,0,,I'll fry it with salt, pepper and\Nketchup.
+Dialogue: 0,0:08:49.23,0:08:51.23,ASS,,0,0,0,,Does it smell good?
+Dialogue: 0,0:08:54.23,0:08:56.23,ASS,,0,0,0,,I'm glad. Thank you.
+Dialogue: 0,0:08:56.23,0:09:00.23,ASS,,0,0,0,,And here is the fried one, so I'll use\Nit today.
+Dialogue: 0,0:09:01.23,0:09:03.23,ASS,,0,0,0,,I'll crack an egg.
+Dialogue: 0,0:09:06.23,0:09:08.23,ASS,,0,0,0,,Wow!
+Dialogue: 0,0:09:11.23,0:09:12.23,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:09:13.43,0:09:16.43,ASS,,0,0,0,,I couldn't break it with my hands, so I\Nbroke it with both hands.
+Dialogue: 0,0:09:17.43,0:09:21.43,ASS,,0,0,0,,And here's the mixed one, so I'll use\Nthis one today.
+Dialogue: 0,0:09:24.43,0:09:26.43,ASS,,0,0,0,,I'll spread the butter.
+Dialogue: 0,0:09:31.16,0:09:33.16,ASS,,0,0,0,,I'm going to put it in.
+Dialogue: 0,0:09:34.16,0:09:39.16,ASS,,0,0,0,,Which do you like, soft-boiled eggs or\Nhard-boiled eggs?
+Dialogue: 0,0:09:43.16,0:09:45.16,ASS,,0,0,0,,I like soft-boiled eggs.
+Dialogue: 0,0:09:47.16,0:09:50.16,ASS,,0,0,0,,So I'm going to make soft-boiled eggs\Ntoday.
+Dialogue: 0,0:09:52.16,0:09:54.16,ASS,,0,0,0,,Stir it hard.
+Dialogue: 0,0:09:56.16,0:09:58.16,ASS,,0,0,0,,It's looking good.
+Dialogue: 0,0:10:00.89,0:10:01.89,ASS,,0,0,0,,Can you smell it?
+Dialogue: 0,0:10:03.89,0:10:04.89,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:10:06.89,0:10:08.89,ASS,,0,0,0,,I'll serve it like this.
+Dialogue: 0,0:10:17.89,0:10:18.89,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:10:25.89,0:10:26.89,ASS,,0,0,0,,It's done.
+Dialogue: 0,0:10:26.89,0:10:30.55,ASS,,0,0,0,,I want to be an idol who can make\Neveryone smile.
+Dialogue: 0,0:10:30.55,0:10:32.55,ASS,,0,0,0,,I will do my best so that I can become a\Nbetter person.
+Dialogue: 0,0:10:32.55,0:10:34.55,ASS,,0,0,0,,Please enjoy it after this.
+Dialogue: 0,0:10:34.55,0:10:36.55,ASS,,0,0,0,,It was Rika Ishimori.
+Dialogue: 0,0:10:55.48,0:10:59.48,ASS,,0,0,0,,I'm Riko Endo, a 17-year-old high school\Nsecond-year student from Chiba\NPrefecture.
+Dialogue: 0,0:10:59.48,0:11:06.48,ASS,,0,0,0,,Today, I'm going to perform "Clarinet",\Nwhich I've been doing for three years as\Na junior high school singer.
+Dialogue: 0,0:11:07.48,0:11:10.48,ASS,,0,0,0,,Please be healed by my performance.
+Dialogue: 0,0:12:11.01,0:12:34.01,ASS,,0,0,0,,[Music]
+Dialogue: 0,0:12:34.01,0:12:38.01,ASS,,0,0,0,,[Applause]
+Dialogue: 0,0:12:38.01,0:12:38.78,ASS,,0,0,0,,That's all for today.
+Dialogue: 0,0:12:38.78,0:12:41.16,ASS,,0,0,0,,Everyone, please enjoy it with all your\Nmight.
+Dialogue: 0,0:12:41.16,0:12:43.16,ASS,,0,0,0,,That's all, I'm Riko Endo.
+Dialogue: 0,0:13:02.00,0:13:02.65,ASS,,0,0,0,,Nice to meet you.
+Dialogue: 0,0:13:02.65,0:13:06.65,ASS,,0,0,0,,I'm Reina Odakura, a third year high\Nschool student from Tokyo, and I'm 18\Nyears old.
+Dialogue: 0,0:13:06.65,0:13:11.65,ASS,,0,0,0,,Today, I would like to introduce two\Nthings I like.
+Dialogue: 0,0:13:11.65,0:13:13.65,ASS,,0,0,0,,The first is the violin.
+Dialogue: 0,0:13:13.65,0:13:15.55,ASS,,0,0,0,,Today, I'm going to play a song by\NSakurazaka.
+Dialogue: 0,0:13:15.55,0:13:17.55,ASS,,0,0,0,,I would like to play only a little.
+Dialogue: 0,0:13:18.60,0:13:23.60,ASS,,0,0,0,,"Song of the Sea"
+Dialogue: 0,0:13:48.60,0:13:50.60,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:13:50.60,0:13:52.60,ASS,,0,0,0,,The second one is golf.
+Dialogue: 0,0:13:52.60,0:13:56.60,ASS,,0,0,0,,I joined the golf club after I entered\Nhigh school.
+Dialogue: 0,0:13:56.60,0:13:58.60,ASS,,0,0,0,,Today, I wrote my autograph on the ball.
+Dialogue: 0,0:14:04.09,0:14:07.09,ASS,,0,0,0,,so I'd be happy if you could accept it.
+Dialogue: 0,0:14:07.75,0:14:09.75,ASS,,0,0,0,,I'll do my best.
+Dialogue: 0,0:14:22.75,0:14:24.75,ASS,,0,0,0,,I'm going to hit it.
+Dialogue: 0,0:14:24.75,0:14:27.75,ASS,,0,0,0,,"One more time, please!"
+Dialogue: 0,0:14:35.75,0:14:38.75,ASS,,0,0,0,,"One more time, please!"
+Dialogue: 0,0:14:54.75,0:14:57.75,ASS,,0,0,0,,"One more time, please!"
+Dialogue: 0,0:15:04.75,0:15:06.75,ASS,,0,0,0,,"I'm going to shoot."
+Dialogue: 0,0:15:12.75,0:15:14.75,ASS,,0,0,0,,"Thank you!"
+Dialogue: 0,0:15:14.75,0:15:16.75,ASS,,0,0,0,,"Let's have fun today!"
+Dialogue: 0,0:15:16.75,0:15:19.75,ASS,,0,0,0,,"This has been Reina Otakura!"
+Dialogue: 0,0:15:25.75,0:15:27.75,ASS,,0,0,0,,"One more time, please!"
+Dialogue: 0,0:15:27.75,0:15:29.75,ASS,,0,0,0,,"One more time, please!"
+Dialogue: 0,0:15:29.75,0:15:31.75,ASS,,0,0,0,,"One more time, please!"
+Dialogue: 0,0:15:31.75,0:15:33.75,ASS,,0,0,0,,"One more time, please!"
+Dialogue: 0,0:15:33.75,0:15:35.75,ASS,,0,0,0,,"One more time, please!"
+Dialogue: 0,0:15:35.75,0:15:37.75,ASS,,0,0,0,,"One more time, please!"
+Dialogue: 0,0:15:37.75,0:15:40.75,ASS,,0,0,0,,"Everyone, good evening!"
+Dialogue: 0,0:15:42.75,0:15:44.60,ASS,,0,0,0,,"I'm a second year high school student\Nfrom Nagano prefecture."
+Dialogue: 0,0:15:44.60,0:15:46.60,ASS,,0,0,0,,I'm Nagisa Kojima, 17 years old.
+Dialogue: 0,0:15:50.46,0:15:55.46,ASS,,0,0,0,,I played the piano in the snow in the\NVLOG of Hirome's video
+Dialogue: 0,0:15:55.46,0:15:59.46,ASS,,0,0,0,,Today, I would like to play a song of\NSakurazaka
+Dialogue: 0,0:16:01.29,0:16:04.29,ASS,,0,0,0,,What song do you think I will play?
+Dialogue: 0,0:16:07.29,0:16:08.29,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:16:08.29,0:16:10.29,ASS,,0,0,0,,Please enjoy.
+Dialogue: 0,0:16:30.29,0:16:35.29,ASS,,0,0,0,,"Sakurazaka"
+Dialogue: 0,0:17:00.29,0:17:05.29,ASS,,0,0,0,,"Sakurazaka"
+Dialogue: 0,0:17:30.29,0:17:32.29,ASS,,0,0,0,,"Sakurazaka"
+Dialogue: 0,0:17:32.29,0:17:34.29,ASS,,0,0,0,,Thank you very much, everyone.
+Dialogue: 0,0:17:34.29,0:17:36.29,ASS,,0,0,0,,That was Nakisa Kojima.
+Dialogue: 0,0:17:55.29,0:17:56.29,ASS,,0,0,0,,Hello, everyone.
+Dialogue: 0,0:17:56.29,0:17:57.21,ASS,,0,0,0,,I'm Yamaguchi Ken.
+Dialogue: 0,0:17:57.21,0:18:01.21,ASS,,0,0,0,,I'm Ari Taniguchi. I'm 17 years old and\NI'm from Tokyo.
+Dialogue: 0,0:18:01.21,0:18:07.21,ASS,,0,0,0,,Today, I'm going to play the guitar.
+Dialogue: 0,0:18:07.94,0:18:12.94,ASS,,0,0,0,,"Can This Pain End?"
+Dialogue: 0,0:18:28.94,0:18:32.94,ASS,,0,0,0,,Why are we staring at each other here?
+Dialogue: 0,0:18:32.94,0:18:36.94,ASS,,0,0,0,,You may have thought it was a strange\Nthing
+Dialogue: 0,0:18:36.94,0:18:38.94,ASS,,0,0,0,,"Can This Pain End?"
+Dialogue: 0,0:18:38.94,0:18:41.94,ASS,,0,0,0,,I was played by chance
+Dialogue: 0,0:18:42.11,0:18:44.11,ASS,,0,0,0,,It's not a reason.
+Dialogue: 0,0:18:44.74,0:18:48.74,ASS,,0,0,0,,Even though there are many people in the\Nwide world,
+Dialogue: 0,0:18:48.74,0:18:52.74,ASS,,0,0,0,,sharing the same time
+Dialogue: 0,0:18:52.74,0:19:00.74,ASS,,0,0,0,,It's a waste of time to clean it up with\Na miracle
+Dialogue: 0,0:19:00.74,0:19:07.74,ASS,,0,0,0,,Emotions that have lived longer than\Nfate
+Dialogue: 0,0:19:07.74,0:19:11.74,ASS,,0,0,0,,Why? Why?
+Dialogue: 0,0:19:11.74,0:19:16.74,ASS,,0,0,0,,I realized for the first time that I\Ndon't need words
+Dialogue: 0,0:19:16.74,0:19:20.74,ASS,,0,0,0,,If you start talking about love even a\Nlittle
+Dialogue: 0,0:19:20.74,0:19:24.74,ASS,,0,0,0,,The serious feeling of "I love you"
+Dialogue: 0,0:19:24.74,0:19:28.74,ASS,,0,0,0,,It's leaking from here
+Dialogue: 0,0:19:28.74,0:19:31.74,ASS,,0,0,0,,I can't feel each other
+Dialogue: 0,0:19:31.74,0:19:33.74,ASS,,0,0,0,,rather than the unknown passion running\Naway
+Dialogue: 0,0:19:33.74,0:19:37.74,ASS,,0,0,0,,Even if it's objective, it's because I'm\Nhere
+Dialogue: 0,0:19:37.74,0:19:41.74,ASS,,0,0,0,,Why is what's important important?
+Dialogue: 0,0:19:41.74,0:19:45.74,ASS,,0,0,0,,No matter how much I think
+Dialogue: 0,0:19:45.74,0:19:51.74,ASS,,0,0,0,,I love you freely
+Dialogue: 0,0:20:04.74,0:20:06.74,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:20:06.74,0:20:09.74,ASS,,0,0,0,,Please continue to entertain us after\Nthis.
+Dialogue: 0,0:20:09.74,0:20:11.74,ASS,,0,0,0,,That's all. I'm Airi Taniguchi.
+Dialogue: 0,0:20:33.74,0:20:35.74,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:21:04.74,0:21:08.74,ASS,,0,0,0,,Everyone, welcome to Omotenashikai.
+Dialogue: 0,0:21:09.74,0:21:12.74,ASS,,0,0,0,,I'm Yuzuki Nakajima, 20 years old from\NFukuoka prefecture.
+Dialogue: 0,0:21:12.74,0:21:17.74,ASS,,0,0,0,,Did you see my 3rd generation video?
+Dialogue: 0,0:21:19.74,0:21:21.74,ASS,,0,0,0,,I told you that I'm not good at sports,
+Dialogue: 0,0:21:21.74,0:21:24.74,ASS,,0,0,0,,but I used to do cheerleading.
+Dialogue: 0,0:21:24.74,0:21:27.74,ASS,,0,0,0,,Today, I will cheerlead with my favorite\Nsong
+Dialogue: 0,0:21:27.74,0:21:30.74,ASS,,0,0,0,,and give you energy.
+Dialogue: 0,0:21:34.74,0:21:37.74,ASS,,0,0,0,,The road to my dream
+Dialogue: 0,0:21:38.74,0:21:42.74,ASS,,0,0,0,,Ah, I'm going to fail
+Dialogue: 0,0:21:42.74,0:21:45.74,ASS,,0,0,0,,I'm still on the way
+Dialogue: 0,0:21:45.74,0:21:48.74,ASS,,0,0,0,,I'm on my way
+Dialogue: 0,0:21:48.74,0:21:52.74,ASS,,0,0,0,,I don't have to hurry
+Dialogue: 0,0:21:52.74,0:21:54.74,ASS,,0,0,0,,I have to be motivated
+Dialogue: 0,0:21:54.74,0:21:56.74,ASS,,0,0,0,,I'll do what I like
+Dialogue: 0,0:21:56.74,0:21:58.74,ASS,,0,0,0,,Selfishly
+Dialogue: 0,0:21:58.74,0:22:00.74,ASS,,0,0,0,,On my way
+Dialogue: 0,0:22:00.74,0:22:03.74,ASS,,0,0,0,,Let me hear your voice.
+Dialogue: 0,0:22:03.74,0:22:06.74,ASS,,0,0,0,,Please call my 3rd generation name.
+Dialogue: 0,0:22:06.74,0:22:08.74,ASS,,0,0,0,,Rinka-chan
+Dialogue: 0,0:22:08.74,0:22:10.74,ASS,,0,0,0,,Rinko-chan
+Dialogue: 0,0:22:10.74,0:22:12.74,ASS,,0,0,0,,Reina
+Dialogue: 0,0:22:12.74,0:22:14.74,ASS,,0,0,0,,Nagisa
+Dialogue: 0,0:22:14.74,0:22:15.74,ASS,,0,0,0,,Airi
+Dialogue: 0,0:22:15.74,0:22:17.74,ASS,,0,0,0,,Yuzu
+Dialogue: 0,0:22:17.74,0:22:19.74,ASS,,0,0,0,,Mio
+Dialogue: 0,0:22:19.74,0:22:21.74,ASS,,0,0,0,,Itoha
+Dialogue: 0,0:22:21.74,0:22:22.74,ASS,,0,0,0,,Yuu
+Dialogue: 0,0:22:22.74,0:22:24.74,ASS,,0,0,0,,Miu-chan
+Dialogue: 0,0:22:24.74,0:22:26.74,ASS,,0,0,0,,Chi-chan
+Dialogue: 0,0:22:26.74,0:22:28.74,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:22:28.74,0:22:30.74,ASS,,0,0,0,,Let's have fun today.
+Dialogue: 0,0:22:30.74,0:22:32.74,ASS,,0,0,0,,I'm Yuzu.
+Dialogue: 0,0:22:52.74,0:22:54.74,ASS,,0,0,0,,Hello, everyone.
+Dialogue: 0,0:22:54.74,0:22:57.74,ASS,,0,0,0,,I'm 16 years old from Fukuoka\Nprefecture.
+Dialogue: 0,0:22:57.74,0:22:59.74,ASS,,0,0,0,,I'm Mio.
+Dialogue: 0,0:22:59.74,0:23:02.74,ASS,,0,0,0,,My hobby is drawing illustrations.
+Dialogue: 0,0:23:02.74,0:23:04.67,ASS,,0,0,0,,So this time, I'm going to have a\Nwelcome party.
+Dialogue: 0,0:23:04.67,0:23:07.67,ASS,,0,0,0,,So, I drew the illustrations of the 11\Nmembers of the 3rd generation.
+Dialogue: 0,0:23:09.67,0:23:13.67,ASS,,0,0,0,,I can't draw all of them here, so please\Nwatch this video first.
+Dialogue: 0,0:23:17.47,0:23:22.47,ASS,,0,0,0,,While I'm playing this video, I'd like\Nto talk a little bit about the members\Nof the 3rd generation.
+Dialogue: 0,0:23:22.47,0:23:23.47,ASS,,0,0,0,,First of all, Rika.
+Dialogue: 0,0:23:23.47,0:23:28.47,ASS,,0,0,0,,Rika is always fluffy, but she always\Ncares about the 3rd generation.
+Dialogue: 0,0:23:28.47,0:23:32.47,ASS,,0,0,0,,The other day, she made us lunch.
+Dialogue: 0,0:23:32.47,0:23:37.47,ASS,,0,0,0,,Riko is so cute, but she is unexpectedly\Nunique to the 3rd generation.
+Dialogue: 0,0:23:37.47,0:23:44.47,ASS,,0,0,0,,Reina said, "I collected empty PET\Nbottles during the camp and did my best\Nin the lesson."
+Dialogue: 0,0:23:44.47,0:23:45.47,ASS,,0,0,0,,Nagi is...
+Dialogue: 0,0:23:46.03,0:23:52.03,ASS,,0,0,0,,"I was so happy that I only aimed for 4\Nhours. I did my best to practice the\Npiano for this welcome party."
+Dialogue: 0,0:23:52.03,0:23:58.03,ASS,,0,0,0,,"Airi has a very cool expression, but\Nshe is the tallest among the 3rd\Ngeneration."
+Dialogue: 0,0:23:58.03,0:24:05.03,ASS,,0,0,0,,"Yuzu is nervous during the audition,\Nbut I remember being calm all the time."
+Dialogue: 0,0:24:05.03,0:24:09.03,ASS,,0,0,0,,"Itoha is always laughing at the 3rd\Ngeneration."
+Dialogue: 0,0:24:09.03,0:24:13.03,ASS,,0,0,0,,"Yu is a man with a steel mentality and\Nexcellent motor nerves."
+Dialogue: 0,0:24:13.03,0:24:14.93,ASS,,0,0,0,,"Yuzu is often cool."
+Dialogue: 0,0:24:14.93,0:24:16.93,ASS,,0,0,0,,"Yu's smile is also very cute."
+Dialogue: 0,0:24:16.93,0:24:20.93,ASS,,0,0,0,,"Yu is always sleeping with a stuffed\Nanimal."
+Dialogue: 0,0:24:20.93,0:24:24.93,ASS,,0,0,0,,"Yu always listens to me when I'm having\Na hard time."
+Dialogue: 0,0:24:24.93,0:24:26.93,ASS,,0,0,0,,"And finally, Mio is..."
+Dialogue: 0,0:24:26.93,0:24:29.93,ASS,,0,0,0,,"Sakuranbo!"
+Dialogue: 0,0:24:29.93,0:24:32.93,ASS,,0,0,0,,"I'm the youngest member of Sakurazaka."
+Dialogue: 0,0:24:32.93,0:24:35.93,ASS,,0,0,0,,"I'll do my best to show you a cool\Nperformance."
+Dialogue: 0,0:24:35.93,0:24:37.93,ASS,,0,0,0,,"I'm not going to be boring if I just\Nfollow the script."
+Dialogue: 0,0:24:37.93,0:24:39.93,ASS,,0,0,0,,"So I'm going to add some colors."
+Dialogue: 0,0:24:43.77,0:24:45.77,ASS,,0,0,0,,Here I go.
+Dialogue: 0,0:25:05.40,0:25:11.40,ASS,,0,0,0,,I'll do my best to make the group more\Nexciting with 3rd Gen and 11th Gen.
+Dialogue: 0,0:25:11.40,0:25:13.40,ASS,,0,0,0,,That's all from Mio Matsuno.
+Dialogue: 0,0:25:13.40,0:25:15.40,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:25:33.21,0:25:37.21,ASS,,0,0,0,,I'm Itoha Mukai, a 16-year-old high\Nschool freshman.
+Dialogue: 0,0:25:37.21,0:25:40.21,ASS,,0,0,0,,Today, I'm going to show you my special\Nskills.
+Dialogue: 0,0:25:40.21,0:25:45.21,ASS,,0,0,0,,I've prepared a lot, so please take a\Nlook at this first.
+Dialogue: 0,0:25:45.21,0:25:48.21,ASS,,0,0,0,,I'm going to make a beautiful work from\Nnow on.
+Dialogue: 0,0:25:48.21,0:25:51.21,ASS,,0,0,0,,Please look forward to what I can do.
+Dialogue: 0,0:25:51.21,0:25:53.21,ASS,,0,0,0,,I'll do my best.
+Dialogue: 0,0:25:53.21,0:25:59.21,ASS,,0,0,0,,Today, I'm going to show you my skills\Nthat I showed you on VLOG.
+Dialogue: 0,0:25:59.21,0:26:02.21,ASS,,0,0,0,,Did you watch my VLOG?
+Dialogue: 0,0:26:04.55,0:26:06.55,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:26:06.55,0:26:15.55,ASS,,0,0,0,,I usually do animal kirei, but this time\NI did sakura kirei.
+Dialogue: 0,0:26:18.55,0:26:27.55,ASS,,0,0,0,,I prepared a lot for this omotenashikai\Nwith lessons and rehearsals.
+Dialogue: 0,0:26:27.55,0:26:32.55,ASS,,0,0,0,,I started kirei when I was in junior\Nhigh school, and I'm still doing it.
+Dialogue: 0,0:26:33.73,0:26:37.73,ASS,,0,0,0,,Now, I'd like to do the final touch-up.
+Dialogue: 0,0:28:08.89,0:28:11.89,ASS,,0,0,0,,Thank you for watching!
+Dialogue: 0,0:28:13.47,0:28:14.47,ASS,,0,0,0,,I'm SAKURAZUKI.
+Dialogue: 0,0:28:14.47,0:28:15.47,ASS,,0,0,0,,I'm done.
+Dialogue: 0,0:28:18.47,0:28:19.47,ASS,,0,0,0,,That's all.
+Dialogue: 0,0:28:19.47,0:28:20.47,ASS,,0,0,0,,I'm ITOHA MAKAN.
+Dialogue: 0,0:28:20.47,0:28:21.47,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:28:21.47,0:28:22.47,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:28:42.47,0:28:45.15,ASS,,0,0,0,,I'm 18-year-old MURANYU from TOKYO.
+Dialogue: 0,0:28:45.15,0:28:50.15,ASS,,0,0,0,,Today, I'd like to show you my special\Nskills that I've never shown you before.
+Dialogue: 0,0:28:50.92,0:28:53.92,ASS,,0,0,0,,I'm going to show you my special skills\Nthat I've never shown you before.
+Dialogue: 0,0:29:20.92,0:29:23.92,ASS,,0,0,0,,I'm going to show you my special skills\Nthat I've never shown you before.
+Dialogue: 0,0:29:50.92,0:29:55.92,ASS,,0,0,0,,Hirate Msuta
+Dialogue: 0,0:30:12.92,0:30:13.92,ASS,,0,0,0,,That's all from me.
+Dialogue: 0,0:30:13.92,0:30:16.92,ASS,,0,0,0,,Thanks for watching this video!
+Dialogue: 0,0:30:20.92,0:30:38.92,ASS,,0,0,0,,[Music]
+Dialogue: 0,0:30:38.92,0:30:40.41,ASS,,0,0,0,,Good morning!
+Dialogue: 0,0:30:40.41,0:30:43.41,ASS,,0,0,0,,I'm Miyu Murayama, 18 years old, from\NTokyo.
+Dialogue: 0,0:30:45.82,0:30:48.82,ASS,,0,0,0,,I'm Sappariha. Please teach me how to\Nmake delicious rice.
+Dialogue: 0,0:30:50.82,0:30:54.82,ASS,,0,0,0,,Today, I'm going to show you a special\Nskill that I've never shown you before.
+Dialogue: 0,0:31:56.27,0:31:59.27,ASS,,0,0,0,,I'm Mia Murayama.
+Dialogue: 0,0:32:10.27,0:32:11.55,ASS,,0,0,0,,I'm Mia Murayama.
+Dialogue: 0,0:32:11.55,0:32:13.55,ASS,,0,0,0,,Please enjoy the rest of the concert.
+Dialogue: 0,0:32:14.50,0:32:33.34,ASS,,0,0,0,,[Music]
+Dialogue: 0,0:32:33.34,0:32:38.38,ASS,,0,0,0,,Hello everyone, I'm Shizuki Yamashita,\N18 years old from Kyoto.
+Dialogue: 0,0:32:38.38,0:32:43.78,ASS,,0,0,0,,Today, I would like to show you the\Ndance I learned in elementary school and\Njunior high school.
+Dialogue: 0,0:32:43.78,0:32:46.78,ASS,,0,0,0,,I'm going to write my goals from now on.
+Dialogue: 0,0:33:44.78,0:33:55.78,ASS,,0,0,0,,[Music]
+Dialogue: 0,0:33:55.78,0:33:56.86,ASS,,0,0,0,,Yes, today is
+Dialogue: 0,0:33:56.86,0:33:59.86,ASS,,0,0,0,,I wrote the character "SAKU".
+Dialogue: 0,0:33:59.86,0:34:02.86,ASS,,0,0,0,,From now on, through the activities of\NSAKURAZAKA46,
+Dialogue: 0,0:34:02.86,0:34:05.86,ASS,,0,0,0,,I will do my best to bloom like this\Ncharacter.
+Dialogue: 0,0:34:05.86,0:34:09.86,ASS,,0,0,0,,Everyone, please continue to enjoy the\Nshow.
+Dialogue: 0,0:34:09.86,0:34:12.86,ASS,,0,0,0,,This was Shizuki Yamashita. Thank you\Nvery much.
+Dialogue: 0,0:34:43.51,0:34:49.51,ASS,,0,0,0,,Shizuki Yamashita
+Dialogue: 0,0:37:13.51,0:37:23.51,ASS,,0,0,0,,Shizuki Yamashita
+Dialogue: 0,0:37:23.51,0:37:33.51,ASS,,0,0,0,,Shizuki Yamashita
+Dialogue: 0,0:38:03.51,0:38:05.51,ASS,,0,0,0,,How was it, everyone?
+Dialogue: 0,0:38:07.51,0:38:09.51,ASS,,0,0,0,,It was amazing!
+Dialogue: 0,0:38:09.51,0:38:13.05,ASS,,0,0,0,,It was a very proud performance that I\Ndon't think it was the first time.
+Dialogue: 0,0:38:13.05,0:38:16.05,ASS,,0,0,0,,Everyone, let's give them a big round of\Napplause.
+Dialogue: 0,0:38:23.77,0:38:25.77,ASS,,0,0,0,,How was the dance?
+Dialogue: 0,0:38:25.77,0:38:28.77,ASS,,0,0,0,,Endo-san, how was it?
+Dialogue: 0,0:38:29.77,0:38:30.77,ASS,,0,0,0,,How was the dance?
+Dialogue: 0,0:38:30.77,0:38:32.77,ASS,,0,0,0,,I'm not good at dancing.
+Dialogue: 0,0:38:32.77,0:38:36.77,ASS,,0,0,0,,If you watched the documentary, you\Nwould know.
+Dialogue: 0,0:38:36.77,0:38:39.77,ASS,,0,0,0,,Did you watch the documentary?
+Dialogue: 0,0:38:41.77,0:38:42.77,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:38:42.77,0:38:44.77,ASS,,0,0,0,,In the documentary, I was crying all the\Ntime.
+Dialogue: 0,0:38:44.77,0:38:49.77,ASS,,0,0,0,,I think I've been showing my pathetic\Nappearance all the time.
+Dialogue: 0,0:38:49.77,0:38:52.77,ASS,,0,0,0,,In this dance track, I grew up a little.
+Dialogue: 0,0:38:54.55,0:39:01.55,ASS,,0,0,0,,I think I was able to show my cool self.
+Dialogue: 0,0:39:03.55,0:39:06.55,ASS,,0,0,0,,It was very cool. Thank you very much.
+Dialogue: 0,0:39:06.55,0:39:10.55,ASS,,0,0,0,,Next, Matono-san.
+Dialogue: 0,0:39:10.55,0:39:11.55,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:39:11.55,0:39:14.55,ASS,,0,0,0,,How was it? Dancing and singing.
+Dialogue: 0,0:39:14.55,0:39:21.55,ASS,,0,0,0,,Yes, I always practiced in front of the\Nmirror with 11 people.
+Dialogue: 0,0:39:23.08,0:39:28.08,ASS,,0,0,0,,When I was dancing, the thing in front\Nof me was different from usual.
+Dialogue: 0,0:39:29.08,0:39:31.08,ASS,,0,0,0,,I was very anxious.
+Dialogue: 0,0:39:32.08,0:39:36.08,ASS,,0,0,0,,Through this performance, I was able to\Nconvey something.
+Dialogue: 0,0:39:37.08,0:39:40.08,ASS,,0,0,0,,I thought, "It's so much fun!" when I\Ndanced for the first time.
+Dialogue: 0,0:39:41.08,0:39:43.08,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:39:44.08,0:39:51.08,ASS,,0,0,0,,When I look in the mirror, it's a little\Ndifferent from when I dance with\Neveryone.
+Dialogue: 0,0:39:53.13,0:39:57.13,ASS,,0,0,0,,Your support and your appearance is a\Ngreat help, isn't it?
+Dialogue: 0,0:39:57.13,0:39:58.13,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:40:00.13,0:40:01.13,ASS,,0,0,0,,It was really wonderful.
+Dialogue: 0,0:40:02.13,0:40:03.13,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:40:03.13,0:40:05.13,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:40:07.13,0:40:10.13,ASS,,0,0,0,,The dance was wonderful, but how was the\Ntwo-minute show?
+Dialogue: 0,0:40:10.13,0:40:12.13,ASS,,0,0,0,,It was very exciting, wasn't it?
+Dialogue: 0,0:40:15.13,0:40:16.13,ASS,,0,0,0,,It was amazing.
+Dialogue: 0,0:40:16.13,0:40:18.13,ASS,,0,0,0,,The breath with everyone was perfect.
+Dialogue: 0,0:40:18.13,0:40:21.13,ASS,,0,0,0,,What should I do?
+Dialogue: 0,0:40:21.95,0:40:26.95,ASS,,0,0,0,,Ishimori-san, who made the omelette rice\Nfor us.
+Dialogue: 0,0:40:26.95,0:40:29.95,ASS,,0,0,0,,Yes, I'm Rika Ishimori.
+Dialogue: 0,0:40:29.95,0:40:30.95,ASS,,0,0,0,,How was it?
+Dialogue: 0,0:40:30.95,0:40:38.95,ASS,,0,0,0,,Did you decide to cook and think about\Nwhat to do?
+Dialogue: 0,0:40:38.95,0:40:46.95,ASS,,0,0,0,,Yes, it was difficult to cook in 2\Nminutes.
+Dialogue: 0,0:40:46.95,0:40:51.90,ASS,,0,0,0,,But I like omelette rice, so I made it.
+Dialogue: 0,0:40:52.90,0:40:53.90,ASS,,0,0,0,,How was it?
+Dialogue: 0,0:40:55.90,0:40:56.90,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:40:57.90,0:41:01.90,ASS,,0,0,0,,Ishimori-san, your call was amazing.
+Dialogue: 0,0:41:02.90,0:41:04.90,ASS,,0,0,0,,I think it was very fun.
+Dialogue: 0,0:41:05.90,0:41:06.90,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:41:07.90,0:41:09.90,ASS,,0,0,0,,That's great, everyone.
+Dialogue: 0,0:41:11.90,0:41:12.90,ASS,,0,0,0,,That's great.
+Dialogue: 0,0:41:13.90,0:41:14.90,ASS,,0,0,0,,One more person.
+Dialogue: 0,0:41:15.90,0:41:18.90,ASS,,0,0,0,,Mukai-san, who showed us a wonderful\NKirie.
+Dialogue: 0,0:41:20.35,0:41:22.35,ASS,,0,0,0,,That was amazing!
+Dialogue: 0,0:41:22.35,0:41:24.35,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:41:24.35,0:41:25.35,ASS,,0,0,0,,That's amazing.
+Dialogue: 0,0:41:25.35,0:41:30.35,ASS,,0,0,0,,Did you also decide to do the 2 Minute\NShow,
+Dialogue: 0,0:41:30.35,0:41:32.35,ASS,,0,0,0,,and when you thought about what to do,
+Dialogue: 0,0:41:32.35,0:41:35.35,ASS,,0,0,0,,did you decide to do Kirie?
+Dialogue: 0,0:41:35.35,0:41:36.35,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:41:36.35,0:41:37.35,ASS,,0,0,0,,Speaking of special skills,
+Dialogue: 0,0:41:37.35,0:41:42.35,ASS,,0,0,0,,it was Kirie that was praised by\Neveryone in the 3rd generation,
+Dialogue: 0,0:41:42.35,0:41:44.35,ASS,,0,0,0,,so I decided to do it.
+Dialogue: 0,0:41:44.35,0:41:45.35,ASS,,0,0,0,,I see.
+Dialogue: 0,0:41:45.35,0:41:49.35,ASS,,0,0,0,,How did you decide on the theme?
+Dialogue: 0,0:41:49.35,0:41:49.38,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:41:50.38,0:41:57.38,ASS,,0,0,0,,I thought it would be nice to have\Nsomething related to sakurazaka because\Nit's sakurazaka.
+Dialogue: 0,0:41:58.38,0:42:01.38,ASS,,0,0,0,,There was also the release of\N"Sakurazuki".
+Dialogue: 0,0:42:02.38,0:42:03.38,ASS,,0,0,0,,I was really surprised.
+Dialogue: 0,0:42:04.38,0:42:07.38,ASS,,0,0,0,,It's really sakurazaka.
+Dialogue: 0,0:42:13.38,0:42:17.38,ASS,,0,0,0,,I thought it was sakura, but it was the\Nlast sakurazuki.
+Dialogue: 0,0:42:18.92,0:42:22.92,ASS,,0,0,0,,That was really wonderful. You were able\Nto think of the composition yourself,\Nright?
+Dialogue: 0,0:42:22.92,0:42:26.92,ASS,,0,0,0,,Yes, it's a case of time and place, but\Nthis time I was able to think of it\Nmyself.
+Dialogue: 0,0:42:26.92,0:42:28.92,ASS,,0,0,0,,Wonderful!
+Dialogue: 0,0:42:31.92,0:42:33.92,ASS,,0,0,0,,It was really wonderful.
+Dialogue: 0,0:42:33.92,0:42:40.92,ASS,,0,0,0,,I think it was so wonderful that it\Nwould be nice if we could perform it\Nagain in the future.
+Dialogue: 0,0:42:40.92,0:42:42.92,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:42:42.92,0:42:43.92,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:42:46.94,0:42:54.94,ASS,,0,0,0,,So, after the 2-minute dance show, I\Nthink I was able to convey the charm of\Nthe 3rd generation to everyone.
+Dialogue: 0,0:42:54.94,0:42:58.94,ASS,,0,0,0,,Buddies, are you having fun?
+Dialogue: 0,0:43:02.81,0:43:07.41,ASS,,0,0,0,,Let's move on to the next corner.
+Dialogue: 0,0:43:07.41,0:43:13.81,ASS,,0,0,0,,Next, we will try the 3rd generation's\N"Sakurazaka Ai".
+Dialogue: 0,0:43:15.81,0:43:18.41,ASS,,0,0,0,,If you are a 3rd generation, you should\Nknow this.
+Dialogue: 0,0:43:18.41,0:43:22.81,ASS,,0,0,0,,Team competition "Sakurazaka 46" quiz!
+Dialogue: 0,0:43:26.81,0:43:29.81,ASS,,0,0,0,,Please divide into teams.
+Dialogue: 0,0:43:32.81,0:43:33.47,ASS,,0,0,0,,From now on...
+Dialogue: 0,0:43:33.47,0:43:38.47,ASS,,0,0,0,,The question is a quiz that anyone can\Nanswer if they love Sakurazaka.
+Dialogue: 0,0:43:38.47,0:43:43.47,ASS,,0,0,0,,If you know the answer, please press the\Nbutton on your hand and answer.
+Dialogue: 0,0:43:43.47,0:43:46.47,ASS,,0,0,0,,It's a quick press, so I'll give you a\Nquiz.
+Dialogue: 0,0:43:46.47,0:43:52.47,ASS,,0,0,0,,If you know the answer, you can press\Nthe button and answer.
+Dialogue: 0,0:43:53.47,0:43:57.47,ASS,,0,0,0,,Now, I'd like you to introduce your\Nteam.
+Dialogue: 0,0:43:57.47,0:44:00.47,ASS,,0,0,0,,Let's start with this team.
+Dialogue: 0,0:44:03.36,0:44:05.76,ASS,,0,0,0,,We are, 1, 2, 3,
+Dialogue: 0,0:44:05.76,0:44:09.76,ASS,,0,0,0,,KUISHINBOU!
+Dialogue: 0,0:44:12.20,0:44:14.20,ASS,,0,0,0,,Team KUISHINBOU!
+Dialogue: 0,0:44:14.68,0:44:16.68,ASS,,0,0,0,,Are you all "Kuishinbou"?
+Dialogue: 0,0:44:16.68,0:44:17.68,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:44:17.68,0:44:19.68,ASS,,0,0,0,,Are you all "Kuishinbou"?
+Dialogue: 0,0:44:19.68,0:44:26.68,ASS,,0,0,0,,When we were in the training camp, we\Nate the most delicious food, so we were\Nnamed "Kuishinbou".
+Dialogue: 0,0:44:26.68,0:44:28.68,ASS,,0,0,0,,You were named "Kuishinbou".
+Dialogue: 0,0:44:28.68,0:44:29.68,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:44:29.68,0:44:30.68,ASS,,0,0,0,,I see.
+Dialogue: 0,0:44:30.68,0:44:35.68,ASS,,0,0,0,,Each of us has a team name, so please\Nlook forward to it.
+Dialogue: 0,0:44:36.68,0:44:37.68,ASS,,0,0,0,,You are "Kuishinbou".
+Dialogue: 0,0:44:37.68,0:44:39.68,ASS,,0,0,0,,You eat a lot.
+Dialogue: 0,0:44:39.68,0:44:40.68,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:44:40.68,0:44:42.68,ASS,,0,0,0,,We all eat a lot.
+Dialogue: 0,0:44:42.68,0:44:44.68,ASS,,0,0,0,,I see.
+Dialogue: 0,0:44:45.80,0:44:47.80,ASS,,0,0,0,,Let's start the quiz.
+Dialogue: 0,0:44:49.80,0:44:50.80,ASS,,0,0,0,,I'm looking forward to it.
+Dialogue: 0,0:44:50.80,0:44:52.80,ASS,,0,0,0,,We'll do our best.
+Dialogue: 0,0:44:52.80,0:44:54.80,ASS,,0,0,0,,We are Team KUISHINBO.
+Dialogue: 0,0:44:56.63,0:45:00.63,ASS,,0,0,0,,Next up is this team.
+Dialogue: 0,0:45:01.63,0:45:03.63,ASS,,0,0,0,,We are...
+Dialogue: 0,0:45:03.63,0:45:05.63,ASS,,0,0,0,,Shimae!
+Dialogue: 0,0:45:09.37,0:45:12.37,ASS,,0,0,0,,What do you mean by "Shimai"?
+Dialogue: 0,0:45:13.37,0:45:19.37,ASS,,0,0,0,,I'm sure some of the people who watched\Nthe documentary will be able to see it.
+Dialogue: 0,0:45:19.37,0:45:26.37,ASS,,0,0,0,,But I wanted to look like a Shimai\Nbecause of my height.
+Dialogue: 0,0:45:26.37,0:45:28.37,ASS,,0,0,0,,I see. It's cute.
+Dialogue: 0,0:45:28.37,0:45:30.37,ASS,,0,0,0,,What do you think, Team Shimai?
+Dialogue: 0,0:45:33.37,0:45:34.68,ASS,,0,0,0,,Cute.
+Dialogue: 0,0:45:34.68,0:45:38.68,ASS,,0,0,0,,Please do your best on the quiz with\Nyour cuteness!
+Dialogue: 0,0:45:38.68,0:45:39.68,ASS,,0,0,0,,Yes!
+Dialogue: 0,0:45:39.68,0:45:41.68,ASS,,0,0,0,,Well then, let's continue.
+Dialogue: 0,0:45:43.68,0:45:44.68,ASS,,0,0,0,,One, two...
+Dialogue: 0,0:45:44.68,0:45:46.65,ASS,,0,0,0,,Team!
+Dialogue: 0,0:45:46.65,0:45:48.65,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,0:45:52.54,0:45:55.54,ASS,,0,0,0,,Angel, is that okay?
+Dialogue: 0,0:45:55.54,0:45:56.54,ASS,,0,0,0,,Angel.
+Dialogue: 0,0:45:56.54,0:46:00.54,ASS,,0,0,0,,Then I would like to send a big "Sei" to\Nthese three groups of angels.
+Dialogue: 0,0:46:00.54,0:46:02.54,ASS,,0,0,0,,Team Angel.
+Dialogue: 0,0:46:06.54,0:46:08.54,ASS,,0,0,0,,Please do your best in the quiz.
+Dialogue: 0,0:46:08.54,0:46:11.54,ASS,,0,0,0,,Then, the last team, please.
+Dialogue: 0,0:46:13.54,0:46:14.54,ASS,,0,0,0,,One, two.
+Dialogue: 0,0:46:14.54,0:46:15.54,ASS,,0,0,0,,Rabbit.
+Dialogue: 0,0:46:15.54,0:46:16.54,ASS,,0,0,0,,Cat.
+Dialogue: 0,0:46:16.54,0:46:17.54,ASS,,0,0,0,,Rabbit.
+Dialogue: 0,0:46:21.54,0:46:22.07,ASS,,0,0,0,,Okay.
+Dialogue: 0,0:46:22.07,0:46:24.07,ASS,,0,0,0,,We've introduced them in a cute way.
+Dialogue: 0,0:46:24.07,0:46:26.07,ASS,,0,0,0,,Team "Rabbit-Cat"!
+Dialogue: 0,0:46:28.07,0:46:29.07,ASS,,0,0,0,,Rabbit-Cat-san.
+Dialogue: 0,0:46:30.07,0:46:32.07,ASS,,0,0,0,,Do you like rabbits and cats?
+Dialogue: 0,0:46:34.07,0:46:37.07,ASS,,0,0,0,,I thought they looked similar.
+Dialogue: 0,0:46:41.07,0:46:42.07,ASS,,0,0,0,,You did?
+Dialogue: 0,0:46:42.07,0:46:43.07,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:46:43.13,0:46:45.13,ASS,,0,0,0,,Do we look alike?
+Dialogue: 0,0:46:45.13,0:46:47.13,ASS,,0,0,0,,Do we look alike?
+Dialogue: 0,0:46:47.13,0:46:49.13,ASS,,0,0,0,,They said we look alike.
+Dialogue: 0,0:46:49.13,0:46:51.13,ASS,,0,0,0,,Then, Usagi Neko-chan,
+Dialogue: 0,0:46:51.13,0:46:54.13,ASS,,0,0,0,,I hope you'll do your best with "Pyon\NPyon" and "Nyan Nyan".
+Dialogue: 0,0:46:54.13,0:46:55.13,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:46:55.13,0:46:59.13,ASS,,0,0,0,,We'd like to send you off with these 4\Nunique teams.
+Dialogue: 0,0:46:59.13,0:47:03.13,ASS,,0,0,0,,Everyone, please give us a lot of\Nsupport.
+Dialogue: 0,0:47:05.13,0:47:06.13,ASS,,0,0,0,,Do your best.
+Dialogue: 0,0:47:06.13,0:47:08.13,ASS,,0,0,0,,We'll do our best.
+Dialogue: 0,0:47:08.22,0:47:13.22,ASS,,0,0,0,,I think we'll start with the questions.\NAre you ready?
+Dialogue: 0,0:47:13.22,0:47:18.22,ASS,,0,0,0,,Please get ready.
+Dialogue: 0,0:47:18.22,0:47:23.22,ASS,,0,0,0,,Here we go. The first question of the\NSakurazaka46 quiz.
+Dialogue: 0,0:47:25.22,0:47:31.22,ASS,,0,0,0,,How many squares does the word "sakura"\Nin Sakurazaka46 have in total?
+Dialogue: 0,0:47:32.22,0:47:33.22,ASS,,0,0,0,,That's fast.
+Dialogue: 0,0:47:33.22,0:47:35.22,ASS,,0,0,0,,21.
+Dialogue: 0,0:47:36.22,0:47:39.22,ASS,,0,0,0,,That's correct.
+Dialogue: 0,0:47:42.22,0:47:44.22,ASS,,0,0,0,,The speed of an angel.
+Dialogue: 0,0:47:44.22,0:47:46.22,ASS,,0,0,0,,That was fast.
+Dialogue: 0,0:47:47.22,0:47:49.22,ASS,,0,0,0,,That was amazing.
+Dialogue: 0,0:47:49.79,0:47:50.79,ASS,,0,0,0,,Who are you?
+Dialogue: 0,0:47:50.79,0:47:51.79,ASS,,0,0,0,,I'm Murayama.
+Dialogue: 0,0:47:51.79,0:47:52.79,ASS,,0,0,0,,Ah, Murayama-san.
+Dialogue: 0,0:47:54.79,0:47:57.79,ASS,,0,0,0,,Does that mean you knew the answer?
+Dialogue: 0,0:47:57.79,0:47:59.79,ASS,,0,0,0,,Yes, I knew.
+Dialogue: 0,0:48:00.79,0:48:01.79,ASS,,0,0,0,,Amazing.
+Dialogue: 0,0:48:01.79,0:48:04.79,ASS,,0,0,0,,Did you count it beforehand?
+Dialogue: 0,0:48:04.79,0:48:06.79,ASS,,0,0,0,,No, I knew something.
+Dialogue: 0,0:48:06.79,0:48:08.79,ASS,,0,0,0,,You knew something, I see.
+Dialogue: 0,0:48:08.79,0:48:09.79,ASS,,0,0,0,,Because you're an angel.
+Dialogue: 0,0:48:09.79,0:48:10.79,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:48:10.79,0:48:11.79,ASS,,0,0,0,,As expected.
+Dialogue: 0,0:48:12.79,0:48:15.79,ASS,,0,0,0,,So, the correct answer was the angel\Nteam.
+Dialogue: 0,0:48:18.46,0:48:20.46,ASS,,0,0,0,,That was fast.
+Dialogue: 0,0:48:20.46,0:48:22.46,ASS,,0,0,0,,I was a bit surprised.
+Dialogue: 0,0:48:22.46,0:48:24.46,ASS,,0,0,0,,Let's keep it up.
+Dialogue: 0,0:48:24.46,0:48:25.46,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:48:25.46,0:48:27.46,ASS,,0,0,0,,Let's move on to the second question.
+Dialogue: 0,0:48:29.46,0:48:32.46,ASS,,0,0,0,,When Sakurazako46's name was revealed,
+Dialogue: 0,0:48:32.46,0:48:37.46,ASS,,0,0,0,,the group's new group name was announced\Nas a surprise.
+Dialogue: 0,0:48:37.46,0:48:39.46,ASS,,0,0,0,,What is the name of the group in Tokyo?
+Dialogue: 0,0:48:43.46,0:48:45.46,ASS,,0,0,0,,Team "Kuishinbo".
+Dialogue: 0,0:48:48.46,0:48:49.85,ASS,,0,0,0,,What? Tokyo?
+Dialogue: 0,0:48:49.85,0:48:51.85,ASS,,0,0,0,,Tokyo...
+Dialogue: 0,0:48:51.85,0:48:53.85,ASS,,0,0,0,,(laughs)
+Dialogue: 0,0:48:53.85,0:48:55.85,ASS,,0,0,0,,So close!
+Dialogue: 0,0:48:55.85,0:48:57.85,ASS,,0,0,0,,Oh, there's an angel!
+Dialogue: 0,0:48:58.11,0:49:00.11,ASS,,0,0,0,,Eh? Shibuya?
+Dialogue: 0,0:49:00.11,0:49:02.11,ASS,,0,0,0,,I don't know.
+Dialogue: 0,0:49:02.11,0:49:04.11,ASS,,0,0,0,,Let's say it again.
+Dialogue: 0,0:49:04.11,0:49:06.11,ASS,,0,0,0,,When Sakurazaka 46 had its opening,
+Dialogue: 0,0:49:06.11,0:49:09.11,ASS,,0,0,0,,the new group's name was announced as a\Nsurprise.
+Dialogue: 0,0:49:09.11,0:49:11.11,ASS,,0,0,0,,The guide vision is...
+Dialogue: 0,0:49:11.11,0:49:13.11,ASS,,0,0,0,,Tokyo's what intersection?
+Dialogue: 0,0:49:15.11,0:49:17.11,ASS,,0,0,0,,Yes, Kuishinbou.
+Dialogue: 0,0:49:17.11,0:49:19.11,ASS,,0,0,0,,Shibuya's scramble intersection.
+Dialogue: 0,0:49:19.11,0:49:21.11,ASS,,0,0,0,,Correct!
+Dialogue: 0,0:49:24.11,0:49:25.56,ASS,,0,0,0,,It's correct.
+Dialogue: 0,0:49:25.56,0:49:30.56,ASS,,0,0,0,,I heard a "tot" sound. I'm sorry, I\Ncan't pronounce it.
+Dialogue: 0,0:49:30.56,0:49:37.56,ASS,,0,0,0,,Speaking of Sakurazaka, it's Shibuya,\Nisn't it?
+Dialogue: 0,0:49:37.56,0:49:39.56,ASS,,0,0,0,,It's a little too easy.
+Dialogue: 0,0:49:39.56,0:49:43.56,ASS,,0,0,0,,The other teams are pushing me, so\Nplease do your best.
+Dialogue: 0,0:49:43.56,0:49:45.56,ASS,,0,0,0,,I don't think I can do it.
+Dialogue: 0,0:49:45.56,0:49:47.56,ASS,,0,0,0,,Do your best, do your best.
+Dialogue: 0,0:49:47.56,0:49:49.56,ASS,,0,0,0,,I'll do my best.
+Dialogue: 0,0:49:49.56,0:49:52.56,ASS,,0,0,0,,Then, the third question.
+Dialogue: 0,0:49:52.56,0:49:55.56,ASS,,0,0,0,,The recording of the third single\N"Nagaredama".
+Dialogue: 0,0:49:56.60,0:49:59.60,ASS,,0,0,0,,The unit that sings "On My Way" is\N"Futarina".
+Dialogue: 0,0:50:01.60,0:50:03.60,ASS,,0,0,0,,Here we go!
+Dialogue: 0,0:50:05.60,0:50:08.60,ASS,,0,0,0,,Rina Inoue and Rina Matsuda!
+Dialogue: 0,0:50:09.60,0:50:11.60,ASS,,0,0,0,,Correct!
+Dialogue: 0,0:50:13.60,0:50:14.43,ASS,,0,0,0,,The question is...
+Dialogue: 0,0:50:14.43,0:50:19.07,ASS,,0,0,0,,The question was, "Who and whose unit\Nwill sing 'Omoibe'?"
+Dialogue: 0,0:50:19.07,0:50:21.07,ASS,,0,0,0,,That's a great answer.
+Dialogue: 0,0:50:24.07,0:50:26.07,ASS,,0,0,0,,You said you liked it.
+Dialogue: 0,0:50:27.07,0:50:29.07,ASS,,0,0,0,,You showed us a wonderful dance just\Nnow.
+Dialogue: 0,0:50:29.07,0:50:31.07,ASS,,0,0,0,,I thought you'd be able to do it.
+Dialogue: 0,0:50:31.07,0:50:33.07,ASS,,0,0,0,,I thought you'd be able to do it.
+Dialogue: 0,0:50:33.07,0:50:35.07,ASS,,0,0,0,,We didn't make it.
+Dialogue: 0,0:50:35.07,0:50:37.07,ASS,,0,0,0,,That was fast.
+Dialogue: 0,0:50:37.07,0:50:39.07,ASS,,0,0,0,,That's the power of the Kuishinbo.
+Dialogue: 0,0:50:39.07,0:50:41.07,ASS,,0,0,0,,Eat a lot.
+Dialogue: 0,0:50:41.07,0:50:43.07,ASS,,0,0,0,,Make sure you do your best.
+Dialogue: 0,0:50:44.07,0:50:45.07,ASS,,0,0,0,,10,000 yen.
+Dialogue: 0,0:50:46.07,0:50:47.07,ASS,,0,0,0,,Are you okay?
+Dialogue: 0,0:50:47.07,0:50:48.07,ASS,,0,0,0,,Yes, I'm okay.
+Dialogue: 0,0:50:49.07,0:50:50.07,ASS,,0,0,0,,Please do your best.
+Dialogue: 0,0:50:50.07,0:50:52.07,ASS,,0,0,0,,Everyone, please spend more than 1,000\Nyen.
+Dialogue: 0,0:50:56.07,0:50:59.07,ASS,,0,0,0,,Let's move on to the fourth question.
+Dialogue: 0,0:51:00.07,0:51:05.07,ASS,,0,0,0,,What does Shiro mean to Sakura Saka46?
+Dialogue: 0,0:51:13.07,0:51:15.07,ASS,,0,0,0,,10,000 yen.
+Dialogue: 0,0:51:15.26,0:51:17.26,ASS,,0,0,0,,White.
+Dialogue: 0,0:51:17.26,0:51:19.26,ASS,,0,0,0,,Yes, you got it right!
+Dialogue: 0,0:51:19.26,0:51:21.26,ASS,,0,0,0,,"Korekara iro wo tsukeru tame ni"
+Dialogue: 0,0:51:23.26,0:51:25.26,ASS,,0,0,0,,That was close.
+Dialogue: 0,0:51:25.26,0:51:27.26,ASS,,0,0,0,,The nuance was a bit...
+Dialogue: 0,0:51:27.26,0:51:29.26,ASS,,0,0,0,,Motokuri Shimbo, your turn.
+Dialogue: 0,0:51:29.26,0:51:31.26,ASS,,0,0,0,,"Hakumai no shiro"
+Dialogue: 0,0:51:33.26,0:51:35.26,ASS,,0,0,0,,Good, good.
+Dialogue: 0,0:51:35.26,0:51:37.26,ASS,,0,0,0,,That was good.
+Dialogue: 0,0:51:37.26,0:51:39.26,ASS,,0,0,0,,"Hakumai no shiro"
+Dialogue: 0,0:51:39.26,0:51:41.26,ASS,,0,0,0,,"Hakumai no shiro"
+Dialogue: 0,0:51:41.26,0:51:43.23,ASS,,0,0,0,,"Hakumai no shiro"
+Dialogue: 0,0:51:43.23,0:51:45.23,ASS,,0,0,0,,White from deep blue to white.
+Dialogue: 0,0:51:45.23,0:51:47.23,ASS,,0,0,0,,It's getting more and more like\NKUISHINBON.
+Dialogue: 0,0:51:47.23,0:51:49.23,ASS,,0,0,0,,Oh, it's here! Is it your first time?
+Dialogue: 0,0:51:49.23,0:51:51.23,ASS,,0,0,0,,It's here.
+Dialogue: 0,0:51:51.23,0:51:54.23,ASS,,0,0,0,,It's like you haven't been dyed in\Nanything yet.
+Dialogue: 0,0:51:58.23,0:52:00.23,ASS,,0,0,0,,Correct!
+Dialogue: 0,0:52:03.23,0:52:04.63,ASS,,0,0,0,,It's like you haven't been dyed in\Nanything yet.
+Dialogue: 0,0:52:04.63,0:52:06.63,ASS,,0,0,0,,It has the meaning of "white".
+Dialogue: 0,0:52:06.63,0:52:08.63,ASS,,0,0,0,,That's correct!
+Dialogue: 0,0:52:14.04,0:52:17.54,ASS,,0,0,0,,It was a little big, but I thought it\Nwouldn't come out.
+Dialogue: 0,0:52:17.54,0:52:19.54,ASS,,0,0,0,,No, it wasn't.
+Dialogue: 0,0:52:21.54,0:52:25.54,ASS,,0,0,0,,Koei Shinbo was a bad example.
+Dialogue: 0,0:52:25.54,0:52:27.54,ASS,,0,0,0,,Nice try.
+Dialogue: 0,0:52:27.54,0:52:29.54,ASS,,0,0,0,,It was a nice try, wasn't it?
+Dialogue: 0,0:52:31.54,0:52:33.54,ASS,,0,0,0,,The sisters did a great job.
+Dialogue: 0,0:52:33.54,0:52:34.54,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:52:34.54,0:52:36.54,ASS,,0,0,0,,You did it.
+Dialogue: 0,0:52:36.54,0:52:39.54,ASS,,0,0,0,,Usagi-san, Neko-san, do your best.
+Dialogue: 0,0:52:39.54,0:52:41.54,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,0:52:41.54,0:52:43.61,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,0:52:43.61,0:52:47.61,ASS,,0,0,0,,Let's move on to the 5th question.
+Dialogue: 0,0:52:47.61,0:52:51.61,ASS,,0,0,0,,Sakurazaka46's first captain was Sugai\NYuka.
+Dialogue: 0,0:52:51.61,0:52:56.61,ASS,,0,0,0,,Sugai-sama's signature pose, Ganbari\NKiyo.
+Dialogue: 0,0:52:56.61,0:52:59.61,ASS,,0,0,0,,Wait, Ganbari Kiyo?
+Dialogue: 0,0:52:59.61,0:53:01.61,ASS,,0,0,0,,Ganbari Kiyo?
+Dialogue: 0,0:53:01.79,0:53:03.79,ASS,,0,0,0,,Ready, set, go!
+Dialogue: 0,0:53:03.79,0:53:05.79,ASS,,0,0,0,,Ready, set, go!
+Dialogue: 0,0:53:05.79,0:53:07.79,ASS,,0,0,0,,Ganbariki!
+Dialogue: 0,0:53:07.79,0:53:09.79,ASS,,0,0,0,,Yay!
+Dialogue: 0,0:53:09.79,0:53:11.79,ASS,,0,0,0,,(Applause)
+Dialogue: 0,0:53:11.79,0:53:13.79,ASS,,0,0,0,,(Laughs)
+Dialogue: 0,0:53:13.79,0:53:13.98,ASS,,0,0,0,,That was amazing!
+Dialogue: 0,0:53:13.98,0:53:19.48,ASS,,0,0,0,,The question was, "Please show us the\Ncorrect movement of your signature pose,\NGanbariki."
+Dialogue: 0,0:53:19.48,0:53:20.98,ASS,,0,0,0,,That was perfect.
+Dialogue: 0,0:53:20.98,0:53:23.48,ASS,,0,0,0,,As expected of you, Ganbariki.
+Dialogue: 0,0:53:23.48,0:53:27.48,ASS,,0,0,0,,I'm glad I was able to get it right.
+Dialogue: 0,0:53:27.48,0:53:29.48,ASS,,0,0,0,,I'm glad, too.
+Dialogue: 0,0:53:30.48,0:53:34.48,ASS,,0,0,0,,I think that Ganbariki has reached you\Nas well.
+Dialogue: 0,0:53:36.48,0:53:37.98,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:53:37.98,0:53:39.98,ASS,,0,0,0,,Moving on to the 6th question.
+Dialogue: 0,0:53:41.34,0:53:46.34,ASS,,0,0,0,,Sakura Saka 46's 3rd single,\N"Nagaredama", who was in charge of the\Ncenter position?
+Dialogue: 0,0:53:48.34,0:53:50.34,ASS,,0,0,0,,It's me! Usagi Nako!
+Dialogue: 0,0:53:51.34,0:53:52.34,ASS,,0,0,0,,One, two...
+Dialogue: 0,0:53:52.34,0:53:53.34,ASS,,0,0,0,,Sakura Hono-san!
+Dialogue: 0,0:53:57.34,0:53:58.34,ASS,,0,0,0,,I'm glad.
+Dialogue: 0,0:53:58.34,0:53:59.34,ASS,,0,0,0,,I'm glad.
+Dialogue: 0,0:53:59.34,0:54:00.34,ASS,,0,0,0,,I'm glad.
+Dialogue: 0,0:54:00.34,0:54:01.34,ASS,,0,0,0,,It's the first time.
+Dialogue: 0,0:54:01.34,0:54:02.27,ASS,,0,0,0,,It's the first time.
+Dialogue: 0,0:54:02.27,0:54:04.27,ASS,,0,0,0,,That's good, that's good. It wasn't\Nbroken, was it?
+Dialogue: 0,0:54:04.27,0:54:06.27,ASS,,0,0,0,,It wasn't broken, it was fine.
+Dialogue: 0,0:54:06.27,0:54:07.27,ASS,,0,0,0,,That's good, that's good.
+Dialogue: 0,0:54:07.27,0:54:09.27,ASS,,0,0,0,,I can't help but say this.
+Dialogue: 0,0:54:09.27,0:54:10.27,ASS,,0,0,0,,Tamura Honno-san.
+Dialogue: 0,0:54:10.27,0:54:12.27,ASS,,0,0,0,,Since it's the end.
+Dialogue: 0,0:54:12.27,0:54:13.27,ASS,,0,0,0,,As expected.
+Dialogue: 0,0:54:13.27,0:54:15.27,ASS,,0,0,0,,I definitely wanted to say this.
+Dialogue: 0,0:54:15.27,0:54:17.27,ASS,,0,0,0,,When you say "here it is", you say it.
+Dialogue: 0,0:54:17.27,0:54:19.27,ASS,,0,0,0,,As expected.
+Dialogue: 0,0:54:19.27,0:54:22.27,ASS,,0,0,0,,There's still more, so I'd like to keep\Ngoing.
+Dialogue: 0,0:54:23.27,0:54:25.27,ASS,,0,0,0,,Next, the 7th question.
+Dialogue: 0,0:54:25.27,0:54:28.08,ASS,,0,0,0,,Mikisei
+Dialogue: 0,0:54:29.08,0:54:33.08,ASS,,0,0,0,,Who is the hero that appears in the\NAmerican comic books that Ten Yamazaki\Nlikes?
+Dialogue: 0,0:54:35.08,0:54:37.08,ASS,,0,0,0,,Wow, you have a big appetite.
+Dialogue: 0,0:54:37.08,0:54:38.08,ASS,,0,0,0,,One, two...
+Dialogue: 0,0:54:38.08,0:54:39.08,ASS,,0,0,0,,Spi...
+Dialogue: 0,0:54:42.08,0:54:43.08,ASS,,0,0,0,,One, two...
+Dialogue: 0,0:54:43.08,0:54:44.08,ASS,,0,0,0,,Spiderman!
+Dialogue: 0,0:54:46.08,0:54:48.08,ASS,,0,0,0,,Correct!
+Dialogue: 0,0:54:52.08,0:54:52.95,ASS,,0,0,0,,Did you get it right away?
+Dialogue: 0,0:54:52.95,0:54:54.95,ASS,,0,0,0,,Yes, this is it, right?
+Dialogue: 0,0:54:54.95,0:54:56.95,ASS,,0,0,0,,Yes, yes, yes.
+Dialogue: 0,0:54:58.95,0:55:02.95,ASS,,0,0,0,,You were having a lot of fun with that,\Nright?
+Dialogue: 0,0:55:03.95,0:55:06.95,ASS,,0,0,0,,You're like a soloist.
+Dialogue: 0,0:55:07.95,0:55:08.95,ASS,,0,0,0,,The foodie.
+Dialogue: 0,0:55:08.95,0:55:13.95,ASS,,0,0,0,,Please do your best and cheer for the\Nother 3 teams.
+Dialogue: 0,0:55:13.95,0:55:15.95,ASS,,0,0,0,,Let's continue.
+Dialogue: 0,0:55:15.95,0:55:17.95,ASS,,0,0,0,,Question 8.
+Dialogue: 0,0:55:19.24,0:55:24.24,ASS,,0,0,0,,The first Tokyo Dome performance as\NSAKURAZAKA46 was held in November last\Nyear.
+Dialogue: 0,0:55:24.24,0:55:28.24,ASS,,0,0,0,,The song that was performed in the first\Nsong is...
+Dialogue: 0,0:55:28.24,0:55:30.24,ASS,,0,0,0,,"TENSHI"
+Dialogue: 0,0:55:31.24,0:55:34.24,ASS,,0,0,0,,"JOUKEN HANSHA DE NAKETE KURU"
+Dialogue: 0,0:55:38.24,0:55:40.24,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:55:41.24,0:55:43.24,ASS,,0,0,0,,This is...
+Dialogue: 0,0:55:43.24,0:55:45.21,ASS,,0,0,0,,As you can see...
+Dialogue: 0,0:55:45.21,0:55:47.21,ASS,,0,0,0,,- Yes. - That's right, at the site.
+Dialogue: 0,0:55:47.21,0:55:49.21,ASS,,0,0,0,,- Yes. - Yes.
+Dialogue: 0,0:55:49.21,0:55:51.21,ASS,,0,0,0,,What's wrong?
+Dialogue: 0,0:55:52.21,0:55:53.21,ASS,,0,0,0,,I can't see.
+Dialogue: 0,0:55:53.21,0:55:56.21,ASS,,0,0,0,,I thought it was fast to press the\Nbutton.
+Dialogue: 0,0:55:58.21,0:55:59.21,ASS,,0,0,0,,It's fast.
+Dialogue: 0,0:55:59.21,0:56:02.21,ASS,,0,0,0,,Do you always have to press the button?
+Dialogue: 0,0:56:02.21,0:56:03.21,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:56:03.21,0:56:05.21,ASS,,0,0,0,,- I have to hold it. - You have to hold\Nit.
+Dialogue: 0,0:56:05.21,0:56:07.21,ASS,,0,0,0,,That's great. It's reassuring to have a\Nquick move.
+Dialogue: 0,0:56:07.21,0:56:09.21,ASS,,0,0,0,,That made it a little more interesting.
+Dialogue: 0,0:56:09.21,0:56:10.21,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:56:11.44,0:56:16.76,ASS,,0,0,0,,Everyone, please pay attention to the\Nhigh-speed button and move on to the\Nnext question.
+Dialogue: 0,0:56:16.76,0:56:17.76,ASS,,0,0,0,,Oh, it's a question.
+Dialogue: 0,0:56:17.76,0:56:18.76,ASS,,0,0,0,,Here we go.
+Dialogue: 0,0:56:18.76,0:56:21.36,ASS,,0,0,0,,Next question, question 9.
+Dialogue: 0,0:56:22.96,0:56:27.76,ASS,,0,0,0,,What is the job of the father of the\Nsecond-generation Onuma Akiho-san?
+Dialogue: 0,0:56:31.76,0:56:32.76,ASS,,0,0,0,,That was quick.
+Dialogue: 0,0:56:33.18,0:56:34.18,ASS,,0,0,0,,That was quick.
+Dialogue: 0,0:56:34.88,0:56:35.88,ASS,,0,0,0,,Go ahead.
+Dialogue: 0,0:56:38.08,0:56:39.08,ASS,,0,0,0,,Ryo-shi.
+Dialogue: 0,0:56:40.38,0:56:41.88,ASS,,0,0,0,,That is correct.
+Dialogue: 0,0:56:43.68,0:56:44.68,ASS,,0,0,0,,Correct.
+Dialogue: 0,0:56:45.72,0:56:48.72,ASS,,0,0,0,,Did you see the quick move again?
+Dialogue: 0,0:56:48.72,0:56:49.72,ASS,,0,0,0,,It was cool.
+Dialogue: 0,0:56:49.72,0:56:51.72,ASS,,0,0,0,,Did you see it, everyone?
+Dialogue: 0,0:56:54.72,0:56:55.72,ASS,,0,0,0,,Amazing.
+Dialogue: 0,0:56:56.72,0:56:57.72,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:56:59.72,0:57:00.72,ASS,,0,0,0,,It's broken.
+Dialogue: 0,0:57:00.72,0:57:01.72,ASS,,0,0,0,,It's broken.
+Dialogue: 0,0:57:01.72,0:57:02.72,ASS,,0,0,0,,It's broken.
+Dialogue: 0,0:57:06.72,0:57:07.72,ASS,,0,0,0,,It's not broken.
+Dialogue: 0,0:57:08.72,0:57:11.72,ASS,,0,0,0,,Let's move on to the last question.
+Dialogue: 0,0:57:11.72,0:57:13.72,ASS,,0,0,0,,Please do your best.
+Dialogue: 0,0:57:15.23,0:57:17.23,ASS,,0,0,0,,Now, the 10th question.
+Dialogue: 0,0:57:18.77,0:57:22.79,ASS,,0,0,0,,What is the birthdate of the firstborn,\NMizuho Habu?
+Dialogue: 0,0:57:22.79,0:57:23.29,ASS,,0,0,0,,(Buzzer)
+Dialogue: 0,0:57:23.29,0:57:24.73,ASS,,0,0,0,,(Laughter)
+Dialogue: 0,0:57:24.73,0:57:25.73,ASS,,0,0,0,,Oh, it's coming.
+Dialogue: 0,0:57:25.73,0:57:27.23,ASS,,0,0,0,,The latest news is fast.
+Dialogue: 0,0:57:27.23,0:57:28.23,ASS,,0,0,0,,Please.
+Dialogue: 0,0:57:28.23,0:57:30.23,ASS,,0,0,0,,It's July 7th, just like me.
+Dialogue: 0,0:57:30.23,0:57:30.73,ASS,,0,0,0,,(Buzzer)
+Dialogue: 0,0:57:30.73,0:57:34.23,ASS,,0,0,0,,(Laughter)
+Dialogue: 0,0:57:34.23,0:57:36.23,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:57:36.23,0:57:37.23,ASS,,0,0,0,,(Laughter)
+Dialogue: 0,0:57:37.23,0:57:39.23,ASS,,0,0,0,,Great.
+Dialogue: 0,0:57:40.67,0:57:45.07,ASS,,0,0,0,,I think KUISHINBOU was a total disaster,\Nwasn't it?
+Dialogue: 0,0:57:45.07,0:57:47.07,ASS,,0,0,0,,It was a total disaster, wasn't it?
+Dialogue: 0,0:57:48.35,0:57:51.63,ASS,,0,0,0,,Even if it's the same birthday, it's\Ndefinitely...
+Dialogue: 0,0:57:51.63,0:57:56.59,ASS,,0,0,0,,Yes, I couldn't lose this one, so I did\Nmy best to not lose to Miyu.
+Dialogue: 0,0:57:58.59,0:58:00.83,ASS,,0,0,0,,Did you talk to HABU?
+Dialogue: 0,0:58:00.83,0:58:03.95,ASS,,0,0,0,,No, I haven't done it yet.
+Dialogue: 0,0:58:05.00,0:58:06.00,ASS,,0,0,0,,Yes, I have.
+Dialogue: 0,0:58:07.00,0:58:09.00,ASS,,0,0,0,,You're holding a mouse.
+Dialogue: 0,0:58:10.00,0:58:12.00,ASS,,0,0,0,,You're holding a hub mouse.
+Dialogue: 0,0:58:13.00,0:58:14.00,ASS,,0,0,0,,Yes, I'm a hub girl.
+Dialogue: 0,0:58:15.00,0:58:17.00,ASS,,0,0,0,,I'm a hub girl.
+Dialogue: 0,0:58:24.00,0:58:26.00,ASS,,0,0,0,,You can't lose to her, can you?
+Dialogue: 0,0:58:27.00,0:58:29.00,ASS,,0,0,0,,I'm a little disappointed, so I'm going\Nto talk to her next.
+Dialogue: 0,0:58:30.00,0:58:31.00,ASS,,0,0,0,,Please cheer for me!
+Dialogue: 0,0:58:33.56,0:58:42.56,ASS,,0,0,0,,Well then, well then, I might not be\Nable to announce it, but I'd like to\Nannounce the rankings.
+Dialogue: 0,0:58:46.56,0:58:48.56,ASS,,0,0,0,,The winning team is...
+Dialogue: 0,0:58:52.56,0:58:54.56,ASS,,0,0,0,,"Kuishinbou"!
+Dialogue: 0,0:58:59.56,0:59:01.56,ASS,,0,0,0,,It was overwhelming.
+Dialogue: 0,0:59:03.03,0:59:04.57,ASS,,0,0,0,,That was strong, that was strong.
+Dialogue: 0,0:59:04.57,0:59:07.53,ASS,,0,0,0,,By the way, 2nd place is TenChi, with 3\Npoints.
+Dialogue: 0,0:59:10.91,0:59:12.03,ASS,,0,0,0,,3rd and 4th place...
+Dialogue: 0,0:59:12.03,0:59:16.03,ASS,,0,0,0,,It was Usagi Neko-chan and Shimae-chan\Nat the same store.
+Dialogue: 0,0:59:19.03,0:59:23.03,ASS,,0,0,0,,I hope you can deepen your love for\NSakurazaka.
+Dialogue: 0,0:59:23.03,0:59:26.03,ASS,,0,0,0,,That's all for the Sakurazaka46 Quiz.
+Dialogue: 0,0:59:26.03,0:59:29.03,ASS,,0,0,0,,Congratulations!
+Dialogue: 0,0:59:36.06,0:59:41.06,ASS,,0,0,0,,The 3rd generation, please get ready for\Nthe next stage.
+Dialogue: 0,0:59:41.06,0:59:43.06,ASS,,0,0,0,,Please get ready.
+Dialogue: 0,0:59:43.06,0:59:45.06,ASS,,0,0,0,,Bye-bye.
+Dialogue: 0,0:59:57.21,1:00:00.57,ASS,,0,0,0,,They're so cute, aren't they?
+Dialogue: 0,1:00:02.01,1:00:04.21,ASS,,0,0,0,,Right?
+Dialogue: 0,1:00:04.61,1:00:09.01,ASS,,0,0,0,,Did you find your favorite 3rd Gen?
+Dialogue: 0,1:00:13.01,1:00:14.21,ASS,,0,0,0,,You did, didn't you?
+Dialogue: 0,1:00:15.71,1:00:20.51,ASS,,0,0,0,,Now, everyone is getting ready for the\Nnext event.
+Dialogue: 0,1:00:20.51,1:00:26.51,ASS,,0,0,0,,In the meantime, I would like to say\Nhello to the 3rd generation members for\Ntheir hospitality this time.
+Dialogue: 0,1:00:27.59,1:00:32.59,ASS,,0,0,0,,I would like to introduce you to the\Nquestionnaire.
+Dialogue: 0,1:00:33.59,1:00:37.59,ASS,,0,0,0,,First of all, Rika Ishimori.
+Dialogue: 0,1:00:42.59,1:00:47.59,ASS,,0,0,0,,I couldn't introduce it in detail, but\Nthe apron I was wearing was handmade.
+Dialogue: 0,1:00:50.59,1:00:52.59,ASS,,0,0,0,,I've loved sewing since I was a kid.
+Dialogue: 0,1:00:52.80,1:00:57.44,ASS,,0,0,0,,The present I got from Santa Claus when\NI was an elementary school student was a\Nsewing machine.
+Dialogue: 0,1:00:57.44,1:00:59.96,ASS,,0,0,0,,That's what it is.
+Dialogue: 0,1:00:59.96,1:01:03.44,ASS,,0,0,0,,Yes, next up is...
+Dialogue: 0,1:01:03.44,1:01:07.64,ASS,,0,0,0,,Yes, thank you very much.
+Dialogue: 0,1:01:07.64,1:01:09.56,ASS,,0,0,0,,It was Ishimori-chan.
+Dialogue: 0,1:01:09.56,1:01:11.00,ASS,,0,0,0,,Next up is...
+Dialogue: 0,1:01:11.00,1:01:15.12,ASS,,0,0,0,,Riko Endo.
+Dialogue: 0,1:01:15.12,1:01:19.64,ASS,,0,0,0,,My appeal point that I couldn't convey\Nin the two-minute show.
+Dialogue: 0,1:01:19.64,1:01:28.04,ASS,,0,0,0,,I will heal everyone with a smile.
+Dialogue: 0,1:01:28.06,1:01:32.06,ASS,,0,0,0,,Next, Reina Odakura.
+Dialogue: 0,1:01:33.06,1:01:36.06,ASS,,0,0,0,,What kind of idol do you want to be in\Nthe future?
+Dialogue: 0,1:01:37.06,1:01:47.06,ASS,,0,0,0,,I want to be an idol who can laugh a lot\Nand cry a lot when I'm happy and sad\Nwith BUDDIES.
+Dialogue: 0,1:01:53.75,1:01:55.75,ASS,,0,0,0,,Nagisa Kojima
+Dialogue: 0,1:01:58.75,1:02:00.75,ASS,,0,0,0,,What kind of idol do you want to be in\Nthe future?
+Dialogue: 0,1:02:01.75,1:02:04.75,ASS,,0,0,0,,I want to be an idol who is loved by\Nmany people for a long time.
+Dialogue: 0,1:02:05.75,1:02:07.75,ASS,,0,0,0,,Not only cool and cute,
+Dialogue: 0,1:02:08.75,1:02:12.75,ASS,,0,0,0,,I want to show you the sparkle that only\Nidols can show.
+Dialogue: 0,1:02:19.51,1:02:22.51,ASS,,0,0,0,,Taniguchi Airi
+Dialogue: 0,1:02:24.51,1:02:27.51,ASS,,0,0,0,,Message to BUDDIES
+Dialogue: 0,1:02:27.51,1:02:30.51,ASS,,0,0,0,,Don't forget your humble feelings
+Dialogue: 0,1:02:30.51,1:02:39.51,ASS,,0,0,0,,I will do my best to make you think that\Nthis girl is interesting in various\Nscenes such as dance, singing, and\Nvariety.
+Dialogue: 0,1:02:39.51,1:02:42.51,ASS,,0,0,0,,I won't let you lose
+Dialogue: 0,1:02:42.51,1:02:45.51,ASS,,0,0,0,,Thank you from now on
+Dialogue: 0,1:02:49.51,1:02:51.07,ASS,,0,0,0,,BUDDIES
+Dialogue: 0,1:02:51.07,1:02:57.07,ASS,,0,0,0,,Okay, it looks like everyone is ready.
+Dialogue: 0,1:02:59.07,1:03:05.07,ASS,,0,0,0,,Next is a special event where you can\Nsee a very, very precious figure.
+Dialogue: 0,1:03:05.07,1:03:07.07,ASS,,0,0,0,,Let's go!
+Dialogue: 0,1:03:07.07,1:03:11.07,ASS,,0,0,0,,3rd generation private fashion show
+Dialogue: 0,1:03:11.56,1:03:21.12,ASS,,0,0,0,,Located at the heart of downtown Los\NAngeles in the heart of the Loop C\NFontana area
+Dialogue: 0,1:03:21.18,1:03:27.08,ASS,,0,0,0,,Keep an eye out in the future for unique\NEuropean podcasts
+Dialogue: 0,1:03:27.16,1:03:32.14,ASS,,0,0,0,,People even love their archival footage
+Dialogue: 0,1:03:32.44,1:03:36.28,ASS,,0,0,0,,With lovely PTA moments.
+Dialogue: 0,1:10:36.28,1:10:38.86,ASS,,0,0,0,,(upbeat music)
+Dialogue: 0,1:11:02.30,1:11:05.46,ASS,,0,0,0,,(audience applauding)
+Dialogue: 0,1:11:06.28,1:11:10.96,ASS,,0,0,0,,(speaking in foreign language)
+Dialogue: 0,1:11:11.39,1:11:15.39,ASS,,0,0,0,,How was it? Everyone was so cute, wasn't\Nthey?
+Dialogue: 0,1:11:18.39,1:11:21.39,ASS,,0,0,0,,I think everyone's voices have been\Nheard.
+Dialogue: 0,1:11:21.39,1:11:29.39,ASS,,0,0,0,,Now, it's finally time for the first\Nlive performance of the 3rd generation.
+Dialogue: 0,1:11:32.39,1:11:35.39,ASS,,0,0,0,,It's okay to speak up.
+Dialogue: 0,1:11:37.39,1:11:40.39,ASS,,0,0,0,,I think everyone's support will help\Nthem.
+Dialogue: 0,1:11:40.39,1:11:41.34,ASS,,0,0,0,,Thank you.
+Dialogue: 0,1:11:41.34,1:11:44.34,ASS,,0,0,0,,Let's have fun!
