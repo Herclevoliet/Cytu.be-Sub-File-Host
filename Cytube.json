@@ -3,7 +3,7 @@
   "duration": 6000,
   "sources": [
     {
-      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Sakurazaka46/Other/2023.03.05%20-%203rd%20Generation%20Omotenashi%20Kai%20Part%201.mp4",
+      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Sakurazaka46/Other/2023.03.05%20-%203rd%20Generation%20Omotenashi%20Kai%20Part%202.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2023.03.05%20-%203rd%20Generation%20Omotenashi%20Kai%20Part%201.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2023.03.05%20-%203rd%20Generation%20Omotenashi%20Kai%20Part%202.ass",
             "contentType": "text/x-ass"
         }
   ]
