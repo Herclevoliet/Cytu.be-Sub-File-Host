@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/SG%2B/SG/SG%20LoGiRL%20Archive/%2339%20-%202015.12.07%20-%20Sakura%20Gakuin%20Houkago!%20Manande%20Monday!%20LoGiRL%20(720p).mp4",
+      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/SG%2B/SG/SG%20FRESH!%20Archive/SG%20FRESH%20%23039%20(20180402).mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/LoGiRL%20%23039-lvl5%20v2.1.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/SG%20FRESH%2039%20SVSG%20L2.ass",
             "contentType": "text/x-ass"
         }
   ]
