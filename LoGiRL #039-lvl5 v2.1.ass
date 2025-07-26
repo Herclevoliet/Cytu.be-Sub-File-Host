@@ -1,0 +1,1283 @@
+﻿[Script Info]
+; Subtitle Styles ver 2.2 (11/28/2023)
+Title: Houkago! Manande Monday! #039 2015-12-07
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: Yes
+YCbCr Matrix: PC.601
+PlayResX: 1280
+PlayResY: 720
+
+[V4+ Styles]
+; Color			&HAABBGGRR	Style
+; ------------	----------	----------------
+; White			&H00FFFFFF	Normal, All/Multiple, Note, etc. PrimaryColour
+; Black			&H00000000	Normal OutlineColour
+; Black50%		&H7F000000	Normal BackColour
+; Gray			&H00808080  NormalDim Outline
+;
+; Red			&H000000FF	SecondaryColour (used only when subtitles overlap)
+; Green			&H0000FF00	Mori-sensei
+; Blue			&H00FF0000	(don't use this primary color, it doesn't show well on screen)
+;
+; Yellow		&H0000FFFF	Member01, CastLineup01 (Assign colors by seat order, left to right, then other appearing members in class order)
+; Magenta		&H00FF00FF	Member02, CastLineup02
+; Cyan			&H00FFFF00	Member03, CastLineup03
+;
+; Pink			&H00EABFFF	Member04, CastLineup04, StandBy
+; Heliotrope	&H00FF66CC	Member05, CastLineup05
+; CornFlower	&H00ED9564	Member06, CastLineup06
+; DarkOrange	&H00008CFF	Member07, CastLineup07
+; Gold			&H0000D7FF	Member08, CastLineup08
+; DeepPink		&H009314FF	Member09, CastLineup09
+; Wheat			&H00B3DEF5	Member10, CastLineup10
+; Tomato		&H004763FF	Member11, CastLineup11
+; DodgerBlue	&H00FF901E	Member12, CastLineup12
+;
+; LightCoral	&H008080F0	Guest01
+; PaleGreen		&H0098FB98	Guest02
+; RengaBrick	&H003352B5	Guest03
+
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+; Main cast:
+Style: Mori-sensei, Arial,32,&H0000FF00,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Marin,       Arial,32,&H0000FFFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Saki,        Arial,32,&H00FF00FF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: C-chan,      Arial,32,&H00FFFF00,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Rinon,       Arial,32,&H00EABFFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Member05,    Arial,32,&H00FF66CC,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Member06,    Arial,32,&H00ED9564,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Member07,    Arial,32,&H00008CFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Member08,    Arial,32,&H0000D7FF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Member09,    Arial,32,&H009314FF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Member10,    Arial,32,&H00B3DEF5,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Member11,    Arial,32,&H004763FF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Member12,    Arial,32,&H00FF901E,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+; Special guests:
+Style: Guest01,     Arial,32,&H008080F0,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Guest02,     Arial,32,&H0098FB98,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Guest03,     Arial,32,&H003352B5,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+; Lineup mode:
+Style: CastLineup01,Arial,26,&H0000FFFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: CastLineup02,Arial,26,&H00FF00FF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: CastLineup03,Arial,26,&H00FFFF00,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: CastLineup04,Arial,26,&H00EABFFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: CastLineup05,Arial,26,&H00FF66CC,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: CastLineup06,Arial,26,&H00ED9564,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: CastLineup07,Arial,26,&H00008CFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: CastLineup08,Arial,26,&H0000D7FF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: CastLineup09,Arial,26,&H009314FF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: CastLineup10,Arial,26,&H00B3DEF5,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: CastLineup11,Arial,26,&H004763FF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: CastLineup12,Arial,26,&H00FF901E,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: NotAppearing,Arial,18,&H00FFFFFF,&H000000FF,&H00808080,&H7F000000,0,1,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+; Other styles:
+Style: All/Multiple,Arial,32,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Tiny,        Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Smaller,     Arial,26,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Normal,      Arial,32,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: n,           Arial,32,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: NormalDim,	Arial,32,&H00FFFFFF,&H000000FF,&H00808080,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Bigger,      Arial,44,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,2,10,10,10,1
+Style: Note,        Arial,26,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,8,10,10,10,1
+Style: SubNote,     Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,0,1,0,0,100,100,0,0,1,2,2,8,10,10,10,1
+Style: Lineup,      Arial,32,&H00FFFFFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,1
+Style: StandBy,     Arial,40,&H00EABFFF,&H000000FF,&H00000000,&H7F000000,0,0,0,0,100,100,0,0,1,2,2,1,10,10,10,1
+Style: Solid,       Arial,32,&H00000000,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,10,0, 0, 0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+;Cast introduction terminology:
+;	The positioning can vary depending on the title screen photo.
+;	Put additional guests on separate lines
+Dialogue: 0,0:00:00.00,0:00:10.00,Note,,0,0,0,,Translations & timing by u/onji, proofreading by u/TheThrawn and u/Shadeslayr, additional revisions and styling by u/wkvesey
+Dialogue: 0,0:00:00.00,0:00:01.00,StandBy,,0,0,0,,{\a2}Please wait a moment for the start of the broadcast
+
+Dialogue: 0,0:00:02.91,0:00:08.19,Marin,,0,0,0,,Hai! I'm Elementary School 6th grade student Hidaka Marin! {\i1}Yoroshiku onegaishimasu!
+Dialogue: 0,0:00:12.04,0:00:15.01,Saki,,0,0,0,,Hai! I'm Middle Sch... Ahh, everyone, are you ready?
+Dialogue: 0,0:00:15.08,0:00:17.20,Saki,,0,0,0,,Err... just now I was playing
+Dialogue: 0,0:00:17.24,0:00:19.29,Saki,,0,0,0,,an impersonation of Marin
+Dialogue: 0,0:00:19.80,0:00:22.60,Saki,,0,0,0,,Well... Everyone, are you ready?
+Dialogue: 0,0:00:22.77,0:00:25.33,Saki,,0,0,0,,Good... Ōganing!
+Dialogue: 0,0:00:25.40,0:00:30.08,Saki,,0,0,0,,Thank you very much! I'm Middle School 3rd year student and Education Chairperson Ōga Saki! {\i1}Yoroshiku onegaishimasu!
+Dialogue: 0,0:00:33.52,0:00:38.52,C-chan,,0,0,0,,Hai! I'm Middle School 3rd year student and Talk Chairperson Shirai Saki! {\i1}Yoroshiku onegaishimasu!
+Dialogue: 0,0:00:40.64,0:00:45.52,Rinon,,0,0,0,,Hai! I'm Middle School 3rd year student and Student Council President Isono Rinon! {\i1}Yoroshiku onegaishimasu!
+Dialogue: 0,0:00:48.76,0:00:53.12,Rinon,,0,0,0,,Hai! Now we've started "{\i1}Houkago! Manande{\i0} Monday!" for this week. (Afterschool! Learning Monday!)
+Dialogue: 0,0:00:53.12,0:00:59.12,Rinon,,0,0,0,,This week's Day Leader is I, Isono Rinon. {\i1}Yoroshiku onegaishimasu!
+Dialogue: 0,0:00:59.80,0:01:05.00,Rinon,,0,0,0,,In this program, we'll introduce you to the charm of Sakura Gakuin
+Dialogue: 0,0:01:05.00,0:01:09.08,Rinon,,0,0,0,,which we can't show at a concert or an Open Class event. {\i1}Yoroshiku onegaishimasu!
+Dialogue: 0,0:01:09.08,0:01:11.08,All/Multiple,,0,0,0,,{\i1}Yoroshiku onegaishimasu!
+Dialogue: 0,0:01:11.08,0:01:12.76,Normal,,0,0,0,,Staff: Oh, you're fluent!
+Dialogue: 0,0:01:12.76,0:01:16.16,Rinon,,0,0,0,,Today, the four of us will present this program, but Sakura Gakuin also has
+Dialogue: 0,0:01:16.16,0:01:19.64,Rinon,,0,0,0,,Kurashima Sara, Kurosawa Mirena, Yamaide Aiko,
+
+Dialogue: 0,0:01:18.30,0:01:28.80,Lineup      ,,0,0,0,,{\pos(165,120)}Today's Lineup:
+Dialogue: 0,0:01:18.30,0:01:28.80,CastLineup04,,0,0,0,,{\pos(470,220)}Isono Rinon
+Dialogue: 0,0:01:18.30,0:01:28.80,CastLineup02,,0,0,0,,{\pos(890,370)}Ōga Saki
+Dialogue: 0,0:01:18.30,0:01:28.80,CastLineup03,,0,0,0,,{\pos(817,240)}Shirai Saki
+Dialogue: 0,0:01:18.30,0:01:28.80,NotAppearing,,0,0,0,,{\pos(355,245)}Kurashima Sara
+Dialogue: 0,0:01:18.30,0:01:28.80,NotAppearing,,0,0,0,,{\pos(290,360)}Kurosawa Mirena
+Dialogue: 0,0:01:18.30,0:01:28.80,NotAppearing,,0,0,0,,{\pos(417,375)}Yamaide Aiko
+Dialogue: 0,0:01:18.30,0:01:28.80,NotAppearing,,0,0,0,,{\pos(555,240)}Okada Megumi
+Dialogue: 0,0:01:18.30,0:01:28.80,NotAppearing,,0,0,0,,{\pos(960,245)}Okazaki Momoko
+Dialogue: 0,0:01:18.30,0:01:28.80,NotAppearing,,0,0,0,,{\pos(702,245)}Asō Maaya
+Dialogue: 0,0:01:18.30,0:01:28.80,CastLineup01,,0,0,0,,{\pos(760,390)}Hidaka Marin
+Dialogue: 0,0:01:18.30,0:01:28.80,NotAppearing,,0,0,0,,{\pos(517,390)}Fujihira Kano
+Dialogue: 0,0:01:18.30,0:01:28.80,NotAppearing,,0,0,0,,{\pos(645,362)}Yoshida Soyoka
+Dialogue: 0,0:01:18.30,0:01:28.80,Normal      ,,0,0,0,,{\pos(560,460)}and
+Dialogue: 0,0:01:18.30,0:01:28.80,Mori-sensei ,,0,0,0,,{\pos(670,460)}Mori-sensei
+
+Dialogue: 0,0:01:19.64,0:01:21.96,Rinon,,0,0,0,,Okada Megumi, Okazaki Momoko,
+Dialogue: 0,0:01:21.96,0:01:24.12,Rinon,,0,0,0,,Asou Maaya, Fujihira Kano,
+Dialogue: 0,0:01:24.12,0:01:27.96,Rinon,,0,0,0,,and Yoshida Soyoka. All 12 of us are growing up cheerfully every day!
+Dialogue: 0,0:01:28.40,0:01:30.36,Rinon,,0,0,0,,Well, let's have an opening talk.
+Dialogue: 0,0:01:30.36,0:01:32.36,All/Multiple,,0,0,0,,Hai!
+Dialogue: 0,0:01:31.08,0:01:32.76,Normal,,0,0,0,,Staff: You're very down-to-earth.
+Dialogue: 0,0:01:33.84,0:01:35.56,Rinon,,0,0,0,,Well, I did it in the minimum time.
+Dialogue: 0,0:01:38.04,0:01:39.94,Normal,,0,0,0,,Staff: Oh, I see. You're in a hurry.
+
+Dialogue: 0,0:01:39.94,0:01:41.17,Saki,,0,0,0,,I think we can go without it.
+Dialogue: 0,0:01:41.08,0:01:44.04,C-chan,,0,0,0,,Oh, shall we omit the opening talk?
+Dialogue: 0,0:01:44.04,0:01:46.60,Rinon,,0,0,0,,But, at least we should talk about today.
+Dialogue: 0,0:01:46.60,0:01:48.60,C-chan,,0,0,0,,Oh, definitely!
+Dialogue: 0,0:01:46.60,0:01:48.60,Saki,,0,0,0,,Certainly!
+Dialogue: 0,0:01:48.60,0:01:52.16,Saki,,0,0,0,,Today, we went to a place... Do you know where?
+Dialogue: 0,0:01:52.68,0:01:54.56,Saki,,0,0,0,,Of course you know. You must know.
+Dialogue: 0,0:01:54.56,0:01:56.92,C-chan,,0,0,0,,There is no way they could know!
+Dialogue: 0,0:01:56.92,0:02:00.08,Saki,,0,0,0,,I'm sorry... Well, Marin, go ahead.
+Dialogue: 0,0:02:00.08,0:02:02.08,Marin,,0,0,0,,Okay, today
+Dialogue: 0,0:02:02.08,0:02:04.64,Marin,,0,0,0,,we went to Tower Records Shibuya
+Dialogue: 0,0:02:04.64,0:02:06.88,Marin,,0,0,0,,to see the Sakura Gakuin Museum
+Dialogue: 0,0:02:06.88,0:02:09.76,Marin,,0,0,0,,together with all 12 of us.
+Dialogue: 0,0:02:11.64,0:02:13.12,Saki,,0,0,0,,It was awesome!
+Dialogue: 0,0:02:13.12,0:02:15.12,C-chan,,0,0,0,,It's so fun!
+Dialogue: 0,0:02:15.12,0:02:17.12,Rinon,,0,0,0,,There we could see several messages from Fukei-sans
+Dialogue: 0,0:02:17.12,0:02:19.84,Rinon,,0,0,0,,left on a message board.
+Dialogue: 0,0:02:19.84,0:02:21.84,Rinon,,0,0,0,,And today, we left our messages
+Dialogue: 0,0:02:21.84,0:02:25.12,Rinon,,0,0,0,,on the same message board.
+Dialogue: 0,0:02:25.12,0:02:31.24,Saki,,0,0,0,,There were unexpectedly lots of messages of Fukei-sans. I was so pleased!
+Dialogue: 0,0:02:31.24,0:02:36.24,Saki,,0,0,0,,And we left messages on the small blank spaces we found.
+Dialogue: 0,0:02:36.24,0:02:38.64,Saki,,0,0,0,,So, please go and find our messages.
+Dialogue: 0,0:02:38.64,0:02:41.40,Rinon,,0,0,0,,Honestly, I had hoped to leave my message at a noticeable place...
+Dialogue: 0,0:02:41.40,0:02:46.68,C-chan,,0,0,0,,...but it was so full of messages. It was difficult to find a space to write.
+Dialogue: 0,0:02:46.68,0:02:49.36,Saki,,0,0,0,,There were some blank spaces at the top, but they were too high for me.
+Dialogue: 0,0:02:49.36,0:02:51.68,Rinon,,0,0,0,,Our messages might be hard to find. Go and look for them, please!
+Dialogue: 0,0:02:51.68,0:02:53.68,All/Multiple,,0,0,0,,{\i1}Onegaishimasu!
+Dialogue: 0,0:02:55.48,0:02:58.40,Rinon,,0,0,0,,Well, let's hurry, so as not to waste time.
+Dialogue: 0,0:02:58.36,0:03:00.36,Saki,,0,0,0,,We have a lot to talk about today.
+Dialogue: 0,0:02:58.40,0:03:02.44,Rinon,,0,0,0,,Then let's invite our Homeroom Teacher, Mori-sensei.
+Dialogue: 0,0:03:02.44,0:03:04.00,Rinon,,0,0,0,,Ready?
+Dialogue: 0,0:03:04.00,0:03:05.84,All/Multiple,,0,0,0,,"Mori-sensei!"
+Dialogue: 0,0:03:05.84,0:03:08.68,Mori-sensei,,0,0,0,,Hello there! I'm Mori Hayashi, thank you for inviting me!
+Dialogue: 0,0:03:08.68,0:03:10.68,Mori-sensei,,0,0,0,,Let's keep talking fast!
+Dialogue: 0,0:03:09.38,0:03:10.84,Saki,,0,0,0,,You look very excited.
+Dialogue: 0,0:03:10.68,0:03:13.72,Mori-sensei,,0,0,0,,Excited? Yes, it's because I have too much energy left!
+Dialogue: 0,0:03:14.69,0:03:16.84,Saki,,0,0,0,,You must be careful of speaking, especially when you have too much energy
+Dialogue: 0,0:03:16.25,0:03:19.06,Mori-sensei,,0,0,0,,Err, only I didn't get tired.
+Dialogue: 0,0:03:19.84,0:03:21.06,C-chan,,0,0,0,,Ah, I see.
+Dialogue: 0,0:03:19.96,0:03:21.76,Mori-sensei,,0,0,0,,I regret I couldn't get tired.
+Dialogue: 0,0:03:21.76,0:03:24.12,Mori-sensei,,0,0,0,,Anyways, today we'll talk about
+Dialogue: 0,0:03:24.12,0:03:28.68,Mori-sensei,,0,0,0,,the event which made a blast last night. All through this program.
+Dialogue: 0,0:03:28.68,0:03:32.60,Mori-sensei,,0,0,0,,We have a lot to talk about the event.
+Dialogue: 0,0:03:32.60,0:04:00.44,Note,,0,0,0,,["M-1 Grand-Prix" is a famous TV program in which the funniest comedian-duo for the year is decided.]
+Dialogue: 0,0:03:32.60,0:03:35.44,Mori-sensei,,0,0,0,,Yes, last night was the "M-1 Grand-Prix"!
+Dialogue: 0,0:03:36.20,0:03:39.92,Mori-sensei,,0,0,0,,Everybody was so excited to watch the program on TV Asahi!
+Dialogue: 0,0:03:39.92,0:03:42.80,Saki,,0,0,0,,No! This program is for us, Sakura Gakuin!
+Dialogue: 0,0:03:42.16,0:03:45.88,Mori-sensei,,0,0,0,,What do you think about the new way to judge the participants?
+Dialogue: 0,0:03:45.88,0:03:49.44,Mori-sensei,,0,0,0,,Do you like the new way, or not?
+Dialogue: 0,0:03:49.44,0:03:52.00,Mori-sensei,,0,0,0,,No? Aren't we going to talk about the event?
+Dialogue: 0,0:03:49.44,0:03:52.00,Saki,,0,0,0,,Err... No, we are gonna...
+Dialogue: 0,0:03:52.00,0:03:53.00,C-chan,,0,0,0,,Definitely not.
+Dialogue: 0,0:03:53.00,0:03:57.40,Saki,,0,0,0,,This studio is not for...
+Dialogue: 0,0:03:54.00,0:03:59.69,Mori-sensei,,0,0,0,,You know, Principal Kuramoto is one of the staff for the event in the other studio.
+Dialogue: 0,0:03:57.40,0:04:00.44,C-chan,,0,0,0,,He is also responsible for OUR event!
+Dialogue: 0,0:03:59.69,0:04:03.68,Mori-sensei,,0,0,0,,I'm very pleased to be criticized in this fierce manner!
+Dialogue: 0,0:04:03.66,0:04:05.66,Saki,,0,0,0,,What are you talking about?
+Dialogue: 0,0:04:05.24,0:04:09.48,Mori-sensei,,0,0,0,,Well, last night, we had the 5th anniversary concert of Sakura Gakuin.
+Dialogue: 0,0:04:09.48,0:04:15.84,Mori-sensei,,0,0,0,,So, today, we want to review the concert in this program.
+Dialogue: 0,0:04:15.84,0:04:17.20,Mori-sensei,,0,0,0,,All right, Day Leader!
+Dialogue: 0,0:04:17.20,0:04:19.20,Rinon,,0,0,0,,Rise!
+Dialogue: 0,0:04:19.20,0:04:21.20,Rinon,,0,0,0,,Attention!
+Dialogue: 0,0:04:21.20,0:04:22.36,Rinon,,0,0,0,,Bow!
+Dialogue: 0,0:04:22.36,0:04:26.18,All/Multiple,,0,0,0,,{\i1}Yoroshiku onegaishimasu!
+Dialogue: 0,0:04:26.36,0:04:28.36,Rinon,,0,0,0,,Sit!
+Dialogue: 0,0:04:28.36,0:04:32.25,Mori-sensei,,0,0,0,,Well, well... You have a lot to say, right?
+Dialogue: 0,0:04:31.78,0:04:33.42,C-chan,,0,0,0,,Yes, we do.
+Dialogue: 0,0:04:33.04,0:04:36.16,Mori-sensei,,0,0,0,,I do have a lot, seriously!
+Dialogue: 0,0:04:35.88,0:04:36.85,Saki,,0,0,0,,You're making me scared.
+Dialogue: 0,0:04:37.01,0:04:38.50,Mori-sensei,,0,0,0,,No, I don't want to make you scared.
+Dialogue: 0,0:04:38.29,0:04:40.22,C-chan,,0,0,0,,You are really excited today.
+Dialogue: 0,0:04:40.19,0:04:42.19,Saki,,0,0,0,,It creeps me out.
+Dialogue: 0,0:04:40.92,0:04:46.76,Mori-sensei,,0,0,0,,As I've said, I'm not tired at all. I had almost nothing to do last night.
+Dialogue: 0,0:04:43.26,0:04:44.48,C-chan,,0,0,0,,You're too loud.
+Dialogue: 0,0:04:46.76,0:04:48.76,C-chan,,0,0,0,,You appeared for only a few minutes.
+Dialogue: 0,0:04:48.50,0:04:52.17,Mori-sensei,,0,0,0,,I felt really lonely these last two days.
+Dialogue: 0,0:04:52.18,0:04:54.42,Mori-sensei,,0,0,0,,Altogether, there were about four hours
+Dialogue: 0,0:04:54.46,0:04:56.72,Mori-sensei,,0,0,0,,and I was on the stage for only five minutes.
+Dialogue: 0,0:04:56.76,0:04:58.20,C-chan,,0,0,0,,Yes, you were.
+Dialogue: 0,0:04:58.20,0:05:01.16,Mori-sensei,,0,0,0,,I had been waiting for eight hours and took part for only five minutes!
+Dialogue: 0,0:05:00.94,0:05:03.57,Saki,,0,0,0,,I think it's because you made yourself hoarse at the Festival.
+Dialogue: 0,0:05:03.80,0:05:08.24,Mori-sensei,,0,0,0,,Ah, it could be true. Oh, was it a penalty on me? Was my time reduced like Ōga's time was?
+Dialogue: 0,0:05:06.16,0:05:07.00,Saki,,0,0,0,,Yes, it's a penalty.
+Dialogue: 0,0:05:08.24,0:05:11.40,Saki,,0,0,0,,No, Ōga's time wasn't reduced. Mori-sensei got the first ban.
+Dialogue: 0,0:05:11.40,0:05:14.24,Mori-sensei,,0,0,0,,Oh I see. Anyway, there were really a lot of things happening
+Dialogue: 0,0:05:14.32,0:05:16.61,Mori-sensei,,0,0,0,,and I was watching all of them from backstage.
+Dialogue: 0,0:05:16.69,0:05:18.60,Mori-sensei,,0,0,0,,Now, let's have a review of Day 1.
+Dialogue: 0,0:05:18.68,0:05:20.68,Mori-sensei,,0,0,0,,This is the setlist for Day 1.
+Dialogue: 0,0:05:20.68,0:05:25.48,Mori-sensei,,0,0,0,,As it shows... it was full of a variety of things.
+Dialogue: 0,0:05:25.06,0:05:26.00,Saki,,0,0,0,,So many things.
+Dialogue: 0,0:05:25.07,0:05:27.07,C-chan,,0,0,0,,We had quite a lot.
+Dialogue: 0,0:05:27.40,0:05:30.00,Mori-sensei,,0,0,0,,Well, let's review one by one.
+Dialogue: 0,0:05:30.00,0:05:33.68,Mori-sensei,,0,0,0,,The very first song was "Chime".
+Dialogue: 0,0:05:33.68,0:05:39.16,Mori-sensei,,0,0,0,,Right from the beginning, something happened. What happened?
+Dialogue: 0,0:05:39.16,0:05:41.88,Rinon,,0,0,0,,At the performance of "Chime",
+Dialogue: 0,0:05:41.88,0:05:44.56,Rinon,,0,0,0,,Megu made terrible "mistakes" in the choreo.
+Dialogue: 0,0:05:44.56,0:05:46.56,Rinon,,0,0,0,,But it was as a lead-in to the next skit.
+Dialogue: 0,0:05:46.56,0:05:48.76,Mori-sensei,,0,0,0,,Yes, that was an introduction.
+Dialogue: 0,0:05:48.76,0:05:53.08,Rinon,,0,0,0,,My mom took it as a true mistake of Megu.
+Dialogue: 0,0:05:53.08,0:05:58.20,Rinon,,0,0,0,,When I went home, she said, "Is Megu-chan all right? She made terrible mistakes!"
+Dialogue: 0,0:05:58.20,0:06:05.72,Mori-sensei,,0,0,0,,Is that right? In fact, Okada made the mistakes on purpose. It was in the script.
+Dialogue: 0,0:06:05.72,0:06:07.72,Mori-sensei,,0,0,0,,Oh, we can watch the scene?
+Dialogue: 0,0:06:07.72,0:06:11.16,Mori-sensei,,0,0,0,,We can watch the footage.
+Dialogue: 0,0:06:10.01,0:06:11.09,C-chan,,0,0,0,,I want to watch it.
+Dialogue: 0,0:06:10.01,0:06:11.09,Saki,,0,0,0,,It must be fun.
+Dialogue: 0,0:06:11.16,0:06:16.12,Mori-sensei,,0,0,0,,The scene was... In the script, there was only the line: "She makes a mistake."
+Dialogue: 0,0:06:12.09,0:06:13.86,C-chan,,0,0,0,,She did great.
+Dialogue: 0,0:06:16.12,0:06:18.12,Mori-sensei,,0,0,0,,But, she made a LOT of mistakes.
+Dialogue: 0,0:06:18.14,0:06:21.45,C-chan,,0,0,0,,She played herself making a mistake, trying to recover from it, and getting worse.
+Dialogue: 0,0:06:21.45,0:06:24.34,Mori-sensei,,0,0,0,,She played her role very well. The footage is ready?
+Dialogue: 0,0:06:24.34,0:06:26.34,Mori-sensei,,0,0,0,,Well, let's give it a look.
+Dialogue: 0,0:06:27.94,0:06:30.41,Mori-sensei,,0,0,0,,From this scene...
+Dialogue: 0,0:06:30.41,0:06:33.37,Mori-sensei,,0,0,0,,It's the last climax of the song.
+Dialogue: 0,0:06:35.30,0:06:39.32,Mori-sensei,,0,0,0,,Everyone is acting her role as a performer, and...
+Dialogue: 0,0:06:44.14,0:06:45.25,Mori-sensei,,0,0,0,,Oh, no...
+Dialogue: 0,0:06:45.92,0:06:48.26,Mori-sensei,,0,0,0,,I can't help laughing!
+Dialogue: 0,0:06:51.17,0:06:52.92,Mori-sensei,,0,0,0,,She is making a really terrible mistake.
+Dialogue: 0,0:06:53.02,0:06:54.77,Saki,,0,0,0,,Megu! You can't do that!
+Dialogue: 0,0:06:58.18,0:06:59.80,C-chan,,0,0,0,,She is full of smiles.
+Dialogue: 0,0:07:00.14,0:07:02.02,Mori-sensei,,0,0,0,,Oh no! It's too bad!
+Dialogue: 0,0:07:02.17,0:07:03.98,Mori-sensei,,0,0,0,,She faced the wrong direction again.
+Dialogue: 0,0:07:04.38,0:07:05.86,Saki,,0,0,0,,Other girls are in good smiles.
+Dialogue: 0,0:07:05.76,0:07:07.22,C-chan,,0,0,0,,It's awesome!
+Dialogue: 0,0:07:07.22,0:07:08.78,C-chan,,0,0,0,,Megu, good job!
+Dialogue: 0,0:07:08.46,0:07:11.40,Mori-sensei,,0,0,0,,Were you acting your role?
+Dialogue: 0,0:07:11.40,0:07:13.09,Saki,,0,0,0,,Yes, giving a glance.
+Dialogue: 0,0:07:13.09,0:07:16.06,C-chan,,0,0,0,,Glancing at her with a concerned look.
+Dialogue: 0,0:07:15.44,0:07:16.44,Marin,,0,0,0,,Oh! I didn't....
+Dialogue: 0,0:07:16.06,0:07:17.09,Mori-sensei,,0,0,0,,Hidaka, What's wrong?
+Dialogue: 0,0:07:17.33,0:07:20.08,Marin,,0,0,0,,I actually didn't notice Megu-chan making a mistake!
+Dialogue: 0,0:07:20.08,0:07:22.57,Mori-sensei,,0,0,0,,Unbelievable! You knew the script!
+Dialogue: 0,0:07:22.57,0:07:24.57,Marin,,0,0,0,,I knew the script, but...
+Dialogue: 0,0:07:24.57,0:07:26.12,Mori-sensei,,0,0,0,,Then, you had to be surprised that you didn't notice the mistake.
+Dialogue: 0,0:07:25.64,0:07:28.12,Marin,,0,0,0,,I was too focused on my dancing.
+Dialogue: 0,0:07:28.12,0:07:30.12,Marin,,0,0,0,,I was dancing the same choreo with Megu-chan's.
+Dialogue: 0,0:07:30.12,0:07:31.56,C-chan,,0,0,0,,Ah, your choreo was symmetrical.
+Dialogue: 0,0:07:31.25,0:07:34.22,Marin,,0,0,0,,Yes, it's symmetric and...
+Dialogue: 0,0:07:32.17,0:07:33.16,Mori-sensei,,0,0,0,,I see.
+Dialogue: 0,0:07:33.98,0:07:36.94,Marin,,0,0,0,,I didn't notice Megu-chan making a mistake at all!
+Dialogue: 0,0:07:36.76,0:07:38.76,Mori-sensei,,0,0,0,,You are awesome!
+Dialogue: 0,0:07:38.76,0:07:41.89,Mori-sensei,,0,0,0,,You're the only one who didn't notice, among everybody in the venue!
+Dialogue: 0,0:07:41.89,0:07:44.46,Mori-sensei,,0,0,0,,Everyone but you was feeling anxious!
+Dialogue: 0,0:07:44.46,0:07:46.34,Mori-sensei,,0,0,0,,You are amazing!
+Dialogue: 0,0:07:46.34,0:07:48.50,Mori-sensei,,0,0,0,,But her acting was very realistic.
+Dialogue: 0,0:07:48.50,0:07:51.14,Mori-sensei,,0,0,0,,Just as Isono's mother was fooled.
+Dialogue: 0,0:07:51.14,0:07:53.14,Mori-sensei,,0,0,0,,Audience, were you fooled by the play?
+Dialogue: 0,0:07:53.14,0:07:54.18,Saki,,0,0,0,,Maybe.
+Dialogue: 0,0:07:54.18,0:07:56.18,Mori-sensei,,0,0,0,,It made me feel so good,
+Dialogue: 0,0:07:57.06,0:07:59.40,Mori-sensei,,0,0,0,,imagining the audience watching with anxious hearts!
+Dialogue: 0,0:07:59.40,0:08:02.54,Mori-sensei,,0,0,0,,And then, the skit began.
+Dialogue: 0,0:08:01.68,0:08:04.73,C-chan,,0,0,0,,Yes, there was an atmosphere of encouraging Megu.
+Dialogue: 0,0:08:04.73,0:08:06.05,Mori-sensei,,0,0,0,,Oh, really?
+Dialogue: 0,0:08:06.05,0:08:09.04,Saki,,0,0,0,,Fukei-sans were trying to cheer Megu up.
+Dialogue: 0,0:08:10.30,0:08:13.85,Mori-sensei,,0,0,0,,Could you sense that kind of mood from the audience?
+Dialogue: 0,0:08:13.85,0:08:15.85,Saki,,0,0,0,,Yes, we could feel an "It's okay, Megu!"-like atmosphere.
+Dialogue: 0,0:08:17.17,0:08:19.62,Mori-sensei,,0,0,0,,Oh, I'm sorry they felt that way,
+Dialogue: 0,0:08:19.62,0:08:21.62,Mori-sensei,,0,0,0,,although that's what I was aiming for.
+Dialogue: 0,0:08:21.62,0:08:25.57,Mori-sensei,,0,0,0,,I see. Anyway, she made the terrible mistake because
+Dialogue: 0,0:08:25.57,0:08:29.06,Mori-sensei,,0,0,0,,she was "getting into a slump and was depressed."
+Dialogue: 0,0:08:29.06,0:08:31.06,Mori-sensei,,0,0,0,,The skit was...
+Dialogue: 0,0:08:31.06,0:08:34.74,Mori-sensei,,0,0,0,,usually we play a comedy in the Festival or in other concerts.
+Dialogue: 0,0:08:34.74,0:08:38.41,Mori-sensei,,0,0,0,,This time, we replayed the skit which we had performed in the 2011 nendo,
+Dialogue: 0,0:08:38.41,0:08:41.28,Mori-sensei,,0,0,0,,with revisions for the 2015 nendo.
+Dialogue: 0,0:08:41.28,0:08:43.28,Mori-sensei,,0,0,0,,First of all, there was an earnest playing of Isono
+Dialogue: 0,0:08:43.28,0:08:47.12,Mori-sensei,,0,0,0,,which was originally played by Mutō Ayami.
+Dialogue: 0,0:08:46.92,0:08:47.81,Rinon,,0,0,0,,Yes.
+Dialogue: 0,0:08:47.28,0:08:51.02,Mori-sensei,,0,0,0,,Isono played a very sincere person.
+Dialogue: 0,0:08:51.02,0:08:54.29,Rinon,,0,0,0,,It was really... I'm very bad at acting.
+Dialogue: 0,0:08:54.29,0:08:55.54,Mori-sensei,,0,0,0,,No, you did well!
+Dialogue: 0,0:08:55.54,0:08:58.50,Mori-sensei,,0,0,0,,Why not reenact those lines here?
+Dialogue: 0,0:08:58.50,0:09:00.50,Mori-sensei,,0,0,0,,You were acting with confidence.
+Dialogue: 0,0:09:00.50,0:09:01.12,Marin,,0,0,0,,Which lines?
+Dialogue: 0,0:09:01.12,0:09:02.42,Mori-sensei,,0,0,0,,It was very good.
+Dialogue: 0,0:09:02.05,0:09:04.17,C-chan,,0,0,0,,"For the two of you, the 5th..."
+Dialogue: 0,0:09:04.22,0:09:07.26,Mori-sensei,,0,0,0,,Yes, those are the lines. I was very impressed with Isono's acting.
+Dialogue: 0,0:09:07.26,0:09:08.68,Saki,,0,0,0,,Give it a try.
+Dialogue: 0,0:09:08.68,0:09:10.09,Mori-sensei,,0,0,0,,Please try it now.
+Dialogue: 0,0:09:10.09,0:09:11.24,Rinon,,0,0,0,,What, now?
+Dialogue: 0,0:09:10.98,0:09:13.10,Mori-sensei,,0,0,0,,To the camera...
+Dialogue: 0,0:09:13.10,0:09:14.86,Mori-sensei,,0,0,0,,Let's see your sincere performance.
+Dialogue: 0,0:09:14.86,0:09:15.37,Rinon,,0,0,0,,OK.
+Dialogue: 0,0:09:15.12,0:09:21.00,Mori-sensei,,0,0,0,,It's possible performing this would get you invited to a prime-time TV drama of Tele-Asa.
+Dialogue: 0,0:09:17.60,0:09:19.54,Rinon,,0,0,0,,No, I don't aim for that job!
+Dialogue: 0,0:09:21.00,0:09:24.10,Mori-sensei,,0,0,0,,Give it a try now.
+Dialogue: 0,0:09:22.42,0:09:25.52,Rinon,,0,0,0,,OK. "For the two of you..." lines?
+Dialogue: 0,0:09:23.65,0:09:26.33,Mori-sensei,,0,0,0,,Yes, it's a good line.
+Dialogue: 0,0:09:26.33,0:09:28.33,Rinon,,0,0,0,,It makes me laugh...
+Dialogue: 0,0:09:30.33,0:09:34.32,Rinon,,0,0,0,,{\i1}For the two of you, the 5th anniversary concert is very important, isn't it?{\i0}
+Dialogue: 0,0:09:34.33,0:09:38.82,Rinon,,0,0,0,,{\i1}Having it in such feelings... I'm sorry for you... Please...{\i0}
+Dialogue: 0,0:09:40.61,0:09:43.70,Mori-sensei,,0,0,0,,Cut! You are great!
+Dialogue: 0,0:09:43.70,0:09:45.29,Mori-sensei,,0,0,0,,You're awesome!
+Dialogue: 0,0:09:43.70,0:09:45.29,C-chan,,0,0,0,,Too cool!
+Dialogue: 0,0:09:45.29,0:09:47.97,Saki,,0,0,0,,"For the two of you, the 5th anniversary concert..."
+Dialogue: 0,0:09:47.46,0:09:51.25,Mori-sensei,,0,0,0,,What? Stop! Why are you trying to make fun of her sincere acting?
+Dialogue: 0,0:09:50.96,0:09:52.13,Saki,,0,0,0,,"I'm sorry for you!"
+Dialogue: 0,0:09:51.70,0:09:55.56,Mori-sensei,,0,0,0,,Ok, if you want to play the lines, I'm gonna let you do it!
+Dialogue: 0,0:09:55.56,0:09:58.16,C-chan,,0,0,0,,Show us your acting please!
+Dialogue: 0,0:09:55.56,0:09:58.16,Mori-sensei,,0,0,0,,You've tried to make a lot of fun, haven't you?
+Dialogue: 0,0:09:58.16,0:10:02.09,Rinon,,0,0,0,,Oh, wait! Why not give it a try with your Shizuku-chan?
+Dialogue: 0,0:10:02.09,0:10:04.21,Saki,,0,0,0,,No. Please don't push me!
+Dialogue: 0,0:10:03.74,0:10:08.20,Mori-sensei,,0,0,0,,There is a "Murakami Shizuku-chan" character in the comedy part of the skit.
+Dialogue: 0,0:10:07.45,0:10:09.01,Saki,,0,0,0,,Yes, she is.
+Dialogue: 0,0:10:08.20,0:10:10.16,Mori-sensei,,0,0,0,,But I prefer the lines you were just playing.
+Dialogue: 0,0:10:10.16,0:10:14.25,Mori-sensei,,0,0,0,,I'd like to see Ōga play Isono's lines.  "For the two of us..."
+Dialogue: 0,0:10:14.25,0:10:16.06,Saki,,0,0,0,,"For the two of us..." and what?
+Dialogue: 0,0:10:16.06,0:10:18.77,Saki,,0,0,0,,Oh, I remember... Well, very earnestly?
+Dialogue: 0,0:10:18.22,0:10:20.77,Mori-sensei,,0,0,0,,Of course. In very earnest way.
+Dialogue: 0,0:10:19.53,0:10:22.58,Saki,,0,0,0,,Oh no! I can't...
+Dialogue: 0,0:10:21.97,0:10:24.38,Mori-sensei,,0,0,0,,You can't? You were just giving them!
+Dialogue: 0,0:10:24.02,0:10:25.41,Saki,,0,0,0,,OK, I'll give it a try.
+Dialogue: 0,0:10:24.50,0:10:25.81,Mori-sensei,,0,0,0,,Please go ahead.
+Dialogue: 0,0:10:26.22,0:10:27.48,Saki,,0,0,0,,{\i1}For the two of you...{\i0}
+Dialogue: 0,0:10:27.48,0:10:30.14,Saki,,0,0,0,,{\i1}the 5th anniversary concert is very important... isn't it?{\i0}
+Dialogue: 0,0:10:30.64,0:10:32.14,Saki,,0,0,0,,{\i1}Giving it with such feeling...{\i0}
+Dialogue: 0,0:10:32.14,0:10:34.14,Mori-sensei,,0,0,0,,What are you doing?
+Dialogue: 0,0:10:34.14,0:10:36.14,Saki,,0,0,0,,No... I can't play sincerely in this mood!
+Dialogue: 0,0:10:36.14,0:10:38.14,Mori-sensei,,0,0,0,,The mood doesn't matter!
+Dialogue: 0,0:10:38.14,0:10:40.14,Mori-sensei,,0,0,0,,Now you made Tele-Asa angry again!
+Dialogue: 0,0:10:40.14,0:10:43.24,Saki,,0,0,0,,Ehhh?!
+Dialogue: 0,0:10:41.46,0:10:43.50,Mori-sensei,,0,0,0,,It makes it harder for you to become an actress!
+Dialogue: 0,0:10:43.24,0:10:46.10,Saki,,0,0,0,,No more bantering like that!
+Dialogue: 0,0:10:45.97,0:10:53.53,Mori-sensei,,0,0,0,,Well then, Shirai played the role that Miyoshi Ayaka played.
+Dialogue: 0,0:10:53.56,0:10:55.37,Mori-sensei,,0,0,0,,You portrayed bantering.
+Dialogue: 0,0:10:55.18,0:10:57.18,C-chan,,0,0,0,,Yes I did.
+Dialogue: 0,0:10:55.88,0:10:57.56,Mori-sensei,,0,0,0,,How was that?
+Dialogue: 0,0:10:57.61,0:10:59.77,C-chan,,0,0,0,,It was very difficult.
+Dialogue: 0,0:11:00.02,0:11:06.21,C-chan,,0,0,0,,to give a well-timed banter... and the way I speak... It was very difficult.
+Dialogue: 0,0:11:06.64,0:11:08.00,C-chan,,0,0,0,,It was a hard time.
+Dialogue: 0,0:11:07.48,0:11:10.00,Mori-sensei,,0,0,0,,I thought you did well.
+Dialogue: 0,0:11:09.62,0:11:10.58,C-chan,,0,0,0,,Really?
+Dialogue: 0,0:11:10.21,0:11:16.45,Mori-sensei,,0,0,0,,And then, Hidaka played someone placing an order telepathically.
+Dialogue: 0,0:11:16.45,0:11:19.05,Mori-sensei,,0,0,0,,I'm sorry, I can't describe it to those who didn't watch it!
+Dialogue: 0,0:11:19.05,0:11:21.77,Saki,,0,0,0,,The one like this.
+Dialogue: 0,0:11:20.13,0:11:22.76,Mori-sensei,,0,0,0,,Yes, give it a try now. Telepathically...
+Dialogue: 0,0:11:22.85,0:11:25.52,Mori-sensei,,0,0,0,,Look! Your face at this scene!
+Dialogue: 0,0:11:24.72,0:11:27.52,Rinon,,0,0,0,,Scary!
+Dialogue: 0,0:11:24.72,0:11:27.52,Saki,,0,0,0,,What's this?!
+Dialogue: 0,0:11:27.52,0:11:29.97,C-chan,,0,0,0,,Creepy!
+Dialogue: 0,0:11:29.32,0:11:30.72,Marin,,0,0,0,,I didn't do that!
+Dialogue: 0,0:11:30.72,0:11:32.72,Mori-sensei,,0,0,0,,You did it!
+Dialogue: 0,0:11:32.17,0:11:33.74,Marin,,0,0,0,,I didn't play this expression!
+Dialogue: 0,0:11:32.72,0:11:35.22,Mori-sensei,,0,0,0,,I can feel something weird!
+Dialogue: 0,0:11:34.90,0:11:36.70,Rinon,,0,0,0,,Too scary!
+Dialogue: 0,0:11:35.10,0:11:37.53,Marin,,0,0,0,,Definitely I didn't play this!
+Dialogue: 0,0:11:36.70,0:11:39.57,Mori-sensei,,0,0,0,,I can see a girl like this in a midnight horror drama.
+Dialogue: 0,0:11:39.57,0:11:43.48,Mori-sensei,,0,0,0,,You are the person closest to a having a debut on a TV drama!
+Dialogue: 0,0:11:42.94,0:11:44.76,Saki,,0,0,0,,I agree. She can make a debut!
+Dialogue: 0,0:11:44.62,0:11:46.69,Mori-sensei,,0,0,0,,To play "Get out!" or something like that.
+Dialogue: 0,0:11:46.69,0:11:48.69,Marin,,0,0,0,,I can't believe it!
+Dialogue: 0,0:11:47.92,0:11:51.17,Mori-sensei,,0,0,0,,You were exactly like this. Why are you so surprised?
+Dialogue: 0,0:11:51.17,0:11:53.56,Marin,,0,0,0,,No way... I just acted...
+Dialogue: 0,0:11:54.69,0:11:56.90,Mori-sensei,,0,0,0,,But it's...
+Dialogue: 0,0:11:55.81,0:11:58.29,Saki,,0,0,0,,Wait! I guess this shot will be shown repeatedly.
+Dialogue: 0,0:11:58.94,0:12:01.01,Mori-sensei,,0,0,0,,I agree! This must be shown again and again.
+Dialogue: 0,0:12:01.01,0:12:02.68,Saki,,0,0,0,,To illustrate Marin's personality.
+Dialogue: 0,0:12:02.68,0:12:06.89,Mori-sensei,,0,0,0,,But, it was really good acting, to play a telepath.
+Dialogue: 0,0:12:06.82,0:12:08.22,Marin,,0,0,0,,She looks scary...
+Dialogue: 0,0:12:07.32,0:12:13.41,Mori-sensei,,0,0,0,,I read the old script again and found that Horiuchi had played the telepathic order.
+Dialogue: 0,0:12:11.40,0:12:12.48,Rinon,,0,0,0,,Yes, I remember that.
+Dialogue: 0,0:12:13.13,0:12:14.57,C-chan,,0,0,0,,Look! Now Shizuku-chan came...
+Dialogue: 0,0:12:13.41,0:12:15.16,Mori-sensei,,0,0,0,,So the old and the new skits have some similarity.
+Dialogue: 0,0:12:15.16,0:12:18.98,Mori-sensei,,0,0,0,,But this is a totally new character by Ōga.
+Dialogue: 0,0:12:19.06,0:12:20.41,Saki,,0,0,0,,Oh no! I hate this...
+Dialogue: 0,0:12:19.50,0:12:23.34,Mori-sensei,,0,0,0,,She didn't appear in the 2011 nendo skit... Ōga was playing her.
+Dialogue: 0,0:12:23.34,0:12:24.90,Marin,,0,0,0,,Marin: "I'm Dai-chan!"
+Dialogue: 0,0:12:27.58,0:12:30.33,Rinon,,0,0,0,,Saki's voice was more powerful.
+Dialogue: 0,0:12:29.66,0:12:34.22,C-chan,,0,0,0,,When she played Dai-chan at the transfer-in ceremony, the voice was very feeble.
+Dialogue: 0,0:12:34.22,0:12:37.09,Mori-sensei,,0,0,0,,Oh I see. Dai-chan is becoming grown-up?
+Dialogue: 0,0:12:37.09,0:12:39.09,C-chan,,0,0,0,,This time, Dai-chan had a powerful voice.
+Dialogue: 0,0:12:39.09,0:12:41.52,Saki,,0,0,0,,Her voice has gotten bolder since the transfer-in ceremony.
+Dialogue: 0,0:12:41.52,0:12:45.41,Mori-sensei,,0,0,0,,I got it. But it's the least interesting growing-up in Japan for me.
+Dialogue: 0,0:12:42.41,0:12:43.30,C-chan,,0,0,0,,Hasn't it?
+Dialogue: 0,0:12:45.38,0:12:46.81,Marin,,0,0,0,,I didn't know the doll gets bigger too.
+Dialogue: 0,0:12:46.81,0:12:47.98,Saki,,0,0,0,,Yes, she also grows up.
+Dialogue: 0,0:12:47.98,0:12:49.98,Mori-sensei,,0,0,0,,The doll also grows up?
+Dialogue: 0,0:12:49.98,0:12:51.98,Mori-sensei,,0,0,0,,It doesn't make sense.
+Dialogue: 0,0:12:51.98,0:12:53.10,Mori-sensei,,0,0,0,,Oh, I see. Its voice got bold.
+Dialogue: 0,0:12:52.84,0:12:53.69,Saki,,0,0,0,,Yes, the doll's...
+Dialogue: 0,0:12:53.29,0:12:55.08,Mori-sensei,,0,0,0,,Huh? The doll is getting bigger?
+Dialogue: 0,0:12:55.08,0:12:57.38,Saki,,0,0,0,,No, no! The voice of the doll...
+Dialogue: 0,0:12:57.38,0:12:59.52,Mori-sensei,,0,0,0,,Ah, its voice, I see.
+Dialogue: 0,0:12:59.52,0:13:01.00,Saki,,0,0,0,,By the way, she is NOT Ōga Saki!
+Dialogue: 0,0:13:01.38,0:13:03.21,Saki,,0,0,0,,She is Shizuku-chan!
+Dialogue: 0,0:13:03.00,0:13:06.34,Mori-sensei,,0,0,0,,Ah, I see. There is a complicated story about her.
+Dialogue: 0,0:13:06.34,0:13:08.56,Mori-sensei,,0,0,0,,And she is never YOU, right?
+Dialogue: 0,0:13:08.13,0:13:09.05,Saki,,0,0,0,,Never.
+Dialogue: 0,0:13:08.76,0:13:11.05,Mori-sensei,,0,0,0,,Then YOU didn't appear in the skit at all!
+Dialogue: 0,0:13:11.05,0:13:13.73,Saki,,0,0,0,,Right, I was left out.
+Dialogue: 0,0:13:13.73,0:13:15.98,Mori-sensei,,0,0,0,,I see. There was no Ōga.
+Dialogue: 0,0:13:17.62,0:13:21.77,Mori-sensei,,0,0,0,,And then, you performed several songs.
+Dialogue: 0,0:13:21.77,0:13:23.77,Mori-sensei,,0,0,0,,Are there any songs you want to review?
+Dialogue: 0,0:13:24.08,0:13:27.54,Mori-sensei,,0,0,0,,Wait! Can I suggest one?
+Dialogue: 0,0:13:27.54,0:13:30.18,Mori-sensei,,0,0,0,,"Planet Episode..."
+Dialogue: 0,0:13:29.74,0:13:31.29,Marin,,0,0,0,,Ah!
+Dialogue: 0,0:13:31.29,0:13:33.49,Mori-sensei,,0,0,0,,It was performed fourth.
+Dialogue: 0,0:13:33.49,0:13:34.92,Saki,,0,0,0,,Do you like the song, Mori-sensei?
+Dialogue: 0,0:13:34.40,0:13:36.28,C-chan,,0,0,0,,There was a "happening" that occurred during the song.
+Dialogue: 0,0:13:36.00,0:13:40.24,Mori-sensei,,0,0,0,,Yes there was. It doesn't happen very often.
+Dialogue: 0,0:13:40.24,0:13:42.24,Mori-sensei,,0,0,0,,Can we see the footage?
+Dialogue: 0,0:13:42.01,0:13:44.24,Saki,,0,0,0,,No! I don't want it shown!
+Dialogue: 0,0:13:44.24,0:13:46.24,Mori-sensei,,0,0,0,,Well, let's give a look.
+Dialogue: 0,0:13:49.13,0:13:52.48,Mori-sensei,,0,0,0,,I want to look into each girl's face carefully
+Dialogue: 0,0:13:52.48,0:13:58.16,Mori-sensei,,0,0,0,,to see what expression they show at the exact moment of the problem.
+Dialogue: 0,0:13:53.57,0:13:54.97,C-chan,,0,0,0,,Oh no, don't look at it!
+Dialogue: 0,0:13:58.41,0:13:59.80,Marin,,0,0,0,,I don't remember the moment at all.
+Dialogue: 0,0:13:59.80,0:14:01.18,Rinon,,0,0,0,,We were facing backward.
+Dialogue: 0,0:14:00.02,0:14:03.18,Mori-sensei,,0,0,0,,Well, well, just after Kurosawa started her solo lines...
+Dialogue: 0,0:14:03.33,0:14:05.84,Mori-sensei,,0,0,0,,She is very enthusiastic.
+Dialogue: 0,0:14:08.98,0:14:12.17,Mori-sensei,,0,0,0,,Oh! It stopped. Why is the camera back on us?
+Dialogue: 0,0:14:14.72,0:14:15.96,Rinon,,0,0,0,,{\i1}Rinon: "It's a live performance thing."
+Dialogue: 0,0:14:15.70,0:14:18.50,Mori-sensei,,0,0,0,,Why is there a problem happening in this studio too?
+Dialogue: 0,0:14:18.50,0:14:21.68,Mori-sensei,,0,0,0,,What? What happened?
+Dialogue: 0,0:14:21.68,0:14:23.68,Saki,,0,0,0,,I've been possessed into the footage!
+Dialogue: 0,0:14:22.42,0:14:25.68,Mori-sensei,,0,0,0,,We have troubles in the footage and in this studio!
+Dialogue: 0,0:14:25.68,0:14:27.68,Rinon,,0,0,0,,{\i1}Rinon: "Don't...! Wait! Wait a moment!"
+Dialogue: 0,0:14:27.68,0:14:29.68,Mori-sensei,,0,0,0,,Well, let's watch it again.
+Dialogue: 0,0:14:29.68,0:14:31.68,Mori-sensei,,0,0,0,,Can we watch it without a pause?
+Dialogue: 0,0:14:31.68,0:14:35.33,Mori-sensei,,0,0,0,,I mean, I want to see the exact moment of the problem.
+Dialogue: 0,0:14:36.85,0:14:38.21,Saki,,0,0,0,,Shall we be silent for a while?
+Dialogue: 0,0:14:38.21,0:14:40.50,Rinon,,0,0,0,,Yes. I want to take a serious look.
+Dialogue: 0,0:14:40.50,0:14:41.82,Mori-sensei,,0,0,0,,Serious?
+Dialogue: 0,0:14:41.54,0:14:42.80,Rinon,,0,0,0,,We must learn.
+Dialogue: 0,0:14:42.53,0:14:43.25,C-chan,,0,0,0,,Yes.
+Dialogue: 0,0:14:43.25,0:14:46.60,Mori-sensei,,0,0,0,,Oh I see. You want to learn something from the footage.
+Dialogue: 0,0:14:46.12,0:14:47.54,Saki,,0,0,0,,Yes, we must learn.
+Dialogue: 0,0:14:47.54,0:14:48.96,Rinon,,0,0,0,,But it was really fun.
+Dialogue: 0,0:14:48.85,0:14:49.86,Mori-sensei,,0,0,0,,Was it fun?
+Dialogue: 0,0:14:49.86,0:14:51.86,All/Multiple,,0,0,0,,Yes it was.
+Dialogue: 0,0:14:51.25,0:14:53.24,Mori-sensei,,0,0,0,,Why? Wasn't it a real problem?
+Dialogue: 0,0:14:53.24,0:14:55.24,C-chan,,0,0,0,,It can only happen in a live show.
+Dialogue: 0,0:14:54.92,0:14:57.52,Rinon,,0,0,0,,I tried to ask the audience to make some noise,
+Dialogue: 0,0:14:57.52,0:15:02.20,Rinon,,0,0,0,,and I felt we got the biggest noise ever!
+Dialogue: 0,0:15:01.52,0:15:02.36,Mori-sensei,,0,0,0,,Really?
+Dialogue: 0,0:15:02.36,0:15:06.20,Mori-sensei,,0,0,0,,Oh! The Fukei-sans were also trying to overcome the trouble.
+Dialogue: 0,0:15:06.20,0:15:10.21,Rinon,,0,0,0,,This time, there were some standees behind the seats,
+Dialogue: 0,0:15:10.21,0:15:13.04,Rinon,,0,0,0,,and the standees were making a lot of noise.
+Dialogue: 0,0:15:12.81,0:15:13.49,C-chan,,0,0,0,,True.
+Dialogue: 0,0:15:13.49,0:15:14.94,Mori-sensei,,0,0,0,,So, the problem united the audience?
+Dialogue: 0,0:15:14.94,0:15:15.53,C-chan,,0,0,0,,Yes.
+Dialogue: 0,0:15:15.25,0:15:16.82,Rinon,,0,0,0,,The standees were also copying the dancing.
+Dialogue: 0,0:15:16.53,0:15:20.72,Mori-sensei,,0,0,0,,By the way, you look super relaxed, leaning forward.
+Dialogue: 0,0:15:20.88,0:15:23.09,Mori-sensei,,0,0,0,,It's as if you were watching TV at home.
+Dialogue: 0,0:15:23.50,0:15:24.65,Saki,,0,0,0,,I'm sorry!
+Dialogue: 0,0:15:24.65,0:15:27.88,Mori-sensei,,0,0,0,,Oh, can we watch? Let's enjoy the footage.
+Dialogue: 0,0:15:27.88,0:15:31.34,Mori-sensei,,0,0,0,,Give it a look. It's sad to see her excitement.
+Dialogue: 0,0:15:34.29,0:15:36.06,Mori-sensei,,0,0,0,,Ah, it's edited.
+Dialogue: 0,0:15:33.69,0:15:36.50,Normal,,0,0,0,,{\pos(640,335)}At this point, the sound stopped due to unexpected equipment trouble!
+Dialogue: 0,0:15:35.85,0:15:37.49,C-chan,,0,0,0,,Momoko!
+Dialogue: 0,0:15:41.53,0:15:43.82,Normal,,0,0,0,,{\i1}Aiko: "Performing live is the best!"
+Dialogue: 0,0:15:46.38,0:15:49.41,C-chan,,0,0,0,,{\i1}C-chan: "It's an unexpected trouble with the sound system."
+Dialogue: 0,0:15:49.58,0:15:51.80,Normal,,0,0,0,,{\i1}Momoko: "Let's have a talk with the Fukei-sans..."
+Dialogue: 0,0:15:51.56,0:15:54.25,Rinon,,0,0,0,,{\i1}Rinon: "Wait! Stop talking simultaneously!"
+Dialogue: 0,0:15:54.26,0:15:55.37,All/Multiple,,0,0,0,,{\i1}Multiple: "Right! Got it!"
+Dialogue: 0,0:15:55.18,0:15:56.86,Normal,,0,0,0,,{\i1}Aiko: "Calm down."
+Dialogue: 0,0:15:56.76,0:16:02.72,C-chan,,0,0,0,,{\i1}C-chan: "At a time like this, we must wait for a green light from the teachers."
+Dialogue: 0,0:16:01.78,0:16:03.08,Normal,,0,0,0,,{\i1}Multiple: "Yes, that's right!"
+Dialogue: 0,0:16:02.72,0:16:04.72,Normal,,0,0,0,,{\i1}Mirena: "Tell me in advance, please!"
+Dialogue: 0,0:16:04.72,0:16:06.77,Rinon,,0,0,0,,{\i1}Rinon: "It's okay."
+Dialogue: 0,0:16:07.08,0:16:10.00,Rinon,,0,0,0,,{\i1}Rinon: "Well, why not ask Fukei-sans again to make some noise?"
+Dialogue: 0,0:16:10.00,0:16:12.16,Saki,,0,0,0,,{\i1}Saki: "Yes, it sounds good."
+Dialogue: 0,0:16:12.16,0:16:14.46,Rinon,,0,0,0,,{\i1}Rinon: "This time, the venue is huge!"
+Dialogue: 0,0:16:13.93,0:16:15.96,Mori-sensei,,0,0,0,,It seems you are really enjoying it.
+Dialogue: 0,0:16:15.62,0:16:17.10,Rinon,,0,0,0,,Yes, it was fun.
+Dialogue: 0,0:16:17.01,0:16:18.33,Normal,,0,0,0,,{\i1}Mirena: "Very huge!"
+Dialogue: 0,0:16:18.33,0:16:21.53,Rinon,,0,0,0,,{\i1}Rinon: "Everyone on the third floor! Are you having fun?"
+Dialogue: 0,0:16:24.84,0:16:26.58,Mori-sensei,,0,0,0,,Ah, I see.
+Dialogue: 0,0:16:25.93,0:16:28.09,Saki,,0,0,0,,It looks great. Everyone was not...
+Dialogue: 0,0:16:28.09,0:16:30.38,Mori-sensei,,0,0,0,,Everyone was not confused, unexpectedly.
+Dialogue: 0,0:16:30.02,0:16:32.52,Saki,,0,0,0,,It happens every year.
+Dialogue: 0,0:16:32.04,0:16:33.30,Rinon,,0,0,0,,Yes, it happens.
+Dialogue: 0,0:16:33.64,0:16:35.58,Saki,,0,0,0,,It's not so unusual, so...
+Dialogue: 0,0:16:35.58,0:16:38.64,Mori-sensei,,0,0,0,,Your words make the staff feel hurt... You make it sound like the trouble happens constantly!
+Dialogue: 0,0:16:38.64,0:16:40.64,Saki,,0,0,0,,No, but every year...
+Dialogue: 0,0:16:40.64,0:16:43.93,Mori-sensei,,0,0,0,,I see. You've had experience with the trouble and can handle it.
+Dialogue: 0,0:16:43.46,0:16:44.81,Saki,,0,0,0,,Yes.
+Dialogue: 0,0:16:44.81,0:16:46.61,Mori-sensei,,0,0,0,,But Hidaka has never had it. How did you feel?
+Dialogue: 0,0:16:46.61,0:16:49.26,Marin,,0,0,0,,When the music stopped...
+Dialogue: 0,0:16:49.26,0:16:53.09,Marin,,0,0,0,,the footage reminded me that...
+Dialogue: 0,0:16:53.09,0:16:55.48,Marin,,0,0,0,,I was making this pose for a while.
+Dialogue: 0,0:16:55.48,0:16:57.08,Mori-sensei,,0,0,0,,Ah, you danced in this pose.
+Dialogue: 0,0:16:56.84,0:16:59.65,Marin,,0,0,0,,I was at a loss what shall I do next.
+Dialogue: 0,0:16:58.29,0:17:01.40,Mori-sensei,,0,0,0,,I see. You had been giving an "OK" signal for a while.
+Dialogue: 0,0:17:01.34,0:17:02.92,Marin,,0,0,0,,No, this is my posing in the choreo!
+Dialogue: 0,0:17:02.92,0:17:07.16,Mori-sensei,,0,0,0,,I know that! Why on earth should you be giving an "OK" signal to the staff?!
+Dialogue: 0,0:17:08.46,0:17:12.12,Mori-sensei,,0,0,0,,You were at a loss for a while, and how did you feel when you found out there was a real problem?
+Dialogue: 0,0:17:13.28,0:17:14.38,Marin,,0,0,0,,Ah... something went wrong.
+Dialogue: 0,0:17:13.66,0:17:16.72,Mori-sensei,,0,0,0,,You were late to know... but you didn't get panicked?
+Dialogue: 0,0:17:16.72,0:17:17.45,Marin,,0,0,0,,Hai!
+Dialogue: 0,0:17:17.45,0:17:20.05,Mori-sensei,,0,0,0,,But it's interesting to see each girl reacted differently.
+Dialogue: 0,0:17:20.05,0:17:20.96,Saki,,0,0,0,,Sure.
+Dialogue: 0,0:17:20.66,0:17:25.21,Mori-sensei,,0,0,0,,Kurosawa was trying her best, as if she could still hear the music!
+Dialogue: 0,0:17:25.21,0:17:26.56,Saki,,0,0,0,,Yes she was trying hard!
+Dialogue: 0,0:17:25.73,0:17:27.49,Mori-sensei,,0,0,0,,She was singing very hard!
+Dialogue: 0,0:17:27.66,0:17:31.08,Mori-sensei,,0,0,0,,What did you think when the music stopped, Isono?
+Dialogue: 0,0:17:31.08,0:17:35.00,Rinon,,0,0,0,,Well, I've had... two times?...
+Dialogue: 0,0:17:35.00,0:17:36.92,Rinon,,0,0,0,,of having trouble with the PA.
+Dialogue: 0,0:17:36.92,0:17:38.13,Mori-sensei,,0,0,0,,You have experience.
+Dialogue: 0,0:17:38.13,0:17:42.76,Rinon,,0,0,0,,In such a case, I remember a teacher said to us
+Dialogue: 0,0:17:42.76,0:17:45.68,Rinon,,0,0,0,,that we had better start MC-ing
+Dialogue: 0,0:17:45.68,0:17:48.26,Rinon,,0,0,0,,rather than try to keep singing with only hand-clapping.
+Dialogue: 0,0:17:48.26,0:17:50.88,Rinon,,0,0,0,,I think she said that to us, so
+Dialogue: 0,0:17:50.88,0:17:52.58,Mori-sensei,,0,0,0,,I see.
+Dialogue: 0,0:17:52.58,0:17:54.34,Rinon,,0,0,0,,I didn't get panicked.
+Dialogue: 0,0:17:54.34,0:17:55.61,Mori-sensei,,0,0,0,,I got it.
+Dialogue: 0,0:17:55.61,0:17:58.08,C-chan,,0,0,0,,Even if we tried to keep singing with hand-clapping,
+Dialogue: 0,0:17:58.08,0:18:00.34,C-chan,,0,0,0,,I was not sure if we can finish the song to the end!
+Dialogue: 0,0:17:59.53,0:18:00.93,Mori-sensei,,0,0,0,,Certainly!
+Dialogue: 0,0:18:00.93,0:18:03.13,Mori-sensei,,0,0,0,,Shirai was so calm as to realize
+Dialogue: 0,0:18:03.13,0:18:06.25,Mori-sensei,,0,0,0,,it's hard to finish singing to the end.
+Dialogue: 0,0:18:06.25,0:18:08.37,C-chan,,0,0,0,,It was still the beginning of the song!
+Dialogue: 0,0:18:09.04,0:18:10.13,Mori-sensei,,0,0,0,,I see.
+Dialogue: 0,0:18:10.13,0:18:13.62,Mori-sensei,,0,0,0,,You saw a girl keep singing, and thought "No! Cut it out!"
+Dialogue: 0,0:18:12.97,0:18:15.21,C-chan,,0,0,0,,Yes. We were only just playing the second planet!
+Dialogue: 0,0:18:17.40,0:18:23.89,Mori-sensei,,0,0,0,,Shirai was so calm, that she instructed everyone to wait for the green light of the teachers.
+Dialogue: 0,0:18:23.89,0:18:28.93,Mori-sensei,,0,0,0,,After the show, there was Iida... Iida Raura had been there, and she said
+Dialogue: 0,0:18:28.93,0:18:33.30,Mori-sensei,,0,0,0,,"Mori-sensei, we were very lucky to have Isono there!"
+Dialogue: 0,0:18:33.30,0:18:34.84,Mori-sensei,,0,0,0,,as if it had been her achievement!
+Dialogue: 0,0:18:34.84,0:18:37.78,Mori-sensei,,0,0,0,,"She has experience and that's why she could handle it so well!"
+Dialogue: 0,0:18:37.41,0:18:39.13,Saki,,0,0,0,,Rau-chan is someone who speaks that way sometimes!
+Dialogue: 0,0:18:39.13,0:18:40.77,Mori-sensei,,0,0,0,,Isn't she?
+Dialogue: 0,0:18:40.77,0:18:42.22,Mori-sensei,,0,0,0,,I knew she is someone like that!
+Dialogue: 0,0:18:41.81,0:18:43.12,Saki,,0,0,0,,She speaks proudly!
+Dialogue: 0,0:18:43.12,0:18:46.06,Mori-sensei,,0,0,0,,Yes, she speaks very proudly like "It's good for US to have her!"
+Dialogue: 0,0:18:44.38,0:18:45.56,Saki,,0,0,0,,I couldn't agree more!
+Dialogue: 0,0:18:46.50,0:18:47.92,Mori-sensei,,0,0,0,,You're making her angry!
+Dialogue: 0,0:18:47.92,0:18:50.09,Saki,,0,0,0,,I know. But Rau-chan won't take it bad.
+Dialogue: 0,0:18:50.09,0:18:51.30,Marin,,0,0,0,,Rau-chan, we're sorry.
+Dialogue: 0,0:18:51.30,0:18:53.21,Mori-sensei,,0,0,0,,What? Why we are sorry?
+Dialogue: 0,0:18:53.21,0:18:55.72,Marin,,0,0,0,,Rau-chan is very scary if she gets angry.
+Dialogue: 0,0:18:55.72,0:18:57.36,Saki,,0,0,0,,No worries.
+Dialogue: 0,0:18:58.13,0:18:59.52,Saki,,0,0,0,,Saki will apologize to her.
+Dialogue: 0,0:18:59.52,0:19:02.41,Mori-sensei,,0,0,0,,Please give my regards to her.
+Dialogue: 0,0:19:02.41,0:19:05.92,Mori-sensei,,0,0,0,,Well, is there anything more for Day 1?
+Dialogue: 0,0:19:06.52,0:19:08.48,Mori-sensei,,0,0,0,,Oh! There is!
+Dialogue: 0,0:19:08.78,0:19:10.21,Mori-sensei,,0,0,0,,You performed "Let's Dance".
+Dialogue: 0,0:19:10.21,0:19:12.32,Saki,,0,0,0,,Yes! We did!
+Dialogue: 0,0:19:12.32,0:19:15.32,Mori-sensei,,0,0,0,,Please explain it for those who didn't watch.
+Dialogue: 0,0:19:15.12,0:19:19.00,Saki,,0,0,0,,Yes. "Let's Dance" is a dance performance
+Dialogue: 0,0:19:19.10,0:19:22.04,Saki,,0,0,0,,without singing
+Dialogue: 0,0:19:22.18,0:19:23.28,Mori-sensei,,0,0,0,,Yes.
+Dialogue: 0,0:19:23.28,0:19:25.86,Saki,,0,0,0,,which we once performed at the 2012 Festival
+Dialogue: 0,0:19:25.86,0:19:28.93,Saki,,0,0,0,,as a "Dance Club" performance
+Dialogue: 0,0:19:28.93,0:19:32.53,Saki,,0,0,0,,just after {\i1}"Motteke Sailor Fuku".
+Dialogue: 0,0:19:33.74,0:19:37.13,Saki,,0,0,0,,Yeah... It was a... difficult brainteaser.
+Dialogue: 0,0:19:37.13,0:19:40.09,Mori-sensei,,0,0,0,,Brainteaser? Was it a puzzle to solve?
+Dialogue: 0,0:19:39.61,0:19:41.32,C-chan,,0,0,0,,I guess she wanted to say "a difficult problem."
+Dialogue: 0,0:19:41.32,0:19:43.06,Saki,,0,0,0,,You're right. It was a difficult problem.
+Dialogue: 0,0:19:43.06,0:19:45.62,Saki,,0,0,0,,But, it was very fun... What? Did I say something wrong?
+Dialogue: 0,0:19:45.62,0:19:48.00,Mori-sensei,,0,0,0,,No! You are right!
+Dialogue: 0,0:19:48.00,0:19:50.00,Mori-sensei,,0,0,0,,It's great that you had fun,
+Dialogue: 0,0:19:50.26,0:19:51.45,Mori-sensei,,0,0,0,,and many people praised it.
+Dialogue: 0,0:19:51.45,0:19:52.33,Saki,,0,0,0,,Really?
+Dialogue: 0,0:19:52.33,0:19:53.58,Mori-sensei,,0,0,0,,I felt it was cool.
+Dialogue: 0,0:19:53.58,0:19:55.58,Saki,,0,0,0,,Fukei-sans didn't expect that to come, did you?
+Dialogue: 0,0:19:55.58,0:19:57.88,Saki,,0,0,0,,I'm sure no one expected it.
+Dialogue: 0,0:19:57.88,0:20:01.49,Mori-sensei,,0,0,0,,Have you ever performed it before?
+Dialogue: 0,0:20:01.30,0:20:02.36,Saki,,0,0,0,,I performed it.
+Dialogue: 0,0:20:02.36,0:20:04.09,Mori-sensei,,0,0,0,,Isono and Ōga performed it. Shirai?
+Dialogue: 0,0:20:03.61,0:20:05.36,C-chan,,0,0,0,,Only two of us... No, I didn't perform it.
+Dialogue: 0,0:20:05.14,0:20:06.34,Mori-sensei,,0,0,0,,Shirai performed it for the first time.
+Dialogue: 0,0:20:05.80,0:20:08.14,C-chan,,0,0,0,,Yes. Only two members had experience
+Dialogue: 0,0:20:08.14,0:20:10.14,C-chan,,0,0,0,,among the 12 of us.
+Dialogue: 0,0:20:10.14,0:20:12.61,Mori-sensei,,0,0,0,,There is some footage again. Let's give it a look.
+Dialogue: 0,0:20:12.61,0:20:13.76,C-chan,,0,0,0,,I'd love to see it!
+Dialogue: 0,0:20:13.76,0:20:14.62,Marin,,0,0,0,,A bit embarrassing!
+Dialogue: 0,0:20:14.30,0:20:16.16,Mori-sensei,,0,0,0,,You look very at home.
+Dialogue: 0,0:20:16.16,0:20:17.73,Mori-sensei,,0,0,0,,Wow, it's cool!
+Dialogue: 0,0:20:17.73,0:20:19.05,Mori-sensei,,0,0,0,,Hidaka, what's wrong?
+Dialogue: 0,0:20:19.05,0:20:20.76,Marin,,0,0,0,,I performed it with an expressionless face.
+Dialogue: 0,0:20:20.76,0:20:22.49,Mori-sensei,,0,0,0,,That's the way this performance is supposed to be, isn't it?
+Dialogue: 0,0:20:22.49,0:20:24.92,Mori-sensei,,0,0,0,,To play it with a big smile makes you look strange.
+Dialogue: 0,0:20:27.97,0:20:29.10,Mori-sensei,,0,0,0,,It's cool!
+Dialogue: 0,0:20:31.60,0:20:33.66,Mori-sensei,,0,0,0,,Our mics are on now?
+Dialogue: 0,0:20:33.66,0:20:35.45,Mori-sensei,,0,0,0,,On, all right.
+Dialogue: 0,0:20:35.45,0:20:40.06,Mori-sensei,,0,0,0,,What was the most difficult part of this choreo?
+Dialogue: 0,0:20:40.06,0:20:44.18,Saki,,0,0,0,,At first, we couldn't find the exact timing to move.
+Dialogue: 0,0:20:44.18,0:20:46.05,Mori-sensei,,0,0,0,,Timing to move?
+Dialogue: 0,0:20:46.05,0:20:52.58,Saki,,0,0,0,,For the 1, 2, 3, 4 counts, each girl has her own choreo to dance.
+Dialogue: 0,0:20:52.58,0:20:54.58,Mori-sensei,,0,0,0,,Ah, each girl had to dance in different timing?
+Dialogue: 0,0:20:53.78,0:20:57.34,Saki,,0,0,0,,Yes, each one had to harmonize her movement with...
+Dialogue: 0,0:20:57.97,0:20:59.09,Mori-sensei,,0,0,0,,That sounds difficult.
+Dialogue: 0,0:20:58.22,0:21:01.09,C-chan,,0,0,0,,Here, I'm getting quite a lot of weight on my back!
+Dialogue: 0,0:20:59.13,0:21:00.22,Mori-sensei,,0,0,0,,Too cool!
+Dialogue: 0,0:21:00.78,0:21:02.78,Mori-sensei,,0,0,0,,Ah, you are being pressed down hard?
+Dialogue: 0,0:21:02.78,0:21:05.74,C-chan,,0,0,0,,I'm at the center of the circle, and I felt heavily pressed on my back.
+Dialogue: 0,0:21:05.49,0:21:07.88,Mori-sensei,,0,0,0,,Maybe someone was having a rest leaning on you!
+Dialogue: 0,0:21:08.33,0:21:10.62,Mori-sensei,,0,0,0,,Wow, you look sharp!
+Dialogue: 0,0:21:09.17,0:21:10.16,Marin,,0,0,0,,So cool!
+Dialogue: 0,0:21:11.84,0:21:15.17,Mori-sensei,,0,0,0,,I love the choreo where you make a sidestep while keeping the same axis.
+Dialogue: 0,0:21:15.17,0:21:17.26,Mori-sensei,,0,0,0,,Here, this choreo.
+Dialogue: 0,0:21:18.16,0:21:19.66,Saki,,0,0,0,,Ah, it's a good memory.
+Dialogue: 0,0:21:19.66,0:21:21.96,Mori-sensei,,0,0,0,,You only performed it yesterday,
+Dialogue: 0,0:21:21.96,0:21:23.32,Mori-sensei,,0,0,0,,it's too soon to feel nostalgic!
+Dialogue: 0,0:21:23.32,0:21:25.16,Saki,,0,0,0,,It reminds me of my first performance when I was a 6th grader.
+Dialogue: 0,0:21:25.16,0:21:27.44,Mori-sensei,,0,0,0,,I see, your first performance.
+Dialogue: 0,0:21:26.29,0:21:27.69,Rinon,,0,0,0,,I feel nostalgia too.
+Dialogue: 0,0:21:29.69,0:21:31.42,Mori-sensei,,0,0,0,,Wow!
+Dialogue: 0,0:21:31.04,0:21:33.96,Saki,,0,0,0,,Oops, it suddenly switches to the studio when I'm into watching!
+Dialogue: 0,0:21:33.96,0:21:36.86,Mori-sensei,,0,0,0,,You must be careful! You'll look stupid!
+Dialogue: 0,0:21:36.89,0:21:39.10,Saki,,0,0,0,,I was off guard, and then the camera suddenly comes to me...
+Dialogue: 0,0:21:39.36,0:21:44.13,Mori-sensei,,0,0,0,,It's important. If Kurosawa was here, she would have looked into the camera with confidence.
+Dialogue: 0,0:21:44.13,0:21:47.24,Mori-sensei,,0,0,0,,Next time, after watching some footage, try to show your good face.
+Dialogue: 0,0:21:48.32,0:21:51.81,Mori-sensei,,0,0,0,,Let's take a practice to show yourself handsomely.
+Dialogue: 0,0:21:51.81,0:21:54.17,Mori-sensei,,0,0,0,,Anyway, the performance got a really good reputation.
+Dialogue: 0,0:21:54.17,0:21:57.48,Mori-sensei,,0,0,0,,Please tell me the most significant point for you.
+Dialogue: 0,0:21:58.17,0:21:59.58,C-chan,,0,0,0,,Oh, I can't decide...
+Dialogue: 0,0:21:59.64,0:22:02.94,Mori-sensei,,0,0,0,,Hidaka! You're trying to talk a lot today. It's very good!
+Dialogue: 0,0:22:02.94,0:22:06.32,Mori-sensei,,0,0,0,,You're trying your best against the three seniors.
+Dialogue: 0,0:22:04.49,0:22:05.46,Marin,,0,0,0,,Yes, indeed.
+Dialogue: 0,0:22:05.70,0:22:12.18,Marin,,0,0,0,,Er... there is a choreo where only us four elementary schoolers dance like this.
+Dialogue: 0,0:22:12.18,0:22:14.94,Marin,,0,0,0,,I really love that choreo!
+Dialogue: 0,0:22:14.58,0:22:16.60,Saki,,0,0,0,,Oh, really?
+Dialogue: 0,0:22:16.60,0:22:19.24,Marin,,0,0,0,,Only the four of us got the spotlight.
+Dialogue: 0,0:22:19.24,0:22:22.09,Mori-sensei,,0,0,0,,I see. It's good to be spotlighted.
+Dialogue: 0,0:22:22.09,0:22:23.17,Saki,,0,0,0,,Certainly!
+Dialogue: 0,0:22:23.17,0:22:27.68,Marin,,0,0,0,,It's really... How can I say...
+Dialogue: 0,0:22:27.68,0:22:29.24,C-chan,,0,0,0,,You're taking too much time!
+Dialogue: 0,0:22:29.24,0:22:33.73,Mori-sensei,,0,0,0,,Wow! Very strict! You're too harsh of a {\i1}senpai,{\i0} aren't you?
+Dialogue: 0,0:22:33.73,0:22:37.05,Mori-sensei,,0,0,0,,"I think it's been Hidaka's time"!
+Dialogue: 0,0:22:37.62,0:22:40.18,Saki,,0,0,0,,C-chan is very willing to talk.
+Dialogue: 0,0:22:40.18,0:22:43.26,Mori-sensei,,0,0,0,,You need to talk? OK, with a little English, please.
+Dialogue: 0,0:22:43.26,0:22:48.30,Marin,,0,0,0,,That part was... for me... too good and...
+Dialogue: 0,0:22:43.74,0:22:44.78,C-chan,,0,0,0,,In English?
+Dialogue: 0,0:22:48.30,0:22:49.77,Mori-sensei,,0,0,0,,I see, it was too good.
+Dialogue: 0,0:22:49.77,0:22:51.77,Marin,,0,0,0,,So, I love that part.
+Dialogue: 0,0:22:51.77,0:22:52.94,Mori-sensei,,0,0,0,,I see.
+Dialogue: 0,0:22:52.94,0:22:54.57,Saki,,0,0,0,,Really, your dancing was very sharp.
+Dialogue: 0,0:22:54.57,0:22:58.12,Mori-sensei,,0,0,0,,Well, Shirai, now it's your turn. I'll give you a long time to talk.
+Dialogue: 0,0:22:58.12,0:23:00.12,Saki,,0,0,0,,She must say something very interesting!
+Dialogue: 0,0:23:00.82,0:23:03.28,Mori-sensei,,0,0,0,,Oh, everyone is strict today!
+Dialogue: 0,0:23:02.64,0:23:05.06,C-chan,,0,0,0,,The part... how can I describe it...
+Dialogue: 0,0:23:05.06,0:23:07.06,C-chan,,0,0,0,,it's like a heart beating.
+Dialogue: 0,0:23:07.06,0:23:07.98,Mori-sensei,,0,0,0,,I see.
+Dialogue: 0,0:23:08.18,0:23:09.98,Saki,,0,0,0,,A girl is stacked on top of another girl.
+Dialogue: 0,0:23:09.17,0:23:12.57,C-chan,,0,0,0,,Megu and Saki (me) are in the center of the circle,
+Dialogue: 0,0:23:12.57,0:23:13.54,Mori-sensei,,0,0,0,,You were in the center.
+Dialogue: 0,0:23:13.09,0:23:15.54,C-chan,,0,0,0,,and I got a pretty heavy weight on my back!
+Dialogue: 0,0:23:15.54,0:23:17.54,Mori-sensei,,0,0,0,,You already said that when we were watching the footage!
+Dialogue: 0,0:23:17.73,0:23:20.09,Saki,,0,0,0,,How can you repeat the same thing!
+Dialogue: 0,0:23:19.54,0:23:22.38,C-chan,,0,0,0,,No, no! I want to say I was almost falling down!
+Dialogue: 0,0:23:21.09,0:23:22.44,Mori-sensei,,0,0,0,,Today, you are very harsh to each other.
+Dialogue: 0,0:23:22.44,0:23:26.06,Mori-sensei,,0,0,0,,Oh, you were almost falling down? With too much weight?
+Dialogue: 0,0:23:25.64,0:23:27.09,C-chan,,0,0,0,,I tottered on my feet.
+Dialogue: 0,0:23:27.33,0:23:27.98,Saki,,0,0,0,,I see.
+Dialogue: 0,0:23:27.98,0:23:30.33,Mori-sensei,,0,0,0,,The "Office Lady" has weak legs, doesn't she?
+Dialogue: 0,0:23:31.34,0:23:32.58,C-chan,,0,0,0,,I need to build muscle.
+Dialogue: 0,0:23:32.58,0:23:34.58,Mori-sensei,,0,0,0,,Because you have weak legs.
+Dialogue: 0,0:23:34.69,0:23:37.80,Mori-sensei,,0,0,0,,How was the performance, Isono? You danced very sharply!
+Dialogue: 0,0:23:37.80,0:23:40.73,Rinon,,0,0,0,,I've taken a liking to dancing.
+Dialogue: 0,0:23:41.18,0:23:43.88,Rinon,,0,0,0,,So I was pleased to get the chance to dance seriously.
+Dialogue: 0,0:23:43.61,0:23:44.77,Mori-sensei,,0,0,0,,Yes, you danced seriously.
+Dialogue: 0,0:23:44.77,0:23:49.13,Mori-sensei,,0,0,0,,You were really into your performance.
+Dialogue: 0,0:23:48.49,0:23:49.64,Marin,,0,0,0,,Focused on dancing.
+Dialogue: 0,0:23:49.64,0:23:53.06,Mori-sensei,,0,0,0,,It was good to see your serious expressions.
+Dialogue: 0,0:23:53.06,0:23:55.41,Mori-sensei,,0,0,0,,I hope you'll perform this dance again.
+Dialogue: 0,0:23:55.41,0:23:57.41,Mori-sensei,,0,0,0,,Well, let's go forward with the review.
+Dialogue: 0,0:23:57.41,0:24:00.52,Mori-sensei,,0,0,0,,Was there something significant for Day 1?
+Dialogue: 0,0:24:00.52,0:24:03.74,Saki,,0,0,0,,There were a lot of things! "The History of 5 Years" footage was great...
+Dialogue: 0,0:24:03.74,0:24:05.45,Saki,,0,0,0,,And we played a medley of good songs...
+Dialogue: 0,0:24:05.45,0:24:06.81,C-chan,,0,0,0,,Ah! The new song!
+Dialogue: 0,0:24:06.81,0:24:09.21,Saki,,0,0,0,,Yes! We unveiled it!
+Dialogue: 0,0:24:06.81,0:24:09.21,Mori-sensei,,0,0,0,,OK, let's talk about the new song.
+Dialogue: 0,0:24:09.42,0:24:11.20,Mori-sensei,,0,0,0,,{\i1}"Kirameki no Kakera".
+Dialogue: 0,0:24:10.28,0:24:11.20,C-chan,,0,0,0,,Oh! VTR!
+Dialogue: 0,0:24:11.20,0:24:13.65,Mori-sensei,,0,0,0,,Can we see the footage? Then, let's see.
+Dialogue: 0,0:24:12.45,0:24:13.53,Saki,,0,0,0,,I'm excited!
+Dialogue: 0,0:24:13.65,0:24:15.29,Mori-sensei,,0,0,0,,We must show our handsome faces.
+Dialogue: 0,0:24:15.29,0:24:16.62,Mori-sensei,,0,0,0,,When the camera returns to you...not now.
+Dialogue: 0,0:24:15.68,0:24:16.92,Saki,,0,0,0,,Not now? I see.
+Dialogue: 0,0:24:16.92,0:24:20.37,Mori-sensei,,0,0,0,,The face Shirai showed now was very...can I see it again?
+Dialogue: 0,0:24:20.37,0:24:21.96,C-chan,,0,0,0,,No way!
+Dialogue: 0,0:24:22.13,0:24:24.81,Mori-sensei,,0,0,0,,It was great...OK, when the camera returns, please show it again.
+Dialogue: 0,0:24:25.34,0:24:26.81,Saki,,0,0,0,,Please take a close-up shot of C-chan.
+Dialogue: 0,0:24:26.81,0:24:30.72,Mori-sensei,,0,0,0,,That face was really awesome. Well, let's watch the footage.
+Dialogue: 0,0:24:34.37,0:24:36.81,Mori-sensei,,0,0,0,,I couldn't help laughing at Shirai's face!
+Dialogue: 0,0:24:40.89,0:24:43.88,Mori-sensei,,0,0,0,,Well, this new song is
+Dialogue: 0,0:24:43.98,0:24:47.16,Mori-sensei,,0,0,0,,written by cAnON-san.
+Dialogue: 0,0:24:51.00,0:24:54.02,Mori-sensei,,0,0,0,,When you perform a new song, do you get nervous?
+Dialogue: 0,0:24:54.16,0:24:55.77,Rinon,,0,0,0,,Yes, of course.
+Dialogue: 0,0:24:56.13,0:25:00.77,Mori-sensei,,0,0,0,,The audience also feels something unusual, and are focusing on listening to it.
+Dialogue: 0,0:25:02.44,0:25:05.25,Mori-sensei,,0,0,0,,Are there any highlights in the dancing?
+Dialogue: 0,0:25:06.18,0:25:08.72,Saki,,0,0,0,,Highlights? The climax will come soon.
+Dialogue: 0,0:25:10.38,0:25:12.41,Rinon,,0,0,0,,The climax of the song is great.
+Dialogue: 0,0:25:12.41,0:25:13.45,Marin,,0,0,0,,Indeed.
+Dialogue: 0,0:25:23.86,0:25:25.26,C-chan,,0,0,0,,Wait...I might have made a mistake...
+Dialogue: 0,0:25:25.26,0:25:26.52,Rinon,,0,0,0,,C-chan!
+Dialogue: 0,0:25:26.52,0:25:27.74,Mori-sensei,,0,0,0,,You made a mistake?
+Dialogue: 0,0:25:28.61,0:25:30.60,C-chan,,0,0,0,,This footage is from Day 1... then I didn't make a mistake.
+Dialogue: 0,0:25:30.60,0:25:33.44,Mori-sensei,,0,0,0,,Soon, the camera will return to us.
+Dialogue: 0,0:25:33.44,0:25:34.58,C-chan,,0,0,0,,I got it.
+Dialogue: 0,0:25:39.94,0:25:42.61,Mori-sensei,,0,0,0,,Wait... were you really watching the footage?
+Dialogue: 0,0:25:42.61,0:25:44.61,Mori-sensei,,0,0,0,,I don't believe someone who was watching the footage can show such an expression.
+Dialogue: 0,0:25:44.61,0:25:46.61,C-chan,,0,0,0,,I was watching!
+Dialogue: 0,0:25:46.61,0:25:48.61,Mori-sensei,,0,0,0,,How can you show that expression?
+Dialogue: 0,0:25:48.61,0:25:52.94,Mori-sensei,,0,0,0,,What feeling were you watching the footage with? You're amazing!
+Dialogue: 0,0:25:52.94,0:25:56.16,Saki,,0,0,0,,The climax of the song... did you see our sharp dancing?
+Dialogue: 0,0:25:56.16,0:25:58.73,Mori-sensei,,0,0,0,,Yes, it's very sharp.
+Dialogue: 0,0:25:58.73,0:26:00.76,Mori-sensei,,0,0,0,,I guess there'll be a good chance to see the song from now on.
+Dialogue: 0,0:26:00.76,0:26:03.90,Mori-sensei,,0,0,0,,So please remember the song and have a blast with the song.
+Dialogue: 0,0:26:03.90,0:26:07.32,Mori-sensei,,0,0,0,,Then, let's finish the review on Day 1, due to time constraints.
+Dialogue: 0,0:26:07.32,0:26:10.61,Mori-sensei,,0,0,0,,Although, I know there are more things to be reviewed,
+Dialogue: 0,0:26:10.61,0:26:15.72,Mori-sensei,,0,0,0,,like the {\i1}Koubaibu{\i0} performance, or the revival of "Wonderful Journey".
+Dialogue: 0,0:26:15.97,0:26:17.95,Mori-sensei,,0,0,0,,Now, let's take a look at tweets from the audience.
+Dialogue: 0,0:26:17.95,0:26:21.85,Mori-sensei,,0,0,0,,I want to hear some opinions on the show.
+Dialogue: 0,0:26:22.02,0:26:24.89,Saki,,0,0,0,,I agree. I still have not gotten opinions.
+Dialogue: 0,0:26:24.89,0:26:26.32,Mori-sensei,,0,0,0,,I want to hear your voice.
+Dialogue: 0,0:26:26.32,0:26:28.16,C-chan,,0,0,0,,{\i1}"The new song is just awesome!"
+Dialogue: 0,0:26:28.16,0:26:30.16,Rinon,,0,0,0,,Yes, I feel that way too
+Dialogue: 0,0:26:30.16,0:26:33.65,Mori-sensei,,0,0,0,,{\i1}"You are so lucky to have such a good song."
+Dialogue: 0,0:26:33.36,0:26:34.56,Saki,,0,0,0,,Yes, indeed.
+Dialogue: 0,0:26:34.04,0:26:36.56,Marin,,0,0,0,,{\i1}"The new song is very stylish."
+Dialogue: 0,0:26:36.56,0:26:38.09,Mori-sensei,,0,0,0,,Oh, I see.
+Dialogue: 0,0:26:38.09,0:26:40.41,Saki,,0,0,0,,Look! "I love the pair of Marin-chan and C-chan."
+Dialogue: 0,0:26:40.58,0:26:42.13,All/Multiple,,0,0,0,,Yeah!
+Dialogue: 0,0:26:42.13,0:26:44.96,Saki,,0,0,0,,At the {\i1}"chō jūyōna suteppu"{\i0} line, ("super-important step")
+Dialogue: 0,0:26:45.00,0:26:46.01,Rinon,,0,0,0,,I see.
+Dialogue: 0,0:26:46.01,0:26:48.41,Mori-sensei,,0,0,0,,you two make a pair in the song, right?
+Dialogue: 0,0:26:48.41,0:26:50.14,Mori-sensei,,0,0,0,,I see.
+Dialogue: 0,0:26:50.14,0:26:52.32,Marin,,0,0,0,,There are lines which sing
+Dialogue: 0,0:26:52.32,0:26:55.52,Marin,,0,0,0,,{\i1}"oikomaresō, nomikomaresō".{\i0} ("being chased, being swallowed up (...by the drive to win)")
+Dialogue: 0,0:26:55.52,0:26:58.00,Marin,,0,0,0,,At that line, I hold hands with C-chan.
+Dialogue: 0,0:26:58.00,0:27:00.21,Marin,,0,0,0,,We hold hands like this.
+Dialogue: 0,0:27:00.21,0:27:01.84,Marin,,0,0,0,,Tightly.
+Dialogue: 0,0:27:00.21,0:27:01.84,C-chan,,0,0,0,,Very firm.
+Dialogue: 0,0:27:02.61,0:27:04.18,Saki,,0,0,0,,We take firm grips.
+Dialogue: 0,0:27:04.69,0:27:08.16,Mori-sensei,,0,0,0,,Everyone is trying to place stress on Shirai, aren't they?
+Dialogue: 0,0:27:08.16,0:27:09.90,Mori-sensei,,0,0,0,,During the performance.
+Dialogue: 0,0:27:09.90,0:27:12.37,C-chan,,0,0,0,,Saki (me) is also doing the same in return.
+Dialogue: 0,0:27:12.37,0:27:15.50,Mori-sensei,,0,0,0,,It seems everyone is trying to weaken each other.
+Dialogue: 0,0:27:15.56,0:27:17.18,Saki,,0,0,0,,Oh, that's why we felt so tired.
+Dialogue: 0,0:27:18.24,0:27:19.74,Saki,,0,0,0,,No, just kidding.
+Dialogue: 0,0:27:19.74,0:27:22.86,Mori-sensei,,0,0,0,,Well then, we proceed to Day 2!
+Dialogue: 0,0:27:22.94,0:27:24.68,Mori-sensei,,0,0,0,,The setlist of the Day 2 is like this.
+Dialogue: 0,0:27:24.68,0:27:26.68,Mori-sensei,,0,0,0,,Can you see?
+Dialogue: 0,0:27:26.68,0:27:28.68,Mori-sensei,,0,0,0,,Which camera?
+Dialogue: 0,0:27:28.68,0:27:33.25,Note,,0,0,0,,[This board shows a wrong setlist. It's titled "Setlist for Day 2" but the right side is copied from Day 1.]
+Dialogue: 0,0:27:28.68,0:27:31.29,Mori-sensei,,0,0,0,,The show began with "{\i1}Mezase!{\i0} Super Lady".
+Dialogue: 0,0:27:31.29,0:27:33.29,C-chan,,0,0,0,,It's the only part where Mori-sensei appeared.
+Dialogue: 0,0:27:33.29,0:27:37.24,Mori-sensei,,0,0,0,,I spoke nothing on the day. Just read the lyrics exactly.
+Dialogue: 0,0:27:37.80,0:27:38.96,Mori-sensei,,0,0,0,,Hidaka, what's wrong?
+Dialogue: 0,0:27:38.96,0:27:40.04,Marin,,0,0,0,,I have something to say.
+Dialogue: 0,0:27:39.61,0:27:41.61,Mori-sensei,,0,0,0,,You're very proactive today! It's great!
+Dialogue: 0,0:27:41.61,0:27:42.69,Saki,,0,0,0,,It's good.
+Dialogue: 0,0:27:42.69,0:27:49.84,Marin,,0,0,0,,Well, when we had the rehearsal of "{\i1}Mezase!{\i0} Super Lady",
+Dialogue: 0,0:27:49.84,0:27:53.37,Marin,,0,0,0,,Mori-sensei called the names of the girls one by one.
+Dialogue: 0,0:27:52.88,0:27:53.76,Mori-sensei,,0,0,0,,Yes, I call them.
+Dialogue: 0,0:27:53.45,0:27:55.73,Marin,,0,0,0,,At the time, Mori-sensei...
+Dialogue: 0,0:27:55.73,0:27:58.97,Marin,,0,0,0,,Er... we took the rehearsal three times...
+Dialogue: 0,0:27:58.45,0:27:59.40,Mori-sensei,,0,0,0,,Yes, we did.
+Dialogue: 0,0:27:59.40,0:28:02.90,Marin,,0,0,0,,And in all three takes he forgot my name!
+Dialogue: 0,0:28:02.90,0:28:06.92,Mori-sensei,,0,0,0,,Oh, no! You snitch on me? You are so willing to speak ill of me?
+Dialogue: 0,0:28:03.41,0:28:04.48,Saki,,0,0,0,,Ah... it's true.
+Dialogue: 0,0:28:06.64,0:28:07.76,Saki,,0,0,0,,You really couldn't call her name.
+Dialogue: 0,0:28:07.30,0:28:09.56,Mori-sensei,,0,0,0,,OK, to tell the truth,
+Dialogue: 0,0:28:09.56,0:28:13.61,Mori-sensei,,0,0,0,,you know, I call the roll at the bridge of the song, like "Middle School third years, Isono Rinon, Ōga Saki, Shirai Saki"...
+Dialogue: 0,0:28:12.53,0:28:13.89,C-chan,,0,0,0,,Calling the roll. I see.
+Dialogue: 0,0:28:13.89,0:28:15.66,Mori-sensei,,0,0,0,,After I finish calling the roll—I'm done.
+Dialogue: 0,0:28:16.98,0:28:18.62,Mori-sensei,,0,0,0,,I feel like I've achieved something.
+Dialogue: 0,0:28:18.28,0:28:19.50,Saki,,0,0,0,,Oh, no!
+Dialogue: 0,0:28:18.97,0:28:21.44,Mori-sensei,,0,0,0,,I'm very likely to make a mistake right after that!
+Dialogue: 0,0:28:21.30,0:28:22.38,C-chan,,0,0,0,,Yes, it's true.
+Dialogue: 0,0:28:22.38,0:28:24.21,Mori-sensei,,0,0,0,,So, when I call the name of Hidaka.
+Dialogue: 0,0:28:24.21,0:28:27.65,Mori-sensei,,0,0,0,,after I finish calling the roll with "Yoshida Soyoka!"
+Dialogue: 0,0:28:27.65,0:28:30.72,Mori-sensei,,0,0,0,,I'm already done and forget her name!
+Dialogue: 0,0:28:30.72,0:28:33.01,Mori-sensei,,0,0,0,,I feel very satisfied after I complete calling the roll.
+Dialogue: 0,0:28:30.97,0:28:32.45,Saki,,0,0,0,,You're mean!
+Dialogue: 0,0:28:33.01,0:28:35.01,Mori-sensei,,0,0,0,,But, I did well in the show.
+Dialogue: 0,0:28:35.01,0:28:36.30,Marin,,0,0,0,,Yes, you did.
+Dialogue: 0,0:28:36.30,0:28:37.93,Mori-sensei,,0,0,0,,That's the awesomeness of me!
+Dialogue: 0,0:28:39.44,0:28:42.08,Mori-sensei,,0,0,0,,It's so nice of me to not make a mistake in front of the audience!
+Dialogue: 0,0:28:41.89,0:28:43.78,Saki,,0,0,0,,It is expected to be able to do that!
+Dialogue: 0,0:28:43.78,0:28:48.06,Mori-sensei,,0,0,0,,Shut up! How come I'm the one being lectured by you?
+Dialogue: 0,0:28:48.06,0:28:49.62,Mori-sensei,,0,0,0,,The VTR footage is ready?
+Dialogue: 0,0:28:50.06,0:28:51.64,Mori-sensei,,0,0,0,,Do you want to watch it? I'm not willing to see "Super Lady".
+Dialogue: 0,0:28:52.06,0:28:55.30,Mori-sensei,,0,0,0,,OK, take a look if you want.
+Dialogue: 0,0:28:52.56,0:28:54.69,C-chan,,0,0,0,,Let's see it. I want to see.
+Dialogue: 0,0:28:55.69,0:28:56.89,Mori-sensei,,0,0,0,,Ah, from my entrance...
+Dialogue: 0,0:28:57.20,0:28:59.04,C-chan,,0,0,0,,It was really funny.
+Dialogue: 0,0:28:59.04,0:29:01.50,Mori-sensei,,0,0,0,,Why "funny?" You must say "cool"!
+Dialogue: 0,0:29:01.50,0:29:02.62,Rinon,,0,0,0,,{\i1}Sensei,{\i0} you look a bit...
+Dialogue: 0,0:29:02.62,0:29:04.01,Mori-sensei,,0,0,0,,Yes, I got fat a bit.
+Dialogue: 0,0:29:04.90,0:29:08.00,Mori-sensei,,0,0,0,,{\i1}"Attendance will now be taken!"
+Dialogue: 0,0:29:08.80,0:29:11.76,Mori-sensei,,0,0,0,,A tense atmosphere... It's enormous.
+Dialogue: 0,0:29:10.46,0:29:12.26,C-chan,,0,0,0,,It's a pretty long solo shot.
+Dialogue: 0,0:29:12.26,0:29:13.38,Saki,,0,0,0,,It's pretty long.
+Dialogue: 0,0:29:13.02,0:29:17.62,Mori-sensei,,0,0,0,,I'm sorry for it. I apologize for letting live viewers see me alone for a long time.
+Dialogue: 0,0:29:22.42,0:29:24.69,Mori-sensei,,0,0,0,,I made it just in time.
+Dialogue: 0,0:29:27.42,0:29:30.12,C-chan,,0,0,0,,It's super funny to watch it with your eyes on Mori-sensei!
+Dialogue: 0,0:29:30.17,0:29:32.08,Mori-sensei,,0,0,0,,Don't pay attention to me!
+Dialogue: 0,0:29:32.08,0:29:33.62,C-chan,,0,0,0,,Look! Very funny!
+Dialogue: 0,0:29:33.62,0:29:35.81,Mori-sensei,,0,0,0,,I have some times when I have nothing to do,
+Dialogue: 0,0:29:38.66,0:29:42.09,Mori-sensei,,0,0,0,,so I'm trying to imitate your dancing as much as possible.
+Dialogue: 0,0:29:42.89,0:29:44.40,C-chan,,0,0,0,,It's so funny!
+Dialogue: 0,0:29:48.02,0:29:50.98,Mori-sensei,,0,0,0,,You got a problem with that? I'm trying my best
+Dialogue: 0,0:29:51.86,0:29:53.26,Mori-sensei,,0,0,0,,while not affecting my memory.
+Dialogue: 0,0:29:54.06,0:29:57.88,Mori-sensei,,0,0,0,,Too much dancing makes me forget my own lines.
+Dialogue: 0,0:30:02.25,0:30:04.84,Mori-sensei,,0,0,0,,I'm telling Yamaide off...
+Dialogue: 0,0:30:05.49,0:30:08.60,Mori-sensei,,0,0,0,,for her having an ice cream.
+Dialogue: 0,0:30:10.18,0:30:11.52,Mori-sensei,,0,0,0,,Don't look at me!
+Dialogue: 0,0:30:11.52,0:30:14.86,Mori-sensei,,0,0,0,,You're making fun of me... terribly!
+Dialogue: 0,0:30:15.42,0:30:17.13,Mori-sensei,,0,0,0,,Oh, five seconds until the camera's back. Strike a pose!
+Dialogue: 0,0:30:17.13,0:30:18.85,Mori-sensei,,0,0,0,,5...4...
+Dialogue: 0,0:30:22.42,0:30:24.64,Mori-sensei,,0,0,0,,No, no, it doesn't make sense as a pose
+Dialogue: 0,0:30:24.84,0:30:27.41,Mori-sensei,,0,0,0,,after watching the footage!
+Dialogue: 0,0:30:26.10,0:30:27.85,C-chan,,0,0,0,,Mori-sensei, you're too funny...
+Dialogue: 0,0:30:27.85,0:30:32.28,Mori-sensei,,0,0,0,,I did pretty well on the Festival
+Dialogue: 0,0:30:32.28,0:30:34.28,Mori-sensei,,0,0,0,,and still kept everything in my mind.
+Dialogue: 0,0:30:34.28,0:30:37.70,Mori-sensei,,0,0,0,,So, I was trying to duplicate your dancing, as far as possible.
+Dialogue: 0,0:30:39.38,0:30:40.65,Saki,,0,0,0,,Your duplication was too poor.
+Dialogue: 0,0:30:40.65,0:30:43.48,Mori-sensei,,0,0,0,,It's not so bad. I never miss dancing Isono's choreo.
+Dialogue: 0,0:30:44.05,0:30:46.49,Mori-sensei,,0,0,0,,The choreo everyone dances, like this!
+Dialogue: 0,0:30:47.06,0:30:48.96,Mori-sensei,,0,0,0,,I always dance that choreo.
+Dialogue: 0,0:30:48.96,0:30:50.96,Saki,,0,0,0,,From now on, we can't miss watching Mori-sensei.
+Dialogue: 0,0:30:50.96,0:30:53.92,Mori-sensei,,0,0,0,,Look! A Fukei is very pleased. I did it!
+Dialogue: 0,0:30:53.92,0:30:56.05,Mori-sensei,,0,0,0,,Shirai, was it really good?
+Dialogue: 0,0:30:57.56,0:30:58.62,C-chan,,0,0,0,,It was... indescribable!
+Dialogue: 0,0:30:58.62,0:31:01.81,Mori-sensei,,0,0,0,,You should bring a copy of the footage back home.
+Dialogue: 0,0:31:01.41,0:31:06.01,Saki,,0,0,0,,Now I'd like to see the "Mori-sensei Version," the footage focusing on Mori-sensei!
+Dialogue: 0,0:31:06.01,0:31:07.33,Mori-sensei,,0,0,0,,No one wants it!
+Dialogue: 0,0:31:06.84,0:31:08.28,C-chan,,0,0,0,,like a "Fan's-eye camera".
+Dialogue: 0,0:31:08.28,0:31:09.52,Saki,,0,0,0,,Yes, the "Fan's-eye camera".
+Dialogue: 0,0:31:08.34,0:31:09.46,Mori-sensei,,0,0,0,,No one needs it, definitely.
+Dialogue: 0,0:31:09.46,0:31:13.76,Mori-sensei,,0,0,0,,Well, well... This is not the time to disclose such things. We have little time left.
+Dialogue: 0,0:31:13.76,0:31:15.62,C-chan,,0,0,0,,Yes! we must hurry up!
+Dialogue: 0,0:31:15.62,0:31:19.37,Mori-sensei,,0,0,0,,As for Day 2, we had that event at the ending.
+Dialogue: 0,0:31:20.70,0:31:22.70,Saki,,0,0,0,,Yes, there was a surprise event.
+Dialogue: 0,0:31:21.38,0:31:22.68,Mori-sensei,,0,0,0,,What was that surprising event?
+Dialogue: 0,0:31:22.68,0:31:25.77,Mori-sensei,,0,0,0,,This setlist shows... Is this for Day 1?
+Dialogue: 0,0:31:25.77,0:31:28.06,Mori-sensei,,0,0,0,,Which one is for Day 2? This one includes "Mathematica"...
+Dialogue: 0,0:31:28.06,0:31:29.70,Rinon,,0,0,0,,That is the setlist of Day 1.
+Dialogue: 0,0:31:29.70,0:31:31.44,Marin,,0,0,0,,Before that, I have something to say.
+Dialogue: 0,0:31:29.78,0:31:30.60,Mori-sensei,,0,0,0,,Hmm? Hidaka?
+Dialogue: 0,0:31:31.38,0:31:33.06,Marin,,0,0,0,,At the performance of {\i1}"Kimi ni Todoke",
+Dialogue: 0,0:31:33.26,0:31:36.46,Marin,,0,0,0,,at the interlude, I dropped my microphone!
+Dialogue: 0,0:31:36.16,0:31:37.42,Mori-sensei,,0,0,0,,Yes, that happened.
+Dialogue: 0,0:31:37.42,0:31:40.66,Mori-sensei,,0,0,0,,You're good enough to say it by yourself!
+Dialogue: 0,0:31:40.85,0:31:43.20,Marin,,0,0,0,,I am so sorry for what I did!
+Dialogue: 0,0:31:43.08,0:31:44.48,Mori-sensei,,0,0,0,,You learned something.
+Dialogue: 0,0:31:43.81,0:31:49.16,Marin,,0,0,0,,So, I want to give a message to a member... Sara-chan.
+Dialogue: 0,0:31:49.16,0:31:51.74,Mori-sensei,,0,0,0,,Give a message? Can you make it short?
+Dialogue: 0,0:31:51.74,0:31:54.20,Mori-sensei,,0,0,0,,There is a harsh {\i1}senpai{\i0} who is fussy about time—Shirai!
+Dialogue: 0,0:31:53.89,0:31:54.94,C-chan,,0,0,0,,Yes, I am!
+Dialogue: 0,0:31:54.94,0:31:56.42,Mori-sensei,,0,0,0,,Well, go ahead.
+Dialogue: 0,0:31:56.42,0:31:59.69,Marin,,0,0,0,,Sara-chan, thank you very much for picking my mic up!
+Dialogue: 0,0:31:59.69,0:32:03.40,Mori-sensei,,0,0,0,,Oh, there was such an accident. Is there footage?
+Dialogue: 0,0:32:03.40,0:32:05.90,Mori-sensei,,0,0,0,,No footage? I see.
+Dialogue: 0,0:32:05.90,0:32:08.73,Mori-sensei,,0,0,0,,Please describe what happened. Hidaka, you dropped your mic?
+Dialogue: 0,0:32:08.73,0:32:12.17,Marin,,0,0,0,,Yes. I dropped my mic, and it rolled to the back of the stage.
+Dialogue: 0,0:32:13.09,0:32:15.64,Mori-sensei,,0,0,0,,Wow that's terrible. The mic is so precious.
+Dialogue: 0,0:32:15.52,0:32:16.97,Saki,,0,0,0,,I noticed a sound, something hitting the floor.
+Dialogue: 0,0:32:17.40,0:32:18.37,Mori-sensei,,0,0,0,,You noticed?
+Dialogue: 0,0:32:18.04,0:32:19.40,Saki,,0,0,0,,Yes, and I found a mic.
+Dialogue: 0,0:32:19.69,0:32:22.33,Marin,,0,0,0,,I kept singing with the pin-mic...
+Dialogue: 0,0:32:23.10,0:32:26.25,Marin,,0,0,0,,and Sara-chan held two... both...
+Dialogue: 0,0:32:26.25,0:32:28.53,Marin,,0,0,0,,Sara-chan's mic and my mic.
+Dialogue: 0,0:32:28.62,0:32:31.49,Marin,,0,0,0,,She was dancing with mics in both hands.
+Dialogue: 0,0:32:31.49,0:32:35.68,Mori-sensei,,0,0,0,,Wow! Amazing! She was dancing like a dual-sword wielder?
+Dialogue: 0,0:32:35.50,0:32:38.25,C-chan,,0,0,0,,But listen! I heard Rinon-chan speak to Sara at the interlude,
+Dialogue: 0,0:32:38.25,0:32:42.66,C-chan,,0,0,0,,when we were facing backward.
+Dialogue: 0,0:32:42.66,0:32:45.98,C-chan,,0,0,0,,"Pick it up" or something like that.
+Dialogue: 0,0:32:45.98,0:32:49.37,C-chan,,0,0,0,,I was wondering what they were saying, while we were facing backward.
+Dialogue: 0,0:32:49.37,0:32:51.37,Mori-sensei,,0,0,0,,Isono, did you suggest to Kurashima to pick up the mic?
+Dialogue: 0,0:32:52.57,0:32:56.17,Rinon,,0,0,0,,Er... If Sara had left the mic at the back of the stage,
+Dialogue: 0,0:32:56.17,0:32:59.09,Rinon,,0,0,0,,a Staff-san would have had to go pick it up at the encore.
+Dialogue: 0,0:32:59.09,0:33:01.09,Rinon,,0,0,0,,In order to save the trouble,
+Dialogue: 0,0:33:01.09,0:33:03.50,Rinon,,0,0,0,,Sara should have gotten the mic and kept it with her. So I told Sara...
+Dialogue: 0,0:33:03.50,0:33:05.50,Mori-sensei,,0,0,0,,Wow! Isono directed her to do so
+Dialogue: 0,0:33:05.50,0:33:07.86,Mori-sensei,,0,0,0,,while you were dancing. It's amazing!
+Dialogue: 0,0:33:07.86,0:33:09.54,Rinon,,0,0,0,,Sara didn't hear me at all!
+Dialogue: 0,0:33:09.54,0:33:12.46,Rinon,,0,0,0,,So I cried out very loud "Sara!"
+Dialogue: 0,0:33:13.64,0:33:14.38,Mori-sensei,,0,0,0,,Really?
+Dialogue: 0,0:33:14.38,0:33:15.81,Mori-sensei,,0,0,0,,That happened?
+Dialogue: 0,0:33:14.93,0:33:15.73,Saki,,0,0,0,,It's fun!
+Dialogue: 0,0:33:15.81,0:33:18.62,Saki,,0,0,0,,But it so happens that we danced that song with our fists tight.
+Dialogue: 0,0:33:18.62,0:33:20.62,Saki,,0,0,0,,It happened to be good to hold two mics,
+Dialogue: 0,0:33:20.62,0:33:23.22,Saki,,0,0,0,,So it didn't disturb her dancing.
+Dialogue: 0,0:33:23.22,0:33:26.97,Mori-sensei,,0,0,0,,Then, Kurashima was dancing with two mics in her hands,
+Dialogue: 0,0:33:26.97,0:33:29.90,Mori-sensei,,0,0,0,,as if she were practicing with dumbbells!
+Dialogue: 0,0:33:29.74,0:33:30.34,Saki,,0,0,0,,Yes!
+Dialogue: 0,0:33:30.34,0:33:34.00,Mori-sensei,,0,0,0,,It must have looked gallant. Kurashima is very handsome.
+Dialogue: 0,0:33:34.54,0:33:36.25,Mori-sensei,,0,0,0,,Anyway, it's good for you
+Dialogue: 0,0:33:36.25,0:33:39.57,Mori-sensei,,0,0,0,,that you could give an apology in this public program.
+Dialogue: 0,0:33:39.44,0:33:40.53,Marin,,0,0,0,,Thank you Sara-chan!
+Dialogue: 0,0:33:40.53,0:33:42.53,Mori-sensei,,0,0,0,,Well, then. At the end...
+Dialogue: 0,0:33:42.53,0:33:44.08,Mori-sensei,,0,0,0,,Let's talk about the surprise.
+Dialogue: 0,0:33:43.89,0:33:44.60,Saki,,0,0,0,,Hai!
+Dialogue: 0,0:33:44.60,0:33:47.57,Mori-sensei,,0,0,0,,When you were playing "message" at the encore,
+Dialogue: 0,0:33:47.57,0:33:50.38,Mori-sensei,,0,0,0,,this surprise took place. Please watch the VTR.
+Dialogue: 0,0:33:53.78,0:33:54.56,Mori-sensei,,0,0,0,,It's not starting...
+Dialogue: 0,0:33:54.56,0:33:55.74,Mori-sensei,,0,0,0,,What shall we do?
+Dialogue: 0,0:33:55.72,0:33:56.96,Marin,,0,0,0,,Glittering〜
+Dialogue: 0,0:33:56.96,0:34:00.01,Mori-sensei,,0,0,0,,What's that? Ōga-san, you're very proactive today!
+Dialogue: 0,0:33:58.80,0:34:00.06,C-chan,,0,0,0,,Oh, it's coming!
+Dialogue: 0,0:34:00.76,0:34:01.46,C-chan,,0,0,0,,Fantastic!
+Dialogue: 0,0:34:01.32,0:34:02.52,Mori-sensei,,0,0,0,,You're playing "message".
+Dialogue: 0,0:34:04.84,0:34:07.05,Mori-sensei,,0,0,0,,Here everyone is holding her mic properly.
+Dialogue: 0,0:34:07.17,0:34:08.81,Rinon,,0,0,0,,She forgot?
+Dialogue: 0,0:34:08.81,0:34:09.78,C-chan,,0,0,0,,No, I don't think so.
+Dialogue: 0,0:34:09.78,0:34:11.34,Rinon,,0,0,0,,I think someone forgot.
+Dialogue: 0,0:34:11.34,0:34:12.65,C-chan,,0,0,0,,Never.
+Dialogue: 0,0:34:12.21,0:34:13.26,Saki,,0,0,0,,You can see in the footage.
+Dialogue: 0,0:34:12.89,0:34:15.01,Mori-sensei,,0,0,0,,It seems that there were lots of troubles.
+Dialogue: 0,0:34:15.01,0:34:16.42,Mori-sensei,,0,0,0,,Well, here they come.
+Dialogue: 0,0:34:17.74,0:34:19.53,Rinon,,0,0,0,,Look...
+Dialogue: 0,0:34:18.90,0:34:20.05,C-chan,,0,0,0,,No, it's no problem.
+Dialogue: 0,0:34:20.84,0:34:21.61,Mori-sensei,,0,0,0,,Whoa〜
+Dialogue: 0,0:34:26.57,0:34:29.60,Mori-sensei,,0,0,0,,Don't forget it's on the air.
+Dialogue: 0,0:34:38.74,0:34:40.09,Mori-sensei,,0,0,0,,Awesome!
+Dialogue: 0,0:34:39.88,0:34:41.52,C-chan,,0,0,0,,{\i1}Kawaii!
+Dialogue: 0,0:34:42.10,0:34:44.49,Mori-sensei,,0,0,0,,I feel they emit a dreadful aura about themselves!
+Dialogue: 0,0:34:44.49,0:34:45.97,Saki,,0,0,0,,What do you mean!?
+Dialogue: 0,0:34:46.14,0:34:48.36,C-chan,,0,0,0,,There's an aura of divinity about them!
+Dialogue: 0,0:34:48.36,0:34:50.98,Mori-sensei,,0,0,0,,I feel they try to emit that aura intentionally!
+Dialogue: 0,0:34:50.98,0:34:52.53,Saki,,0,0,0,,The aura comes out by itself!
+Dialogue: 0,0:34:52.53,0:34:55.52,Mori-sensei,,0,0,0,,I sense a "Finally, Miyoshi Ayaka has come all the way to see you"-feeling!
+Dialogue: 0,0:34:55.52,0:34:57.44,C-chan,,0,0,0,,Why do you say that!
+Dialogue: 0,0:35:00.78,0:35:02.97,Mori-sensei,,0,0,0,,Well, Matsui is not bad, but
+Dialogue: 0,0:35:02.97,0:35:05.68,Mori-sensei,,0,0,0,,don't you feel something triumphant about Miyoshi?
+Dialogue: 0,0:35:07.26,0:35:08.33,C-chan,,0,0,0,,You'll get in trouble!
+Dialogue: 0,0:35:08.28,0:35:10.97,Mori-sensei,,0,0,0,,Don't you sense an "I'm Miyoshi Ayaka. What about it?"-feeling?
+Dialogue: 0,0:35:11.65,0:35:13.01,Saki,,0,0,0,,You can't say such a thing!
+Dialogue: 0,0:35:13.30,0:35:16.68,C-chan,,0,0,0,,I've had it! Ayaka-chan is really gentle!
+Dialogue: 0,0:35:15.74,0:35:19.80,Saki,,0,0,0,,Ayaka-chan is far more warm-hearted than Mori-sensei thinks!
+Dialogue: 0,0:35:20.80,0:35:22.89,Mori-sensei,,0,0,0,,I think I'm more knowledgeable about her!
+Dialogue: 0,0:35:22.89,0:35:24.44,Mori-sensei,,0,0,0,,Oh! You showed a good face to the camera!
+Dialogue: 0,0:35:25.04,0:35:26.45,Rinon,,0,0,0,,Ah, I should have shown another pose.
+Dialogue: 0,0:35:26.17,0:35:29.37,Mori-sensei,,0,0,0,,Don't be shy, Isono... Huh? what's that pose?
+Dialogue: 0,0:35:29.37,0:35:30.37,Rinon,,0,0,0,,It's Soyo's pose.
+Dialogue: 0,0:35:30.04,0:35:31.21,Mori-sensei,,0,0,0,,Too late.
+Dialogue: 0,0:35:32.05,0:35:33.86,Mori-sensei,,0,0,0,,It's not the time to open a small window.
+Dialogue: 0,0:35:34.13,0:35:36.89,Mori-sensei,,0,0,0,,Well, as you saw, there was an unexpected appearance of the graduates
+Dialogue: 0,0:35:36.92,0:35:39.98,Mori-sensei,,0,0,0,,Miyoshi Ayaka and Matsui Airi.
+Dialogue: 0,0:35:39.98,0:35:43.52,Mori-sensei,,0,0,0,,There was a meeting beforehand and you took a lesson with them.
+Dialogue: 0,0:35:43.52,0:35:46.16,Mori-sensei,,0,0,0,,How did you feel at their appearance?
+Dialogue: 0,0:35:46.16,0:35:47.24,Marin,,0,0,0,,They were so beautiful!
+Dialogue: 0,0:35:46.84,0:35:47.72,Saki,,0,0,0,,Right?.
+Dialogue: 0,0:35:47.72,0:35:48.78,Mori-sensei,,0,0,0,,Really?
+Dialogue: 0,0:35:48.40,0:35:52.08,Saki,,0,0,0,,They were beautiful, and the excitement of Fukei-sans was enormous!
+Dialogue: 0,0:35:52.69,0:35:55.24,Rinon,,0,0,0,,I felt the audience were the most excited at that moment of the concert.
+Dialogue: 0,0:35:55.24,0:35:58.65,Mori-sensei,,0,0,0,,I can't believe it... but I know the appearance really surprised the audience.
+Dialogue: 0,0:35:58.65,0:36:02.05,Mori-sensei,,0,0,0,,To be honest, I think the audience was overwhelmed by their height.
+Dialogue: 0,0:36:02.05,0:36:03.13,Saki,,0,0,0,,No, it's impossible!
+Dialogue: 0,0:36:03.13,0:36:04.20,Mori-sensei,,0,0,0,,Is it?
+Dialogue: 0,0:36:03.76,0:36:04.81,Saki,,0,0,0,,Why do you think so?
+Dialogue: 0,0:36:04.61,0:36:06.80,Mori-sensei,,0,0,0,,When I saw them at a rehearsal...
+Dialogue: 0,0:36:07.14,0:36:08.89,Mori-sensei,,0,0,0,,you know, the members this year are all short.
+Dialogue: 0,0:36:08.89,0:36:10.14,C-chan,,0,0,0,,Ah, that's true!
+Dialogue: 0,0:36:09.96,0:36:12.72,Mori-sensei,,0,0,0,,So, I thought "Wow, here come adult ladies!"
+Dialogue: 0,0:36:12.72,0:36:16.50,Mori-sensei,,0,0,0,,I guess the audience was overwhelmed "Wow! They are so tall!"
+Dialogue: 0,0:36:16.50,0:36:18.65,Mori-sensei,,0,0,0,,I think so, anyway.
+Dialogue: 0,0:36:16.94,0:36:19.40,Saki,,0,0,0,,They are our graduates, in a sense...
+Dialogue: 0,0:36:19.48,0:36:21.04,Mori-sensei,,0,0,0,,Why did you add "in a sense"?
+Dialogue: 0,0:36:21.58,0:36:22.94,Mori-sensei,,0,0,0,,You're harsher than me!
+Dialogue: 0,0:36:22.94,0:36:24.24,Saki,,0,0,0,,I made a mistake in my choice of words!
+Dialogue: 0,0:36:23.81,0:36:26.09,Mori-sensei,,0,0,0,,I know. "They were Sakura girls for only two years, but {\i1}in a sense
+Dialogue: 0,0:36:26.09,0:36:28.57,Mori-sensei,,0,0,0,,they can be seen as graduates."
+Dialogue: 0,0:36:28.22,0:36:29.06,C-chan,,0,0,0,,Ah, in a sense...
+Dialogue: 0,0:36:29.06,0:36:30.88,Saki,,0,0,0,,No! They are true graduates!
+Dialogue: 0,0:36:30.88,0:36:32.38,Saki,,0,0,0,,I was wrong.
+Dialogue: 0,0:36:32.10,0:36:35.30,Mori-sensei,,0,0,0,,Did you talk with them?
+Dialogue: 0,0:36:34.32,0:36:37.17,Saki,,0,0,0,,Yes I did.
+Dialogue: 0,0:36:37.17,0:36:40.49,Saki,,0,0,0,,As you know, I snitched on Mori-sensei to them.
+Dialogue: 0,0:36:40.18,0:36:41.54,Mori-sensei,,0,0,0,,It was a clumsy talk, wasn't it?
+Dialogue: 0,0:36:41.54,0:36:43.60,Mori-sensei,,0,0,0,,We must have a Review Meeting on it later.
+Dialogue: 0,0:36:44.52,0:36:47.68,Saki,,0,0,0,,And then, after the show,
+Dialogue: 0,0:36:47.68,0:36:49.26,Saki,,0,0,0,,I apologized to them for my speaking ad lib.
+Dialogue: 0,0:36:49.49,0:36:52.48,Saki,,0,0,0,,Ayaka-chan kindly said to me
+Dialogue: 0,0:36:52.48,0:36:54.80,Saki,,0,0,0,,"No problem. The atmosphere made you speak like that."
+Dialogue: 0,0:36:54.80,0:36:57.08,Mori-sensei,,0,0,0,,I see. You politely apologized and...
+Dialogue: 0,0:36:57.08,0:36:58.98,Mori-sensei,,0,0,0,,In short, Ōga said something off-script, right?
+Dialogue: 0,0:36:58.52,0:36:59.26,Saki,,0,0,0,,Yes.
+Dialogue: 0,0:36:59.29,0:37:02.25,Mori-sensei,,0,0,0,,And Miyoshi gave some harsh words about that.
+Dialogue: 0,0:37:02.25,0:37:03.96,Mori-sensei,,0,0,0,,But, at the backstage, she was kind.
+Dialogue: 0,0:37:03.96,0:37:05.06,Mori-sensei,,0,0,0,,Any other talks with them?
+Dialogue: 0,0:37:05.08,0:37:07.65,Rinon,,0,0,0,,Before the show,
+Dialogue: 0,0:37:07.65,0:37:10.86,Rinon,,0,0,0,,Matsui-san came to Rinon and said
+Dialogue: 0,0:37:10.86,0:37:12.96,Rinon,,0,0,0,,"I don't remember the names of the transfer-ins!"
+Dialogue: 0,0:37:13.81,0:37:15.20,Marin,,0,0,0,,Yes, that's it!
+Dialogue: 0,0:37:15.20,0:37:17.80,Mori-sensei,,0,0,0,,How come you look so pleased?
+Dialogue: 0,0:37:17.80,0:37:18.97,Marin,,0,0,0,,I'm not pleased.
+Dialogue: 0,0:37:18.86,0:37:19.56,C-chan,,0,0,0,,Oh, no!
+Dialogue: 0,0:37:19.40,0:37:22.00,Marin,,0,0,0,,Six of us transfer-ins gathered and
+Dialogue: 0,0:37:22.00,0:37:24.81,Marin,,0,0,0,,stood in front of Matsui-chan,
+Dialogue: 0,0:37:24.81,0:37:27.76,Marin,,0,0,0,,and asked who is who.
+Dialogue: 0,0:37:27.76,0:37:31.45,Mori-sensei,,0,0,0,,Ah, there was a meeting and she asked you to introduce yourselves?
+Dialogue: 0,0:37:31.52,0:37:35.92,Mori-sensei,,0,0,0,,"What's your name? Huh? Marin? Hard to catch..."
+Dialogue: 0,0:37:35.24,0:37:36.45,Marin,,0,0,0,,No, it's not that.
+Dialogue: 0,0:37:36.45,0:37:37.57,Mori-sensei,,0,0,0,,No? I see.
+Dialogue: 0,0:37:36.85,0:37:40.10,Marin,,0,0,0,,And, I remember she called me
+Dialogue: 0,0:37:40.10,0:37:42.10,Marin,,0,0,0,,"Momoko-chan!"
+Dialogue: 0,0:37:42.10,0:37:43.10,Mori-sensei,,0,0,0,,I see.
+Dialogue: 0,0:37:43.10,0:37:43.96,C-chan,,0,0,0,,She was unsure of your name.
+Dialogue: 0,0:37:43.58,0:37:45.50,Marin,,0,0,0,,She tried to remember us.
+Dialogue: 0,0:37:45.50,0:37:48.45,Mori-sensei,,0,0,0,,But it's obvious that she lacks love for Sakura Gakuin.
+Dialogue: 0,0:37:48.45,0:37:51.00,Mori-sensei,,0,0,0,,She's had enough time to remember.
+Dialogue: 0,0:37:51.00,0:37:55.20,Saki,,0,0,0,,But honestly, Saki (me) couldn't remember all transfer-ins for about a month!
+Dialogue: 0,0:37:55.20,0:37:57.50,Mori-sensei,,0,0,0,,Unbelievable. You must remember at once!
+Dialogue: 0,0:37:58.25,0:37:59.66,Mori-sensei,,0,0,0,,You've been together with them!
+Dialogue: 0,0:37:57.66,0:38:00.41,C-chan,,0,0,0,,I understand what you are saying, but this year,
+Dialogue: 0,0:38:00.41,0:38:02.92,C-chan,,0,0,0,,there are too many with the initial "M",
+Dialogue: 0,0:38:02.92,0:38:04.92,C-chan,,0,0,0,,and I'm fed up with "M"-people!
+Dialogue: 0,0:38:05.00,0:38:06.69,Mori-sensei,,0,0,0,,Stop it!
+Dialogue: 0,0:38:06.69,0:38:08.33,Mori-sensei,,0,0,0,,Here is a "M"arin person!
+Dialogue: 0,0:38:08.17,0:38:10.14,C-chan,,0,0,0,,"Marin," "Mirena," "Momoko,"
+Dialogue: 0,0:38:10.14,0:38:11.85,C-chan,,0,0,0,,"Megu," and also "Maaya!"
+Dialogue: 0,0:38:11.34,0:38:13.34,C-chan,,0,0,0,,I feel like, "No more, please!"
+Dialogue: 0,0:38:12.74,0:38:16.04,Mori-sensei,,0,0,0,,What an evil {\i1}senpai!{\i0} Hidaka, she is thinking such things!
+Dialogue: 0,0:38:15.82,0:38:16.92,Marin,,0,0,0,,Terrible!
+Dialogue: 0,0:38:16.22,0:38:18.92,Mori-sensei,,0,0,0,,It's sad. She doesn't need "M"-persons.
+Dialogue: 0,0:38:17.77,0:38:21.41,Saki,,0,0,0,,It can't be helped. You can't change your name.
+Dialogue: 0,0:38:21.41,0:38:23.89,Mori-sensei,,0,0,0,,I remembered all the names the first day!
+Dialogue: 0,0:38:23.56,0:38:25.40,Saki,,0,0,0,,No, you’re lying!
+Dialogue: 0,0:38:25.30,0:38:27.33,Saki,,0,0,0,,He had been practicing a lot.
+Dialogue: 0,0:38:27.14,0:38:29.06,Mori-sensei,,0,0,0,,Don't expose my covert effort!
+Dialogue: 0,0:38:29.06,0:38:31.26,Mori-sensei,,0,0,0,,Well, I have something to say about them
+Dialogue: 0,0:38:31.26,0:38:34.32,Mori-sensei,,0,0,0,,which made me laugh.
+Dialogue: 0,0:38:34.32,0:38:36.54,Mori-sensei,,0,0,0,,Before the show,
+Dialogue: 0,0:38:36.54,0:38:38.77,Mori-sensei,,0,0,0,,the two of them spoke to all of you,
+Dialogue: 0,0:38:38.77,0:38:42.21,Mori-sensei,,0,0,0,,just before you make a huddle.
+Dialogue: 0,0:38:42.52,0:38:45.50,Mori-sensei,,0,0,0,,And first, Miyoshi spoke
+Dialogue: 0,0:38:45.50,0:38:49.10,Mori-sensei,,0,0,0,,for a long time. She took a really long time,
+Dialogue: 0,0:38:49.10,0:38:50.28,Mori-sensei,,0,0,0,,for about three minutes.
+Dialogue: 0,0:38:50.28,0:38:54.60,Mori-sensei,,0,0,0,,"To begin with, there are three floors. You must take care to reach the third floor..."
+Dialogue: 0,0:38:54.60,0:38:57.36,Mori-sensei,,0,0,0,,Like this, she started a very long instruction.
+Dialogue: 0,0:38:57.36,0:39:00.04,Mori-sensei,,0,0,0,,Every girl was anxious about the opening time,
+Dialogue: 0,0:39:01.69,0:39:03.69,Mori-sensei,,0,0,0,,but was willing to hear her {\i1}senpai'{\i0}s words
+Dialogue: 0,0:39:03.69,0:39:05.00,Mori-sensei,,0,0,0,,Actually, she was saying good things...
+Dialogue: 0,0:39:04.72,0:39:05.40,C-chan,,0,0,0,,Yes, it was good.
+Dialogue: 0,0:39:04.89,0:39:07.36,Mori-sensei,,0,0,0,,heartfelt and thoughtful things.
+Dialogue: 0,0:39:07.36,0:39:09.01,Mori-sensei,,0,0,0,,And she ended her talk,
+Dialogue: 0,0:39:09.01,0:39:11.29,Mori-sensei,,0,0,0,,and Matsui followed
+Dialogue: 0,0:39:11.29,0:39:14.26,Mori-sensei,,0,0,0,,with only one phrase "Let's have fun!"
+Dialogue: 0,0:39:14.26,0:39:15.73,Mori-sensei,,0,0,0,,and broke the ice.
+Dialogue: 0,0:39:15.73,0:39:18.24,Mori-sensei,,0,0,0,,That was exactly a "carrot and stick" approach.
+Dialogue: 0,0:39:18.24,0:39:22.98,Mori-sensei,,0,0,0,,Miyoshi hit you hard, and Matsui gave you a sweet carrot.
+Dialogue: 0,0:39:23.73,0:39:26.17,Mori-sensei,,0,0,0,,Didn't you think Miyoshi's instruction was long?
+Dialogue: 0,0:39:25.69,0:39:26.62,C-chan,,0,0,0,,It was good!
+Dialogue: 0,0:39:26.08,0:39:27.28,Saki,,0,0,0,,She said really good things.
+Dialogue: 0,0:39:27.09,0:39:28.37,C-chan,,0,0,0,,That was like...
+Dialogue: 0,0:39:28.20,0:39:30.68,Mori-sensei,,0,0,0,,Then, do you remember what she said?
+Dialogue: 0,0:39:32.17,0:39:35.37,C-chan,,0,0,0,,Ayaka-chan taught us strictly what we need to think,
+Dialogue: 0,0:39:35.37,0:39:39.26,C-chan,,0,0,0,,And Airi-chan calmed us toward the show.
+Dialogue: 0,0:39:39.26,0:39:41.60,C-chan,,0,0,0,,The two of them made a good harmony.
+Dialogue: 0,0:39:41.60,0:39:45.61,Mori-sensei,,0,0,0,,Isn't this lip service? You're making a fishy face!
+Dialogue: 0,0:39:45.61,0:39:46.34,C-chan,,0,0,0,,No, I didn't make a face!
+Dialogue: 0,0:39:46.34,0:39:51.01,Mori-sensei,,0,0,0,,The two of them are not watching this program. So tell the truth. Didn't you think Miyoshi's talk was long?
+Dialogue: 0,0:39:50.66,0:39:51.42,Saki,,0,0,0,,It wasn't long, was it?
+Dialogue: 0,0:39:51.42,0:39:52.10,C-chan,,0,0,0,,Err...
+Dialogue: 0,0:39:52.09,0:39:53.73,Mori-sensei,,0,0,0,,Too hard to say?
+Dialogue: 0,0:39:53.73,0:39:55.62,C-chan,,0,0,0,,No, you're wrong!
+Dialogue: 0,0:39:55.62,0:39:59.46,C-chan,,0,0,0,,You know, we must be mentally prepared for the show,
+Dialogue: 0,0:39:59.46,0:40:00.30,Mori-sensei,,0,0,0,,I see.
+Dialogue: 0,0:40:00.30,0:40:04.70,C-chan,,0,0,0,,and they are kind {\i1}senpai{\i0} who made us prepared.
+Dialogue: 0,0:40:04.70,0:40:07.21,Mori-sensei,,0,0,0,,Ah, Shirai is getting to speak sweet words.
+Dialogue: 0,0:40:07.21,0:40:10.53,Mori-sensei,,0,0,0,,Hm? Is there a group photo?
+Dialogue: 0,0:40:09.80,0:40:10.80,Saki,,0,0,0,,I want to see it.
+Dialogue: 0,0:40:12.96,0:40:14.01,Mori-sensei,,0,0,0,,The 12 of you.
+Dialogue: 0,0:40:14.30,0:40:15.40,Mori-sensei,,0,0,0,,Is it after the show?
+Dialogue: 0,0:40:15.77,0:40:17.05,Saki,,0,0,0,,Yes it is.
+Dialogue: 0,0:40:17.18,0:40:19.68,Mori-sensei,,0,0,0,,Well, I heard that
+Dialogue: 0,0:40:19.68,0:40:25.01,Mori-sensei,,0,0,0,,when a Staff of LoGiRL asked Isono "How was the show?"
+Dialogue: 0,0:40:25.36,0:40:28.98,Mori-sensei,,0,0,0,,she was so relieved to say "It's a big load off my mind."
+Dialogue: 0,0:40:28.98,0:40:30.62,C-chan,,0,0,0,,I know how she feels.
+Dialogue: 0,0:40:30.25,0:40:30.96,Rinon,,0,0,0,,It was really...
+Dialogue: 0,0:40:30.61,0:40:32.28,Mori-sensei,,0,0,0,,The load was that heavy?
+Dialogue: 0,0:40:32.28,0:40:37.12,Rinon,,0,0,0,,How can I say... I'm the only one
+Dialogue: 0,0:40:37.12,0:40:40.69,Rinon,,0,0,0,,who shared a time with the first graduates.
+Dialogue: 0,0:40:40.69,0:40:44.10,Rinon,,0,0,0,,So I felt I must send gratitude on behalf of all the graduates.
+Dialogue: 0,0:40:44.10,0:40:46.48,Saki,,0,0,0,,I know.
+Dialogue: 0,0:40:46.54,0:40:49.70,Rinon,,0,0,0,,So, I was very nervous.
+Dialogue: 0,0:40:49.70,0:40:51.96,Rinon,,0,0,0,,Although, I feel nervous in every concert.
+Dialogue: 0,0:40:51.96,0:40:52.68,Mori-sensei,,0,0,0,,I see.
+Dialogue: 0,0:40:52.68,0:40:54.69,Saki,,0,0,0,,There was something grave... a sense of responsibility?
+Dialogue: 0,0:40:54.69,0:40:55.62,Mori-sensei,,0,0,0,,I understand.
+Dialogue: 0,0:40:55.62,0:40:58.48,Saki,,0,0,0,,So, there was something special, an unusual atmosphere.
+Dialogue: 0,0:40:58.48,0:41:02.34,Mori-sensei,,0,0,0,,It may be a bad remark, but you were haunted by the spirits of the graduates.
+Dialogue: 0,0:41:02.34,0:41:06.12,Mori-sensei,,0,0,0,,You were performing with spirits or wraiths on your shoulders!
+Dialogue: 0,0:41:06.12,0:41:08.49,Rinon,,0,0,0,,The graduates sent us emails
+Dialogue: 0,0:41:08.49,0:41:09.38,C-chan,,0,0,0,,Yes they did.
+Dialogue: 0,0:41:09.38,0:41:10.50,Rinon,,0,0,0,,before the show began.
+Dialogue: 0,0:41:10.50,0:41:15.46,C-chan,,0,0,0,,Such as, "I would be pleased if you give my gratitude to the audience for me."
+Dialogue: 0,0:41:15.46,0:41:17.13,Mori-sensei,,0,0,0,,That's a lot of pressure, isn't it?
+Dialogue: 0,0:41:17.13,0:41:18.21,Saki,,0,0,0,,Not at all.
+Dialogue: 0,0:41:18.06,0:41:19.98,Rinon,,0,0,0,,As for Marina-chan's email...
+Dialogue: 0,0:41:19.98,0:41:20.66,Mori-sensei,,0,0,0,,Oh, what did she write?
+Dialogue: 0,0:41:20.66,0:41:21.82,Rinon,,0,0,0,,I read it and forgot.
+Dialogue: 0,0:41:21.82,0:41:22.84,Mori-sensei,,0,0,0,,Wow! Read-and-forget?
+Dialogue: 0,0:41:24.44,0:41:25.22,Saki,,0,0,0,,Oh my...
+Dialogue: 0,0:41:24.54,0:41:26.98,Mori-sensei,,0,0,0,,I know Horiuchi is likely to spare you.
+Dialogue: 0,0:41:26.98,0:41:28.24,Rinon,,0,0,0,,Yes, I thought it's OK if I'd reply later.
+Dialogue: 0,0:41:28.24,0:41:32.57,Mori-sensei,,0,0,0,,Everyone sent you emails and it's hard to reply to all of them.
+Dialogue: 0,0:41:32.57,0:41:35.61,Mori-sensei,,0,0,0,,Other than that, Shirai met... Was it Day 2?
+Dialogue: 0,0:41:35.61,0:41:37.45,Mori-sensei,,0,0,0,,Two of the Talk Chairpersons.
+Dialogue: 0,0:41:37.45,0:41:38.29,C-chan,,0,0,0,,Yes, they came.
+Dialogue: 0,0:41:38.00,0:41:40.29,Mori-sensei,,0,0,0,,The first Chairperson, Sugisaki
+Dialogue: 0,0:41:40.29,0:41:42.94,Mori-sensei,,0,0,0,,and Notsu... now Honjo... Yunano.
+Dialogue: 0,0:41:42.94,0:41:43.36,C-chan,,0,0,0,,Yes.
+Dialogue: 0,0:41:43.36,0:41:45.08,Mori-sensei,,0,0,0,,I know you felt pressure.
+Dialogue: 0,0:41:45.08,0:41:47.08,C-chan,,0,0,0,,Actually, I didn't know they came.
+Dialogue: 0,0:41:47.08,0:41:49.08,C-chan,,0,0,0,,They visited me after the show.
+Dialogue: 0,0:41:49.08,0:41:52.06,C-chan,,0,0,0,,I wish I had known of their having been there.
+Dialogue: 0,0:41:53.00,0:41:54.98,Mori-sensei,,0,0,0,,I know they said something to you.
+Dialogue: 0,0:41:54.98,0:41:56.98,C-chan,,0,0,0,,They said a lot.
+Dialogue: 0,0:41:56.68,0:41:58.06,Mori-sensei,,0,0,0,,What did they say?
+Dialogue: 0,0:41:58.06,0:42:01.25,C-chan,,0,0,0,,Er... First, our MC-ing was pointless and lengthy.
+Dialogue: 0,0:42:01.82,0:42:03.66,Mori-sensei,,0,0,0,,Very harsh!
+Dialogue: 0,0:42:03.72,0:42:06.94,C-chan,,0,0,0,,And as a Talk Chairperson
+Dialogue: 0,0:42:06.94,0:42:09.46,C-chan,,0,0,0,,Saki (me) should have developed a topic more.
+Dialogue: 0,0:42:09.46,0:42:11.46,Mori-sensei,,0,0,0,,Wow, they are very demanding!
+Dialogue: 0,0:42:11.46,0:42:14.04,Mori-sensei,,0,0,0,,I got it. So today you vented your frustration on Hidaka!
+Dialogue: 0,0:42:15.64,0:42:18.00,Mori-sensei,,0,0,0,,The frustration you feel because you were told off!
+Dialogue: 0,0:42:16.02,0:42:17.26,Saki,,0,0,0,,It's scary!
+Dialogue: 0,0:42:18.78,0:42:20.61,C-chan,,0,0,0,,No, that's not true!
+Dialogue: 0,0:42:20.10,0:42:21.40,Saki,,0,0,0,,Too bad!
+Dialogue: 0,0:42:21.86,0:42:23.89,Mori-sensei,,0,0,0,,Wow, I've found we have only a little time left.
+Dialogue: 0,0:42:23.58,0:42:24.72,Saki,,0,0,0,,Oh it's true.
+Dialogue: 0,0:42:24.77,0:42:27.44,Mori-sensei,,0,0,0,,I feel like talking more. Can I join the following program?
+Dialogue: 0,0:42:28.13,0:42:30.26,Mori-sensei,,0,0,0,,I want to talk with Chie-san, the hostess of the next program
+Dialogue: 0,0:42:31.08,0:42:33.46,Mori-sensei,,0,0,0,,about Sakura Gakuin.
+Dialogue: 0,0:42:33.46,0:42:35.72,Saki,,0,0,0,,I'm afraid you'd speak ill of us!
+Dialogue: 0,0:42:35.72,0:42:38.06,Mori-sensei,,0,0,0,,Well, now we've talked a lot
+Dialogue: 0,0:42:38.06,0:42:40.09,Mori-sensei,,0,0,0,,about the concert.
+Dialogue: 0,0:42:40.09,0:42:45.90,Mori-sensei,,0,0,0,,Anyway, we had fun, and could celebrate the 5th anniversary well.
+Dialogue: 0,0:42:41.25,0:42:42.25,C-chan,,0,0,0,,Hai!
+Dialogue: 0,0:42:41.75,0:42:42.25,Rinon,,0,0,0,,Hai!
+Dialogue: 0,0:42:45.90,0:42:48.21,Mori-sensei,,0,0,0,,This program is going to end.
+Dialogue: 0,0:42:48.21,0:42:49.36,Mori-sensei,,0,0,0,,So, please...
+Dialogue: 0,0:42:49.18,0:42:50.81,C-chan,,0,0,0,,We have some announcements.
+Dialogue: 0,0:42:50.81,0:42:53.98,Mori-sensei,,0,0,0,,We have little time left, so...
+Dialogue: 0,0:42:53.98,0:42:54.92,Saki,,0,0,0,,I know.
+Dialogue: 0,0:42:54.92,0:42:57.25,Mori-sensei,,0,0,0,,do it with your whole heart, but hastily.
+Dialogue: 0,0:42:57.25,0:43:00.88,Saki,,0,0,0,,Hai! We'll have Open Class events!
+Dialogue: 0,0:43:02.75,0:43:03.50,Mori-sensei,,0,0,0,,They're starting.
+Dialogue: 0,0:43:03.17,0:43:08.34,Saki,,0,0,0,,Yes! These are our first Open Class events in this... in the next year.
+Dialogue: 0,0:43:08.70,0:43:11.93,Saki,,0,0,0,,On Saturday, January 16th, 2016,
+Dialogue: 0,0:43:11.93,0:43:13.82,Saki,,0,0,0,,We'll have a "Study of Rhythmic Gymnastics",
+Dialogue: 0,0:43:13.90,0:43:19.69,Saki,,0,0,0,,inviting the Rhythmic Gymnastics Club of Tokyo Women's College of Physical Education as lecturers.
+Dialogue: 0,0:43:19.69,0:43:22.06,Mori-sensei,,0,0,0,,Great! I'm super happy!
+Dialogue: 0,0:43:22.06,0:43:22.96,Saki,,0,0,0,,And...
+Dialogue: 0,0:43:22.96,0:43:24.53,C-chan,,0,0,0,,Why are you so happy?
+Dialogue: 0,0:43:24.53,0:43:26.84,Mori-sensei,,0,0,0,,I just now realize we invited members of the Rhythmic Gymnastics Club
+Dialogue: 0,0:43:26.84,0:43:27.21,Saki,,0,0,0,,Yes...
+Dialogue: 0,0:43:27.21,0:43:28.12,Mori-sensei,,0,0,0,,of a Women's College.
+Dialogue: 0,0:43:27.25,0:43:29.01,C-chan,,0,0,0,,I have taken lessons in rhythmic gymnastics...
+Dialogue: 0,0:43:29.01,0:43:30.78,Mori-sensei,,0,0,0,,I'm super excited!
+Dialogue: 0,0:43:30.52,0:43:33.01,Rinon,,0,0,0,,Listen! C-chan has just revealed something interesting!
+Dialogue: 0,0:43:32.52,0:43:33.98,C-chan,,0,0,0,,I have experience in rhythmic gymnastics.
+Dialogue: 0,0:43:33.98,0:43:35.98,Mori-sensei,,0,0,0,,Shirai? Really?
+Dialogue: 0,0:43:35.98,0:43:37.00,C-chan,,0,0,0,,For eight years.
+Dialogue: 0,0:43:37.00,0:43:38.14,Mori-sensei,,0,0,0,,Eight years!
+Dialogue: 0,0:43:38.14,0:43:39.54,Mori-sensei,,0,0,0,,This is the first I've heard of this!
+Dialogue: 0,0:43:39.76,0:43:41.12,C-chan,,0,0,0,,But I still have a very inflexible body.
+Dialogue: 0,0:43:41.16,0:43:42.18,Mori-sensei,,0,0,0,,Unbelievable!
+Dialogue: 0,0:43:41.49,0:43:43.45,Saki,,0,0,0,,Well, we'll have another Open Class event,
+Dialogue: 0,0:43:43.45,0:43:45.70,Saki,,0,0,0,,The "Study of {\i1}Rakugo{\i0}" (Comic Storytelling)
+Dialogue: 0,0:43:46.13,0:43:50.01,Note,,0,0,0,,[Saki mistakenly says {\i1}"jūnanoka"{\i0} for the 17th day (17日) of the month.  10 = {\i1}jū,{\i0}, 7 = {\i1}nana,{\i0}, 17 = {\i1}jūnana{\i0}, and day (日) = {\i1}ka{\i0} or {\i1}nichi{\i0}. The seventh day (7日) can be read as either {\i1}"nanuka"{\i0}, {\i1}"nanoka"{\i0}, or {\i1}"nananichi"{\i0}, but 17日 can only be read as {\i1}"jūnananichi"{\i0}.]
+Dialogue: 0,0:43:46.13,0:43:48.05,Saki,,0,0,0,,It'll be on Sunday, January "10 7th." ({\i1}Jūnanoka{\i0})
+Dialogue: 0,0:43:48.05,0:43:48.93,Mori-sensei,,0,0,0,,Wonderful!
+Dialogue: 0,0:43:48.05,0:43:48.93,C-chan,,0,0,0,,{\i1}"Jūnanoka?!"
+Dialogue: 0,0:43:48.93,0:43:50.01,Saki,,0,0,0,,"17th!" ({\i1}"Jūnananichi"{\i0})
+Dialogue: 0,0:43:50.01,0:43:50.82,Mori-sensei,,0,0,0,,But Shirai won't...
+Dialogue: 0,0:43:50.82,0:43:54.96,Mori-sensei,,0,0,0,,Ah, that's right. I can't join the event because of a mock test of an entrance exam for high school.
+Dialogue: 0,0:43:54.96,0:43:56.33,Mori-sensei,,0,0,0,,You must prioritize the mock test.
+Dialogue: 0,0:43:56.33,0:43:57.77,C-chan,,0,0,0,,Yes, I'm sorry!
+Dialogue: 0,0:43:57.77,0:44:00.74,Saki,,0,0,0,,We'll invite Mr. Tatekawa Shirano as a lecturer.
+Dialogue: 0,0:44:01.00,0:44:02.62,Saki,,0,0,0,,{\i1}Yoroshiku onegaishimasu!
+Dialogue: 0,0:44:02.62,0:44:04.62,Mori-sensei,,0,0,0,,I see, thanks. And...?
+Dialogue: 0,0:44:04.62,0:44:07.69,Rinon,,0,0,0,,And! Tomorrow, on December 8th,
+Dialogue: 0,0:44:07.69,0:44:10.25,Rinon,,0,0,0,,Our 5th Anniversary Video Single
+Dialogue: 0,0:44:10.25,0:44:13.42,Rinon,,0,0,0,,"School days -2015-" will be released!
+Dialogue: 0,0:44:14.25,0:44:16.80,Rinon,,0,0,0,,The photo of the jacket of this video single is
+Dialogue: 0,0:44:16.80,0:44:21.70,Rinon,,0,0,0,,similar to the jacket photo of our debut single which was released in 2010.
+Dialogue: 0,0:44:21.70,0:44:24.29,Rinon,,0,0,0,,We tried our best
+Dialogue: 0,0:44:24.29,0:44:29.61,Rinon,,0,0,0,,to mimic the facial direction and the like.
+Dialogue: 0,0:44:27.30,0:44:28.18,C-chan,,0,0,0,,Yes, we did.
+Dialogue: 0,0:44:29.61,0:44:31.61,Rinon,,0,0,0,,So, please compare the two jacket photos.
+Dialogue: 0,0:44:31.61,0:44:32.89,Rinon,,0,0,0,,{\i1}Onegaishimasu!
+Dialogue: 0,0:44:32.89,0:44:33.89,All/Multiple,,0,0,0,,{\i1}Onegaishimasu!
+Dialogue: 0,0:44:33.89,0:44:34.85,Mori-sensei,,0,0,0,,Is that all?
+Dialogue: 0,0:44:34.85,0:44:35.74,All/Multiple,,0,0,0,,No, not yet!
+Dialogue: 0,0:44:35.74,0:44:37.42,Mori-sensei,,0,0,0,,Wow! You have a lot of announcements!
+Dialogue: 0,0:44:37.42,0:44:41.96,C-chan,,0,0,0,,And now, "Sakura Gakuin 5th anniversary Museum" is open
+Dialogue: 0,0:44:41.96,0:44:46.57,C-chan,,0,0,0,,at the "SpaceHACHIKAI" on the 8th floor of Tower Records Shibuya.
+Dialogue: 0,0:44:47.58,0:44:51.69,C-chan,,0,0,0,,I'm sure a Fukei must visit there.
+Dialogue: 0,0:44:51.69,0:44:52.38,Mori-sensei,,0,0,0,,Ah, I know.
+Dialogue: 0,0:44:51.73,0:44:54.01,C-chan,,0,0,0,,Today, we were there
+Dialogue: 0,0:44:54.01,0:44:55.34,C-chan,,0,0,0,,and we wrote our autographs
+Dialogue: 0,0:44:55.34,0:44:57.61,C-chan,,0,0,0,,and wrote some messages on a message board.
+Dialogue: 0,0:44:57.61,0:45:03.00,C-chan,,0,0,0,,So, even if you've already visited there, please go again
+Dialogue: 0,0:45:03.00,0:45:05.00,C-chan,,0,0,0,,and find new features!
+Dialogue: 0,0:45:05.00,0:45:07.84,Mori-sensei,,0,0,0,,I see. There is something new.
+Dialogue: 0,0:45:07.84,0:45:09.06,C-chan,,0,0,0,,And...
+Dialogue: 0,0:45:08.76,0:45:09.64,Mori-sensei,,0,0,0,,More!?
+Dialogue: 0,0:45:09.64,0:45:12.41,C-chan,,0,0,0,,At the Tower Records Cafe Omotesando shop
+Dialogue: 0,0:45:12.41,0:45:15.70,C-chan,,0,0,0,,you can enjoy three kind of collabo-dishes, which are Mini Pati collaborations.
+Dialogue: 0,0:45:15.70,0:45:21.26,C-chan,,0,0,0,,They are re-makes of past Mini Pati dishes,
+Dialogue: 0,0:45:21.26,0:45:24.62,C-chan,,0,0,0,,and also, you can see several photos of Mini Pati.
+Dialogue: 0,0:45:24.62,0:45:26.82,C-chan,,0,0,0,,Please check it out!
+Dialogue: 0,0:45:28.00,0:45:29.46,C-chan,,0,0,0,,Why are you laughing?
+Dialogue: 0,0:45:28.88,0:45:30.33,Mori-sensei,,0,0,0,,And more? You have more announcements?
+Dialogue: 0,0:45:29.57,0:45:30.66,Saki,,0,0,0,,It's the last announcement.
+Dialogue: 0,0:45:30.66,0:45:37.36,Marin,,0,0,0,,And, to commemorate the 5th anniversary of Sakura Gakuin, a wonderful story was produced!
+Dialogue: 0,0:45:33.25,0:45:44.10,Note,,0,0,0,,[Synopsis: On the morning of Christmas, Marin wakes up and find herself in unfamiliar woods. She looks around and finds a small cabin in which several girls are having joyful chit-chats. And there come fairies and... It's a fantasy story which tells us the beauty of friendship, and the truth that there is nothing which can be wasted.]
+Dialogue: 0,0:45:36.09,0:45:37.74,Mori-sensei,,0,0,0,,Oh! Sounds great!
+Dialogue: 0,0:45:37.74,0:45:42.17,Marin,,0,0,0,,The members and five fairies weave a fantasy story
+Dialogue: 0,0:45:42.20,0:45:43.29,Marin,,0,0,0,,{\fnSerif\fs36}"ever after."
+Dialogue: 0,0:45:43.29,0:45:45.29,Mori-sensei,,0,0,0,,Here it comes! Thank you!
+Dialogue: 0,0:45:44.32,0:45:45.53,Saki,,0,0,0,,It came!
+Dialogue: 0,0:45:46.06,0:45:47.93,Mori-sensei,,0,0,0,,Then, Ōga, give it a try!
+Dialogue: 0,0:45:47.93,0:45:49.78,Saki,,0,0,0,,{\fnSerif\fs36}"evah aftah."
+Dialogue: 0,0:45:49.78,0:45:50.80,Mori-sensei,,0,0,0,,What the...!
+Dialogue: 0,0:45:49.78,0:45:51.76,C-chan,,0,0,0,,Saki (me) can speak more fluently!
+Dialogue: 0,0:45:52.49,0:45:53.74,C-chan,,0,0,0,,{\fnSerif\fs36}"evuh aftuh."
+Dialogue: 0,0:45:52.06,0:45:56.13,Mori-sensei,,0,0,0,,No no... Why on earth do you speak with a turned-up chin?
+Dialogue: 0,0:45:56.13,0:46:01.01,Marin,,0,0,0,,Now you can pre-order it at ASMART, the on-line shop
+Dialogue: 0,0:46:01.01,0:46:04.14,Marin,,0,0,0,,{\i1}Yoroshiku onegaishimasu!
+Dialogue: 0,0:46:02.50,0:46:04.05,All/Multiple,,0,0,0,,{\i1}Yoroshiku onegaishimasu!
+Dialogue: 0,0:46:03.00,0:46:04.05,Mori-sensei,,0,0,0,,It sounds fun!
+Dialogue: 0,0:46:04.04,0:46:06.52,Mori-sensei,,0,0,0,,And I hear Hidaka is the featured actress.
+Dialogue: 0,0:46:06.49,0:46:07.34,Saki,,0,0,0,,Yes, she is!
+Dialogue: 0,0:46:07.34,0:46:10.37,Mori-sensei,,0,0,0,,I'm looking forward to seeing {\fnSerif\fs36}"ever after."
+Dialogue: 0,0:46:10.37,0:46:14.72,Mori-sensei,,0,0,0,,Well, we did lots of announcements in a short period this time, but
+Dialogue: 0,0:46:14.72,0:46:16.86,Mori-sensei,,0,0,0,,the next time will be our usual program.
+Dialogue: 0,0:46:16.90,0:46:18.77,Mori-sensei,,0,0,0,,We can't show you a trailer movie this time
+Dialogue: 0,0:46:18.76,0:46:21.33,Mori-sensei,,0,0,0,,because our talk took up all the time.
+Dialogue: 0,0:46:21.33,0:46:23.93,Mori-sensei,,0,0,0,,I hope you env... enjoyed our talk
+Dialogue: 0,0:46:23.85,0:46:24.60,Mori-sensei,,0,0,0,,Something wrong?
+Dialogue: 0,0:46:24.22,0:46:25.28,C-chan,,0,0,0,,At the very last moment!
+Dialogue: 0,0:46:24.94,0:46:27.57,Saki,,0,0,0,,We must have a Review Meeting!
+Dialogue: 0,0:46:27.57,0:46:30.20,Mori-sensei,,0,0,0,,What did you say? OK, then, let me say something!
+Dialogue: 0,0:46:30.22,0:46:34.17,Mori-sensei,,0,0,0,,I think I must tell you off for your stumbling on your lines at the Day 1 show!
+Dialogue: 0,0:46:34.17,0:46:37.76,Mori-sensei,,0,0,0,,You made a lot of terrible stumbling, do you remember?
+Dialogue: 0,0:46:34.94,0:46:35.68,C-chan,,0,0,0,,I'm so sorry!
+Dialogue: 0,0:46:37.76,0:46:39.76,Saki,,0,0,0,,OK! That's all!
+Dialogue: 0,0:46:38.66,0:46:39.70,Rinon,,0,0,0,,Hai!
+Dialogue: 0,0:46:39.75,0:46:45.33,Mori-sensei,,0,0,0,,Well, after this program, from 8pm, the "Spir-log" of Mystery Hunter Chie-san will begin.
+Dialogue: 0,0:46:45.33,0:46:47.33,Mori-sensei,,0,0,0,,Chie-san, thank you for waiting!
+Dialogue: 0,0:46:47.33,0:46:51.73,Mori-sensei,,0,0,0,,We've warmed up the atmosphere for you!
+Dialogue: 0,0:46:51.73,0:46:53.92,Mori-sensei,,0,0,0,,Well, that's all! Day Leader!
+Dialogue: 0,0:46:53.92,0:46:54.85,Rinon,,0,0,0,,Rise!
+Dialogue: 0,0:46:55.68,0:46:57.13,Rinon,,0,0,0,,Attention!
+Dialogue: 0,0:46:57.13,0:46:58.14,Rinon,,0,0,0,,Bow!
+Dialogue: 0,0:46:58.14,0:47:00.14,All/Multiple,,0,0,0,,Thank you very much!
+Dialogue: 0,0:47:02.60,0:47:04.56,All/Multiple,,0,0,0,,Bye-bye!
+Dialogue: 0,0:47:04.56,0:47:06.80,Mori-sensei,,0,0,0,,Everyone, show your good face, your good face!
