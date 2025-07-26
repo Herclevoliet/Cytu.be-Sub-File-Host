@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/SG%2B/SG/SG%20FRESH!%20Archive/SG%20FRESH%20%23039%20(20180402).mp4",
+      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/SG%2B/SG/SG%20FRESH!%20Archive/SG%20FRESH%20%23086%20(20190225).mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/SG%20FRESH%2039%20SVSG%20L2.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/SG%20FRESH%20086%20fresh086.ass",
             "contentType": "text/x-ass"
         }
   ]
