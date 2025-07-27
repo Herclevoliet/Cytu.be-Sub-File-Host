@@ -1,0 +1,1154 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 640
+PlayResY: 360
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ASS,Arial,20,&H00FFFF00,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.7,0.0,2,10,10,10,1
+Style: TC,Arial,45,&H00FFFFFF,&H0000FFFF,&H00FF9000,&H00000000,-1,0,0,0,100,100,0,0,1,5.0,0.0,2,10,10,20,1
+Style: Default,Arial,25,&H00FFFF00,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.00,ASS,,0,0,0,,Thank you for watching.
+Dialogue: 0,0:00:02.39,0:00:05.39,ASS,,0,0,0,,- What should we talk about? - It says\N"curry".
+Dialogue: 0,0:00:05.39,0:00:08.39,ASS,,0,0,0,,- I ate curry. - What?
+Dialogue: 0,0:00:08.39,0:00:10.39,ASS,,0,0,0,,- Huh? - Bonus.
+Dialogue: 0,0:00:10.39,0:00:12.39,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:00:13.39,0:00:17.39,ASS,,0,0,0,,I like butter chicken curry.
+Dialogue: 0,0:00:17.39,0:00:19.39,ASS,,0,0,0,,- Butter chicken curry? - Yeah.
+Dialogue: 0,0:00:21.39,0:00:24.39,ASS,,0,0,0,,I'm sorry. I was so curious.
+Dialogue: 0,0:00:24.39,0:00:27.39,ASS,,0,0,0,,- We ate that the other day. - What?
+Dialogue: 0,0:00:27.39,0:00:32.29,ASS,,0,0,0,,It's a hamburger stuffed with strawberry\Ncream.
+Dialogue: 0,0:00:32.29,0:00:34.29,ASS,,0,0,0,,It's not a hamburger.
+Dialogue: 0,0:00:34.29,0:00:36.29,ASS,,0,0,0,,It's a fruit sandwich.
+Dialogue: 0,0:00:38.29,0:00:40.29,ASS,,0,0,0,,I'm not going to talk about anything.
+Dialogue: 0,0:00:40.29,0:00:42.29,ASS,,0,0,0,,I'm going to relax today.
+Dialogue: 0,0:00:42.29,0:00:44.29,ASS,,0,0,0,,Are you going to relax?
+Dialogue: 0,0:00:46.29,0:00:47.29,ASS,,0,0,0,,Hans Inter?
+Dialogue: 0,0:00:47.29,0:00:48.29,ASS,,0,0,0,,Yeah, Hans Inter.
+Dialogue: 0,0:00:48.29,0:00:50.29,ASS,,0,0,0,,I thought it wasn't enough.
+Dialogue: 0,0:00:50.29,0:00:52.29,ASS,,0,0,0,,Isn't Hans Inter cute, too?
+Dialogue: 0,0:00:52.29,0:00:54.29,ASS,,0,0,0,,Is that so? Shall we do it together?
+Dialogue: 0,0:00:54.29,0:00:56.29,ASS,,0,0,0,,Whichever is fine with me.
+Dialogue: 0,0:00:58.34,0:01:01.34,ASS,,0,0,0,,Wasn't there a girl with a twin-tailed\Nhat when you were a student?
+Dialogue: 0,0:01:01.34,0:01:03.34,ASS,,0,0,0,,I don't think so.
+Dialogue: 0,0:01:03.34,0:01:04.34,ASS,,0,0,0,,There was.
+Dialogue: 0,0:01:04.34,0:01:05.34,ASS,,0,0,0,,There was.
+Dialogue: 0,0:01:05.34,0:01:07.34,ASS,,0,0,0,,There was a girl with a half-twin-tailed\Nhat.
+Dialogue: 0,0:01:07.34,0:01:10.34,ASS,,0,0,0,,When I was in elementary school, there\Nwas a girl with a half-twin-tailed hat.
+Dialogue: 0,0:01:10.34,0:01:11.34,ASS,,0,0,0,,I don't know.
+Dialogue: 0,0:01:15.34,0:01:16.34,ASS,,0,0,0,,Do you want to answer questions today?
+Dialogue: 0,0:01:16.34,0:01:17.34,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:01:17.34,0:01:18.34,ASS,,0,0,0,,Let's answer.
+Dialogue: 0,0:01:21.34,0:01:22.34,ASS,,0,0,0,,Today is your birthday.
+Dialogue: 0,0:01:22.34,0:01:24.34,ASS,,0,0,0,,Congratulations.
+Dialogue: 0,0:01:26.14,0:01:29.14,ASS,,0,0,0,,"Tell us your thoughts on the new song."
+Dialogue: 0,0:01:29.14,0:01:34.14,ASS,,0,0,0,,Well, I was told not to give away any\Nspoilers today.
+Dialogue: 0,0:01:37.14,0:01:40.14,ASS,,0,0,0,,But the new song, "Nagaredama"... No,\Nit's not "Nagaredama."
+Dialogue: 0,0:01:40.14,0:01:42.14,ASS,,0,0,0,,- "Saminareyo." - "Saminareyo" is\Nalready...
+Dialogue: 0,0:01:42.14,0:01:45.14,ASS,,0,0,0,,- I'm sorry, but it's been changed. -\NRight, right.
+Dialogue: 0,0:01:45.14,0:01:47.14,ASS,,0,0,0,,- Shall we talk about it? - Shall we?
+Dialogue: 0,0:01:47.14,0:01:49.14,ASS,,0,0,0,,- I was really into it. - You were?
+Dialogue: 0,0:01:49.14,0:01:51.14,ASS,,0,0,0,,I was really into it, and it's today.
+Dialogue: 0,0:01:51.14,0:01:54.14,ASS,,0,0,0,,If you listen to the lyrics carefully,
+Dialogue: 0,0:01:54.14,0:01:54.54,ASS,,0,0,0,,you'll be able to feel it.
+Dialogue: 0,0:01:55.54,0:01:59.54,ASS,,0,0,0,,It's a song that's different from what\Nyou said at the beginning and at the\Nend, isn't it?
+Dialogue: 0,0:01:59.54,0:02:04.54,ASS,,0,0,0,,The way it ends is also unique.
+Dialogue: 0,0:02:04.54,0:02:07.54,ASS,,0,0,0,,That song is good. What kind of dance is\Nit?
+Dialogue: 0,0:02:07.54,0:02:09.54,ASS,,0,0,0,,I wonder what kind of dance it is.
+Dialogue: 0,0:02:09.54,0:02:11.54,ASS,,0,0,0,,I'm really looking forward to the music\Nvideo.
+Dialogue: 0,0:02:11.54,0:02:13.54,ASS,,0,0,0,,Please look forward to it.
+Dialogue: 0,0:02:15.54,0:02:17.54,ASS,,0,0,0,,The song is...
+Dialogue: 0,0:02:17.54,0:02:18.39,ASS,,0,0,0,,What is it?
+Dialogue: 0,0:02:18.39,0:02:20.39,ASS,,0,0,0,,- I'm going to be on the other show. -\NOh, you're going to be on that?
+Dialogue: 0,0:02:20.39,0:02:22.39,ASS,,0,0,0,,- Oh, you're going to be on that? - Yes,\NI'll be on that.
+Dialogue: 0,0:02:22.39,0:02:24.39,ASS,,0,0,0,,- I'm going to be on that, so I'll be\Nback. - Yeah.
+Dialogue: 0,0:02:24.39,0:02:26.39,ASS,,0,0,0,,- I'll be back. - Yeah.
+Dialogue: 0,0:02:26.39,0:02:28.39,ASS,,0,0,0,,- I love you. I've been saying that for\Na while now. - Yeah.
+Dialogue: 0,0:02:28.39,0:02:30.39,ASS,,0,0,0,,- I love you. - Yeah.
+Dialogue: 0,0:02:36.03,0:02:38.03,ASS,,0,0,0,,"Please make a heart."
+Dialogue: 0,0:02:38.03,0:02:40.03,ASS,,0,0,0,,Let's do it together.
+Dialogue: 0,0:02:40.03,0:02:42.03,ASS,,0,0,0,,We'll win if we do it together.
+Dialogue: 0,0:02:42.03,0:02:44.03,ASS,,0,0,0,,1, 2, 3.
+Dialogue: 0,0:02:44.03,0:02:46.03,ASS,,0,0,0,,Is that so?
+Dialogue: 0,0:02:46.03,0:02:48.03,ASS,,0,0,0,,Let's do it.
+Dialogue: 0,0:02:48.03,0:02:50.03,ASS,,0,0,0,,Hey, you're betraying me.
+Dialogue: 0,0:02:50.03,0:02:52.03,ASS,,0,0,0,,Let's do it.
+Dialogue: 0,0:02:52.03,0:02:54.03,ASS,,0,0,0,,1, 2, 3.
+Dialogue: 0,0:02:54.03,0:02:56.03,ASS,,0,0,0,,Let's do it again.
+Dialogue: 0,0:02:56.03,0:02:58.03,ASS,,0,0,0,,1, 2, 3.
+Dialogue: 0,0:03:00.03,0:03:02.03,ASS,,0,0,0,,Let's do it.
+Dialogue: 0,0:03:02.03,0:03:04.03,ASS,,0,0,0,,1, 2, 3.
+Dialogue: 0,0:03:04.79,0:03:06.79,ASS,,0,0,0,,Let's do it.
+Dialogue: 0,0:03:10.79,0:03:12.79,ASS,,0,0,0,,Chii will do it.
+Dialogue: 0,0:03:16.79,0:03:18.23,ASS,,0,0,0,,That's not good.
+Dialogue: 0,0:03:18.23,0:03:20.23,ASS,,0,0,0,,- Let's play a game like this. - Okay.
+Dialogue: 0,0:03:20.23,0:03:25.23,ASS,,0,0,0,,Let's play a game with everyone.
+Dialogue: 0,0:03:26.23,0:03:31.23,ASS,,0,0,0,,Let's say a topic, and if everyone\Nagrees, we win.
+Dialogue: 0,0:03:31.23,0:03:33.23,ASS,,0,0,0,,- Okay. - Then...
+Dialogue: 0,0:03:36.23,0:03:37.23,ASS,,0,0,0,,Please give us a topic.
+Dialogue: 0,0:03:37.23,0:03:40.23,ASS,,0,0,0,,Wow, there's a mirror ball. Thank you.
+Dialogue: 0,0:03:40.23,0:03:45.23,ASS,,0,0,0,,Let's take a pose where there's a mirror\Nball.
+Dialogue: 0,0:03:46.97,0:03:49.97,ASS,,0,0,0,,It's a bit difficult for the viewers.
+Dialogue: 0,0:03:49.97,0:03:53.97,ASS,,0,0,0,,I see, so you want to make a pose that\Ncan be expressed in words.
+Dialogue: 0,0:03:54.97,0:04:00.97,ASS,,0,0,0,,A pose that I want to take in a\Nglittering studio with a mirror ball.
+Dialogue: 0,0:04:00.97,0:04:01.97,ASS,,0,0,0,,I see.
+Dialogue: 0,0:04:01.97,0:04:02.97,ASS,,0,0,0,,That's good.
+Dialogue: 0,0:04:02.97,0:04:04.97,ASS,,0,0,0,,Everyone, let's say it together.
+Dialogue: 0,0:04:04.97,0:04:05.97,ASS,,0,0,0,,One, two.
+Dialogue: 0,0:04:05.97,0:04:06.97,ASS,,0,0,0,,"Nio-dachi"
+Dialogue: 0,0:04:06.97,0:04:07.97,ASS,,0,0,0,,Is that what you mean?
+Dialogue: 0,0:04:08.97,0:04:09.97,ASS,,0,0,0,,No, it's not.
+Dialogue: 0,0:04:09.97,0:04:14.97,ASS,,0,0,0,,The fact that it matches with the\Nviewers means that it can be expressed\Nin words.
+Dialogue: 0,0:04:14.97,0:04:15.97,ASS,,0,0,0,,I see.
+Dialogue: 0,0:04:15.97,0:04:16.45,ASS,,0,0,0,,Yes!
+Dialogue: 0,0:04:17.45,0:04:19.45,ASS,,0,0,0,,"Niwadachi" is the correct answer.
+Dialogue: 0,0:04:19.45,0:04:20.45,ASS,,0,0,0,,"Niwadachi"
+Dialogue: 0,0:04:20.45,0:04:22.45,ASS,,0,0,0,,Ah, but pointing fingers up...
+Dialogue: 0,0:04:23.45,0:04:25.45,ASS,,0,0,0,,Is "Niwadachi" there?
+Dialogue: 0,0:04:26.45,0:04:27.45,ASS,,0,0,0,,Did you not use your hair?
+Dialogue: 0,0:04:27.45,0:04:28.45,ASS,,0,0,0,,No.
+Dialogue: 0,0:04:28.45,0:04:32.45,ASS,,0,0,0,,You were so scared that you said "I want\Nyour left hand" but you only have your\Nright hand.
+Dialogue: 0,0:04:33.45,0:04:35.45,ASS,,0,0,0,,What should I do, Fan-chan?
+Dialogue: 0,0:04:36.45,0:04:39.45,ASS,,0,0,0,,A pose when you're angry.
+Dialogue: 0,0:04:39.45,0:04:41.45,ASS,,0,0,0,,A pose when I'm angry...
+Dialogue: 0,0:04:42.45,0:04:43.45,ASS,,0,0,0,,That's good.
+Dialogue: 0,0:04:44.86,0:04:45.86,ASS,,0,0,0,,Nihon-odachi.
+Dialogue: 0,0:04:45.86,0:04:46.86,ASS,,0,0,0,,That's not it.
+Dialogue: 0,0:04:49.86,0:04:51.86,ASS,,0,0,0,,You can't do this with words.
+Dialogue: 0,0:04:51.86,0:04:53.86,ASS,,0,0,0,,You did it.
+Dialogue: 0,0:04:53.86,0:04:55.86,ASS,,0,0,0,,Ah, I can't forgive you.
+Dialogue: 0,0:04:55.86,0:04:58.86,ASS,,0,0,0,,I did it because I thought we would\Ndefinitely get along.
+Dialogue: 0,0:04:58.86,0:05:00.86,ASS,,0,0,0,,Everyone is saying "punpun" and "buu".
+Dialogue: 0,0:05:00.86,0:05:02.86,ASS,,0,0,0,,I like Nihon-odachi too much.
+Dialogue: 0,0:05:02.86,0:05:04.86,ASS,,0,0,0,,What should we do next?
+Dialogue: 0,0:05:09.72,0:05:13.72,ASS,,0,0,0,,- "Pose for when you wake up early in\Nthe morning." - When I wake up early in\Nthe morning.
+Dialogue: 0,0:05:13.72,0:05:15.72,ASS,,0,0,0,,Let's do it together.
+Dialogue: 0,0:05:15.72,0:05:18.72,ASS,,0,0,0,,- Ready, set, "Niodachi." - That's not\Nit.
+Dialogue: 0,0:05:18.72,0:05:22.72,ASS,,0,0,0,,- I'm just saying what I want to say.\NI'm sorry. - Really?
+Dialogue: 0,0:05:22.72,0:05:25.72,ASS,,0,0,0,,- I'm done. - You're a true Kansai\Nperson.
+Dialogue: 0,0:05:27.72,0:05:29.72,ASS,,0,0,0,,What is it?
+Dialogue: 0,0:05:29.72,0:05:32.72,ASS,,0,0,0,,You just sucked all the air in here.
+Dialogue: 0,0:05:33.72,0:05:37.72,ASS,,0,0,0,,- Today's popular phrase is "Niodachi."\N- That's fine.
+Dialogue: 0,0:05:37.72,0:05:38.99,ASS,,0,0,0,,"Niodachi"
+Dialogue: 0,0:05:39.99,0:05:43.99,ASS,,0,0,0,,- You're breathing in too much air. -\NIt's because I talk too much.
+Dialogue: 0,0:05:45.99,0:05:47.99,ASS,,0,0,0,,- "It's not stretching." - That's right.
+Dialogue: 0,0:05:47.99,0:05:51.99,ASS,,0,0,0,,- Is there anyone who actually stretches\Nwhen they wake up? - What do I do?
+Dialogue: 0,0:05:53.99,0:05:56.99,ASS,,0,0,0,,I heard that if you stretch before you\Ngo to bed, you can stretch your height.
+Dialogue: 0,0:05:56.99,0:05:58.99,ASS,,0,0,0,,- Is that so? - I heard so.
+Dialogue: 0,0:05:59.99,0:06:01.99,ASS,,0,0,0,,Someone said, "#Niodachi."
+Dialogue: 0,0:06:02.99,0:06:03.99,ASS,,0,0,0,,"It makes you look slender."
+Dialogue: 0,0:06:05.99,0:06:07.99,ASS,,0,0,0,,- Someone said, "You're stupid." -\NThat's nice.
+Dialogue: 0,0:06:09.50,0:06:14.50,ASS,,0,0,0,,- It looks good on you. - Do I look\Ngood? - No, it's okay. Thank you.
+Dialogue: 0,0:06:14.50,0:06:18.50,ASS,,0,0,0,,- I look good in it, don't I? - You do.
+Dialogue: 0,0:06:19.50,0:06:22.50,ASS,,0,0,0,,- You look good in it, too. - Thank you.
+Dialogue: 0,0:06:22.50,0:06:26.50,ASS,,0,0,0,,- We're wearing matching ribbons. -\NThat's right.
+Dialogue: 0,0:06:26.50,0:06:30.50,ASS,,0,0,0,,- We're wearing matching twintails, too.\N- That's right.
+Dialogue: 0,0:06:30.50,0:06:33.50,ASS,,0,0,0,,- I just saw a rainbow. - I saw it, too.
+Dialogue: 0,0:06:33.50,0:06:37.50,ASS,,0,0,0,,- It's beautiful. - Let's drink some\Nwater.
+Dialogue: 0,0:06:38.84,0:06:40.84,ASS,,0,0,0,,I'm free.
+Dialogue: 0,0:06:40.84,0:06:42.84,ASS,,0,0,0,,I'm free.
+Dialogue: 0,0:06:44.84,0:06:46.84,ASS,,0,0,0,,What's for dinner?
+Dialogue: 0,0:06:46.84,0:06:49.66,ASS,,0,0,0,,I ate something like a hot pot.
+Dialogue: 0,0:06:49.66,0:06:51.66,ASS,,0,0,0,,- Is that so? - Yeah.
+Dialogue: 0,0:06:51.66,0:06:53.66,ASS,,0,0,0,,- I bought it. - That's nice.
+Dialogue: 0,0:06:53.66,0:06:55.66,ASS,,0,0,0,,Please tell me.
+Dialogue: 0,0:06:55.66,0:06:59.66,ASS,,0,0,0,,- I wanted to match the color of your\Nstomach. - That's a little scary.
+Dialogue: 0,0:06:59.66,0:07:04.66,ASS,,0,0,0,,- Some people are asking if the clothes\Nare the same. - It's not the same at\Nall.
+Dialogue: 0,0:07:04.66,0:07:06.66,ASS,,0,0,0,,It's definitely not the same.
+Dialogue: 0,0:07:06.66,0:07:09.66,ASS,,0,0,0,,- I found a really good one. Let's talk\Nabout Hyogo. - Sure.
+Dialogue: 0,0:07:09.66,0:07:11.66,ASS,,0,0,0,,This is easy. We're from Hyogo.
+Dialogue: 0,0:07:11.66,0:07:13.66,ASS,,0,0,0,,- Hyogo is... - Do you have any history?
+Dialogue: 0,0:07:13.66,0:07:15.66,ASS,,0,0,0,,Hyogo is an octopus.
+Dialogue: 0,0:07:15.66,0:07:18.66,ASS,,0,0,0,,Speaking of Hyogo, it's shaped like an\Noctopus.
+Dialogue: 0,0:07:20.25,0:07:25.25,ASS,,0,0,0,,When we were on the same magazine\Ntogether,
+Dialogue: 0,0:07:25.25,0:07:27.25,ASS,,0,0,0,,we were supposed to take a pose in\NCzech,
+Dialogue: 0,0:07:27.25,0:07:30.25,ASS,,0,0,0,,and I did a Hyogo pose.
+Dialogue: 0,0:07:30.25,0:07:31.25,ASS,,0,0,0,,You were holding it.
+Dialogue: 0,0:07:31.25,0:07:33.25,ASS,,0,0,0,,Yes, I was holding it for about three\Ndays.
+Dialogue: 0,0:07:33.25,0:07:35.25,ASS,,0,0,0,,At that time, we...
+Dialogue: 0,0:07:35.25,0:07:37.25,ASS,,0,0,0,,I was really shy,
+Dialogue: 0,0:07:37.25,0:07:39.25,ASS,,0,0,0,,so I couldn't speak at all at that time.
+Dialogue: 0,0:07:39.25,0:07:42.25,ASS,,0,0,0,,I was like, "What is this?"
+Dialogue: 0,0:07:42.25,0:07:44.25,ASS,,0,0,0,,At that time, Koike-san was kind,
+Dialogue: 0,0:07:44.25,0:07:46.25,ASS,,0,0,0,,so I was like, "Oh, this is Hyogo's\Npose."
+Dialogue: 0,0:07:46.25,0:07:48.25,ASS,,0,0,0,,She kindly took a Czech with this.
+Dialogue: 0,0:07:48.25,0:07:48.61,ASS,,0,0,0,,I see.
+Dialogue: 0,0:07:49.61,0:07:54.61,ASS,,0,0,0,,I thought about it for 3 days.
+Dialogue: 0,0:07:54.61,0:07:58.61,ASS,,0,0,0,,After 3 days, I thought about it a lot.
+Dialogue: 0,0:07:58.61,0:08:02.61,ASS,,0,0,0,,I thought it was amazing.
+Dialogue: 0,0:08:02.61,0:08:07.61,ASS,,0,0,0,,I thought I had to say it quickly.
+Dialogue: 0,0:08:07.61,0:08:12.61,ASS,,0,0,0,,I was about a distance away from heaven\Nand earth at that time.
+Dialogue: 0,0:08:12.61,0:08:17.42,ASS,,0,0,0,,Kira-chan, who did all the heat shot\Nexperiments, was a fish in the past.
+Dialogue: 0,0:08:18.42,0:08:20.42,ASS,,0,0,0,,I was surprised.
+Dialogue: 0,0:08:30.42,0:08:32.42,ASS,,0,0,0,,It's a recent habit.
+Dialogue: 0,0:08:36.42,0:08:38.42,ASS,,0,0,0,,I forgot to read the comments. I'm\Nsorry.
+Dialogue: 0,0:08:38.42,0:08:40.42,ASS,,0,0,0,,I'll read them all.
+Dialogue: 0,0:08:40.42,0:08:42.42,ASS,,0,0,0,,Which planet?
+Dialogue: 0,0:08:42.42,0:08:44.42,ASS,,0,0,0,,I can't think of it.
+Dialogue: 0,0:08:44.42,0:08:45.65,ASS,,0,0,0,,Is oxygen enough?
+Dialogue: 0,0:08:46.65,0:08:48.65,ASS,,0,0,0,,[Reading comments]
+Dialogue: 0,0:09:03.65,0:09:05.65,ASS,,0,0,0,,I was waiting for you to stop.
+Dialogue: 0,0:09:06.65,0:09:07.65,ASS,,0,0,0,,Cute.
+Dialogue: 0,0:09:07.65,0:09:09.65,ASS,,0,0,0,,[Reading comments]
+Dialogue: 0,0:09:09.65,0:09:11.65,ASS,,0,0,0,,[Reading comments]
+Dialogue: 0,0:09:14.23,0:09:16.23,ASS,,0,0,0,,I can't think of anything. I'm an old\Nlady.
+Dialogue: 0,0:09:16.23,0:09:18.23,ASS,,0,0,0,,I'll do it faster.
+Dialogue: 0,0:09:18.23,0:09:25.23,ASS,,0,0,0,,[Reading comments]
+Dialogue: 0,0:09:25.23,0:09:29.23,ASS,,0,0,0,,Congratulations! You did well in high\Nschool.
+Dialogue: 0,0:09:31.23,0:09:33.23,ASS,,0,0,0,,High school?
+Dialogue: 0,0:09:33.23,0:09:35.23,ASS,,0,0,0,,What did you do in high school?
+Dialogue: 0,0:09:35.23,0:09:37.23,ASS,,0,0,0,,Me?
+Dialogue: 0,0:09:38.23,0:09:40.23,ASS,,0,0,0,,When you were a student.
+Dialogue: 0,0:09:40.35,0:09:44.35,ASS,,0,0,0,,I don't think it was a high school\Nstudent-like life.
+Dialogue: 0,0:09:44.35,0:09:50.35,ASS,,0,0,0,,I didn't really participate in club\Nactivities or school trips.
+Dialogue: 0,0:09:50.35,0:09:52.35,ASS,,0,0,0,,I didn't participate in school trips\Neither.
+Dialogue: 0,0:09:52.35,0:09:54.35,ASS,,0,0,0,,You said something!
+Dialogue: 0,0:09:56.35,0:09:58.35,ASS,,0,0,0,,I didn't say anything. What was the\Nreason?
+Dialogue: 0,0:09:58.35,0:10:03.35,ASS,,0,0,0,,I don't want to go.
+Dialogue: 0,0:10:03.35,0:10:05.35,ASS,,0,0,0,,I don't want to get sunburned.
+Dialogue: 0,0:10:06.35,0:10:08.35,ASS,,0,0,0,,I really don't want to get sunburned, so\NI won't go.
+Dialogue: 0,0:10:10.36,0:10:12.36,ASS,,0,0,0,,I didn't want to get sunburned.
+Dialogue: 0,0:10:12.36,0:10:13.36,ASS,,0,0,0,,Is that the reason?
+Dialogue: 0,0:10:13.36,0:10:17.36,ASS,,0,0,0,,That's right. I really wanted to look\Ntransparent.
+Dialogue: 0,0:10:17.36,0:10:20.36,ASS,,0,0,0,,I really don't need any color.
+Dialogue: 0,0:10:20.36,0:10:22.36,ASS,,0,0,0,,And it's getting lighter, isn't it?
+Dialogue: 0,0:10:22.36,0:10:23.36,ASS,,0,0,0,,Yeah, it's getting lighter.
+Dialogue: 0,0:10:27.36,0:10:29.36,ASS,,0,0,0,,Someone asked, "What color is your lip?"
+Dialogue: 0,0:10:29.36,0:10:31.36,ASS,,0,0,0,,What color is my lip? Pink?
+Dialogue: 0,0:10:35.36,0:10:37.36,ASS,,0,0,0,,Congratulations on winning first place.
+Dialogue: 0,0:10:39.35,0:10:43.35,ASS,,0,0,0,,That's amazing. I've been studying for\Nmany years.
+Dialogue: 0,0:10:43.35,0:10:45.35,ASS,,0,0,0,,For various exams.
+Dialogue: 0,0:10:48.35,0:10:50.35,ASS,,0,0,0,,"Please tell us about the two of you."
+Dialogue: 0,0:10:51.35,0:10:53.35,ASS,,0,0,0,,Two episodes?
+Dialogue: 0,0:10:55.35,0:10:56.35,ASS,,0,0,0,,Kira-chan is...
+Dialogue: 0,0:10:56.35,0:11:08.35,ASS,,0,0,0,,No matter what it is, I don't say "gion"\Nor "statatata" when I'm running, but I\Nsay "gion" a lot.
+Dialogue: 0,0:11:08.35,0:11:13.35,ASS,,0,0,0,,Do you call that an episode?
+Dialogue: 0,0:11:14.86,0:11:16.86,ASS,,0,0,0,,I feel like I'm introducing Masumoto.
+Dialogue: 0,0:11:16.86,0:11:20.86,ASS,,0,0,0,,When Kira-chan is smiling, she says "Ni-\Ncha".
+Dialogue: 0,0:11:22.86,0:11:26.86,ASS,,0,0,0,,When Koike-san is taking a cute picture,\Nshe says "Ni-cha".
+Dialogue: 0,0:11:28.86,0:11:30.86,ASS,,0,0,0,,That's so funny.
+Dialogue: 0,0:11:31.86,0:11:34.86,ASS,,0,0,0,,That's right. That's how you can make\NKoike-san's natural smile.
+Dialogue: 0,0:11:34.86,0:11:37.86,ASS,,0,0,0,,I'm doing my best to say it.
+Dialogue: 0,0:11:37.86,0:11:38.86,ASS,,0,0,0,,"Ni-cha".
+Dialogue: 0,0:11:38.86,0:11:40.86,ASS,,0,0,0,,That's how you say it.
+Dialogue: 0,0:11:40.86,0:11:41.86,ASS,,0,0,0,,"Ni-cha".
+Dialogue: 0,0:11:41.86,0:11:42.85,ASS,,0,0,0,,"Ni-cha".
+Dialogue: 0,0:11:43.85,0:11:45.85,ASS,,0,0,0,,What's so funny?
+Dialogue: 0,0:11:47.85,0:11:49.85,ASS,,0,0,0,,See, everyone's saying it.
+Dialogue: 0,0:11:52.85,0:11:54.85,ASS,,0,0,0,,They're saying, "Do a weird laugh."
+Dialogue: 0,0:11:57.85,0:12:00.85,ASS,,0,0,0,,Let's do a weird laugh and say, "If we\Nget it right, we win."
+Dialogue: 0,0:12:03.85,0:12:04.85,ASS,,0,0,0,,Here we go.
+Dialogue: 0,0:12:07.85,0:12:08.85,ASS,,0,0,0,,We got it right.
+Dialogue: 0,0:12:08.85,0:12:09.85,ASS,,0,0,0,,Let's move on to the next one.
+Dialogue: 0,0:12:09.85,0:12:11.79,ASS,,0,0,0,,We got it right with "Hayo".
+Dialogue: 0,0:12:12.79,0:12:13.79,ASS,,0,0,0,,"Hagyo".
+Dialogue: 0,0:12:20.79,0:12:21.79,ASS,,0,0,0,,"I can't stop sneezing".
+Dialogue: 0,0:12:21.79,0:12:28.79,ASS,,0,0,0,,When you can't stop sneezing, you have\Nto push the top of your philtrum.
+Dialogue: 0,0:12:28.79,0:12:29.79,ASS,,0,0,0,,I see.
+Dialogue: 0,0:12:31.79,0:12:33.79,ASS,,0,0,0,,I think someone is talking about it.
+Dialogue: 0,0:12:33.79,0:12:34.79,ASS,,0,0,0,,I think so, too.
+Dialogue: 0,0:12:38.14,0:12:40.14,ASS,,0,0,0,,"It's peaceful."
+Dialogue: 0,0:12:40.14,0:12:42.14,ASS,,0,0,0,,It is peaceful.
+Dialogue: 0,0:12:45.14,0:12:47.14,ASS,,0,0,0,,It's been hurting here for a while.
+Dialogue: 0,0:12:47.14,0:12:48.14,ASS,,0,0,0,,What's wrong?
+Dialogue: 0,0:12:48.14,0:12:50.14,ASS,,0,0,0,,My hair is being pulled.
+Dialogue: 0,0:12:50.14,0:12:51.14,ASS,,0,0,0,,Oh, I see.
+Dialogue: 0,0:12:51.14,0:12:52.14,ASS,,0,0,0,,Your scalp is tired.
+Dialogue: 0,0:12:52.14,0:12:53.14,ASS,,0,0,0,,Oh, it's cute.
+Dialogue: 0,0:12:53.14,0:12:54.14,ASS,,0,0,0,,It's cute.
+Dialogue: 0,0:12:54.14,0:12:55.14,ASS,,0,0,0,,No, no, no.
+Dialogue: 0,0:12:55.14,0:12:56.14,ASS,,0,0,0,,No, no, no.
+Dialogue: 0,0:12:56.14,0:12:57.14,ASS,,0,0,0,,It's cute.
+Dialogue: 0,0:12:58.14,0:12:59.14,ASS,,0,0,0,,Are you angry?
+Dialogue: 0,0:13:02.14,0:13:03.14,ASS,,0,0,0,,Stop it.
+Dialogue: 0,0:13:04.14,0:13:05.14,ASS,,0,0,0,,Bite it.
+Dialogue: 0,0:13:05.14,0:13:06.14,ASS,,0,0,0,,Bite it?
+Dialogue: 0,0:13:06.94,0:13:09.94,ASS,,0,0,0,,Let's bite each other here.
+Dialogue: 0,0:13:09.94,0:13:12.94,ASS,,0,0,0,,There are people who say, "Please show\Nme."
+Dialogue: 0,0:13:12.94,0:13:14.94,ASS,,0,0,0,,It's cute.
+Dialogue: 0,0:13:16.94,0:13:18.94,ASS,,0,0,0,,I think you can imagine the delay.
+Dialogue: 0,0:13:18.94,0:13:19.94,ASS,,0,0,0,,Please look it up.
+Dialogue: 0,0:13:19.94,0:13:23.94,ASS,,0,0,0,,Bob's delay is really cute.
+Dialogue: 0,0:13:23.94,0:13:26.94,ASS,,0,0,0,,It's a little too late.
+Dialogue: 0,0:13:26.94,0:13:28.94,ASS,,0,0,0,,It's pretty late.
+Dialogue: 0,0:13:28.94,0:13:30.94,ASS,,0,0,0,,Babies...
+Dialogue: 0,0:13:31.94,0:13:33.94,ASS,,0,0,0,,When you tie it in half...
+Dialogue: 0,0:13:33.94,0:13:35.94,ASS,,0,0,0,,Do you know what I mean?
+Dialogue: 0,0:13:37.30,0:13:39.30,ASS,,0,0,0,,Let's have Shiro look it up.
+Dialogue: 0,0:13:39.30,0:13:41.30,ASS,,0,0,0,,Kina-chan is a baby.
+Dialogue: 0,0:13:45.30,0:13:46.30,ASS,,0,0,0,,Wow!
+Dialogue: 0,0:13:46.30,0:13:48.30,ASS,,0,0,0,,My eyebrows are transparent.
+Dialogue: 0,0:13:48.30,0:13:50.30,ASS,,0,0,0,,Koyake-san's hair is brighter, but it's\Nnot transparent.
+Dialogue: 0,0:13:50.30,0:13:52.30,ASS,,0,0,0,,I'm transparent.
+Dialogue: 0,0:13:52.30,0:13:54.30,ASS,,0,0,0,,I don't think there's a lot of bangs.
+Dialogue: 0,0:13:55.98,0:13:58.98,ASS,,0,0,0,,Everyone has thin bangs, right?
+Dialogue: 0,0:13:58.98,0:14:00.98,ASS,,0,0,0,,But I didn't cut it down too much.
+Dialogue: 0,0:14:00.98,0:14:03.98,ASS,,0,0,0,,It's still there, but Koike's bangs are\Ngoing up.
+Dialogue: 0,0:14:03.98,0:14:06.98,ASS,,0,0,0,,Her bangs are growing from here to here.
+Dialogue: 0,0:14:06.98,0:14:09.98,ASS,,0,0,0,,My middle school teacher told me that.
+Dialogue: 0,0:14:09.98,0:14:14.98,ASS,,0,0,0,,My middle school teacher said, "Koike's\Nbangs are growing from here to here."
+Dialogue: 0,0:14:17.98,0:14:20.98,ASS,,0,0,0,,"Kira-chan's eyebrows are connected."\NWho said that?
+Dialogue: 0,0:14:20.98,0:14:23.98,ASS,,0,0,0,,"Kira-chan's eyebrows are connected."
+Dialogue: 0,0:14:25.40,0:14:31.40,ASS,,0,0,0,,My bangs are quite short, so it looks\Nlike they're connected to my eyebrows.
+Dialogue: 0,0:14:31.40,0:14:34.40,ASS,,0,0,0,,I see. It's the same length as your\Neyebrows.
+Dialogue: 0,0:14:34.40,0:14:35.40,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:14:35.40,0:14:38.40,ASS,,0,0,0,,It's been 15 minutes. I'm done with 1/4.
+Dialogue: 0,0:14:38.40,0:14:39.40,ASS,,0,0,0,,That's fast.
+Dialogue: 0,0:14:40.40,0:14:42.40,ASS,,0,0,0,,You're good at calculating.
+Dialogue: 0,0:14:43.40,0:14:44.40,ASS,,0,0,0,,I'm a genius.
+Dialogue: 0,0:14:44.40,0:14:47.40,ASS,,0,0,0,,"I'm watching from the Philippines."\NThank you.
+Dialogue: 0,0:14:47.40,0:14:49.40,ASS,,0,0,0,,"Try standing upside down."
+Dialogue: 0,0:14:49.40,0:14:50.40,ASS,,0,0,0,,I can't.
+Dialogue: 0,0:14:52.12,0:14:57.12,ASS,,0,0,0,,Is it okay for me to talk so much?
+Dialogue: 0,0:14:57.12,0:15:01.12,ASS,,0,0,0,,Thank you for 20,000 viewers. I'm glad.
+Dialogue: 0,0:15:01.12,0:15:07.12,ASS,,0,0,0,,It's Friday, so you've all worked hard\Nfor a week.
+Dialogue: 0,0:15:07.12,0:15:13.12,ASS,,0,0,0,,Thank you for your hard work. Please\Nrelax here.
+Dialogue: 0,0:15:13.12,0:15:19.12,ASS,,0,0,0,,"I'm watching from Kyoto." Thank you. I\Nwant to go to Kyoto.
+Dialogue: 0,0:15:19.12,0:15:21.12,ASS,,0,0,0,,Kyoto.
+Dialogue: 0,0:15:25.91,0:15:28.91,ASS,,0,0,0,,What should I do? I really can't catch\Nup with the comments.
+Dialogue: 0,0:15:28.91,0:15:29.91,ASS,,0,0,0,,I can catch up with you.
+Dialogue: 0,0:15:29.91,0:15:31.91,ASS,,0,0,0,,If I move my bangs, it will be Kyoto.
+Dialogue: 0,0:15:31.91,0:15:32.91,ASS,,0,0,0,,Good evening.
+Dialogue: 0,0:15:32.91,0:15:34.91,ASS,,0,0,0,,It's my first time to go sightseeing.\NWhat should I do?
+Dialogue: 0,0:15:34.91,0:15:35.91,ASS,,0,0,0,,What?
+Dialogue: 0,0:15:35.91,0:15:37.91,ASS,,0,0,0,,It's my first time to go sightseeing.\NWhat should I do?
+Dialogue: 0,0:15:37.91,0:15:39.91,ASS,,0,0,0,,What should I do?
+Dialogue: 0,0:15:39.91,0:15:40.91,ASS,,0,0,0,,But...
+Dialogue: 0,0:15:41.91,0:15:42.91,ASS,,0,0,0,,What should I do?
+Dialogue: 0,0:15:42.91,0:15:47.87,ASS,,0,0,0,,I just want to relax.
+Dialogue: 0,0:15:47.87,0:15:49.87,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:15:49.87,0:15:51.87,ASS,,0,0,0,,Please keep that in mind.
+Dialogue: 0,0:15:51.87,0:15:53.87,ASS,,0,0,0,,I've said this before, but
+Dialogue: 0,0:15:53.87,0:15:55.87,ASS,,0,0,0,,there are people who add
+Dialogue: 0,0:15:55.87,0:15:57.87,ASS,,0,0,0,,a topic to their name.
+Dialogue: 0,0:15:57.87,0:15:59.87,ASS,,0,0,0,,If it's too long,
+Dialogue: 0,0:15:59.87,0:16:01.87,ASS,,0,0,0,,I can't read it.
+Dialogue: 0,0:16:01.87,0:16:03.87,ASS,,0,0,0,,When it pops up,
+Dialogue: 0,0:16:03.87,0:16:05.87,ASS,,0,0,0,,I can't see the name.
+Dialogue: 0,0:16:05.87,0:16:07.87,ASS,,0,0,0,,The number of characters is decided.
+Dialogue: 0,0:16:07.87,0:16:09.87,ASS,,0,0,0,,Maybe.
+Dialogue: 0,0:16:09.87,0:16:11.87,ASS,,0,0,0,,If it's too long, I can't read it.
+Dialogue: 0,0:16:11.87,0:16:13.87,ASS,,0,0,0,,I'll be like, "Oh, I'm sorry."
+Dialogue: 0,0:16:13.87,0:16:14.88,ASS,,0,0,0,,It's simple.
+Dialogue: 0,0:16:15.88,0:16:17.88,ASS,,0,0,0,,Thank you so much for showing me on the\Nwhiteboard.
+Dialogue: 0,0:16:17.88,0:16:19.88,ASS,,0,0,0,,We can understand each other.
+Dialogue: 0,0:16:21.88,0:16:25.88,ASS,,0,0,0,,If it's not a hot topic at all, if you\Nwrite, "It's not a hot topic." I'll put\Nit out.
+Dialogue: 0,0:16:25.88,0:16:28.88,ASS,,0,0,0,,I don't think Kira-chan will be able to\Ncome out infinitely.
+Dialogue: 0,0:16:28.88,0:16:31.88,ASS,,0,0,0,,That's right. I've been waiting for the\Nnext person to come.
+Dialogue: 0,0:16:36.88,0:16:39.88,ASS,,0,0,0,,Because the room is not close at all.
+Dialogue: 0,0:16:40.88,0:16:43.74,ASS,,0,0,0,,Kira-chan's voice is so cute.
+Dialogue: 0,0:16:44.74,0:16:46.74,ASS,,0,0,0,,I heard it's fun.
+Dialogue: 0,0:16:46.74,0:16:48.74,ASS,,0,0,0,,I want to participate.
+Dialogue: 0,0:16:48.74,0:16:50.74,ASS,,0,0,0,,I thought I'd participate in the\Nmembers' meet-and-greet.
+Dialogue: 0,0:16:50.74,0:16:52.74,ASS,,0,0,0,,I've applied before.
+Dialogue: 0,0:16:52.74,0:16:54.74,ASS,,0,0,0,,I don't think I can.
+Dialogue: 0,0:16:54.74,0:16:57.74,ASS,,0,0,0,,We have the same time, so I thought I'd\Nstop it.
+Dialogue: 0,0:16:57.74,0:16:59.74,ASS,,0,0,0,,I don't think I can.
+Dialogue: 0,0:16:59.74,0:17:01.74,ASS,,0,0,0,,I've almost reached the end of my\Napplication.
+Dialogue: 0,0:17:01.74,0:17:03.74,ASS,,0,0,0,,S-san's.
+Dialogue: 0,0:17:07.74,0:17:09.74,ASS,,0,0,0,,Do you want to do a push-out match?
+Dialogue: 0,0:17:09.74,0:17:11.74,ASS,,0,0,0,,All right.
+Dialogue: 0,0:17:13.74,0:17:15.35,ASS,,0,0,0,,Thank you for watching.
+Dialogue: 0,0:17:15.35,0:17:19.35,ASS,,0,0,0,,I'm aiming for the counter, so you have\Nto start from there.
+Dialogue: 0,0:17:19.35,0:17:20.35,ASS,,0,0,0,,What's a counter?
+Dialogue: 0,0:17:20.35,0:17:22.35,ASS,,0,0,0,,It's like this.
+Dialogue: 0,0:17:22.35,0:17:23.35,ASS,,0,0,0,,I see.
+Dialogue: 0,0:17:25.35,0:17:28.35,ASS,,0,0,0,,Do I have to use only my shoulders?
+Dialogue: 0,0:17:28.35,0:17:30.35,ASS,,0,0,0,,Anything is fine.
+Dialogue: 0,0:17:30.35,0:17:32.35,ASS,,0,0,0,,Please don't use your legs.
+Dialogue: 0,0:17:35.35,0:17:37.35,ASS,,0,0,0,,I'm not using my legs.
+Dialogue: 0,0:17:37.35,0:17:39.35,ASS,,0,0,0,,Here I go. Ready, go.
+Dialogue: 0,0:17:40.35,0:17:42.35,ASS,,0,0,0,,I'm trying to feel it.
+Dialogue: 0,0:17:42.35,0:17:45.35,ASS,,0,0,0,,I made a serious face.
+Dialogue: 0,0:17:45.42,0:17:49.42,ASS,,0,0,0,,I pray that it will not be an error for\Na moment.
+Dialogue: 0,0:17:53.47,0:17:55.47,ASS,,0,0,0,,Did you see that?
+Dialogue: 0,0:17:55.47,0:17:57.47,ASS,,0,0,0,,Did you see that timing?
+Dialogue: 0,0:17:57.47,0:17:59.47,ASS,,0,0,0,,Wow, she's covering her stomach.
+Dialogue: 0,0:18:03.47,0:18:05.47,ASS,,0,0,0,,She's surprisingly strong.
+Dialogue: 0,0:18:06.27,0:18:09.83,ASS,,0,0,0,,- My legs are numb. - Your legs are\Nnumb.
+Dialogue: 0,0:18:09.83,0:18:13.43,ASS,,0,0,0,,- Let's sit on the mountain. - That's a\Ngood idea, isn't it?
+Dialogue: 0,0:18:13.43,0:18:15.43,ASS,,0,0,0,,That's a good idea, isn't it?
+Dialogue: 0,0:18:18.79,0:18:20.43,ASS,,0,0,0,,This is so relaxing.
+Dialogue: 0,0:18:21.63,0:18:24.23,ASS,,0,0,0,,I'm going to start the ventilator soon.
+Dialogue: 0,0:18:26.63,0:18:29.03,ASS,,0,0,0,,- It's half. - Half?
+Dialogue: 0,0:18:29.03,0:18:31.63,ASS,,0,0,0,,- Half. - Oh, I see.
+Dialogue: 0,0:18:31.74,0:18:35.74,ASS,,0,0,0,,Let's read the comments as hard as we\Ncan.
+Dialogue: 0,0:18:35.74,0:18:39.74,ASS,,0,0,0,,"Oyamasuari"? I can't understand what\Nyou're saying.
+Dialogue: 0,0:18:39.74,0:18:42.74,ASS,,0,0,0,,- "Oyamasuari". - It's "Oyamasu".
+Dialogue: 0,0:18:42.74,0:18:45.74,ASS,,0,0,0,,- "Oyamasuari". - "Oyamasuari".
+Dialogue: 0,0:18:45.74,0:18:48.74,ASS,,0,0,0,,It's "Oyamasuari".
+Dialogue: 0,0:18:48.74,0:18:52.74,ASS,,0,0,0,,"What's your duo name?" Tsukino-chan,\Nwhat's your duo name?
+Dialogue: 0,0:18:52.74,0:18:55.74,ASS,,0,0,0,,I think Kira-chan has a better sense.
+Dialogue: 0,0:18:55.74,0:18:58.74,ASS,,0,0,0,,It's decided. It might be a bit long.
+Dialogue: 0,0:18:58.74,0:19:01.73,ASS,,0,0,0,,We'll announce our duo name.
+Dialogue: 0,0:19:02.73,0:19:04.73,ASS,,0,0,0,,Here we go.
+Dialogue: 0,0:19:04.73,0:19:06.73,ASS,,0,0,0,,Hyogo sisters, above -i.
+Dialogue: 0,0:19:07.73,0:19:09.73,ASS,,0,0,0,,Is it that funny? I'm just kidding.
+Dialogue: 0,0:19:10.73,0:19:12.73,ASS,,0,0,0,,Above -i, above -i.
+Dialogue: 0,0:19:15.73,0:19:17.73,ASS,,0,0,0,,I'm just kidding.
+Dialogue: 0,0:19:17.73,0:19:18.73,ASS,,0,0,0,,Was it funny?
+Dialogue: 0,0:19:18.73,0:19:20.73,ASS,,0,0,0,,It was funny.
+Dialogue: 0,0:19:21.73,0:19:23.73,ASS,,0,0,0,,Above -i.
+Dialogue: 0,0:19:23.73,0:19:25.73,ASS,,0,0,0,,I can think of it right away.
+Dialogue: 0,0:19:25.73,0:19:27.73,ASS,,0,0,0,,Let's add something.
+Dialogue: 0,0:19:27.73,0:19:30.73,ASS,,0,0,0,,Let's find something in common.
+Dialogue: 0,0:19:32.63,0:19:34.63,ASS,,0,0,0,,What do we have in common?
+Dialogue: 0,0:19:34.63,0:19:36.63,ASS,,0,0,0,,What we have in common is...
+Dialogue: 0,0:19:37.63,0:19:39.63,ASS,,0,0,0,,We have the same taste in food.
+Dialogue: 0,0:19:39.63,0:19:41.63,ASS,,0,0,0,,No, we don't.
+Dialogue: 0,0:19:45.63,0:19:47.10,ASS,,0,0,0,,Dogs and cats are different.
+Dialogue: 0,0:19:47.10,0:19:50.10,ASS,,0,0,0,,I was surprised.
+Dialogue: 0,0:19:52.10,0:19:54.10,ASS,,0,0,0,,Do you want to break this?
+Dialogue: 0,0:19:54.10,0:19:57.10,ASS,,0,0,0,,No, stupid.
+Dialogue: 0,0:19:58.10,0:20:00.10,ASS,,0,0,0,,There are people who are not good at\Nthis, right?
+Dialogue: 0,0:20:00.10,0:20:01.10,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,0:20:01.10,0:20:04.10,ASS,,0,0,0,,I'm going to hang it here, right?
+Dialogue: 0,0:20:04.10,0:20:06.10,ASS,,0,0,0,,It's all right here.
+Dialogue: 0,0:20:07.10,0:20:08.10,ASS,,0,0,0,,Let's go to the comments.
+Dialogue: 0,0:20:08.10,0:20:10.10,ASS,,0,0,0,,The name of the combination is Nioh.
+Dialogue: 0,0:20:10.10,0:20:12.10,ASS,,0,0,0,,It's not bad.
+Dialogue: 0,0:20:12.10,0:20:14.10,ASS,,0,0,0,,It's not bad.
+Dialogue: 0,0:20:15.35,0:20:17.35,ASS,,0,0,0,,This looks funny.
+Dialogue: 0,0:20:17.35,0:20:19.35,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,0:20:19.35,0:20:21.35,ASS,,0,0,0,,This looks funny.
+Dialogue: 0,0:20:21.35,0:20:23.35,ASS,,0,0,0,,It's fine.
+Dialogue: 0,0:20:23.35,0:20:25.35,ASS,,0,0,0,,Bye-bye.
+Dialogue: 0,0:20:28.76,0:20:32.76,ASS,,0,0,0,,I was watching it with you, but I didn't\Nsee it at all.
+Dialogue: 0,0:20:32.76,0:20:33.76,ASS,,0,0,0,,I didn't see it.
+Dialogue: 0,0:20:33.76,0:20:34.76,ASS,,0,0,0,,It's embarrassing.
+Dialogue: 0,0:20:37.76,0:20:38.76,ASS,,0,0,0,,Hyogo 2/3
+Dialogue: 0,0:20:42.76,0:20:44.76,ASS,,0,0,0,,Hyogo is a three-member girl group.
+Dialogue: 0,0:20:44.76,0:20:45.76,ASS,,0,0,0,,Oh, is that so?
+Dialogue: 0,0:20:45.76,0:20:48.76,ASS,,0,0,0,,But that's what I want to be without\Nanyone, isn't it?
+Dialogue: 0,0:20:48.76,0:20:50.76,ASS,,0,0,0,,But it's a great sense.
+Dialogue: 0,0:20:52.76,0:20:54.76,ASS,,0,0,0,,If everyone gets together, Hyogo will be\Nover.
+Dialogue: 0,0:20:54.76,0:20:55.76,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:20:58.76,0:21:01.76,ASS,,0,0,0,,Thank you for watching.
+Dialogue: 0,0:21:01.85,0:21:03.85,ASS,,0,0,0,,"Do a "Ni-cha-a-zu""
+Dialogue: 0,0:21:03.85,0:21:05.85,ASS,,0,0,0,,Stop with the "Ni-cha-a-zu"
+Dialogue: 0,0:21:07.85,0:21:09.85,ASS,,0,0,0,,"I want to see your ponytail"
+Dialogue: 0,0:21:10.85,0:21:12.85,ASS,,0,0,0,,No, no, no
+Dialogue: 0,0:21:12.85,0:21:14.85,ASS,,0,0,0,,Then I'll google "ponytail"
+Dialogue: 0,0:21:16.85,0:21:18.85,ASS,,0,0,0,,"Ni-cha-a-zu" is dangerous
+Dialogue: 0,0:21:18.85,0:21:20.85,ASS,,0,0,0,,"Ni-cha-a-zu"
+Dialogue: 0,0:21:26.85,0:21:28.85,ASS,,0,0,0,,"I'm waiting for your dance stream"
+Dialogue: 0,0:21:28.85,0:21:29.14,ASS,,0,0,0,,Yes!
+Dialogue: 0,0:21:29.14,0:21:36.54,ASS,,0,0,0,,I told Fuuka-san, Fuuka-san and\NKobayashi-san do a lot of dance streams,\Nso I said "I want to dance with you"
+Dialogue: 0,0:21:36.54,0:21:38.54,ASS,,0,0,0,,Oh, really?
+Dialogue: 0,0:21:44.54,0:21:49.34,ASS,,0,0,0,,By the way, the name of the stream is "I\Ntaught Fu-chan how to dance"
+Dialogue: 0,0:21:49.34,0:21:51.34,ASS,,0,0,0,,Oh~
+Dialogue: 0,0:21:51.34,0:21:52.34,ASS,,0,0,0,,I taught her
+Dialogue: 0,0:21:52.34,0:21:58.54,ASS,,0,0,0,,I told Fuuka-san, "Let's dance together\Non LINE yesterday and today"
+Dialogue: 0,0:21:59.99,0:22:01.99,ASS,,0,0,0,,I hope we can do it soon
+Dialogue: 0,0:22:01.99,0:22:02.99,ASS,,0,0,0,,Let's do it together
+Dialogue: 0,0:22:02.99,0:22:05.99,ASS,,0,0,0,,"I taught Mii-chan and Fuuka-chan how to\Ndance"
+Dialogue: 0,0:22:05.99,0:22:09.59,ASS,,0,0,0,,I don't remember at all
+Dialogue: 0,0:22:09.59,0:22:11.59,ASS,,0,0,0,,"Dead End"?
+Dialogue: 0,0:22:12.59,0:22:15.59,ASS,,0,0,0,,"Dead End"? It was easy for me to\Nremember the choreography for "Dead\NEnd".
+Dialogue: 0,0:22:15.59,0:22:17.59,ASS,,0,0,0,,Yeah, but it was fun to dance to.
+Dialogue: 0,0:22:23.59,0:22:26.59,ASS,,0,0,0,,Even though it's the chorus, I've\Nalready forgotten it.
+Dialogue: 0,0:22:26.59,0:22:28.59,ASS,,0,0,0,,"Dead End" was really fun.
+Dialogue: 0,0:22:28.59,0:22:29.59,ASS,,0,0,0,,I've always liked it.
+Dialogue: 0,0:22:29.59,0:22:31.59,ASS,,0,0,0,,Yeah, dancing to it was really fun.
+Dialogue: 0,0:22:32.59,0:22:34.59,ASS,,0,0,0,,Hmm...
+Dialogue: 0,0:22:35.59,0:22:37.59,ASS,,0,0,0,,Ever since the tour,
+Dialogue: 0,0:22:37.59,0:22:40.59,ASS,,0,0,0,,I was like, "Ah, this is going to be\Nfun."
+Dialogue: 0,0:22:40.86,0:22:42.86,ASS,,0,0,0,,I had a lot of fun with the "Nagaredama"
+Dialogue: 0,0:22:42.86,0:22:44.86,ASS,,0,0,0,,Really?
+Dialogue: 0,0:22:44.86,0:22:46.86,ASS,,0,0,0,,It looked like fun
+Dialogue: 0,0:22:46.86,0:22:48.86,ASS,,0,0,0,,Yes, it ended quickly
+Dialogue: 0,0:22:50.86,0:22:52.86,ASS,,0,0,0,,This is a "Nagaredama" for those who are\Nin a hurry
+Dialogue: 0,0:22:52.86,0:22:54.86,ASS,,0,0,0,,Here you go
+Dialogue: 0,0:23:03.86,0:23:05.86,ASS,,0,0,0,,No, I was in a hurry
+Dialogue: 0,0:23:05.86,0:23:07.86,ASS,,0,0,0,,I made a mistake
+Dialogue: 0,0:23:09.33,0:23:19.33,ASS,,0,0,0,,(Singing)
+Dialogue: 0,0:23:20.33,0:23:21.33,ASS,,0,0,0,,I don't know what I'm doing.
+Dialogue: 0,0:23:21.33,0:23:23.33,ASS,,0,0,0,,Was it like this? Not sideways, but\Ndefinitely downward.
+Dialogue: 0,0:23:24.33,0:23:25.33,ASS,,0,0,0,,Like this.
+Dialogue: 0,0:23:25.33,0:23:27.33,ASS,,0,0,0,,I was so nervous.
+Dialogue: 0,0:23:27.33,0:23:29.33,ASS,,0,0,0,,I think it was when I was a TV music\Nproducer.
+Dialogue: 0,0:23:29.33,0:23:30.33,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:23:30.33,0:23:32.33,ASS,,0,0,0,,Kira-chan was doing this right before\Nthat.
+Dialogue: 0,0:23:32.33,0:23:35.33,ASS,,0,0,0,,I was so nervous.
+Dialogue: 0,0:23:35.33,0:23:36.33,ASS,,0,0,0,,It was so funny.
+Dialogue: 0,0:23:36.33,0:23:37.33,ASS,,0,0,0,,I'm glad.
+Dialogue: 0,0:23:37.33,0:23:38.33,ASS,,0,0,0,,Oh, no.
+Dialogue: 0,0:23:40.04,0:23:42.04,ASS,,0,0,0,,It was so funny.
+Dialogue: 0,0:23:45.04,0:23:46.04,ASS,,0,0,0,,Let's do it in this position.
+Dialogue: 0,0:23:46.04,0:23:48.04,ASS,,0,0,0,,It's going to be an eco seat.
+Dialogue: 0,0:23:48.04,0:23:50.04,ASS,,0,0,0,,It's going to be a burden.
+Dialogue: 0,0:23:53.04,0:23:55.04,ASS,,0,0,0,,It's going to be over in 20 minutes.
+Dialogue: 0,0:23:55.04,0:23:57.04,ASS,,0,0,0,,It's going to be over in 45 minutes.
+Dialogue: 0,0:23:57.04,0:23:59.04,ASS,,0,0,0,,You can calculate that much today.
+Dialogue: 0,0:23:59.04,0:24:02.04,ASS,,0,0,0,,It's not going to be over in 45 minutes.
+Dialogue: 0,0:24:04.04,0:24:06.04,ASS,,0,0,0,,It started at 15 minutes.
+Dialogue: 0,0:24:07.14,0:24:09.14,ASS,,0,0,0,,It's 15 minutes, so we have about 30\Nminutes left.
+Dialogue: 0,0:24:09.14,0:24:10.14,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:24:10.14,0:24:12.14,ASS,,0,0,0,,Time flies.
+Dialogue: 0,0:24:12.14,0:24:14.14,ASS,,0,0,0,,We didn't have that much time.
+Dialogue: 0,0:24:20.14,0:24:22.14,ASS,,0,0,0,,Someone said we didn't have that much\Ntime.
+Dialogue: 0,0:24:22.14,0:24:24.14,ASS,,0,0,0,,Was it you, Koike?
+Dialogue: 0,0:24:24.14,0:24:25.14,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:24:25.14,0:24:27.14,ASS,,0,0,0,,I made a mistake.
+Dialogue: 0,0:24:27.14,0:24:28.14,ASS,,0,0,0,,I stopped for a moment.
+Dialogue: 0,0:24:28.14,0:24:29.14,ASS,,0,0,0,,I was like, "What?"
+Dialogue: 0,0:24:31.14,0:24:33.14,ASS,,0,0,0,,I made a mistake in my line.
+Dialogue: 0,0:24:33.14,0:24:35.14,ASS,,0,0,0,,When did you two get along?
+Dialogue: 0,0:24:36.90,0:24:38.90,ASS,,0,0,0,,When was it?
+Dialogue: 0,0:24:38.90,0:24:40.90,ASS,,0,0,0,,Wasn't it quite a while ago?
+Dialogue: 0,0:24:40.90,0:24:46.90,ASS,,0,0,0,,I really remember when you taught me the\Nchoreography before the sun rose.
+Dialogue: 0,0:24:46.90,0:24:49.90,ASS,,0,0,0,,It was when we were filming the music\Nvideo.
+Dialogue: 0,0:24:49.90,0:24:51.90,ASS,,0,0,0,,It was cute.
+Dialogue: 0,0:24:51.90,0:24:56.90,ASS,,0,0,0,,The manager said, "Let's dance\Ntogether."
+Dialogue: 0,0:24:56.90,0:24:58.90,ASS,,0,0,0,,You did your best.
+Dialogue: 0,0:24:58.90,0:25:01.90,ASS,,0,0,0,,I couldn't dance at that time.
+Dialogue: 0,0:25:01.90,0:25:03.17,ASS,,0,0,0,,Really?
+Dialogue: 0,0:25:04.17,0:25:08.17,ASS,,0,0,0,,I couldn't do big movements like this,\Nbut now I can.
+Dialogue: 0,0:25:08.17,0:25:09.17,ASS,,0,0,0,,You're really good at it.
+Dialogue: 0,0:25:09.17,0:25:12.17,ASS,,0,0,0,,I'm really good at it now. I'm confident\Nin that part.
+Dialogue: 0,0:25:12.17,0:25:15.17,ASS,,0,0,0,,Kira and Marino are good at it.
+Dialogue: 0,0:25:15.17,0:25:18.17,ASS,,0,0,0,,I often watch their dance lessons.
+Dialogue: 0,0:25:18.17,0:25:19.17,ASS,,0,0,0,,Is it here?
+Dialogue: 0,0:25:19.17,0:25:20.17,ASS,,0,0,0,,It's really good.
+Dialogue: 0,0:25:20.17,0:25:25.17,ASS,,0,0,0,,If you remember the first movement you\Nmeet, you can apply it and do a\Ndifferent dance.
+Dialogue: 0,0:25:25.17,0:25:26.17,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:25:26.17,0:25:27.17,ASS,,0,0,0,,It's good.
+Dialogue: 0,0:25:28.17,0:25:30.03,ASS,,0,0,0,,It's a new thing to learn from the\Napplication.
+Dialogue: 0,0:25:31.03,0:25:35.03,ASS,,0,0,0,,That's right. If you don't have much\Nexperience, you'll have a lot of first-\Ntime movements.
+Dialogue: 0,0:25:37.03,0:25:39.03,ASS,,0,0,0,,"Please read the comments." I'm sorry.
+Dialogue: 0,0:25:41.03,0:25:43.03,ASS,,0,0,0,,I'll ask you a question.
+Dialogue: 0,0:25:43.03,0:25:45.03,ASS,,0,0,0,,I'll ask you a question.
+Dialogue: 0,0:25:45.03,0:25:48.03,ASS,,0,0,0,,Give me a question.
+Dialogue: 0,0:25:50.03,0:25:54.03,ASS,,0,0,0,,"Lena's episode." I really like Lena.
+Dialogue: 0,0:25:55.69,0:25:57.69,ASS,,0,0,0,,Everyone's talking about it. Did you\Nlike it too, Fujii-san?
+Dialogue: 0,0:25:57.69,0:25:59.69,ASS,,0,0,0,,Yeah, I like it a lot.
+Dialogue: 0,0:25:59.69,0:26:01.69,ASS,,0,0,0,,Oh, that's right.
+Dialogue: 0,0:26:01.69,0:26:07.69,ASS,,0,0,0,,I like it so much that I want to play a\Nprank on the girl I like.
+Dialogue: 0,0:26:07.69,0:26:10.69,ASS,,0,0,0,,That's what's going on with Lena-chan\Nright now.
+Dialogue: 0,0:26:10.69,0:26:13.69,ASS,,0,0,0,,Oh, that's true. I feel like I want to\Nbully her.
+Dialogue: 0,0:26:13.69,0:26:14.69,ASS,,0,0,0,,Yeah.
+Dialogue: 0,0:26:14.69,0:26:15.69,ASS,,0,0,0,,"Hey!"
+Dialogue: 0,0:26:15.69,0:26:16.69,ASS,,0,0,0,,"Hey!"
+Dialogue: 0,0:26:16.69,0:26:19.69,ASS,,0,0,0,,She's cute when she says that.
+Dialogue: 0,0:26:19.69,0:26:20.69,ASS,,0,0,0,,I see.
+Dialogue: 0,0:26:20.69,0:26:22.35,ASS,,0,0,0,,Luna-san...
+Dialogue: 0,0:26:23.35,0:26:25.35,ASS,,0,0,0,,I really like her profile.
+Dialogue: 0,0:26:25.35,0:26:27.35,ASS,,0,0,0,,It's so pretty that it makes me want to\Ntouch it.
+Dialogue: 0,0:26:27.35,0:26:29.35,ASS,,0,0,0,,You want to touch it?
+Dialogue: 0,0:26:29.35,0:26:32.35,ASS,,0,0,0,,Yes. I wonder if it's real. It's as\Npretty as it's made.
+Dialogue: 0,0:26:34.35,0:26:36.35,ASS,,0,0,0,,I wonder if it's pretty.
+Dialogue: 0,0:26:36.35,0:26:38.35,ASS,,0,0,0,,"Did you go to see the curtains?"
+Dialogue: 0,0:26:38.35,0:26:40.35,ASS,,0,0,0,,I went to see it.
+Dialogue: 0,0:26:40.35,0:26:42.35,ASS,,0,0,0,,Me too.
+Dialogue: 0,0:26:42.35,0:26:44.35,ASS,,0,0,0,,It was cute.
+Dialogue: 0,0:26:44.35,0:26:47.35,ASS,,0,0,0,,The moment it started, I thought, "She\Nmust have practiced a lot."
+Dialogue: 0,0:26:47.35,0:26:49.35,ASS,,0,0,0,,Her vocalization was amazing.
+Dialogue: 0,0:26:49.35,0:26:50.11,ASS,,0,0,0,,It was beautiful.
+Dialogue: 0,0:26:51.11,0:26:53.11,ASS,,0,0,0,,Her resonance was amazing.
+Dialogue: 0,0:26:53.11,0:26:54.11,ASS,,0,0,0,,I shouldn't say it, right?
+Dialogue: 0,0:26:54.11,0:26:55.11,ASS,,0,0,0,,No, you shouldn't.
+Dialogue: 0,0:26:55.11,0:26:56.11,ASS,,0,0,0,,I'll say it.
+Dialogue: 0,0:26:56.70,0:26:59.70,ASS,,0,0,0,,Yeah, that's what it was like.
+Dialogue: 0,0:27:01.70,0:27:06.70,ASS,,0,0,0,,I thought I had to do my best because\NSugaya-san was doing her best in a\Ndifferent place.
+Dialogue: 0,0:27:06.70,0:27:08.70,ASS,,0,0,0,,And she was cute.
+Dialogue: 0,0:27:08.70,0:27:10.70,ASS,,0,0,0,,She was really cute.
+Dialogue: 0,0:27:10.70,0:27:11.70,ASS,,0,0,0,,She looked like a doll.
+Dialogue: 0,0:27:11.70,0:27:13.70,ASS,,0,0,0,,She looked like someone from another\Nworld.
+Dialogue: 0,0:27:13.70,0:27:15.70,ASS,,0,0,0,,I was a little lonely.
+Dialogue: 0,0:27:15.70,0:27:16.70,ASS,,0,0,0,,That's true.
+Dialogue: 0,0:27:16.70,0:27:18.70,ASS,,0,0,0,,But it was good.
+Dialogue: 0,0:27:18.70,0:27:20.70,ASS,,0,0,0,,I got power.
+Dialogue: 0,0:27:20.70,0:27:24.70,ASS,,0,0,0,,I saw a new Yuka in front of me.
+Dialogue: 0,0:27:24.70,0:27:25.14,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:27:25.14,0:27:33.14,ASS,,0,0,0,,During this time, Yuka also took a step\Nforward, and we thought we had to do our\Nbest.
+Dialogue: 0,0:27:36.44,0:27:39.44,ASS,,0,0,0,,I like Karin-chan.
+Dialogue: 0,0:27:39.44,0:27:42.44,ASS,,0,0,0,,I like Karin-chan and Rena-chan.
+Dialogue: 0,0:27:44.44,0:27:46.44,ASS,,0,0,0,,Kira-chan is my little sister.
+Dialogue: 0,0:27:46.44,0:27:49.44,ASS,,0,0,0,,Inoue-san.
+Dialogue: 0,0:27:49.44,0:27:51.44,ASS,,0,0,0,,Inori is also my little sister.
+Dialogue: 0,0:27:51.44,0:27:53.44,ASS,,0,0,0,,We're three siblings.
+Dialogue: 0,0:27:53.44,0:27:55.44,ASS,,0,0,0,,"Please give us a screenshot time."
+Dialogue: 0,0:27:55.44,0:27:57.44,ASS,,0,0,0,,It's important.
+Dialogue: 0,0:28:01.88,0:28:03.88,ASS,,0,0,0,,I have to be careful.
+Dialogue: 0,0:28:12.12,0:28:14.12,ASS,,0,0,0,,It's the size of your feet.
+Dialogue: 0,0:28:14.12,0:28:16.12,ASS,,0,0,0,,The size of my feet?
+Dialogue: 0,0:28:17.12,0:28:19.12,ASS,,0,0,0,,Your feet are bigger than I thought.
+Dialogue: 0,0:28:19.12,0:28:21.12,ASS,,0,0,0,,Let's say it together.
+Dialogue: 0,0:28:21.12,0:28:23.12,ASS,,0,0,0,,3.5
+Dialogue: 0,0:28:24.12,0:28:26.12,ASS,,0,0,0,,Plus 1.
+Dialogue: 0,0:28:29.12,0:28:31.12,ASS,,0,0,0,,It's 4.5.
+Dialogue: 0,0:28:31.12,0:28:33.12,ASS,,0,0,0,,Isn't 3.5 pretty high?
+Dialogue: 0,0:28:33.12,0:28:35.12,ASS,,0,0,0,,It's pretty high.
+Dialogue: 0,0:28:38.94,0:28:41.94,ASS,,0,0,0,,It hurt so much that I had to go through\Nit.
+Dialogue: 0,0:28:41.94,0:28:44.94,ASS,,0,0,0,,I'm sorry. I'm sorry.
+Dialogue: 0,0:28:44.94,0:28:46.94,ASS,,0,0,0,,It's cute to put it down.
+Dialogue: 0,0:28:46.94,0:28:48.94,ASS,,0,0,0,,It's cute no matter what you do.
+Dialogue: 0,0:28:48.94,0:28:50.94,ASS,,0,0,0,,It's easy. It's easy for anyone.
+Dialogue: 0,0:28:50.94,0:28:51.94,ASS,,0,0,0,,It's all the same.
+Dialogue: 0,0:28:51.94,0:28:52.94,ASS,,0,0,0,,Wow, wow, wow.
+Dialogue: 0,0:28:52.94,0:28:54.94,ASS,,0,0,0,,It's all the same.
+Dialogue: 0,0:28:54.94,0:28:56.94,ASS,,0,0,0,,The place I drew today is Hoya's room.
+Dialogue: 0,0:28:56.94,0:28:57.94,ASS,,0,0,0,,Oh, really?
+Dialogue: 0,0:28:57.94,0:28:58.94,ASS,,0,0,0,,I got a call from Hoya.
+Dialogue: 0,0:28:58.94,0:29:00.94,ASS,,0,0,0,,I bought this about two years ago.
+Dialogue: 0,0:29:00.94,0:29:02.94,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,0:29:02.94,0:29:04.94,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,0:29:04.94,0:29:05.91,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,0:29:05.91,0:29:07.91,ASS,,0,0,0,,- It's different, right? - Yeah.
+Dialogue: 0,0:29:07.91,0:29:09.91,ASS,,0,0,0,,I made a weird face. What should I do?
+Dialogue: 0,0:29:09.91,0:29:11.91,ASS,,0,0,0,,One more time.
+Dialogue: 0,0:29:13.91,0:29:16.91,ASS,,0,0,0,,- Please do it. - You don't want to do\Nit?
+Dialogue: 0,0:29:16.91,0:29:19.91,ASS,,0,0,0,,"Yui-chan's performance".
+Dialogue: 0,0:29:23.91,0:29:25.91,ASS,,0,0,0,,Can you blur it?
+Dialogue: 0,0:29:26.91,0:29:28.91,ASS,,0,0,0,,- Can you see me now? - I can't.
+Dialogue: 0,0:29:28.91,0:29:30.91,ASS,,0,0,0,,Is this it?
+Dialogue: 0,0:29:31.96,0:29:35.76,ASS,,0,0,0,,- I don't think I can do this live. - I\Ncan't do it either.
+Dialogue: 0,0:29:35.76,0:29:39.16,ASS,,0,0,0,,- It's unfair. - I can only do this.
+Dialogue: 0,0:29:39.16,0:29:41.76,ASS,,0,0,0,,Let me see that.
+Dialogue: 0,0:29:41.76,0:29:45.76,ASS,,0,0,0,,I'll show you how I move my chin at high\Nspeed.
+Dialogue: 0,0:29:45.76,0:29:47.76,ASS,,0,0,0,,Wow.
+Dialogue: 0,0:29:47.76,0:29:50.76,ASS,,0,0,0,,Huh? My eyes are double.
+Dialogue: 0,0:29:54.94,0:29:56.94,ASS,,0,0,0,,My chin is going to come off.
+Dialogue: 0,0:29:56.94,0:29:59.94,ASS,,0,0,0,,Someone said, "Have you ever been to\NOkayama?"
+Dialogue: 0,0:30:00.94,0:30:02.94,ASS,,0,0,0,,We haven't actually been there.
+Dialogue: 0,0:30:02.94,0:30:04.94,ASS,,0,0,0,,I've been there a while ago.
+Dialogue: 0,0:30:04.94,0:30:06.94,ASS,,0,0,0,,Did I say that again?
+Dialogue: 0,0:30:06.94,0:30:08.94,ASS,,0,0,0,,Oh, I see.
+Dialogue: 0,0:30:08.94,0:30:10.94,ASS,,0,0,0,,"Min-chan, you're so excited."
+Dialogue: 0,0:30:10.94,0:30:12.94,ASS,,0,0,0,,I'm like this when I'm with Kina-chan.
+Dialogue: 0,0:30:12.94,0:30:14.94,ASS,,0,0,0,,Have you ever been to Okayama?
+Dialogue: 0,0:30:14.94,0:30:16.94,ASS,,0,0,0,,I've never been there, but I've heard of\NOen.
+Dialogue: 0,0:30:16.94,0:30:18.94,ASS,,0,0,0,,Oen, Oen, Oenwa.
+Dialogue: 0,0:30:18.94,0:30:20.94,ASS,,0,0,0,,It means "I won't forgive you."
+Dialogue: 0,0:30:20.94,0:30:22.94,ASS,,0,0,0,,Wasn't it "Akan"?
+Dialogue: 0,0:30:22.94,0:30:24.94,ASS,,0,0,0,,I've heard of Oen.
+Dialogue: 0,0:30:25.98,0:30:27.98,ASS,,0,0,0,,"Have you ever been to Karuizawa?"
+Dialogue: 0,0:30:27.98,0:30:29.98,ASS,,0,0,0,,Where is Karuizawa?
+Dialogue: 0,0:30:29.98,0:30:31.98,ASS,,0,0,0,,Karuizawa...
+Dialogue: 0,0:30:31.98,0:30:33.98,ASS,,0,0,0,,What prefecture?
+Dialogue: 0,0:30:33.98,0:30:35.98,ASS,,0,0,0,,I think it's a green place.
+Dialogue: 0,0:30:35.98,0:30:37.98,ASS,,0,0,0,,Doesn't it look like Hokkaido?
+Dialogue: 0,0:30:37.98,0:30:39.98,ASS,,0,0,0,,Is it a green place?
+Dialogue: 0,0:30:39.98,0:30:41.98,ASS,,0,0,0,,She said it's a green place.
+Dialogue: 0,0:30:41.98,0:30:43.98,ASS,,0,0,0,,Nagano prefecture?
+Dialogue: 0,0:30:43.98,0:30:45.98,ASS,,0,0,0,,She said it's Nagano prefecture.
+Dialogue: 0,0:30:45.98,0:30:47.98,ASS,,0,0,0,,Wow!
+Dialogue: 0,0:30:47.98,0:30:49.98,ASS,,0,0,0,,That's true.
+Dialogue: 0,0:30:49.98,0:30:51.98,ASS,,0,0,0,,I see.
+Dialogue: 0,0:30:51.98,0:30:53.98,ASS,,0,0,0,,It's a green place.
+Dialogue: 0,0:30:55.98,0:30:56.60,ASS,,0,0,0,,I see.
+Dialogue: 0,0:30:56.60,0:31:00.60,ASS,,0,0,0,,"How many prefectures have you been to?"
+Dialogue: 0,0:31:00.60,0:31:01.60,ASS,,0,0,0,,There are a lot of questions like that.
+Dialogue: 0,0:31:01.60,0:31:04.60,ASS,,0,0,0,,If I say the places I've been to, I\Nthink I can answer all of them.
+Dialogue: 0,0:31:04.60,0:31:13.60,ASS,,0,0,0,,I've been to Tokyo, Hyogo, Osaka,\NNagoya, Fukuoka, Yokohama.
+Dialogue: 0,0:31:13.60,0:31:15.60,ASS,,0,0,0,,Is Yokohama a prefecture?
+Dialogue: 0,0:31:15.60,0:31:16.60,ASS,,0,0,0,,No, no, no.
+Dialogue: 0,0:31:16.60,0:31:17.60,ASS,,0,0,0,,No, no, no.
+Dialogue: 0,0:31:17.60,0:31:19.60,ASS,,0,0,0,,That prefecture is...
+Dialogue: 0,0:31:19.60,0:31:20.60,ASS,,0,0,0,,What was it?
+Dialogue: 0,0:31:20.60,0:31:21.60,ASS,,0,0,0,,Kanagawa, Saitama.
+Dialogue: 0,0:31:21.60,0:31:23.60,ASS,,0,0,0,,I think it's Kanagawa.
+Dialogue: 0,0:31:23.60,0:31:24.60,ASS,,0,0,0,,Oh, Kanagawa.
+Dialogue: 0,0:31:24.60,0:31:24.70,ASS,,0,0,0,,Please subscribe to this channel.
+Dialogue: 0,0:31:25.70,0:31:29.70,ASS,,0,0,0,,And Chiba, Hokkaido and... I don't know.
+Dialogue: 0,0:31:29.70,0:31:31.70,ASS,,0,0,0,,The places I've been on tours.
+Dialogue: 0,0:31:31.70,0:31:34.70,ASS,,0,0,0,,Me too. I haven't been on a lot of trips\Nother than that.
+Dialogue: 0,0:31:34.70,0:31:36.70,ASS,,0,0,0,,But Chiba prefecture is...
+Dialogue: 0,0:31:36.70,0:31:37.70,ASS,,0,0,0,,Chiba prefecture is a little...
+Dialogue: 0,0:31:37.70,0:31:38.70,ASS,,0,0,0,,Chiba prefecture is a little...
+Dialogue: 0,0:31:38.70,0:31:40.70,ASS,,0,0,0,,Chiba prefecture is a little... It's\Nbeen a little bad lately.
+Dialogue: 0,0:31:44.70,0:31:45.70,ASS,,0,0,0,,Oh, there's that too.
+Dialogue: 0,0:31:45.70,0:31:48.70,ASS,,0,0,0,,The place where there's the Fuji-Q that\Nwe met.
+Dialogue: 0,0:31:50.70,0:31:51.70,ASS,,0,0,0,,Fuji... Fuji-Q.
+Dialogue: 0,0:31:51.70,0:31:53.70,ASS,,0,0,0,,Oh, it's Onuma-san's prefecture.
+Dialogue: 0,0:31:54.46,0:31:57.46,ASS,,0,0,0,,- Shizuoka? - Shizuoka, Shizuoka.
+Dialogue: 0,0:31:59.46,0:32:02.46,ASS,,0,0,0,,- I'll ask a question. - A question.
+Dialogue: 0,0:32:02.46,0:32:06.46,ASS,,0,0,0,,- "You have a bad tongue." - That's\Nright, I have a bad tongue.
+Dialogue: 0,0:32:07.46,0:32:10.46,ASS,,0,0,0,,- You take off your braces and put on a\Nmouthpiece, right? - I've never done\Nthat.
+Dialogue: 0,0:32:10.46,0:32:13.46,ASS,,0,0,0,,- That's how you lose your tongue. - Oh,\NI see.
+Dialogue: 0,0:32:15.46,0:32:18.46,ASS,,0,0,0,,"Please go out with me."
+Dialogue: 0,0:32:20.46,0:32:23.31,ASS,,0,0,0,,"I'm Yamanashi." Sorry, I made a\Nmistake.
+Dialogue: 0,0:32:24.31,0:32:27.31,ASS,,0,0,0,,"I'm Yamanashi." I learned a lot.
+Dialogue: 0,0:32:28.31,0:32:30.31,ASS,,0,0,0,,27,000 people are watching.
+Dialogue: 0,0:32:35.31,0:32:38.31,ASS,,0,0,0,,"I want a girlfriend like this. Tequila-\Nchan."
+Dialogue: 0,0:32:44.31,0:32:46.31,ASS,,0,0,0,,I couldn't read it.
+Dialogue: 0,0:32:46.31,0:32:48.31,ASS,,0,0,0,,This is the best position. It's so easy.
+Dialogue: 0,0:32:51.93,0:32:53.93,ASS,,0,0,0,,"I followed you." Thank you.
+Dialogue: 0,0:32:53.93,0:32:55.93,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:32:56.93,0:32:58.93,ASS,,0,0,0,,It smells like food.
+Dialogue: 0,0:32:58.93,0:32:59.93,ASS,,0,0,0,,Really?
+Dialogue: 0,0:32:59.93,0:33:00.93,ASS,,0,0,0,,Don't you think so?
+Dialogue: 0,0:33:00.93,0:33:01.93,ASS,,0,0,0,,Maybe it's because it's hot.
+Dialogue: 0,0:33:01.93,0:33:02.93,ASS,,0,0,0,,What does it smell like?
+Dialogue: 0,0:33:02.93,0:33:04.93,ASS,,0,0,0,,It smells fragrant.
+Dialogue: 0,0:33:06.93,0:33:07.93,ASS,,0,0,0,,No.
+Dialogue: 0,0:33:11.93,0:33:12.93,ASS,,0,0,0,,What?
+Dialogue: 0,0:33:13.66,0:33:15.66,ASS,,0,0,0,,From the screen?
+Dialogue: 0,0:33:15.66,0:33:16.66,ASS,,0,0,0,,From the screen?
+Dialogue: 0,0:33:16.66,0:33:18.66,ASS,,0,0,0,,Is someone eating something tasty?
+Dialogue: 0,0:33:23.77,0:33:25.77,ASS,,0,0,0,,"Isn't it burning?"
+Dialogue: 0,0:33:25.77,0:33:27.77,ASS,,0,0,0,,No, that's the worst.
+Dialogue: 0,0:33:27.77,0:33:29.77,ASS,,0,0,0,,It might be a sweet smell.
+Dialogue: 0,0:33:34.75,0:33:36.75,ASS,,0,0,0,,I think it's that.
+Dialogue: 0,0:33:36.75,0:33:40.75,ASS,,0,0,0,,Someone said it's a macaron container.
+Dialogue: 0,0:33:40.75,0:33:42.75,ASS,,0,0,0,,- Isn't it that? - Macaron?
+Dialogue: 0,0:33:42.75,0:33:44.75,ASS,,0,0,0,,Let's do that.
+Dialogue: 0,0:33:46.75,0:33:48.75,ASS,,0,0,0,,It's 15 minutes now.
+Dialogue: 0,0:33:48.75,0:33:50.75,ASS,,0,0,0,,15 minutes?
+Dialogue: 0,0:33:50.75,0:33:52.75,ASS,,0,0,0,,- Shall we do something? - I can't\Ncalculate.
+Dialogue: 0,0:33:52.75,0:33:54.75,ASS,,0,0,0,,25 minutes.
+Dialogue: 0,0:33:54.75,0:33:57.75,ASS,,0,0,0,,Let's do something. What do you want us\Nto do?
+Dialogue: 0,0:33:57.75,0:33:59.75,ASS,,0,0,0,,Together.
+Dialogue: 0,0:34:01.47,0:34:04.47,ASS,,0,0,0,,I don't want short hair.
+Dialogue: 0,0:34:04.47,0:34:06.47,ASS,,0,0,0,,I think it suits you.
+Dialogue: 0,0:34:06.47,0:34:08.47,ASS,,0,0,0,,I have a high rate of short hair.
+Dialogue: 0,0:34:08.47,0:34:11.47,ASS,,0,0,0,,I don't cut my hair either.
+Dialogue: 0,0:34:11.47,0:34:13.47,ASS,,0,0,0,,I'm just reducing the amount.
+Dialogue: 0,0:34:13.47,0:34:15.47,ASS,,0,0,0,,What kind of short hair do you have?
+Dialogue: 0,0:34:15.47,0:34:17.47,ASS,,0,0,0,,Like this?
+Dialogue: 0,0:34:17.47,0:34:19.47,ASS,,0,0,0,,I think it's good. I have that image.
+Dialogue: 0,0:34:19.47,0:34:21.47,ASS,,0,0,0,,In the old days.
+Dialogue: 0,0:34:24.73,0:34:26.73,ASS,,0,0,0,,Koyuki dances with her hair.
+Dialogue: 0,0:34:26.73,0:34:27.73,ASS,,0,0,0,,Really?
+Dialogue: 0,0:34:31.73,0:34:32.73,ASS,,0,0,0,,Do you know?
+Dialogue: 0,0:34:32.73,0:34:33.73,ASS,,0,0,0,,I don't know.
+Dialogue: 0,0:34:34.73,0:34:35.73,ASS,,0,0,0,,In front of here.
+Dialogue: 0,0:34:42.73,0:34:43.73,ASS,,0,0,0,,I don't know.
+Dialogue: 0,0:34:48.73,0:34:49.73,ASS,,0,0,0,,1st place.
+Dialogue: 0,0:34:50.48,0:34:53.76,ASS,,0,0,0,,- In English? - Yes, I shake my head a\Nlot.
+Dialogue: 0,0:34:53.76,0:34:57.04,ASS,,0,0,0,,- I think I'm good at showing my hair. -\NReally?
+Dialogue: 0,0:34:57.04,0:35:02.28,ASS,,0,0,0,,If your hair is too long, you look like\Nyou can't meet everyone.
+Dialogue: 0,0:35:02.28,0:35:06.20,ASS,,0,0,0,,- I'm scared of that. - Do I have to\Nmake my hair dance?
+Dialogue: 0,0:35:06.20,0:35:10.32,ASS,,0,0,0,,I don't know if you're making it dance.
+Dialogue: 0,0:35:10.32,0:35:14.24,ASS,,0,0,0,,If it's too long, it'll be a little\Nslower than your head.
+Dialogue: 0,0:35:14.24,0:35:19.12,ASS,,0,0,0,,- I was thinking that far. - If this is\Nyour head, it'll be like this.
+Dialogue: 0,0:35:20.23,0:35:25.23,ASS,,0,0,0,,Since I have long hair, it'll look good\Non me.
+Dialogue: 0,0:35:26.23,0:35:32.23,ASS,,0,0,0,,- If it's this long, it'll be the same\Nlength as your head. - I can do a\Nponytail.
+Dialogue: 0,0:35:32.23,0:35:39.23,ASS,,0,0,0,,Karin-chan is dancing with short hair.
+Dialogue: 0,0:35:39.23,0:35:43.23,ASS,,0,0,0,,- She's beautiful. - People who dance\Nwith short hair are amazing.
+Dialogue: 0,0:35:43.23,0:35:46.23,ASS,,0,0,0,,I don't have a body yet.
+Dialogue: 0,0:35:50.23,0:35:52.23,ASS,,0,0,0,,What?
+Dialogue: 0,0:35:53.23,0:35:54.14,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,0:35:54.14,0:35:56.34,ASS,,0,0,0,,- What did you say? - The screen froze\Nfor a moment.
+Dialogue: 0,0:35:56.34,0:35:58.94,ASS,,0,0,0,,- I think it's over there. - Isn't it\Namazing, Kira-chan?
+Dialogue: 0,0:35:58.94,0:36:02.14,ASS,,0,0,0,,I don't know if it's me, but it's like a\Nmiracle.
+Dialogue: 0,0:36:02.14,0:36:05.14,ASS,,0,0,0,,Did it stop? Did it stop? I'm sorry.
+Dialogue: 0,0:36:06.97,0:36:08.97,ASS,,0,0,0,,What's moving? Oh, it's stopped.
+Dialogue: 0,0:36:10.97,0:36:12.97,ASS,,0,0,0,,It's stopped at a great place.
+Dialogue: 0,0:36:15.97,0:36:17.97,ASS,,0,0,0,,Is it stopped?
+Dialogue: 0,0:36:17.97,0:36:19.97,ASS,,0,0,0,,It's completely silent.
+Dialogue: 0,0:36:20.97,0:36:21.97,ASS,,0,0,0,,Why?
+Dialogue: 0,0:36:26.97,0:36:28.97,ASS,,0,0,0,,Oh, it's stopped.
+Dialogue: 0,0:36:32.97,0:36:34.97,ASS,,0,0,0,,It's stopped now.
+Dialogue: 0,0:36:34.97,0:36:36.97,ASS,,0,0,0,,It's completely silent.
+Dialogue: 0,0:36:37.97,0:36:39.90,ASS,,0,0,0,,I'm scared.
+Dialogue: 0,0:36:39.90,0:36:42.90,ASS,,0,0,0,,I can hear you, I can hear you.
+Dialogue: 0,0:36:42.90,0:36:45.90,ASS,,0,0,0,,"I'm glad, I'm sorry. I'll do something\Nfor you, Ten-chan."
+Dialogue: 0,0:36:45.90,0:36:48.90,ASS,,0,0,0,,Isn't that amazing, Kira-chan? It's a\Nmiracle.
+Dialogue: 0,0:36:48.90,0:36:51.90,ASS,,0,0,0,,I really like Ten-san's singing style.
+Dialogue: 0,0:36:51.90,0:36:53.90,ASS,,0,0,0,,I get it, I get it, I get it.
+Dialogue: 0,0:36:58.90,0:37:00.90,ASS,,0,0,0,,It's a melody.
+Dialogue: 0,0:37:03.90,0:37:05.90,ASS,,0,0,0,,That's right, that's right.
+Dialogue: 0,0:37:09.90,0:37:11.90,ASS,,0,0,0,,I don't know.
+Dialogue: 0,0:37:14.68,0:37:32.68,ASS,,0,0,0,,I was watching the recording of that\Npart, and I thought it was really hard\Nto make a good sound, but Ten-san was\Ndoing his best many times, and he was\Ngetting better and better, and I thought\Nthat there was a way to absorb it and\Napply it.
+Dialogue: 0,0:37:32.68,0:37:34.68,ASS,,0,0,0,,Kira-chan is good.
+Dialogue: 0,0:37:34.68,0:37:35.68,ASS,,0,0,0,,What?
+Dialogue: 0,0:37:35.68,0:37:36.68,ASS,,0,0,0,,Kira-chan.
+Dialogue: 0,0:37:36.68,0:37:37.68,ASS,,0,0,0,,Is it a song?
+Dialogue: 0,0:37:37.68,0:37:38.68,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:37:45.68,0:37:46.68,ASS,,0,0,0,,Hey.
+Dialogue: 0,0:37:48.68,0:37:50.04,ASS,,0,0,0,,I'll do my best.
+Dialogue: 0,0:37:50.04,0:37:52.04,ASS,,0,0,0,,I like Koyuki-san's song.
+Dialogue: 0,0:37:52.04,0:37:55.04,ASS,,0,0,0,,It's definitely a lie.
+Dialogue: 0,0:37:55.04,0:37:58.04,ASS,,0,0,0,,Everyone made fun of me with my lines.
+Dialogue: 0,0:38:02.94,0:38:06.94,ASS,,0,0,0,,"Datte yaranakattara"?
+Dialogue: 0,0:38:06.94,0:38:09.94,ASS,,0,0,0,,"Datte yaranakattara"?
+Dialogue: 0,0:38:09.94,0:38:11.94,ASS,,0,0,0,,Okay, I found it.
+Dialogue: 0,0:38:11.94,0:38:14.94,ASS,,0,0,0,,Koike-san's... Koike-san's "Zangai"\Nis...
+Dialogue: 0,0:38:14.94,0:38:16.94,ASS,,0,0,0,,I think it's over there.
+Dialogue: 0,0:38:16.94,0:38:18.94,ASS,,0,0,0,,"Datte yaranakattara"? Please say it.
+Dialogue: 0,0:38:18.94,0:38:20.94,ASS,,0,0,0,,I can't read it.
+Dialogue: 0,0:38:20.94,0:38:22.94,ASS,,0,0,0,,"Are you enjoying the live?"
+Dialogue: 0,0:38:22.94,0:38:24.94,ASS,,0,0,0,,I really like that.
+Dialogue: 0,0:38:24.94,0:38:26.94,ASS,,0,0,0,,"Yaranakattara"?
+Dialogue: 0,0:38:26.94,0:38:28.94,ASS,,0,0,0,,It feels like "Yaranakattara".
+Dialogue: 0,0:38:28.94,0:38:30.94,ASS,,0,0,0,,I change it every time.
+Dialogue: 0,0:38:30.94,0:38:32.32,ASS,,0,0,0,,I change it every time.
+Dialogue: 0,0:38:33.32,0:38:35.32,ASS,,0,0,0,,If I talk, I forget to read the\Ncomments.
+Dialogue: 0,0:38:35.32,0:38:37.32,ASS,,0,0,0,,I can't smile.
+Dialogue: 0,0:38:39.32,0:38:41.32,ASS,,0,0,0,,I love you.
+Dialogue: 0,0:38:41.32,0:38:43.32,ASS,,0,0,0,,I love you.
+Dialogue: 0,0:38:45.32,0:38:56.32,ASS,,0,0,0,,What do we like about each other?
+Dialogue: 0,0:38:56.32,0:38:58.32,ASS,,0,0,0,,What do we like about each other?
+Dialogue: 0,0:38:59.45,0:39:01.45,ASS,,0,0,0,,First of all, I like how you look.
+Dialogue: 0,0:39:01.45,0:39:03.45,ASS,,0,0,0,,No way!
+Dialogue: 0,0:39:06.45,0:39:09.45,ASS,,0,0,0,,I like people with bright hair.
+Dialogue: 0,0:39:10.45,0:39:12.45,ASS,,0,0,0,,I also like people with long hair.
+Dialogue: 0,0:39:12.45,0:39:15.45,ASS,,0,0,0,,I like all of you, Kira-chan.
+Dialogue: 0,0:39:15.45,0:39:16.45,ASS,,0,0,0,,Do you want to be me?
+Dialogue: 0,0:39:16.45,0:39:17.45,ASS,,0,0,0,,Yeah.
+Dialogue: 0,0:39:17.45,0:39:19.45,ASS,,0,0,0,,I want to be inside your head.
+Dialogue: 0,0:39:19.45,0:39:21.45,ASS,,0,0,0,,Let's act like we've switched places.
+Dialogue: 0,0:39:22.45,0:39:23.45,ASS,,0,0,0,,No way.
+Dialogue: 0,0:39:23.45,0:39:24.46,ASS,,0,0,0,,I don't want to be in the middle.
+Dialogue: 0,0:39:25.46,0:39:29.46,ASS,,0,0,0,,If you don't do it, you'll be sad.
+Dialogue: 0,0:39:38.46,0:39:40.46,ASS,,0,0,0,,Thank you so much.
+Dialogue: 0,0:39:40.46,0:39:41.46,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:39:41.46,0:39:43.46,ASS,,0,0,0,,I'm happy.
+Dialogue: 0,0:39:46.78,0:39:50.78,ASS,,0,0,0,,You're messing with me. I'm not messing\Nwith you. I don't like that cute voice.
+Dialogue: 0,0:39:52.78,0:39:54.78,ASS,,0,0,0,,I'm really bad at English.
+Dialogue: 0,0:39:54.78,0:39:59.78,ASS,,0,0,0,,I'll introduce myself in English for\Nthose who are watching from overseas.
+Dialogue: 0,0:40:13.78,0:40:15.78,ASS,,0,0,0,,That's love.
+Dialogue: 0,0:40:16.13,0:40:19.13,ASS,,0,0,0,,I'm not good at "That's love" dance.
+Dialogue: 0,0:40:26.59,0:40:28.59,ASS,,0,0,0,,Let's do a live.
+Dialogue: 0,0:40:28.59,0:40:30.59,ASS,,0,0,0,,Are you going to dance?
+Dialogue: 0,0:40:30.59,0:40:32.59,ASS,,0,0,0,,No, I can't.
+Dialogue: 0,0:40:32.59,0:40:34.59,ASS,,0,0,0,,How was it?
+Dialogue: 0,0:40:34.59,0:40:38.59,ASS,,0,0,0,,It was originally both arms, wasn't it?
+Dialogue: 0,0:40:38.59,0:40:40.59,ASS,,0,0,0,,No, it was one arm.
+Dialogue: 0,0:40:40.59,0:40:42.59,ASS,,0,0,0,,It was originally both arms.
+Dialogue: 0,0:40:42.59,0:40:44.59,ASS,,0,0,0,,It suddenly changed to one arm.
+Dialogue: 0,0:40:44.59,0:40:46.59,ASS,,0,0,0,,It was definitely both arms.
+Dialogue: 0,0:40:46.59,0:40:48.59,ASS,,0,0,0,,It was both arms.
+Dialogue: 0,0:40:48.59,0:40:50.59,ASS,,0,0,0,,It was both arms for the first time.
+Dialogue: 0,0:40:50.59,0:40:52.59,ASS,,0,0,0,,It was both arms for the first time.
+Dialogue: 0,0:40:52.59,0:40:54.59,ASS,,0,0,0,,It was definitely both arms.
+Dialogue: 0,0:40:54.59,0:40:56.59,ASS,,0,0,0,,It was definitely both arms.
+Dialogue: 0,0:40:56.59,0:40:58.59,ASS,,0,0,0,,It was both arms for the first time.
+Dialogue: 0,0:40:58.59,0:40:59.83,ASS,,0,0,0,,No.
+Dialogue: 0,0:40:59.83,0:41:03.51,ASS,,0,0,0,,Before it was released, it changed to\N"Freelance".
+Dialogue: 0,0:41:03.51,0:41:05.51,ASS,,0,0,0,,- Oh, really? - That's right.
+Dialogue: 0,0:41:05.51,0:41:08.83,ASS,,0,0,0,,I watched a lot of videos of "Freelance"\Nand practiced a lot, but it's scary!
+Dialogue: 0,0:41:09.83,0:41:11.11,ASS,,0,0,0,,I'm sorry if I'm wrong.
+Dialogue: 0,0:41:11.11,0:41:14.63,ASS,,0,0,0,,But I was looking for someone from the\Nmembers to contact me.
+Dialogue: 0,0:41:14.63,0:41:16.31,ASS,,0,0,0,,Has anyone seen it?
+Dialogue: 0,0:41:17.31,0:41:19.83,ASS,,0,0,0,,I'm sure it was a hand from both hands.
+Dialogue: 0,0:41:22.31,0:41:24.83,ASS,,0,0,0,,- It really looked like it! - No way! I\Ndon't remember at all!
+Dialogue: 0,0:41:24.83,0:41:27.03,ASS,,0,0,0,,But I'm sorry if I'm wrong at all.
+Dialogue: 0,0:41:27.38,0:41:30.38,ASS,,0,0,0,,I'm going to call the insurance company.
+Dialogue: 0,0:41:41.37,0:41:43.37,ASS,,0,0,0,,I was nervous.
+Dialogue: 0,0:41:54.20,0:42:00.20,ASS,,0,0,0,,I sang the 2nd verse of the A melody.
+Dialogue: 0,0:42:00.20,0:42:02.20,ASS,,0,0,0,,I'm really good at it.
+Dialogue: 0,0:42:02.20,0:42:03.20,ASS,,0,0,0,,This?
+Dialogue: 0,0:42:03.20,0:42:09.20,ASS,,0,0,0,,I sang it like this.
+Dialogue: 0,0:42:13.20,0:42:14.20,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,0:42:14.20,0:42:17.20,ASS,,0,0,0,,I sang Kira-chan's and Sonia-chan's...
+Dialogue: 0,0:42:20.20,0:42:22.20,ASS,,0,0,0,,I did it many times.
+Dialogue: 0,0:42:22.20,0:42:23.71,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,0:42:24.71,0:42:26.71,ASS,,0,0,0,,It's a very special day.
+Dialogue: 0,0:42:27.71,0:42:29.71,ASS,,0,0,0,,I bring it here all the time.
+Dialogue: 0,0:42:29.71,0:42:31.71,ASS,,0,0,0,,It's difficult to cross my legs.
+Dialogue: 0,0:42:31.71,0:42:33.71,ASS,,0,0,0,,I think I'm doing it while looking at\Nthe number.
+Dialogue: 0,0:42:34.71,0:42:36.71,ASS,,0,0,0,,It's here.
+Dialogue: 0,0:42:37.71,0:42:39.71,ASS,,0,0,0,,Thank you for 30,000 people.
+Dialogue: 0,0:42:39.71,0:42:41.71,ASS,,0,0,0,,I had time before.
+Dialogue: 0,0:42:41.71,0:42:43.71,ASS,,0,0,0,,It's too Deja Vu.
+Dialogue: 0,0:42:44.71,0:42:45.71,ASS,,0,0,0,,It's close.
+Dialogue: 0,0:42:45.71,0:42:47.71,ASS,,0,0,0,,I can't read it.
+Dialogue: 0,0:42:48.71,0:42:50.71,ASS,,0,0,0,,Isn't my bangs beautiful?
+Dialogue: 0,0:42:50.71,0:42:51.71,ASS,,0,0,0,,Beautiful.
+Dialogue: 0,0:42:54.71,0:42:56.71,ASS,,0,0,0,,I can't read it.
+Dialogue: 0,0:42:56.71,0:42:58.71,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,0:43:02.52,0:43:04.52,ASS,,0,0,0,,I like Hansen.
+Dialogue: 0,0:43:04.52,0:43:06.52,ASS,,0,0,0,,Baseball?
+Dialogue: 0,0:43:06.52,0:43:13.52,ASS,,0,0,0,,I don't know much about baseball, but I\Nthink it's really amazing.
+Dialogue: 0,0:43:13.52,0:43:18.52,ASS,,0,0,0,,My dad used to watch it a lot.
+Dialogue: 0,0:43:18.52,0:43:23.52,ASS,,0,0,0,,I used to think it was really fast.
+Dialogue: 0,0:43:25.52,0:43:26.52,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:43:26.52,0:43:29.52,ASS,,0,0,0,,I want to watch it too.
+Dialogue: 0,0:43:29.52,0:43:30.99,ASS,,0,0,0,,It's called Kawaii Medane.
+Dialogue: 0,0:43:31.99,0:43:33.99,ASS,,0,0,0,,It's called Kawaii Medane.
+Dialogue: 0,0:43:33.99,0:43:35.99,ASS,,0,0,0,,I heard it's called Kawaii Medane.
+Dialogue: 0,0:43:36.99,0:43:39.99,ASS,,0,0,0,,"Can you dye your hair black?" I can't\Ndye my hair black.
+Dialogue: 0,0:43:39.99,0:43:41.99,ASS,,0,0,0,,It looks better when it's black.
+Dialogue: 0,0:43:41.99,0:43:42.99,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:43:42.99,0:43:47.99,ASS,,0,0,0,,When it wasn't bright, I dyed it with an\Niron.
+Dialogue: 0,0:43:47.99,0:43:50.99,ASS,,0,0,0,,And then I dyed it black. I thought it\Nwas really cute.
+Dialogue: 0,0:43:50.99,0:43:51.99,ASS,,0,0,0,,Really?
+Dialogue: 0,0:43:51.99,0:43:55.99,ASS,,0,0,0,,No matter how many times I dyed it\Nblack, the iron would come off.
+Dialogue: 0,0:43:55.99,0:43:56.99,ASS,,0,0,0,,It's pretty dark.
+Dialogue: 0,0:43:56.99,0:43:57.99,ASS,,0,0,0,,Does that mean it's easy to get damaged?
+Dialogue: 0,0:43:57.99,0:43:58.99,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:43:58.99,0:43:59.99,ASS,,0,0,0,,Poor thing.
+Dialogue: 0,0:44:01.94,0:44:05.94,ASS,,0,0,0,,That's why I go to the beauty salon and\Nsay, "I don't need any damaged parts."
+Dialogue: 0,0:44:07.94,0:44:09.94,ASS,,0,0,0,,I don't need anything like this.
+Dialogue: 0,0:44:09.94,0:44:11.94,ASS,,0,0,0,,I don't need this.
+Dialogue: 0,0:44:11.94,0:44:13.94,ASS,,0,0,0,,I don't need any damaged parts.
+Dialogue: 0,0:44:13.94,0:44:16.94,ASS,,0,0,0,,Then it's shorter than it used to be.
+Dialogue: 0,0:44:16.94,0:44:18.94,ASS,,0,0,0,,It says it looks good on me.
+Dialogue: 0,0:44:18.94,0:44:20.94,ASS,,0,0,0,,I think it'll look good on you, too.
+Dialogue: 0,0:44:20.94,0:44:23.94,ASS,,0,0,0,,It doesn't look good on me. The contrast\Ndoesn't match.
+Dialogue: 0,0:44:24.94,0:44:27.94,ASS,,0,0,0,,It's like it's going to pop when it's\Nlit.
+Dialogue: 0,0:44:29.78,0:44:30.78,ASS,,0,0,0,,It says to use a high-speed iron.
+Dialogue: 0,0:44:30.78,0:44:31.78,ASS,,0,0,0,,High-speed iron?
+Dialogue: 0,0:44:32.78,0:44:33.78,ASS,,0,0,0,,I'm fast at ironing.
+Dialogue: 0,0:44:36.78,0:44:37.78,ASS,,0,0,0,,But you look fast.
+Dialogue: 0,0:44:38.78,0:44:39.78,ASS,,0,0,0,,It's hot if you do it slowly.
+Dialogue: 0,0:44:40.78,0:44:41.78,ASS,,0,0,0,,I've smoked before.
+Dialogue: 0,0:44:41.78,0:44:42.78,ASS,,0,0,0,,You can't.
+Dialogue: 0,0:44:42.78,0:44:43.78,ASS,,0,0,0,,I was surprised.
+Dialogue: 0,0:44:43.78,0:44:44.78,ASS,,0,0,0,,I'm scared.
+Dialogue: 0,0:44:45.78,0:44:46.78,ASS,,0,0,0,,It's going to melt.
+Dialogue: 0,0:44:46.78,0:44:47.78,ASS,,0,0,0,,It says I like half-body and half-neck.
+Dialogue: 0,0:44:48.78,0:44:49.78,ASS,,0,0,0,,Half-body and half-neck.
+Dialogue: 0,0:44:49.78,0:44:50.78,ASS,,0,0,0,,My neck is really good.
+Dialogue: 0,0:44:53.78,0:44:54.78,ASS,,0,0,0,,How is it? Please try it.
+Dialogue: 0,0:44:56.83,0:44:58.83,ASS,,0,0,0,,I can't do it without this.
+Dialogue: 0,0:44:58.83,0:44:59.83,ASS,,0,0,0,,Let's go.
+Dialogue: 0,0:45:03.83,0:45:04.83,ASS,,0,0,0,,I'm scared.
+Dialogue: 0,0:45:04.83,0:45:06.83,ASS,,0,0,0,,I'm scared when I look at it with my\Nright eye.
+Dialogue: 0,0:45:06.83,0:45:08.83,ASS,,0,0,0,,Let's start from the right or left.
+Dialogue: 0,0:45:08.83,0:45:09.83,ASS,,0,0,0,,Let's go.
+Dialogue: 0,0:45:11.83,0:45:12.83,ASS,,0,0,0,,Let's go.
+Dialogue: 0,0:45:12.83,0:45:13.83,ASS,,0,0,0,,One, two.
+Dialogue: 0,0:45:15.83,0:45:16.83,ASS,,0,0,0,,One, two.
+Dialogue: 0,0:45:20.83,0:45:21.83,ASS,,0,0,0,,Let's go.
+Dialogue: 0,0:45:21.83,0:45:22.83,ASS,,0,0,0,,One, two.
+Dialogue: 0,0:45:24.67,0:45:28.67,ASS,,0,0,0,,You know how Arion moves in the\Nsunlight?
+Dialogue: 0,0:45:28.67,0:45:29.67,ASS,,0,0,0,,Yeah.
+Dialogue: 0,0:45:29.67,0:45:31.67,ASS,,0,0,0,,Oh, Arion moves like this.
+Dialogue: 0,0:45:31.67,0:45:33.67,ASS,,0,0,0,,Right?
+Dialogue: 0,0:45:37.67,0:45:39.29,ASS,,0,0,0,,They say they want to see Sonia.
+Dialogue: 0,0:45:39.29,0:45:46.29,ASS,,0,0,0,,Kira-chan's version of "Hitori no BAKURU\NUUUMU NI"
+Dialogue: 0,0:45:46.29,0:45:50.29,ASS,,0,0,0,,Hitori, what was it? Ah, I couldn't do\Nit.
+Dialogue: 0,0:45:57.27,0:46:01.27,ASS,,0,0,0,,I think only Koike-san can do this.
+Dialogue: 0,0:46:01.27,0:46:05.27,ASS,,0,0,0,,I don't know how to do it, so I'll do it\Nin your version.
+Dialogue: 0,0:46:05.27,0:46:08.27,ASS,,0,0,0,,I'll do Koike-san's version first.
+Dialogue: 0,0:46:11.27,0:46:13.27,ASS,,0,0,0,,She's laughing a lot.
+Dialogue: 0,0:46:19.27,0:46:21.27,ASS,,0,0,0,,I'll do it with my real voice.
+Dialogue: 0,0:46:21.27,0:46:26.27,ASS,,0,0,0,,That's how it is. It's not a song like\N"Cappy Cappy".
+Dialogue: 0,0:46:27.72,0:46:29.72,ASS,,0,0,0,,I almost cried so many times.
+Dialogue: 0,0:46:31.72,0:46:32.72,ASS,,0,0,0,,It's a good song, isn't it?
+Dialogue: 0,0:46:32.72,0:46:36.72,ASS,,0,0,0,,I almost cried when we did "Anniversary\NLive".
+Dialogue: 0,0:46:38.72,0:46:41.72,ASS,,0,0,0,,I think I made a terrible face when I\Nremembered that.
+Dialogue: 0,0:46:41.72,0:46:42.72,ASS,,0,0,0,,But it wasn't on the screen.
+Dialogue: 0,0:46:42.72,0:46:43.72,ASS,,0,0,0,,That's good.
+Dialogue: 0,0:46:44.72,0:46:46.72,ASS,,0,0,0,,I forget that I'm being watched.
+Dialogue: 0,0:46:46.72,0:46:47.72,ASS,,0,0,0,,It's okay.
+Dialogue: 0,0:46:48.72,0:46:50.72,ASS,,0,0,0,,"Don't cry, it hurts."
+Dialogue: 0,0:46:50.72,0:46:52.72,ASS,,0,0,0,,"I want to hug you."
+Dialogue: 0,0:46:52.72,0:46:53.72,ASS,,0,0,0,,You want to hug me?
+Dialogue: 0,0:46:56.72,0:46:56.76,ASS,,0,0,0,,I want to hug you.
+Dialogue: 0,0:46:56.76,0:46:57.26,ASS,,0,0,0,,Baby.
+Dialogue: 0,0:47:00.26,0:47:02.26,ASS,,0,0,0,,Say "Thank you" to the fans.
+Dialogue: 0,0:47:03.48,0:47:05.48,ASS,,0,0,0,,(Cute Roda)
+Dialogue: 0,0:47:06.74,0:47:08.74,ASS,,0,0,0,,(Roda and Fukuhara's weird laughter)
+Dialogue: 0,0:47:09.52,0:47:11.52,ASS,,0,0,0,,(Kotone is laughing so hard that I can't\Nkeep my eyes off it)
+Dialogue: 0,0:47:11.52,0:47:13.52,ASS,,0,0,0,,(She's too cute!!!)
+Dialogue: 0,0:47:13.52,0:47:15.52,ASS,,0,0,0,,(Take a look at her face!)
+Dialogue: 0,0:47:15.52,0:47:17.52,ASS,,0,0,0,,(Thank you for watching!)
+Dialogue: 0,0:47:17.52,0:47:18.14,ASS,,0,0,0,,(And thank you for watching until the\Nend!)
+Dialogue: 0,0:47:18.14,0:47:20.14,ASS,,0,0,0,,This is my pot.
+Dialogue: 0,0:47:20.14,0:47:22.14,ASS,,0,0,0,,It's cute.
+Dialogue: 0,0:47:26.75,0:47:30.75,ASS,,0,0,0,,- It's already 4 minutes. - That's fast.\N- We only have 10 minutes left.
+Dialogue: 0,0:47:31.75,0:47:35.75,ASS,,0,0,0,,- Did you enjoy it? - What do you want\Nme to do?
+Dialogue: 0,0:47:35.75,0:47:40.75,ASS,,0,0,0,,- I'm sorry, I'm talking to myself. -\NYou've been working hard for a week,
+Dialogue: 0,0:47:40.75,0:47:43.75,ASS,,0,0,0,,so I wanted to cheer you up.
+Dialogue: 0,0:47:43.75,0:47:45.75,ASS,,0,0,0,,You're so nice.
+Dialogue: 0,0:47:45.75,0:47:48.75,ASS,,0,0,0,,- You're so nice. - I'm nice?
+Dialogue: 0,0:47:48.75,0:47:53.75,ASS,,0,0,0,,- You invited me yesterday. - It was\Nsudden. I'm sorry.
+Dialogue: 0,0:47:53.75,0:47:55.75,ASS,,0,0,0,,It's okay.
+Dialogue: 0,0:47:56.79,0:47:59.79,ASS,,0,0,0,,- Let's heal together. - I'm relieved.
+Dialogue: 0,0:48:02.79,0:48:09.79,ASS,,0,0,0,,- What's for dinner? - Let's decide. How\Nabout udon?
+Dialogue: 0,0:48:13.79,0:48:17.79,ASS,,0,0,0,,- I want to eat curry udon. - Curry\Nudon? I ate curry today.
+Dialogue: 0,0:48:17.79,0:48:19.79,ASS,,0,0,0,,You're cheating.
+Dialogue: 0,0:48:21.79,0:48:25.10,ASS,,0,0,0,,- I'm lonely. - Come here.
+Dialogue: 0,0:48:26.10,0:48:28.10,ASS,,0,0,0,,- What's wrong? - Come here, Numa-chan.
+Dialogue: 0,0:48:28.10,0:48:31.10,ASS,,0,0,0,,- We gave Numa-chan a bag. - Yes.
+Dialogue: 0,0:48:31.10,0:48:33.10,ASS,,0,0,0,,- It's a duck bag. - I'm so happy.
+Dialogue: 0,0:48:33.10,0:48:36.10,ASS,,0,0,0,,- But it doesn't have a phone in it. -\NIt doesn't?
+Dialogue: 0,0:48:36.10,0:48:39.10,ASS,,0,0,0,,- The bag we bought together before... -\NPopo-chan.
+Dialogue: 0,0:48:39.10,0:48:42.10,ASS,,0,0,0,,The bag we bought together didn't have a\Nwallet in it.
+Dialogue: 0,0:48:42.10,0:48:47.10,ASS,,0,0,0,,So we gave it to her as a gift.
+Dialogue: 0,0:48:47.10,0:48:51.10,ASS,,0,0,0,,But it doesn't have a wallet or a phone\Nin it.
+Dialogue: 0,0:48:52.70,0:48:54.70,ASS,,0,0,0,,If it's a GU, I'll hide it.
+Dialogue: 0,0:48:54.70,0:48:56.70,ASS,,0,0,0,,That's a pretty small one.
+Dialogue: 0,0:48:56.70,0:48:58.70,ASS,,0,0,0,,I forgot to check the size.
+Dialogue: 0,0:48:58.70,0:49:01.70,ASS,,0,0,0,,There are people who don't have a lot of\Nluggage.
+Dialogue: 0,0:49:01.70,0:49:06.70,ASS,,0,0,0,,It's fashionable to have a minimum\Nnumber of people using it.
+Dialogue: 0,0:49:06.70,0:49:08.70,ASS,,0,0,0,,It says, "Don't carry too much."
+Dialogue: 0,0:49:08.70,0:49:10.70,ASS,,0,0,0,,Of course.
+Dialogue: 0,0:49:10.70,0:49:12.70,ASS,,0,0,0,,I have a reason to give it as a gift.
+Dialogue: 0,0:49:14.70,0:49:16.70,ASS,,0,0,0,,I got it, too.
+Dialogue: 0,0:49:16.70,0:49:17.70,ASS,,0,0,0,,What did you get?
+Dialogue: 0,0:49:17.70,0:49:18.62,ASS,,0,0,0,,POMU
+Dialogue: 0,0:49:19.62,0:49:23.62,ASS,,0,0,0,,I really don't want it to shrink. I\Ndon't want it to fade, so I didn't wear\Nit at all.
+Dialogue: 0,0:49:23.62,0:49:25.62,ASS,,0,0,0,,I'll give you a present.
+Dialogue: 0,0:49:25.62,0:49:29.62,ASS,,0,0,0,,I want to leave it as it is. I'm afraid\Nit's going to shrink.
+Dialogue: 0,0:49:29.62,0:49:32.62,ASS,,0,0,0,,I should have given you a present for\Nyour appreciation.
+Dialogue: 0,0:49:32.62,0:49:35.62,ASS,,0,0,0,,Thank you. I wear it once in a while.
+Dialogue: 0,0:49:35.62,0:49:38.62,ASS,,0,0,0,,It's important to say a word of comfort.
+Dialogue: 0,0:49:38.62,0:49:42.62,ASS,,0,0,0,,Thank you for your hard work today.
+Dialogue: 0,0:49:42.62,0:49:45.62,ASS,,0,0,0,,What do you mean by a word of comfort?
+Dialogue: 0,0:49:45.62,0:49:48.62,ASS,,0,0,0,,Thank you for watching until the end.
+Dialogue: 0,0:49:49.93,0:49:50.93,ASS,,0,0,0,,"I'm watching this on Niwadachi."
+Dialogue: 0,0:49:50.93,0:49:52.93,ASS,,0,0,0,,Oh, Niwadachi?
+Dialogue: 0,0:49:58.17,0:50:01.17,ASS,,0,0,0,,Thank you for your comments.
+Dialogue: 0,0:50:01.17,0:50:03.17,ASS,,0,0,0,,"Please say something."
+Dialogue: 0,0:50:03.17,0:50:05.17,ASS,,0,0,0,,Let's read the comments.
+Dialogue: 0,0:50:05.17,0:50:07.17,ASS,,0,0,0,,Thank you for your comments.
+Dialogue: 0,0:50:09.17,0:50:11.17,ASS,,0,0,0,,"I want to come and play."
+Dialogue: 0,0:50:11.17,0:50:13.17,ASS,,0,0,0,,"Akirako is getting married."
+Dialogue: 0,0:50:13.17,0:50:15.17,ASS,,0,0,0,,"She's getting proposed."
+Dialogue: 0,0:50:17.17,0:50:19.17,ASS,,0,0,0,,"I've been cooking lately."
+Dialogue: 0,0:50:19.17,0:50:21.17,ASS,,0,0,0,,What?
+Dialogue: 0,0:50:21.17,0:50:23.17,ASS,,0,0,0,,"I've been cooking lately."
+Dialogue: 0,0:50:23.17,0:50:25.17,ASS,,0,0,0,,"You want to eat my cooking, right?"
+Dialogue: 0,0:50:25.17,0:50:26.99,ASS,,0,0,0,,I want to eat it.
+Dialogue: 0,0:50:27.99,0:50:29.99,ASS,,0,0,0,,I made a mistake.
+Dialogue: 0,0:50:29.99,0:50:33.99,ASS,,0,0,0,,I wanted to feed Onuma-san, so I made it\Nfor him.
+Dialogue: 0,0:50:33.99,0:50:35.99,ASS,,0,0,0,,I'm glad.
+Dialogue: 0,0:50:35.99,0:50:37.99,ASS,,0,0,0,,I'm glad.
+Dialogue: 0,0:50:37.99,0:50:39.99,ASS,,0,0,0,,I made him eat as much as he could.
+Dialogue: 0,0:50:43.99,0:50:47.99,ASS,,0,0,0,,Onuma-san made it for me, so I don't\Nwant to leave it.
+Dialogue: 0,0:50:47.99,0:50:49.99,ASS,,0,0,0,,He eats a lot.
+Dialogue: 0,0:50:50.99,0:50:52.99,ASS,,0,0,0,,I forgot to read the comments again.
+Dialogue: 0,0:50:52.99,0:50:54.99,ASS,,0,0,0,,"It's cute."
+Dialogue: 0,0:50:56.28,0:51:00.28,ASS,,0,0,0,,"Strawberry?" That's right. I ate 2 cups\Nof rice and 2 cups of strawberries.
+Dialogue: 0,0:51:00.28,0:51:02.28,ASS,,0,0,0,,One cup is for one person.
+Dialogue: 0,0:51:10.30,0:51:14.30,ASS,,0,0,0,,"Are you looking at the letter?" I am.
+Dialogue: 0,0:51:14.30,0:51:16.30,ASS,,0,0,0,,I read it a lot.
+Dialogue: 0,0:51:16.30,0:51:18.30,ASS,,0,0,0,,Do you read it before going out?
+Dialogue: 0,0:51:18.30,0:51:22.30,ASS,,0,0,0,,I read it, but I can't read it in real\Ntime.
+Dialogue: 0,0:51:22.30,0:51:27.30,ASS,,0,0,0,,I can't read it in real time, but I read\Nit every 2 or 3 days.
+Dialogue: 0,0:51:27.30,0:51:29.30,ASS,,0,0,0,,I read it when I get home.
+Dialogue: 0,0:51:29.30,0:51:33.30,ASS,,0,0,0,,I read it before going out.
+Dialogue: 0,0:51:33.30,0:51:38.30,ASS,,0,0,0,,I read it every day.
+Dialogue: 0,0:51:40.12,0:51:42.12,ASS,,0,0,0,,"I finished my part-time job. Good job."
+Dialogue: 0,0:51:42.12,0:51:43.12,ASS,,0,0,0,,Good job.
+Dialogue: 0,0:51:43.12,0:51:46.12,ASS,,0,0,0,,I've never had a part-time job before.
+Dialogue: 0,0:51:48.12,0:51:50.12,ASS,,0,0,0,,I've worked at a cake shop.
+Dialogue: 0,0:51:50.12,0:51:51.12,ASS,,0,0,0,,"I have to send a letter again."
+Dialogue: 0,0:51:51.12,0:51:52.12,ASS,,0,0,0,,Please send it.
+Dialogue: 0,0:51:54.12,0:51:56.12,ASS,,0,0,0,,"What kind of dance shoes are you\Nwearing?"
+Dialogue: 0,0:51:56.12,0:51:57.12,ASS,,0,0,0,,Dance shoes?
+Dialogue: 0,0:51:57.12,0:51:59.12,ASS,,0,0,0,,I usually wear white ones.
+Dialogue: 0,0:51:59.12,0:52:00.12,ASS,,0,0,0,,White ones.
+Dialogue: 0,0:52:00.12,0:52:02.12,ASS,,0,0,0,,We look similar, don't we?
+Dialogue: 0,0:52:02.12,0:52:04.12,ASS,,0,0,0,,But we're definitely different.
+Dialogue: 0,0:52:04.12,0:52:07.12,ASS,,0,0,0,,"I got a present from Sugaya for two\Nyears."
+Dialogue: 0,0:52:07.12,0:52:07.15,ASS,,0,0,0,,I got a present from Sugaya for two\Nyears.
+Dialogue: 0,0:52:07.15,0:52:09.87,ASS,,0,0,0,,I got sneakers for my birthday. That's\Nthe only thing I can't dance to.
+Dialogue: 0,0:52:09.87,0:52:11.23,ASS,,0,0,0,,Dasu-chan?
+Dialogue: 0,0:52:11.23,0:52:11.73,ASS,,0,0,0,,Huh?
+Dialogue: 0,0:52:11.73,0:52:13.73,ASS,,0,0,0,,Dasu?
+Dialogue: 0,0:52:13.73,0:52:15.07,ASS,,0,0,0,,This way?
+Dialogue: 0,0:52:15.07,0:52:16.47,ASS,,0,0,0,,Dasu?
+Dialogue: 0,0:52:16.47,0:52:18.47,ASS,,0,0,0,,Eh? D'Arcy?
+Dialogue: 0,0:52:18.47,0:52:19.47,ASS,,0,0,0,,No!
+Dialogue: 0,0:52:19.47,0:52:21.47,ASS,,0,0,0,,I was asking about the brand.
+Dialogue: 0,0:52:21.47,0:52:22.47,ASS,,0,0,0,,D'Arcy?
+Dialogue: 0,0:52:24.47,0:52:26.47,ASS,,0,0,0,,That's the one I told you about last\Nyear.
+Dialogue: 0,0:52:26.47,0:52:28.47,ASS,,0,0,0,,This time it's CHECK?
+Dialogue: 0,0:52:28.47,0:52:29.47,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:52:31.47,0:52:34.47,ASS,,0,0,0,,I don't know what brand it is.
+Dialogue: 0,0:52:34.47,0:52:35.47,ASS,,0,0,0,,But it's really cute.
+Dialogue: 0,0:52:35.47,0:52:38.47,ASS,,0,0,0,,You can hug it for the first day and put\Nit on the next day.
+Dialogue: 0,0:52:38.47,0:52:39.47,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:52:40.47,0:52:41.47,ASS,,0,0,0,,Mirin, this...
+Dialogue: 0,0:52:41.47,0:52:43.47,ASS,,0,0,0,,"I'm doing my best to join Sakura Toka."
+Dialogue: 0,0:52:43.47,0:52:45.47,ASS,,0,0,0,,Please!
+Dialogue: 0,0:52:45.47,0:52:45.98,ASS,,0,0,0,,I'll be waiting.
+Dialogue: 0,0:52:45.98,0:52:51.98,ASS,,0,0,0,,I'm looking forward to seeing my\Njuniors. I don't know when, but I can't\Nwait to see my juniors.
+Dialogue: 0,0:52:51.98,0:52:54.98,ASS,,0,0,0,,I'm sure they'll be cute. I love younger\Npeople.
+Dialogue: 0,0:52:54.98,0:52:56.98,ASS,,0,0,0,,It might be three years from now.
+Dialogue: 0,0:52:56.98,0:52:58.98,ASS,,0,0,0,,I want about 32.
+Dialogue: 0,0:52:58.98,0:53:01.98,ASS,,0,0,0,,I'd like to teach a girl who's not good\Nat dancing.
+Dialogue: 0,0:53:01.98,0:53:03.98,ASS,,0,0,0,,"I know! You can't do it, can you?"
+Dialogue: 0,0:53:03.98,0:53:06.98,ASS,,0,0,0,,People who are not good at dancing.
+Dialogue: 0,0:53:06.98,0:53:09.98,ASS,,0,0,0,,It's hard for people who really can't do\Nit.
+Dialogue: 0,0:53:09.98,0:53:12.98,ASS,,0,0,0,,It's a lot of time, isn't it?
+Dialogue: 0,0:53:12.98,0:53:13.11,ASS,,0,0,0,,I'm looking forward to it.
+Dialogue: 0,0:53:13.11,0:53:18.11,ASS,,0,0,0,,"It's a fun birthday. Can a man go into\Nthe cherry blossoms?"
+Dialogue: 0,0:53:18.11,0:53:20.11,ASS,,0,0,0,,- Can you? - What?
+Dialogue: 0,0:53:20.11,0:53:23.11,ASS,,0,0,0,,"Can a man go into the cherry blossoms?"
+Dialogue: 0,0:53:27.11,0:53:30.11,ASS,,0,0,0,,But you can talk to them.
+Dialogue: 0,0:53:30.11,0:53:32.11,ASS,,0,0,0,,You can wear a mii-guri.
+Dialogue: 0,0:53:35.11,0:53:38.11,ASS,,0,0,0,,"How many juniors do you want?" I want a\Nlot.
+Dialogue: 0,0:53:38.11,0:53:42.85,ASS,,0,0,0,,- Let's do it at the end. - I don't know\Nwhen, though.
+Dialogue: 0,0:53:43.85,0:53:47.85,ASS,,0,0,0,,It's about the future.
+Dialogue: 0,0:53:47.85,0:53:50.85,ASS,,0,0,0,,- Someday. - Did you read a lot today?
+Dialogue: 0,0:53:50.85,0:53:54.85,ASS,,0,0,0,,I'm really sorry I'm an old lady. I\Nreally couldn't read it.
+Dialogue: 0,0:53:54.85,0:53:58.85,ASS,,0,0,0,,I'm sorry I've been walking around. My\Nlegs hurt.
+Dialogue: 0,0:53:58.85,0:54:00.85,ASS,,0,0,0,,Thank you for watching a lot.
+Dialogue: 0,0:54:00.85,0:54:03.85,ASS,,0,0,0,,How many minutes? It's scheduled to be\Nup to 15 minutes, right?
+Dialogue: 0,0:54:04.85,0:54:06.85,ASS,,0,0,0,,4 minutes left.
+Dialogue: 0,0:54:07.85,0:54:09.85,ASS,,0,0,0,,What's upper?
+Dialogue: 0,0:54:09.85,0:54:12.85,ASS,,0,0,0,,Upper?
+Dialogue: 0,0:54:17.21,0:54:19.85,ASS,,0,0,0,,- It says "Woof woof". - It's like this,\Nright?
+Dialogue: 0,0:54:19.85,0:54:23.01,ASS,,0,0,0,,- It's an upper. - Doesn't it mean that\Nit's purring?
+Dialogue: 0,0:54:23.01,0:54:25.65,ASS,,0,0,0,,Ah! I don't get it!
+Dialogue: 0,0:54:25.65,0:54:29.17,ASS,,0,0,0,,- It's like it's hitting itself. -\N"Ioki-chan".
+Dialogue: 0,0:54:29.17,0:54:32.37,ASS,,0,0,0,,- It's so cute! - It's like Nagisaka-\Nsan's movement.
+Dialogue: 0,0:54:32.37,0:54:34.37,ASS,,0,0,0,,- It's so cute. - It's so cute.
+Dialogue: 0,0:54:34.37,0:54:36.37,ASS,,0,0,0,,It's so cute. I like it.
+Dialogue: 0,0:54:36.37,0:54:42.37,ASS,,0,0,0,,- I like Satsuki-chan and Ogawaya-chan.\N- They're all small.
+Dialogue: 0,0:54:42.37,0:54:44.37,ASS,,0,0,0,,Yeah, they're all cute.
+Dialogue: 0,0:54:46.18,0:54:52.18,ASS,,0,0,0,,- I want our juniors to be like that. -\N"Please do a "goi-goi-su" with the two\Nof you." What's a "goi-goi-su"?
+Dialogue: 0,0:54:52.18,0:54:56.18,ASS,,0,0,0,,- What is it? - I don't know.
+Dialogue: 0,0:54:56.18,0:55:01.18,ASS,,0,0,0,,- Isn't it like, "It's amazing that\Nyou're doing it backwards?" - Is it\Nthat?
+Dialogue: 0,0:55:01.18,0:55:08.18,ASS,,0,0,0,,- It's like a comedian doing a "goi-goi-\Nsu." - "Goi-su, goi-su."
+Dialogue: 0,0:55:08.18,0:55:13.18,ASS,,0,0,0,,- I don't know how to do it at all. -\NWhat should I do today?
+Dialogue: 0,0:55:14.27,0:55:18.27,ASS,,0,0,0,,For those who couldn't read it all, I'm\Nsorry.
+Dialogue: 0,0:55:18.27,0:55:21.27,ASS,,0,0,0,,Thank you for all the comments.
+Dialogue: 0,0:55:21.27,0:55:25.27,ASS,,0,0,0,,For the 35,000 viewers, thank you.
+Dialogue: 0,0:55:25.27,0:55:27.27,ASS,,0,0,0,,Thank you, Kira-chan, for showing up\Ntoday.
+Dialogue: 0,0:55:27.27,0:55:30.27,ASS,,0,0,0,,Are you okay? I wanted to hear more of\Nyour voice.
+Dialogue: 0,0:55:30.27,0:55:35.27,ASS,,0,0,0,,No, I usually don't talk like this, so\Nmy throat is tired.
+Dialogue: 0,0:55:35.27,0:55:37.27,ASS,,0,0,0,,Really?
+Dialogue: 0,0:55:37.27,0:55:39.27,ASS,,0,0,0,,My throat hurts.
+Dialogue: 0,0:55:39.27,0:55:42.86,ASS,,0,0,0,,I think the fans want to see your cute\Nside.
+Dialogue: 0,0:55:43.86,0:55:45.86,ASS,,0,0,0,,I'll show you my cute side.
+Dialogue: 0,0:55:45.86,0:55:47.86,ASS,,0,0,0,,Kira-chan's cute side...
+Dialogue: 0,0:55:52.86,0:55:54.86,ASS,,0,0,0,,You want to see something like this,\Nright?
+Dialogue: 0,0:55:54.86,0:55:56.86,ASS,,0,0,0,,You want to see it, right?
+Dialogue: 0,0:55:59.86,0:56:01.86,ASS,,0,0,0,,"Koike-san's cute hand"
+Dialogue: 0,0:56:01.86,0:56:05.86,ASS,,0,0,0,,Hey, listen! My pinky and index\Nfinger...
+Dialogue: 0,0:56:05.86,0:56:07.86,ASS,,0,0,0,,That's onee-san's finger.
+Dialogue: 0,0:56:07.86,0:56:09.86,ASS,,0,0,0,,Onee-san's finger is really long.
+Dialogue: 0,0:56:09.86,0:56:11.47,ASS,,0,0,0,,That's what I noticed recently.
+Dialogue: 0,0:56:12.47,0:56:14.47,ASS,,0,0,0,,That's all.
+Dialogue: 0,0:56:16.47,0:56:21.47,ASS,,0,0,0,,Yui-chan said that my little finger and\Nring finger are long.
+Dialogue: 0,0:56:21.47,0:56:23.47,ASS,,0,0,0,,Show me your ring finger.
+Dialogue: 0,0:56:23.47,0:56:25.47,ASS,,0,0,0,,That's all.
+Dialogue: 0,0:56:28.47,0:56:31.47,ASS,,0,0,0,,Yui-chan is like a baby.
+Dialogue: 0,0:56:32.47,0:56:34.47,ASS,,0,0,0,,That's all.
+Dialogue: 0,0:56:35.47,0:56:37.47,ASS,,0,0,0,,That's 14 minutes.
+Dialogue: 0,0:56:37.47,0:56:40.47,ASS,,0,0,0,,Is my face okay?
+Dialogue: 0,0:56:42.31,0:56:44.31,ASS,,0,0,0,,Maybe my fingers are long
+Dialogue: 0,0:56:44.31,0:56:46.31,ASS,,0,0,0,,Not at all
+Dialogue: 0,0:56:48.31,0:56:50.31,ASS,,0,0,0,,This is Sonya
+Dialogue: 0,0:56:50.31,0:56:54.31,ASS,,0,0,0,,Hey, hey, the lighting here is making\Nour faces look dark
+Dialogue: 0,0:56:55.31,0:56:57.31,ASS,,0,0,0,,If you do this, our faces will look\Nreally dark
+Dialogue: 0,0:56:58.31,0:57:01.31,ASS,,0,0,0,,Come watch the stream again sometime
+Dialogue: 0,0:57:01.31,0:57:03.31,ASS,,0,0,0,,Promise me you'll wear a hood at the end
+Dialogue: 0,0:57:03.31,0:57:04.31,ASS,,0,0,0,,I won't
+Dialogue: 0,0:57:05.31,0:57:06.31,ASS,,0,0,0,,That's right
+Dialogue: 0,0:57:06.31,0:57:08.31,ASS,,0,0,0,,I'll wear a hood
+Dialogue: 0,0:57:09.82,0:57:10.82,ASS,,0,0,0,,Let's say goodbye
+Dialogue: 0,0:57:10.82,0:57:12.82,ASS,,0,0,0,,Thank you so much for coming to see us\Ntoday
+Dialogue: 0,0:57:12.82,0:57:14.82,ASS,,0,0,0,,Thank you so much
+Dialogue: 0,0:57:14.82,0:57:16.82,ASS,,0,0,0,,We were just chit-chatting
+Dialogue: 0,0:57:16.82,0:57:18.82,ASS,,0,0,0,,But thank you so much for watching
+Dialogue: 0,0:57:18.82,0:57:20.82,ASS,,0,0,0,,Thank you for your hard work for the\Npast week
+Dialogue: 0,0:57:21.82,0:57:22.82,ASS,,0,0,0,,I guess
+Dialogue: 0,0:57:22.82,0:57:23.82,ASS,,0,0,0,,See you
+Dialogue: 0,0:57:23.82,0:57:24.82,ASS,,0,0,0,,Please stream again
+Dialogue: 0,0:57:24.82,0:57:25.82,ASS,,0,0,0,,I will
+Dialogue: 0,0:57:25.82,0:57:26.82,ASS,,0,0,0,,Please come to see us
+Dialogue: 0,0:57:26.82,0:57:27.82,ASS,,0,0,0,,Please come
+Dialogue: 0,0:57:27.82,0:57:28.82,ASS,,0,0,0,,Let's talk
+Dialogue: 0,0:57:28.82,0:57:29.82,ASS,,0,0,0,,Bye-bye
+Dialogue: 0,0:57:29.82,0:57:30.82,ASS,,0,0,0,,Thank you so much
+Dialogue: 0,0:57:30.82,0:57:31.82,ASS,,0,0,0,,Thank you
+Dialogue: 0,0:57:31.82,0:57:33.82,ASS,,0,0,0,,I'm going to sleep a lot today
+Dialogue: 0,0:57:33.82,0:57:35.82,ASS,,0,0,0,,How do I turn this off?
+Dialogue: 0,0:57:38.82,0:57:40.82,ASS,,0,0,0,,Thank you so much for watching
+Dialogue: 0,0:57:40.82,0:57:42.02,ASS,,0,0,0,,See you again
