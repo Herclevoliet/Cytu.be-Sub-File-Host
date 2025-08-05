@@ -1,0 +1,1841 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ASS,Arial,50,&H00FFFF00,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4.0,0.0,2,10,10,30,1
+Style: TC,Arial,45,&H00FFFFFF,&H0000FFFF,&H00FF9000,&H00000000,-1,0,0,0,100,100,0,0,1,5.0,0.0,2,10,10,20,1
+Style: Default,Arial,75,&H00FFFF00,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:02:54.43,0:02:58.43,ASS,,0,0,0,,I don't like the beer in Jamaica
+Dialogue: 0,0:02:58.43,0:03:02.43,ASS,,0,0,0,,I just happened to wait in the fridge
+Dialogue: 0,0:03:02.43,0:03:06.43,ASS,,0,0,0,,He let me drink it on his own
+Dialogue: 0,0:03:06.43,0:03:10.43,ASS,,0,0,0,,The expiration date is already over
+Dialogue: 0,0:03:10.43,0:03:13.85,ASS,,0,0,0,,But all my memories are in the storage
+Dialogue: 0,0:03:16.68,0:03:25.68,ASS,,0,0,0,,I can't even throw away big tears that\Nhave become beautiful
+Dialogue: 0,0:03:25.68,0:03:27.68,ASS,,0,0,0,,Ah, if it's a love that's about to be\Nborn,
+Dialogue: 0,0:03:27.68,0:03:30.68,ASS,,0,0,0,,I won't fall in love from the start
+Dialogue: 0,0:03:30.68,0:03:32.68,ASS,,0,0,0,,There's no way I can be a single person
+Dialogue: 0,0:03:32.68,0:03:36.68,ASS,,0,0,0,,If I could see you, I might still make\Nit in time
+Dialogue: 0,0:03:36.68,0:03:38.68,ASS,,0,0,0,,Speaking of which is the past,
+Dialogue: 0,0:03:38.68,0:03:41.68,ASS,,0,0,0,,I wonder what will happen to the two of\Nus
+Dialogue: 0,0:03:46.68,0:03:56.54,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,0:03:59.97,0:04:06.97,ASS,,0,0,0,,You instinctively realized that you\Ncouldn't go on with her
+Dialogue: 0,0:04:06.97,0:04:10.97,ASS,,0,0,0,,Love is just a waste of time
+Dialogue: 0,0:04:10.97,0:04:13.97,ASS,,0,0,0,,A heart that can't keep up with either
+Dialogue: 0,0:04:13.97,0:04:15.97,ASS,,0,0,0,,It's annoying, it's annoying
+Dialogue: 0,0:04:15.97,0:04:18.97,ASS,,0,0,0,,Kindness and indifference
+Dialogue: 0,0:04:18.97,0:04:22.97,ASS,,0,0,0,,It's a woman who can't be distinguished
+Dialogue: 0,0:04:22.97,0:04:24.97,ASS,,0,0,0,,Ah, if it's enough to cry bitterly
+Dialogue: 0,0:04:24.97,0:04:26.97,ASS,,0,0,0,,I won't leave you
+Dialogue: 0,0:04:26.97,0:04:28.97,ASS,,0,0,0,,I'm the worst at forgetting
+Dialogue: 0,0:04:28.97,0:04:30.97,ASS,,0,0,0,,I'm not good at remembering
+Dialogue: 0,0:04:30.97,0:04:32.97,ASS,,0,0,0,,What should I do from now on?
+Dialogue: 0,0:04:32.97,0:04:34.97,ASS,,0,0,0,,If you talk to me politely
+Dialogue: 0,0:04:34.97,0:04:38.97,ASS,,0,0,0,,Can you give me some accurate advice?
+Dialogue: 0,0:04:47.97,0:04:51.97,ASS,,0,0,0,,From this room of 1LDK
+Dialogue: 0,0:04:51.97,0:04:53.97,ASS,,0,0,0,,She's gone
+Dialogue: 0,0:04:53.97,0:04:55.97,ASS,,0,0,0,,After all, it looks wide
+Dialogue: 0,0:04:55.97,0:05:00.97,ASS,,0,0,0,,The existence that was lost is big
+Dialogue: 0,0:05:00.97,0:05:05.97,ASS,,0,0,0,,I want to be spoiled
+Dialogue: 0,0:05:15.71,0:05:19.71,ASS,,0,0,0,,Jamaica, beer, let's drink
+Dialogue: 0,0:05:20.84,0:05:23.84,ASS,,0,0,0,,Ah, if it's a love that's about to be\Nborn
+Dialogue: 0,0:05:23.84,0:05:26.84,ASS,,0,0,0,,There's no way I can fall in love from\Nthe start
+Dialogue: 0,0:05:26.84,0:05:28.84,ASS,,0,0,0,,There's no way I can become a single man
+Dialogue: 0,0:05:28.84,0:05:30.84,ASS,,0,0,0,,If it's a regret, da-da-da-da
+Dialogue: 0,0:05:30.84,0:05:32.84,ASS,,0,0,0,,If it's now, I might still be in time
+Dialogue: 0,0:05:32.84,0:05:34.84,ASS,,0,0,0,,If I had to choose,
+Dialogue: 0,0:05:34.84,0:05:37.84,ASS,,0,0,0,,I wonder what would happen to us
+Dialogue: 0,0:05:50.84,0:05:53.84,ASS,,0,0,0,,(1, 2, 3, 4)
+Dialogue: 0,0:06:20.84,0:06:24.84,ASS,,0,0,0,,(1, 2, 3, 4)
+Dialogue: 0,0:06:50.84,0:06:53.84,ASS,,0,0,0,,(1, 2, 3, 4)
+Dialogue: 0,0:06:54.84,0:06:57.84,ASS,,0,0,0,,(1, 2, 3, 4)
+Dialogue: 0,0:07:20.84,0:07:23.84,ASS,,0,0,0,,(1, 2, 3, 4)
+Dialogue: 0,0:07:23.84,0:07:26.84,ASS,,0,0,0,,(1, 2, 3, 4)
+Dialogue: 0,0:07:26.84,0:07:29.84,ASS,,0,0,0,,(1, 2, 3, 4)
+Dialogue: 0,0:07:29.84,0:07:32.84,ASS,,0,0,0,,(1, 2, 3, 4)
+Dialogue: 0,0:07:32.84,0:07:35.84,ASS,,0,0,0,,(1, 2, 3, 4)
+Dialogue: 0,0:07:35.84,0:07:38.84,ASS,,0,0,0,,(1, 2, 3, 4)
+Dialogue: 0,0:07:38.84,0:07:41.84,ASS,,0,0,0,,(1, 2, 3, 4)
+Dialogue: 0,0:07:41.84,0:07:43.84,ASS,,0,0,0,,(1, 2, 3, 4)
+Dialogue: 0,0:07:43.84,0:07:46.84,ASS,,0,0,0,,I wonder what it means to become an\Nadult
+Dialogue: 0,0:07:46.84,0:07:48.84,ASS,,0,0,0,,Even if I take it seriously,
+Dialogue: 0,0:07:48.84,0:07:50.84,ASS,,0,0,0,,I won't be understood
+Dialogue: 0,0:07:50.84,0:07:53.84,ASS,,0,0,0,,Even if I get along well with people,
+Dialogue: 0,0:07:53.84,0:07:55.84,ASS,,0,0,0,,I don't have to say anything
+Dialogue: 0,0:07:55.84,0:07:58.84,ASS,,0,0,0,,Now, I'm listening as if I understand
+Dialogue: 0,0:07:58.84,0:08:02.84,ASS,,0,0,0,,I can't be pushed around like that
+Dialogue: 0,0:08:02.84,0:08:04.84,ASS,,0,0,0,,If I try to change myself,
+Dialogue: 0,0:08:04.84,0:08:06.84,ASS,,0,0,0,,I won't be me anymore
+Dialogue: 0,0:08:06.84,0:08:07.84,ASS,,0,0,0,,Foolish
+Dialogue: 0,0:08:07.84,0:08:08.84,ASS,,0,0,0,,No matter what I do,
+Dialogue: 0,0:08:08.84,0:08:10.84,ASS,,0,0,0,,Even if I just do that,
+Dialogue: 0,0:08:10.84,0:08:14.84,ASS,,0,0,0,,What do I have to put up with?
+Dialogue: 0,0:08:14.84,0:08:15.84,ASS,,0,0,0,,That's right
+Dialogue: 0,0:08:15.84,0:08:17.84,ASS,,0,0,0,,Shut up and don't lose
+Dialogue: 0,0:08:17.84,0:08:19.84,ASS,,0,0,0,,Tell me what you want to say
+Dialogue: 0,0:08:19.84,0:08:21.84,ASS,,0,0,0,,Even if I just stare at you,
+Dialogue: 0,0:08:21.84,0:08:22.84,ASS,,0,0,0,,I won't be understood
+Dialogue: 0,0:08:22.84,0:08:23.84,ASS,,0,0,0,,That's right
+Dialogue: 0,0:08:23.84,0:08:25.84,ASS,,0,0,0,,If you're angry, then be angry
+Dialogue: 0,0:08:25.84,0:08:27.84,ASS,,0,0,0,,In fact, just be in a bad mood
+Dialogue: 0,0:08:27.84,0:08:29.84,ASS,,0,0,0,,Now, I have no choice but to tell you
+Dialogue: 0,0:08:29.84,0:08:30.84,ASS,,0,0,0,,Rather than being hit,
+Dialogue: 0,0:08:30.84,0:08:33.84,ASS,,0,0,0,,I'll be hit
+Dialogue: 0,0:08:39.84,0:08:43.84,ASS,,0,0,0,,It's definitely not good for your body\Nto swallow words
+Dialogue: 0,0:08:43.84,0:08:45.84,ASS,,0,0,0,,I'll use my heart somewhere
+Dialogue: 0,0:08:45.84,0:08:47.84,ASS,,0,0,0,,I'll make it flutter
+Dialogue: 0,0:08:47.84,0:08:50.84,ASS,,0,0,0,,The things I want to say won't disappear
+Dialogue: 0,0:08:50.84,0:08:51.84,ASS,,0,0,0,,I'll put it in my pocket
+Dialogue: 0,0:08:51.84,0:08:53.84,ASS,,0,0,0,,I'll throw away my self-respect
+Dialogue: 0,0:08:53.84,0:08:54.84,ASS,,0,0,0,,and stand up
+Dialogue: 0,0:08:54.84,0:08:58.84,ASS,,0,0,0,,I don't care if I'm a genius anymore
+Dialogue: 0,0:08:58.84,0:09:00.84,ASS,,0,0,0,,No one can see
+Dialogue: 0,0:09:00.84,0:09:02.84,ASS,,0,0,0,,I'm full of myself
+Dialogue: 0,0:09:02.84,0:09:04.84,ASS,,0,0,0,,Everyone laughs at me
+Dialogue: 0,0:09:04.84,0:09:06.84,ASS,,0,0,0,,for my uncool knowledge
+Dialogue: 0,0:09:06.84,0:09:10.84,ASS,,0,0,0,,I'll do as I please
+Dialogue: 0,0:09:10.84,0:09:11.84,ASS,,0,0,0,,See?
+Dialogue: 0,0:09:11.84,0:09:12.84,ASS,,0,0,0,,See?
+Dialogue: 0,0:09:12.84,0:09:13.84,ASS,,0,0,0,,Don't run away
+Dialogue: 0,0:09:13.84,0:09:14.84,ASS,,0,0,0,,It's just the beginning
+Dialogue: 0,0:09:14.84,0:09:16.84,ASS,,0,0,0,,I'm not afraid
+Dialogue: 0,0:09:16.84,0:09:17.84,ASS,,0,0,0,,I'll be hit
+Dialogue: 0,0:09:17.84,0:09:18.84,ASS,,0,0,0,,I'll be hit
+Dialogue: 0,0:09:18.84,0:09:19.84,ASS,,0,0,0,,Don't be shy anymore
+Dialogue: 0,0:09:19.84,0:09:20.84,ASS,,0,0,0,,See?
+Dialogue: 0,0:09:20.84,0:09:22.84,ASS,,0,0,0,,Anger is a living proof
+Dialogue: 0,0:09:22.84,0:09:24.84,ASS,,0,0,0,,It's a rope to tie up society
+Dialogue: 0,0:09:24.84,0:09:26.84,ASS,,0,0,0,,Pull it out and be free
+Dialogue: 0,0:09:26.84,0:09:27.84,ASS,,0,0,0,,Come closer
+Dialogue: 0,0:09:27.84,0:09:30.84,ASS,,0,0,0,,What should I do?
+Dialogue: 0,0:09:41.84,0:09:42.84,ASS,,0,0,0,,Can it be stopped?
+Dialogue: 0,0:09:42.84,0:09:44.84,ASS,,0,0,0,,Is it over?
+Dialogue: 0,0:09:44.84,0:09:46.84,ASS,,0,0,0,,I have no choice but to confront each\Nother
+Dialogue: 0,0:09:46.84,0:09:51.84,ASS,,0,0,0,,and share my pain
+Dialogue: 0,0:09:51.84,0:09:55.84,ASS,,0,0,0,,I'm sorry, but I can't let it go
+Dialogue: 0,0:09:55.84,0:09:57.84,ASS,,0,0,0,,Can it get even hotter?
+Dialogue: 0,0:09:57.84,0:09:59.84,ASS,,0,0,0,,One, two, three, four
+Dialogue: 0,0:09:59.84,0:10:01.84,ASS,,0,0,0,,Well, I'll shut up
+Dialogue: 0,0:10:01.84,0:10:04.84,ASS,,0,0,0,,I want to say what I want to say
+Dialogue: 0,0:10:04.84,0:10:06.84,ASS,,0,0,0,,I'm a bit shy
+Dialogue: 0,0:10:06.84,0:10:08.84,ASS,,0,0,0,,I can't say anything
+Dialogue: 0,0:10:08.84,0:10:10.84,ASS,,0,0,0,,Well, if you're angry, don't be angry
+Dialogue: 0,0:10:10.84,0:10:14.84,ASS,,0,0,0,,If you're not happy with yourself, you\Nhave no choice but to kill yourself
+Dialogue: 0,0:10:14.84,0:10:18.84,ASS,,0,0,0,,It's better to be beaten than to be\Nbeaten
+Dialogue: 0,0:11:40.84,0:11:53.84,ASS,,0,0,0,,If you don't like it, say it clearly
+Dialogue: 0,0:11:53.84,0:11:56.84,ASS,,0,0,0,,Why don't you turn the table over?
+Dialogue: 0,0:11:56.84,0:12:00.84,ASS,,0,0,0,,You should say what you want to say
+Dialogue: 0,0:12:00.84,0:12:04.84,ASS,,0,0,0,,Don't be shy
+Dialogue: 0,0:12:04.84,0:12:08.84,ASS,,0,0,0,,If you can't convince me, I'll beat you
+Dialogue: 0,0:12:08.84,0:12:11.84,ASS,,0,0,0,,You have no choice but to hurt me with\Nwords
+Dialogue: 0,0:12:11.84,0:12:15.84,ASS,,0,0,0,,Each person has different values
+Dialogue: 0,0:12:15.84,0:12:19.84,ASS,,0,0,0,,Hit each other and decide
+Dialogue: 0,0:12:19.84,0:12:24.84,ASS,,0,0,0,,It's a violation of the rules to take a\Nseat and jump out
+Dialogue: 0,0:12:24.84,0:12:26.84,ASS,,0,0,0,,Don't run away
+Dialogue: 0,0:12:26.84,0:12:30.84,ASS,,0,0,0,,Even if you keep refusing, it won't end
+Dialogue: 0,0:12:30.84,0:12:34.84,ASS,,0,0,0,,What are you betting on your heart?
+Dialogue: 0,0:12:34.84,0:12:38.84,ASS,,0,0,0,,I knocked once, but the door won't open
+Dialogue: 0,0:12:38.84,0:12:41.84,ASS,,0,0,0,,Don't you notice? Are you ignoring me? I\Ndon't know
+Dialogue: 0,0:12:41.84,0:12:45.84,ASS,,0,0,0,,There's someone in the room, I feel a\Npresence
+Dialogue: 0,0:12:45.84,0:12:49.84,ASS,,0,0,0,,The heartless door knob won't move
+Dialogue: 0,0:12:49.84,0:12:53.84,ASS,,0,0,0,,Are you not happy that I'm coming?
+Dialogue: 0,0:12:53.84,0:12:56.84,ASS,,0,0,0,,Are you not welcomed?
+Dialogue: 0,0:12:56.84,0:13:00.84,ASS,,0,0,0,,So what should I do? Should I go home\Nlike this?
+Dialogue: 0,0:13:00.84,0:13:04.84,ASS,,0,0,0,,I knocked once, but the door won't open
+Dialogue: 0,0:13:13.72,0:13:15.72,ASS,,0,0,0,,Don't look forward to it
+Dialogue: 0,0:13:16.54,0:13:19.34,ASS,,0,0,0,,The world isn't that kind
+Dialogue: 0,0:13:19.34,0:13:23.04,ASS,,0,0,0,,I'm not trying to convince you
+Dialogue: 0,0:13:23.04,0:13:26.04,ASS,,0,0,0,,I'm just looking at you
+Dialogue: 0,0:13:27.84,0:13:30.54,ASS,,0,0,0,,Is this door still closed? Can I open\Nit?
+Dialogue: 0,0:13:31.54,0:13:34.54,ASS,,0,0,0,,If you're done with your final warning,\Nanswer me
+Dialogue: 0,0:13:34.54,0:13:38.04,ASS,,0,0,0,,I don't need an excuse
+Dialogue: 0,0:13:38.04,0:13:40.04,ASS,,0,0,0,,Yes or no?
+Dialogue: 0,0:13:40.04,0:13:41.04,ASS,,0,0,0,,Which one?
+Dialogue: 0,0:13:42.04,0:13:45.54,ASS,,0,0,0,,In life, there's a weapon
+Dialogue: 0,0:13:45.54,0:13:49.04,ASS,,0,0,0,,that you have to make the biggest\Ndecision
+Dialogue: 0,0:13:49.04,0:13:51.04,ASS,,0,0,0,,If you're not sure,
+Dialogue: 0,0:13:51.04,0:13:53.04,ASS,,0,0,0,,don't rush
+Dialogue: 0,0:13:53.04,0:13:55.04,ASS,,0,0,0,,I don't care which one
+Dialogue: 0,0:13:55.04,0:13:57.04,ASS,,0,0,0,,Da Da Da
+Dialogue: 0,0:13:57.04,0:13:59.04,ASS,,0,0,0,,No matter how many times you knock,
+Dialogue: 0,0:13:59.04,0:14:01.04,ASS,,0,0,0,,the door won't open
+Dialogue: 0,0:14:01.04,0:14:03.04,ASS,,0,0,0,,The language is different here and there
+Dialogue: 0,0:14:03.04,0:14:04.54,ASS,,0,0,0,,It's a different world
+Dialogue: 0,0:14:04.54,0:14:08.54,ASS,,0,0,0,,No one knows what's right
+Dialogue: 0,0:14:08.54,0:14:12.54,ASS,,0,0,0,,What's important is to break the rule
+Dialogue: 0,0:14:12.54,0:14:16.54,ASS,,0,0,0,,Just because this door exists
+Dialogue: 0,0:14:16.54,0:14:19.54,ASS,,0,0,0,,doesn't mean we can understand each\Nother
+Dialogue: 0,0:14:19.54,0:14:21.54,ASS,,0,0,0,,We're raising our ears
+Dialogue: 0,0:14:21.54,0:14:23.54,ASS,,0,0,0,,to that door of our own
+Dialogue: 0,0:14:23.54,0:14:25.54,ASS,,0,0,0,,Before we know it, it'll be locked
+Dialogue: 0,0:14:25.54,0:14:27.54,ASS,,0,0,0,,and cut off
+Dialogue: 0,0:14:39.54,0:14:42.54,ASS,,0,0,0,,6th floor, 6th floor, I knocked,
+Dialogue: 0,0:14:42.54,0:14:44.54,ASS,,0,0,0,,but the door won't open
+Dialogue: 0,0:14:44.54,0:14:46.54,ASS,,0,0,0,,Don't you notice? Are you ignoring me?
+Dialogue: 0,0:14:46.54,0:14:48.54,ASS,,0,0,0,,I don't know, but
+Dialogue: 0,0:14:48.54,0:14:50.54,ASS,,0,0,0,,there's someone in the room
+Dialogue: 0,0:14:50.54,0:14:52.54,ASS,,0,0,0,,I can feel their presence
+Dialogue: 0,0:14:52.54,0:14:55.54,ASS,,0,0,0,,The door knob won't move
+Dialogue: 0,0:14:55.54,0:14:57.54,ASS,,0,0,0,,Don't let them know
+Dialogue: 0,0:14:57.54,0:14:59.54,ASS,,0,0,0,,that I'm coming
+Dialogue: 0,0:14:59.54,0:15:01.54,ASS,,0,0,0,,Don't let them know
+Dialogue: 0,0:15:01.54,0:15:03.54,ASS,,0,0,0,,that I'm coming
+Dialogue: 0,0:15:03.54,0:15:05.54,ASS,,0,0,0,,Don't let them know
+Dialogue: 0,0:15:05.54,0:15:07.54,ASS,,0,0,0,,Don't let them know
+Dialogue: 0,0:15:07.54,0:15:09.54,ASS,,0,0,0,,that I'm coming
+Dialogue: 0,0:15:09.54,0:15:12.54,ASS,,0,0,0,,Don't they welcome me?
+Dialogue: 0,0:15:12.54,0:15:14.54,ASS,,0,0,0,,Then what should I do?
+Dialogue: 0,0:15:14.54,0:15:16.54,ASS,,0,0,0,,Should I go home like this?
+Dialogue: 0,0:15:16.54,0:15:18.54,ASS,,0,0,0,,If I knock one more time,
+Dialogue: 0,0:15:18.54,0:15:20.54,ASS,,0,0,0,,I'll be cut off
+Dialogue: 0,0:15:35.54,0:15:37.54,ASS,,0,0,0,,Good evening, BUDDIES!
+Dialogue: 0,0:15:37.54,0:15:38.54,ASS,,0,0,0,,One, two...
+Dialogue: 0,0:15:38.54,0:15:40.54,ASS,,0,0,0,,We're Sakurazaka46!
+Dialogue: 0,0:15:42.54,0:15:45.54,ASS,,0,0,0,,Welcome to the Sobayashi Graduation\NConcert!
+Dialogue: 0,0:15:45.54,0:15:47.54,ASS,,0,0,0,,Welcome!
+Dialogue: 0,0:15:56.06,0:16:03.66,ASS,,0,0,0,,Thank you for coming to the venue today\Nto send off the first generation of\NSakurazaka46, Kobayashi Yui.
+Dialogue: 0,0:16:03.66,0:16:04.46,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:16:04.46,0:16:07.06,ASS,,0,0,0,,First of all, I have an announcement to\Nmake.
+Dialogue: 0,0:16:07.06,0:16:13.26,ASS,,0,0,0,,The members, Koike and Minami, have\Nsuspended their activities at\NSakurazaka46 and are currently on leave.
+Dialogue: 0,0:16:13.26,0:16:19.36,ASS,,0,0,0,,I hope that Min-chan can rest at her own\Npace without rushing.
+Dialogue: 0,0:16:19.36,0:16:22.51,ASS,,0,0,0,,The members are always waiting for Min-\Nchan to return.
+Dialogue: 0,0:16:23.51,0:16:26.51,ASS,,0,0,0,,I hope the fans will continue to watch\Nover us warmly.
+Dialogue: 0,0:16:27.51,0:16:28.51,ASS,,0,0,0,,And one more thing.
+Dialogue: 0,0:16:29.51,0:16:30.51,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:16:33.51,0:16:41.51,ASS,,0,0,0,,I, Mio Mato, am taking a day off because\Nof my new coronavirus infection.
+Dialogue: 0,0:16:42.51,0:16:45.51,ASS,,0,0,0,,Today, I would like to share my feelings\Nwith these three members.
+Dialogue: 0,0:16:46.51,0:16:48.51,ASS,,0,0,0,,Thank you for your cooperation today.
+Dialogue: 0,0:16:52.51,0:16:53.51,ASS,,0,0,0,,Yes, so...
+Dialogue: 0,0:16:54.01,0:16:58.73,ASS,,0,0,0,,Finally, it's been 2 days since Yui's\Ngraduation.
+Dialogue: 0,0:16:58.73,0:17:01.21,ASS,,0,0,0,,Yui-san, how do you feel right now?
+Dialogue: 0,0:17:01.21,0:17:03.21,ASS,,0,0,0,,Eh, it's like...
+Dialogue: 0,0:17:03.21,0:17:05.21,ASS,,0,0,0,,It's like...
+Dialogue: 0,0:17:05.21,0:17:07.21,ASS,,0,0,0,,It's like...
+Dialogue: 0,0:17:07.21,0:17:11.21,ASS,,0,0,0,,It doesn't feel real.
+Dialogue: 0,0:17:11.21,0:17:13.21,ASS,,0,0,0,,It's like...
+Dialogue: 0,0:17:13.21,0:17:15.21,ASS,,0,0,0,,It doesn't feel real.
+Dialogue: 0,0:17:15.21,0:17:17.21,ASS,,0,0,0,,It's like...
+Dialogue: 0,0:17:17.21,0:17:19.21,ASS,,0,0,0,,It's like...
+Dialogue: 0,0:17:19.21,0:17:21.21,ASS,,0,0,0,,It's like...
+Dialogue: 0,0:17:21.21,0:17:22.96,ASS,,0,0,0,,It's like...
+Dialogue: 0,0:17:23.96,0:17:25.96,ASS,,0,0,0,,It's a strange feeling, isn't it?
+Dialogue: 0,0:17:26.96,0:17:30.96,ASS,,0,0,0,,But it's not over with such a strange\Nfeeling.
+Dialogue: 0,0:17:31.96,0:17:33.96,ASS,,0,0,0,,I want to cheer up and do my best.
+Dialogue: 0,0:17:34.96,0:17:36.96,ASS,,0,0,0,,Let's all spend this time carefully.
+Dialogue: 0,0:17:38.96,0:17:41.96,ASS,,0,0,0,,Akira, how about the last one with Yui?
+Dialogue: 0,0:17:42.96,0:17:44.61,ASS,,0,0,0,,Well, Kobayashi-san is really...
+Dialogue: 0,0:17:44.61,0:17:49.61,ASS,,0,0,0,,I've been taking care of her a lot, but\NI've always wanted to tell Kobayashi-san\None day.
+Dialogue: 0,0:17:49.61,0:17:54.61,ASS,,0,0,0,,If you watch the dance practice video of\N"Start Over", you'll know.
+Dialogue: 0,0:17:54.61,0:18:00.61,ASS,,0,0,0,,Do you know that the five of us are\Nmoving in a "pyoko-pyoko" when we do\N"2B"?
+Dialogue: 0,0:18:00.61,0:18:02.61,ASS,,0,0,0,,I know.
+Dialogue: 0,0:18:02.61,0:18:04.61,ASS,,0,0,0,,It's pretty hard.
+Dialogue: 0,0:18:04.61,0:18:05.61,ASS,,0,0,0,,I know.
+Dialogue: 0,0:18:05.61,0:18:07.61,ASS,,0,0,0,,And I'm pretty late.
+Dialogue: 0,0:18:07.61,0:18:09.61,ASS,,0,0,0,,But Kobayashi-san is behind me.
+Dialogue: 0,0:18:09.61,0:18:11.61,ASS,,0,0,0,,You look fast.
+Dialogue: 0,0:18:11.61,0:18:12.50,ASS,,0,0,0,,I know.
+Dialogue: 0,0:18:13.50,0:18:15.50,ASS,,0,0,0,,Kobayashi-san was so close to my nose.
+Dialogue: 0,0:18:15.50,0:18:17.50,ASS,,0,0,0,,What kind of expression is that?
+Dialogue: 0,0:18:17.50,0:18:19.50,ASS,,0,0,0,,He was so close to my nose.
+Dialogue: 0,0:18:21.50,0:18:25.50,ASS,,0,0,0,,Thanks to that, I was able to get to the\Ndestination safely.
+Dialogue: 0,0:18:26.50,0:18:29.50,ASS,,0,0,0,,If it wasn't for Kobayashi-san, I would\Nhave given up halfway.
+Dialogue: 0,0:18:30.50,0:18:32.50,ASS,,0,0,0,,Thank you so much.
+Dialogue: 0,0:18:33.50,0:18:35.50,ASS,,0,0,0,,I'm glad you were behind me.
+Dialogue: 0,0:18:35.50,0:18:37.50,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:18:37.50,0:18:39.50,ASS,,0,0,0,,Next is...
+Dialogue: 0,0:18:40.70,0:18:44.70,ASS,,0,0,0,,Morita Hikaru-chan, how do you feel?
+Dialogue: 0,0:18:44.70,0:18:49.70,ASS,,0,0,0,,It's the last time I can perform with\NYui-san.
+Dialogue: 0,0:18:49.70,0:18:53.70,ASS,,0,0,0,,So I want to enjoy each song.
+Dialogue: 0,0:18:53.70,0:18:59.70,ASS,,0,0,0,,I want to keep in touch with Yui-san.
+Dialogue: 0,0:19:01.70,0:19:05.70,ASS,,0,0,0,,I think everyone is aiming for Yui-san.
+Dialogue: 0,0:19:07.78,0:19:10.78,ASS,,0,0,0,,I think the fans are also aiming for me.
+Dialogue: 0,0:19:10.78,0:19:15.78,ASS,,0,0,0,,Today, I want to look at Yui-san with\Neveryone and spend this time carefully.
+Dialogue: 0,0:19:15.78,0:19:22.78,ASS,,0,0,0,,And I want to make a live that makes\NYui-san think that it was the best fun\Ntoday,
+Dialogue: 0,0:19:22.78,0:19:27.78,ASS,,0,0,0,,so I want to do the best live with\NBUDDIES.
+Dialogue: 0,0:19:27.78,0:19:29.48,ASS,,0,0,0,,Are you ready?
+Dialogue: 0,0:19:29.48,0:19:34.48,ASS,,0,0,0,,Let's do the best live with BUDDIES.
+Dialogue: 0,0:19:59.48,0:20:01.48,ASS,,0,0,0,,Let's do the best live with BUDDIES.
+Dialogue: 0,0:20:03.48,0:20:05.48,ASS,,0,0,0,,Let's do the best live with BUDDIES.
+Dialogue: 0,0:20:10.48,0:20:13.48,ASS,,0,0,0,,I'm looking forward to your birthday.
+Dialogue: 0,0:20:14.48,0:20:16.48,ASS,,0,0,0,,I'm looking forward to your birthday.
+Dialogue: 0,0:20:22.48,0:20:24.48,ASS,,0,0,0,,Let's do the best live with BUDDIES.
+Dialogue: 0,0:20:25.48,0:20:27.48,ASS,,0,0,0,,Let's do the best live with BUDDIES.
+Dialogue: 0,0:20:33.48,0:20:36.48,ASS,,0,0,0,,Rina of the group is gathering this\Ntime.
+Dialogue: 0,0:20:37.48,0:20:39.48,ASS,,0,0,0,,I thought about it when I was doing the\Nconvention.
+Dialogue: 0,0:20:40.38,0:20:43.38,ASS,,0,0,0,,[Rina's snoring is so loud!]
+Dialogue: 0,0:20:45.38,0:20:46.97,ASS,,0,0,0,,[Rina's snoring is so loud!]
+Dialogue: 0,0:20:46.97,0:20:48.97,ASS,,0,0,0,,It hurts once, doesn't it?
+Dialogue: 0,0:20:50.83,0:20:53.83,ASS,,0,0,0,,It's a beautiful time with beautiful\Nflowers,
+Dialogue: 0,0:20:54.83,0:20:57.83,ASS,,0,0,0,,and my family is also in the garden.
+Dialogue: 0,0:20:58.83,0:21:01.83,ASS,,0,0,0,,So, I'm going to take a walk in the\Ngarden.
+Dialogue: 0,0:21:02.83,0:21:05.83,ASS,,0,0,0,,A few days later, I arrived at the\Ngarden.
+Dialogue: 0,0:21:06.83,0:21:09.83,ASS,,0,0,0,,I was surprised to see a cat on the\Nstreet in front of the house.
+Dialogue: 0,0:21:10.83,0:21:13.83,ASS,,0,0,0,,I heard a cat's name, but I didn't know\Nwhat it was.
+Dialogue: 0,0:21:14.83,0:21:17.83,ASS,,0,0,0,,I'm going to take a walk in the garden.
+Dialogue: 0,0:21:17.83,0:21:19.83,ASS,,0,0,0,,Let's go home together.
+Dialogue: 0,0:21:19.83,0:21:21.83,ASS,,0,0,0,,Let's go home together.
+Dialogue: 0,0:21:31.83,0:21:33.83,ASS,,0,0,0,,Let's go.
+Dialogue: 0,0:21:35.83,0:21:37.83,ASS,,0,0,0,,Bye-bye.
+Dialogue: 0,0:21:41.83,0:21:43.83,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:21:47.83,0:21:49.83,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:22:13.83,0:22:15.83,ASS,,0,0,0,,It was good.
+Dialogue: 0,0:22:15.83,0:22:17.83,ASS,,0,0,0,,It was good.
+Dialogue: 0,0:22:17.83,0:22:19.83,ASS,,0,0,0,,It was good.
+Dialogue: 0,0:22:36.92,0:22:40.92,ASS,,0,0,0,,I was screaming in the cloudy sky
+Dialogue: 0,0:22:40.92,0:22:44.92,ASS,,0,0,0,,Is it going to stop?
+Dialogue: 0,0:22:44.92,0:22:48.92,ASS,,0,0,0,,I don't know what's going to happen
+Dialogue: 0,0:22:48.92,0:22:56.92,ASS,,0,0,0,,I'm falling in love with you
+Dialogue: 0,0:22:56.92,0:23:02.92,ASS,,0,0,0,,I'm falling in love with you
+Dialogue: 0,0:23:02.92,0:23:04.92,ASS,,0,0,0,,I'm falling in love with you
+Dialogue: 0,0:23:05.66,0:23:11.64,ASS,,0,0,0,,It might be easier if I just accept it
+Dialogue: 0,0:23:11.64,0:23:20.14,ASS,,0,0,0,,But I can't say "from my side"
+Dialogue: 0,0:23:20.14,0:23:24.14,ASS,,0,0,0,,What is not clear is
+Dialogue: 0,0:23:24.14,0:23:28.14,ASS,,0,0,0,,The weather and feelings are the same
+Dialogue: 0,0:23:28.14,0:23:31.94,ASS,,0,0,0,,The wind is blowing, I don't know which\Nway
+Dialogue: 0,0:23:31.94,0:23:35.44,ASS,,0,0,0,,I don't care if I'm just a friend
+Dialogue: 0,0:23:35.44,0:23:42.44,ASS,,0,0,0,,So I'll stay inside your heart
+Dialogue: 0,0:23:42.44,0:23:50.44,ASS,,0,0,0,,When the clouds disappear, I'll wait for\Nthe sun here
+Dialogue: 0,0:23:50.44,0:23:54.44,ASS,,0,0,0,,Come on, look at me, please
+Dialogue: 0,0:23:54.44,0:23:57.94,ASS,,0,0,0,,My love is pouring out
+Dialogue: 0,0:23:57.94,0:24:01.44,ASS,,0,0,0,,Even if I look up, it doesn't change
+Dialogue: 0,0:24:01.44,0:24:05.44,ASS,,0,0,0,,I'm looking forward to a rainbow\Nsomewhere
+Dialogue: 0,0:24:05.44,0:24:08.94,ASS,,0,0,0,,Come on, look at me, please
+Dialogue: 0,0:24:08.94,0:24:12.94,ASS,,0,0,0,,When will that day come?
+Dialogue: 0,0:24:12.94,0:24:16.94,ASS,,0,0,0,,I have an unbreakable umbrella
+Dialogue: 0,0:24:16.94,0:24:20.44,ASS,,0,0,0,,So I can meet you right now
+Dialogue: 0,0:24:20.44,0:24:24.94,ASS,,0,0,0,,No matter what happens, I'll never\Nchange
+Dialogue: 0,0:24:24.94,0:24:33.44,ASS,,0,0,0,,I believe in eternity
+Dialogue: 0,0:24:43.94,0:24:47.44,ASS,,0,0,0,,There's no rain that doesn't stop
+Dialogue: 0,0:24:47.44,0:24:51.44,ASS,,0,0,0,,Everyone says that, but
+Dialogue: 0,0:24:51.44,0:24:55.44,ASS,,0,0,0,,Is it really like that?
+Dialogue: 0,0:24:55.44,0:24:58.94,ASS,,0,0,0,,I'm getting more and more attracted to\Nyou
+Dialogue: 0,0:24:58.94,0:25:03.44,ASS,,0,0,0,,Do I open this door now?
+Dialogue: 0,0:25:03.44,0:25:06.44,ASS,,0,0,0,,Do I give up?
+Dialogue: 0,0:25:06.44,0:25:13.94,ASS,,0,0,0,,I'm asking myself, who doesn't care
+Dialogue: 0,0:25:13.94,0:25:17.44,ASS,,0,0,0,,It's painful, when I think of you
+Dialogue: 0,0:25:17.44,0:25:21.44,ASS,,0,0,0,,I can't even breathe
+Dialogue: 0,0:25:21.44,0:25:25.44,ASS,,0,0,0,,I hate halfway, but
+Dialogue: 0,0:25:25.44,0:25:28.94,ASS,,0,0,0,,I can't decide which way
+Dialogue: 0,0:25:28.94,0:25:32.94,ASS,,0,0,0,,I don't care if I'm just a friend
+Dialogue: 0,0:25:32.94,0:25:36.44,ASS,,0,0,0,,I should jump out of anxiety
+Dialogue: 0,0:25:36.44,0:25:40.44,ASS,,0,0,0,,If I had that courage
+Dialogue: 0,0:25:40.44,0:25:43.94,ASS,,0,0,0,,Even if it's raining, I'm sure it'll\Nstop
+Dialogue: 0,0:25:43.94,0:25:50.94,ASS,,0,0,0,,Without doing anything, I'm being chased\Nby the hot clouds
+Dialogue: 0,0:25:50.94,0:25:56.94,ASS,,0,0,0,,I can't tell you
+Dialogue: 0,0:26:10.94,0:26:15.94,ASS,,0,0,0,,If I had that courage
+Dialogue: 0,0:26:15.94,0:26:19.94,ASS,,0,0,0,,Even if it's raining, I'm sure it'll\Nstop
+Dialogue: 0,0:26:19.94,0:26:25.94,ASS,,0,0,0,,Without doing anything, I'm being chased\Nby the hot clouds
+Dialogue: 0,0:26:25.94,0:26:30.94,ASS,,0,0,0,,I can't tell you
+Dialogue: 0,0:26:30.94,0:26:34.94,ASS,,0,0,0,,If I had that courage
+Dialogue: 0,0:26:34.94,0:26:38.94,ASS,,0,0,0,,Even if it's raining, I'm sure it'll\Nstop
+Dialogue: 0,0:26:39.44,0:26:45.44,ASS,,0,0,0,,Even if it doesn't change, I'm expecting\Na rainbow somewhere
+Dialogue: 0,0:26:45.44,0:26:48.94,ASS,,0,0,0,,Come on, my darling, it'll be painful
+Dialogue: 0,0:26:48.94,0:26:52.94,ASS,,0,0,0,,When will that day come?
+Dialogue: 0,0:26:52.94,0:26:56.94,ASS,,0,0,0,,I want to be strong, that's what I think
+Dialogue: 0,0:26:56.94,0:27:00.44,ASS,,0,0,0,,Right now, I'm going to see you, darling
+Dialogue: 0,0:27:00.44,0:27:04.94,ASS,,0,0,0,,No matter what happens, I won't be able\Nto endure
+Dialogue: 0,0:27:04.94,0:27:13.94,ASS,,0,0,0,,I believe in eternal love
+Dialogue: 0,0:27:15.94,0:27:19.44,ASS,,0,0,0,,There's no way I can get an answer
+Dialogue: 0,0:27:19.44,0:27:22.94,ASS,,0,0,0,,That's love
+Dialogue: 0,0:27:22.94,0:27:30.94,ASS,,0,0,0,,I'm falling in love with you
+Dialogue: 0,0:27:30.94,0:27:34.44,ASS,,0,0,0,,I'm falling in love with you
+Dialogue: 0,0:27:34.44,0:27:38.44,ASS,,0,0,0,,Even if it's raining, I'm sure it'll\Nstop
+Dialogue: 0,0:27:39.44,0:27:43.44,ASS,,0,0,0,,"Rainbow"
+Dialogue: 0,0:28:02.44,0:28:06.44,ASS,,0,0,0,,I always choose the last subway
+Dialogue: 0,0:28:06.44,0:28:08.09,ASS,,0,0,0,,So why?
+Dialogue: 0,0:28:08.09,0:28:19.09,ASS,,0,0,0,,I feel like I'm really alone when I'm\Nstanding in the car
+Dialogue: 0,0:28:19.09,0:28:26.07,ASS,,0,0,0,,The tunnel in front of the scenery is\Nlike life, and the sound is amazing
+Dialogue: 0,0:28:29.25,0:28:37.25,ASS,,0,0,0,,If you look down, it will be the last\Nstop
+Dialogue: 0,0:28:37.25,0:28:39.25,ASS,,0,0,0,,Even if someone is in the same car
+Dialogue: 0,0:28:39.25,0:28:43.25,ASS,,0,0,0,,I don't feel any sympathy at all
+Dialogue: 0,0:28:43.25,0:28:46.25,ASS,,0,0,0,,Ah
+Dialogue: 0,0:28:46.25,0:28:48.25,ASS,,0,0,0,,I got drunk on the bench at the station
+Dialogue: 0,0:28:48.25,0:28:50.25,ASS,,0,0,0,,The salaryman said a little
+Dialogue: 0,0:28:50.25,0:28:53.25,ASS,,0,0,0,,But when tomorrow comes
+Dialogue: 0,0:28:53.25,0:28:55.25,ASS,,0,0,0,,As usual
+Dialogue: 0,0:28:55.25,0:28:58.25,ASS,,0,0,0,,I'm buried in the rush hour
+Dialogue: 0,0:28:58.25,0:29:01.25,ASS,,0,0,0,,I want to go to a world where no one is
+Dialogue: 0,0:29:01.25,0:29:04.25,ASS,,0,0,0,,I thought that
+Dialogue: 0,0:29:04.25,0:29:08.25,ASS,,0,0,0,,Was I sick at that time?
+Dialogue: 0,0:29:08.25,0:29:16.25,ASS,,0,0,0,,When I noticed the glass window, I was\Nwearing a mask
+Dialogue: 0,0:29:16.25,0:29:21.25,ASS,,0,0,0,,Why do people still live every day while\Nenduring?
+Dialogue: 0,0:29:21.25,0:29:25.25,ASS,,0,0,0,,It was strange to me
+Dialogue: 0,0:29:25.25,0:29:29.25,ASS,,0,0,0,,It's not that I don't like it
+Dialogue: 0,0:29:29.25,0:29:32.25,ASS,,0,0,0,,Smiling by force
+Dialogue: 0,0:29:32.25,0:29:37.25,ASS,,0,0,0,,I don't need happiness
+Dialogue: 0,0:29:44.22,0:30:03.48,ASS,,0,0,0,,Thank you for watching!
+Dialogue: 0,0:30:03.48,0:30:06.48,ASS,,0,0,0,,I'm not interested at all
+Dialogue: 0,0:30:06.48,0:30:08.48,ASS,,0,0,0,,Ah
+Dialogue: 0,0:30:08.48,0:30:11.48,ASS,,0,0,0,,The important thing is the destination\Nfrom now on
+Dialogue: 0,0:30:11.48,0:30:12.06,ASS,,0,0,0,,This subway
+Dialogue: 0,0:30:12.06,0:30:17.98,ASS,,0,0,0,,I wonder how far I'll go if I get\Ncarried away
+Dialogue: 0,0:30:17.98,0:30:20.61,ASS,,0,0,0,,I can't go back anymore
+Dialogue: 0,0:30:20.61,0:30:26.61,ASS,,0,0,0,,Yesterday, I thought that I wanted to go\Nto a world I didn't know yet
+Dialogue: 0,0:30:26.61,0:30:30.61,ASS,,0,0,0,,This world is repeating yesterday
+Dialogue: 0,0:30:30.61,0:30:38.61,ASS,,0,0,0,,I understand that there is nothing to\Nmake my heart beat
+Dialogue: 0,0:30:38.61,0:30:43.61,ASS,,0,0,0,,Hey, it's not a hard thing to have to\Nlive
+Dialogue: 0,0:30:43.61,0:30:47.61,ASS,,0,0,0,,I can't stand it
+Dialogue: 0,0:30:47.61,0:30:52.61,ASS,,0,0,0,,But I won't die right now
+Dialogue: 0,0:30:52.61,0:31:00.61,ASS,,0,0,0,,Because if I don't hurry, everyone will\Ndie
+Dialogue: 0,0:31:00.61,0:31:05.61,ASS,,0,0,0,,Ah...
+Dialogue: 0,0:31:14.61,0:31:23.61,ASS,,0,0,0,,Ever since I finished my part-time job,\NI've always been riding the last subway
+Dialogue: 0,0:31:23.61,0:31:31.61,ASS,,0,0,0,,When will I be able to choose a\Ndifferent way of living?
+Dialogue: 0,0:31:31.61,0:31:36.61,ASS,,0,0,0,,I thought that it was like a world\Nwithout anyone
+Dialogue: 0,0:31:36.61,0:31:40.61,ASS,,0,0,0,,Did I stop at that time?
+Dialogue: 0,0:31:40.61,0:31:48.61,ASS,,0,0,0,,When I noticed the gloomy glass window,\NI put my forehead on it
+Dialogue: 0,0:31:48.61,0:31:53.61,ASS,,0,0,0,,Even so, why do people live every day\Nwhile enduring it?
+Dialogue: 0,0:31:53.61,0:31:57.61,ASS,,0,0,0,,That was mysterious to me
+Dialogue: 0,0:31:57.61,0:32:01.61,ASS,,0,0,0,,It's not like I hate anything
+Dialogue: 0,0:32:01.61,0:32:10.61,ASS,,0,0,0,,I don't need happiness that makes me\Nsmile
+Dialogue: 0,0:32:10.61,0:32:18.61,ASS,,0,0,0,,I don't have any expectations for my\Nfuture life
+Dialogue: 0,0:32:25.61,0:32:29.61,ASS,,0,0,0,,You are all, all mine
+Dialogue: 0,0:32:29.61,0:32:33.61,ASS,,0,0,0,,I won't give you to anyone anymore
+Dialogue: 0,0:32:33.61,0:32:38.61,ASS,,0,0,0,,I won't let you go
+Dialogue: 0,0:32:38.61,0:32:42.61,ASS,,0,0,0,,I won't let you go
+Dialogue: 0,0:32:42.61,0:32:46.61,ASS,,0,0,0,,Where are you going?
+Dialogue: 0,0:32:46.61,0:32:46.87,ASS,,0,0,0,,I'll give you a hand
+Dialogue: 0,0:32:46.87,0:32:50.87,ASS,,0,0,0,,I was in the wolves' herd without a care
+Dialogue: 0,0:32:50.87,0:32:56.87,ASS,,0,0,0,,I hurriedly pulled your hand and brought\Nyou here
+Dialogue: 0,0:32:56.87,0:32:57.87,ASS,,0,0,0,,Oh yeah
+Dialogue: 0,0:32:57.87,0:33:00.87,ASS,,0,0,0,,Because I'm a curious voice
+Dialogue: 0,0:33:00.87,0:33:04.87,ASS,,0,0,0,,I'm playing here and there
+Dialogue: 0,0:33:04.87,0:33:07.87,ASS,,0,0,0,,We're all sleeping together
+Dialogue: 0,0:33:07.91,0:33:10.71,ASS,,0,0,0,,We're all sleeping together
+Dialogue: 0,0:33:10.71,0:33:14.71,ASS,,0,0,0,,It doesn't matter
+Dialogue: 0,0:33:14.71,0:33:18.41,ASS,,0,0,0,,I was a fool
+Dialogue: 0,0:33:18.41,0:33:21.41,ASS,,0,0,0,,I have to do something
+Dialogue: 0,0:33:21.41,0:33:26.11,ASS,,0,0,0,,I'm sure the world will end
+Dialogue: 0,0:33:26.11,0:33:30.41,ASS,,0,0,0,,You're all, all mine
+Dialogue: 0,0:33:30.41,0:33:33.81,ASS,,0,0,0,,I declare it here and now
+Dialogue: 0,0:33:33.81,0:33:36.81,ASS,,0,0,0,,I have to say it clearly
+Dialogue: 0,0:33:36.81,0:33:40.31,ASS,,0,0,0,,Because I'll be misunderstood
+Dialogue: 0,0:33:40.31,0:33:44.11,ASS,,0,0,0,,Because you're all, all my treasure
+Dialogue: 0,0:33:44.11,0:33:48.01,ASS,,0,0,0,,A special existence created by love
+Dialogue: 0,0:33:48.01,0:33:50.61,ASS,,0,0,0,,No one can have
+Dialogue: 0,0:33:50.61,0:33:55.31,ASS,,0,0,0,,All of me
+Dialogue: 0,0:33:55.31,0:33:56.61,ASS,,0,0,0,,I won't let you touch me
+Dialogue: 0,0:33:56.61,0:34:06.31,ASS,,0,0,0,,I declare it here and now
+Dialogue: 0,0:34:09.91,0:34:13.31,ASS,,0,0,0,,Hey, what's wrong?
+Dialogue: 0,0:34:13.34,0:34:18.04,ASS,,0,0,0,,With a frown on your face, you're\Nlooking at me
+Dialogue: 0,0:34:18.15,0:34:22.79,ASS,,0,0,0,,Is it stupidity? Or is it going my way?
+Dialogue: 0,0:34:22.79,0:34:23.75,ASS,,0,0,0,,Oh yeah
+Dialogue: 0,0:34:23.75,0:34:27.15,ASS,,0,0,0,,I don't want to be bound by anyone
+Dialogue: 0,0:34:27.15,0:34:30.59,ASS,,0,0,0,,I want to be free, but I'm angry
+Dialogue: 0,0:34:30.59,0:34:36.55,ASS,,0,0,0,,Because I'm here to protect you, I'm\Nfree
+Dialogue: 0,0:34:36.55,0:34:40.59,ASS,,0,0,0,,It's lonely to be alone
+Dialogue: 0,0:34:40.59,0:34:44.31,ASS,,0,0,0,,You know that, don't you?
+Dialogue: 0,0:34:44.31,0:34:52.03,ASS,,0,0,0,,That's why we're together with someone
+Dialogue: 0,0:34:52.03,0:34:56.27,ASS,,0,0,0,,Love is surely, surely someone else's
+Dialogue: 0,0:34:56.27,0:34:59.75,ASS,,0,0,0,,Gently, gently warm it up
+Dialogue: 0,0:34:59.75,0:35:02.75,ASS,,0,0,0,,Carefully, carefully nurture it
+Dialogue: 0,0:35:02.75,0:35:06.19,ASS,,0,0,0,,I want to make a beautiful flower
+Dialogue: 0,0:35:06.19,0:35:10.03,ASS,,0,0,0,,Baby, yes, it's a sweet scent
+Dialogue: 0,0:35:10.03,0:35:13.91,ASS,,0,0,0,,You and I are both attracted to each\Nother
+Dialogue: 0,0:35:13.91,0:35:21.19,ASS,,0,0,0,,A beautiful life, until the end of\Neternity
+Dialogue: 0,0:35:21.19,0:35:28.95,ASS,,0,0,0,,Let's grab your hand and start running\Nsomewhere
+Dialogue: 0,0:35:28.95,0:35:34.23,ASS,,0,0,0,,So that no one can catch up
+Dialogue: 0,0:35:36.63,0:35:40.91,ASS,,0,0,0,,You're all, all mine
+Dialogue: 0,0:35:40.91,0:35:44.31,ASS,,0,0,0,,I'm going to declare it here and now
+Dialogue: 0,0:35:44.31,0:35:47.31,ASS,,0,0,0,,If I don't say it clearly,
+Dialogue: 0,0:35:47.31,0:35:50.75,ASS,,0,0,0,,I'll be misunderstood
+Dialogue: 0,0:35:50.75,0:35:54.59,ASS,,0,0,0,,Because you're all, all my treasure
+Dialogue: 0,0:35:54.59,0:35:58.47,ASS,,0,0,0,,A special existence made with love
+Dialogue: 0,0:35:58.47,0:36:01.03,ASS,,0,0,0,,I won't let anyone else
+Dialogue: 0,0:36:01.03,0:36:07.03,ASS,,0,0,0,,Touch all of me
+Dialogue: 0,0:36:07.03,0:36:16.67,ASS,,0,0,0,,I'm going to declare it here and now
+Dialogue: 0,0:36:38.03,0:36:39.43,ASS,,0,0,0,,More!
+Dialogue: 0,0:36:41.43,0:36:43.03,ASS,,0,0,0,,Last one!
+Dialogue: 0,0:36:43.03,0:36:46.43,ASS,,0,0,0,,Let's go all the way to the end!
+Dialogue: 0,0:37:01.43,0:37:05.63,ASS,,0,0,0,,I'm told that I'm a quiet girl
+Dialogue: 0,0:37:05.63,0:37:09.03,ASS,,0,0,0,,You don't understand that, do you?
+Dialogue: 0,0:37:09.03,0:37:12.63,ASS,,0,0,0,,Reunion is a thing that hides a\Nguarantee
+Dialogue: 0,0:37:12.63,0:37:17.63,ASS,,0,0,0,,I'm looking forward to seeing what kind\Nof girl I'll be
+Dialogue: 0,0:37:18.63,0:37:20.63,ASS,,0,0,0,,Hey, hey, if you're standing there,
+Dialogue: 0,0:37:20.63,0:37:22.63,ASS,,0,0,0,,line up next to me and shout out
+Dialogue: 0,0:37:22.63,0:37:24.63,ASS,,0,0,0,,It's dangerous, like a scout,
+Dialogue: 0,0:37:24.63,0:37:26.63,ASS,,0,0,0,,it's definitely impossible, it's\Ndisgusting
+Dialogue: 0,0:37:26.63,0:37:28.63,ASS,,0,0,0,,I'm sorry, I'll follow you right away
+Dialogue: 0,0:37:28.63,0:37:30.63,ASS,,0,0,0,,I'm going to declare it here and now
+Dialogue: 0,0:37:30.63,0:37:32.63,ASS,,0,0,0,,Because you're all, all my treasure
+Dialogue: 0,0:37:32.63,0:37:35.63,ASS,,0,0,0,,That's right, the button on your shirt
+Dialogue: 0,0:37:35.63,0:37:37.63,ASS,,0,0,0,,It's like it's fastened to the top
+Dialogue: 0,0:37:37.63,0:37:39.63,ASS,,0,0,0,,It's a good feeling
+Dialogue: 0,0:37:39.63,0:37:43.63,ASS,,0,0,0,,Don't decide on a step
+Dialogue: 0,0:37:43.63,0:37:48.63,ASS,,0,0,0,,Come on, buy a uniform
+Dialogue: 0,0:37:48.63,0:37:51.63,ASS,,0,0,0,,Let's open it at the station door
+Dialogue: 0,0:37:51.63,0:37:54.63,ASS,,0,0,0,,It's not a bonus, it's a bonus
+Dialogue: 0,0:37:54.63,0:37:58.63,ASS,,0,0,0,,Always, either way, I'll be the only one
+Dialogue: 0,0:37:58.63,0:38:02.63,ASS,,0,0,0,,You can't even fake it, can you?
+Dialogue: 0,0:38:02.63,0:38:07.63,ASS,,0,0,0,,It's not easy to wander around the image\Ninformation
+Dialogue: 0,0:38:07.63,0:38:10.63,ASS,,0,0,0,,I've experienced it, yeah
+Dialogue: 0,0:38:10.63,0:38:15.63,ASS,,0,0,0,,A dangerous plan
+Dialogue: 0,0:38:18.63,0:38:22.63,ASS,,0,0,0,,If you think about it, you can't go to\Nthe beach
+Dialogue: 0,0:38:22.63,0:38:26.63,ASS,,0,0,0,,I've been going to the gym all summer
+Dialogue: 0,0:38:26.63,0:38:29.63,ASS,,0,0,0,,That's right, the festival, the\Nfireworks
+Dialogue: 0,0:38:29.63,0:38:33.63,ASS,,0,0,0,,I've been waiting for the summer to come
+Dialogue: 0,0:38:36.63,0:38:39.63,ASS,,0,0,0,,I don't know where to go in a few days
+Dialogue: 0,0:38:39.63,0:38:41.63,ASS,,0,0,0,,I don't know if anyone else can do it
+Dialogue: 0,0:38:41.63,0:38:43.63,ASS,,0,0,0,,The price of life
+Dialogue: 0,0:38:43.63,0:38:45.63,ASS,,0,0,0,,Then I'll tell you to get off here
+Dialogue: 0,0:38:45.63,0:38:47.63,ASS,,0,0,0,,I'm not a scapegoat
+Dialogue: 0,0:38:47.63,0:38:48.63,ASS,,0,0,0,,I'm not a scapegoat
+Dialogue: 0,0:38:48.63,0:38:49.63,ASS,,0,0,0,,I'm not a scapegoat
+Dialogue: 0,0:38:49.63,0:38:50.63,ASS,,0,0,0,,I'm not a scapegoat
+Dialogue: 0,0:38:50.63,0:38:53.63,ASS,,0,0,0,,I want to dance with a ponytail
+Dialogue: 0,0:38:53.63,0:38:55.63,ASS,,0,0,0,,I want to be free
+Dialogue: 0,0:38:55.63,0:38:57.63,ASS,,0,0,0,,I'm going to ask my friends later
+Dialogue: 0,0:38:57.63,0:39:00.63,ASS,,0,0,0,,I don't know what to do
+Dialogue: 0,0:39:02.63,0:39:05.63,ASS,,0,0,0,,Come on, buy a uniform
+Dialogue: 0,0:39:05.63,0:39:08.63,ASS,,0,0,0,,Let's forget what we were protecting
+Dialogue: 0,0:39:08.63,0:39:11.63,ASS,,0,0,0,,It's not summer, let's stretch a little
+Dialogue: 0,0:39:11.63,0:39:15.63,ASS,,0,0,0,,Let's go in a new order, different from\Nyesterday
+Dialogue: 0,0:39:15.63,0:39:19.63,ASS,,0,0,0,,It's natural to grow up
+Dialogue: 0,0:39:19.63,0:39:22.63,ASS,,0,0,0,,Fall in love with something
+Dialogue: 0,0:39:22.63,0:39:27.63,ASS,,0,0,0,,It's not summer, let's take a break
+Dialogue: 0,0:39:27.63,0:39:32.63,ASS,,0,0,0,,Let's go in a new order
+Dialogue: 0,0:39:36.63,0:39:37.63,ASS,,0,0,0,,Someday, I'll notice somewhere
+Dialogue: 0,0:39:37.63,0:39:39.63,ASS,,0,0,0,,There was no one to take it off
+Dialogue: 0,0:39:39.63,0:39:41.63,ASS,,0,0,0,,Another relationship
+Dialogue: 0,0:39:41.63,0:39:43.63,ASS,,0,0,0,,I don't even have clothes to wear
+Dialogue: 0,0:39:43.63,0:39:46.63,ASS,,0,0,0,,I don't want to lose to the sun that\Nshines in the sky
+Dialogue: 0,0:39:46.63,0:39:51.63,ASS,,0,0,0,,If everyone gets tired of dreams
+Dialogue: 0,0:39:51.63,0:39:54.63,ASS,,0,0,0,,Let's play with a ponytail
+Dialogue: 0,0:39:56.03,0:39:59.03,ASS,,0,0,0,,I'll entrust you to the crab of love
+Dialogue: 0,0:39:59.33,0:40:02.33,ASS,,0,0,0,,I'll disappear in the toilet at the\Nstation
+Dialogue: 0,0:40:02.33,0:40:05.33,ASS,,0,0,0,,I'm not a summer, I'm a man
+Dialogue: 0,0:40:05.33,0:40:09.33,ASS,,0,0,0,,I always get lost in myself
+Dialogue: 0,0:40:09.33,0:40:12.33,ASS,,0,0,0,,I can't even put on makeup
+Dialogue: 0,0:40:12.33,0:40:16.33,ASS,,0,0,0,,I wander around in my imagination
+Dialogue: 0,0:40:16.33,0:40:21.33,ASS,,0,0,0,,I'm not a summer, let's experience it
+Dialogue: 0,0:40:21.33,0:40:27.33,ASS,,0,0,0,,I'm not a summer, let's experience it
+Dialogue: 0,0:40:51.33,0:40:59.33,ASS,,0,0,0,,Hey! Hey! Hey! Hey! Hey!
+Dialogue: 0,0:41:18.14,0:41:22.14,ASS,,0,0,0,,We are always incomplete.
+Dialogue: 0,0:41:23.14,0:41:30.14,ASS,,0,0,0,,I want to be in a perfect condition\Nbefore my debut.
+Dialogue: 0,0:41:42.97,0:41:50.97,ASS,,0,0,0,,Every day, I repeat the same lessons,\Nand sometimes I'm worried if I'm really\Nmoving forward.
+Dialogue: 0,0:41:52.97,0:41:56.97,ASS,,0,0,0,,I'm sure there's no one who's confident\Nfrom the start.
+Dialogue: 0,0:42:10.30,0:42:22.30,ASS,,0,0,0,,I want to grow up so that I can become a\Nperson who is admired by someone, just\Nas I longed for Agizaka46.
+Dialogue: 0,0:42:22.30,0:42:25.30,ASS,,0,0,0,,I wonder if it's okay for me to be here.
+Dialogue: 0,0:42:25.30,0:42:28.30,ASS,,0,0,0,,Because I'm not used to it, I long for\Nit.
+Dialogue: 0,0:42:28.30,0:42:31.30,ASS,,0,0,0,,I was passionate and absorbed.
+Dialogue: 0,0:42:31.30,0:42:35.30,ASS,,0,0,0,,I don't think I've ever looked forward\Nlike this.
+Dialogue: 0,0:42:35.30,0:42:39.30,ASS,,0,0,0,,I wanted to join.
+Dialogue: 0,0:42:40.30,0:42:40.79,ASS,,0,0,0,,Thank you for watching.
+Dialogue: 0,0:42:40.79,0:42:48.79,ASS,,0,0,0,,I can't sing or dance, so I auditioned\Njust because I felt like it.
+Dialogue: 0,0:42:48.79,0:42:52.77,ASS,,0,0,0,,If you have that feeling, you'll be\Nfine.
+Dialogue: 0,0:42:53.77,0:42:54.77,ASS,,0,0,0,,Always be beautiful and strong.
+Dialogue: 0,0:42:54.77,0:42:57.77,ASS,,0,0,0,,Like a cherry blossom, just trust\Nyourself.
+Dialogue: 0,0:42:57.77,0:43:00.77,ASS,,0,0,0,,Sake Sakura Saka 46
+Dialogue: 0,0:43:00.77,0:43:03.77,ASS,,0,0,0,,Manzai!
+Dialogue: 0,0:43:22.77,0:43:27.77,ASS,,0,0,0,,Manzai!
+Dialogue: 0,0:43:28.77,0:43:30.77,ASS,,0,0,0,,It's Manzai time!
+Dialogue: 0,0:43:40.77,0:43:42.77,ASS,,0,0,0,,Who likes who?
+Dialogue: 0,0:43:42.77,0:43:43.77,ASS,,0,0,0,,Who likes who?
+Dialogue: 0,0:43:43.77,0:43:44.77,ASS,,0,0,0,,It doesn't matter.
+Dialogue: 0,0:43:44.77,0:43:46.77,ASS,,0,0,0,,It doesn't matter.
+Dialogue: 0,0:43:46.77,0:43:47.77,ASS,,0,0,0,,The flowers that bloom.
+Dialogue: 0,0:43:47.77,0:43:49.77,ASS,,0,0,0,,The flowers that bloom.
+Dialogue: 0,0:43:49.77,0:43:51.77,ASS,,0,0,0,,Who can choose?
+Dialogue: 0,0:43:51.77,0:43:52.77,ASS,,0,0,0,,Who can choose?
+Dialogue: 0,0:43:52.77,0:43:54.77,ASS,,0,0,0,,It's not just one person.
+Dialogue: 0,0:43:54.77,0:43:57.77,ASS,,0,0,0,,Everyone is doing their best.
+Dialogue: 0,0:43:57.77,0:44:02.77,ASS,,0,0,0,,I support the flowers.
+Dialogue: 0,0:44:02.77,0:44:05.77,ASS,,0,0,0,,The place where the light hits.
+Dialogue: 0,0:44:05.77,0:44:08.77,ASS,,0,0,0,,There are places you don't hit.
+Dialogue: 0,0:44:08.77,0:44:15.77,ASS,,0,0,0,,The beauty that tries to live hard.
+Dialogue: 0,0:44:15.77,0:44:17.77,ASS,,0,0,0,,It's Manzai time!
+Dialogue: 0,0:44:17.77,0:44:21.77,ASS,,0,0,0,,Let's find the limit of the voice.
+Dialogue: 0,0:44:21.77,0:44:27.77,ASS,,0,0,0,,So that my feelings for you can be\Nconveyed.
+Dialogue: 0,0:44:27.77,0:44:32.77,ASS,,0,0,0,,Until the day that sweat still opens.
+Dialogue: 0,0:44:32.77,0:44:37.77,ASS,,0,0,0,,Let's keep shining.
+Dialogue: 0,0:44:37.77,0:44:39.77,ASS,,0,0,0,,It's Manzai time!
+Dialogue: 0,0:44:39.77,0:44:43.77,ASS,,0,0,0,,Let's raise one heart.
+Dialogue: 0,0:44:43.77,0:44:49.77,ASS,,0,0,0,,Just that alone gives me courage.
+Dialogue: 0,0:44:49.77,0:44:55.77,ASS,,0,0,0,,I can see the autumn from the other side\Nof the stage.
+Dialogue: 0,0:44:55.77,0:45:00.77,ASS,,0,0,0,,With the wind and the sun.
+Dialogue: 0,0:45:00.77,0:45:06.77,ASS,,0,0,0,,I want to raise you.
+Dialogue: 0,0:45:13.77,0:45:17.77,ASS,,0,0,0,,Hey! Hey! Hey! Hey!
+Dialogue: 0,0:45:17.77,0:45:19.77,ASS,,0,0,0,,No matter what kind of flower it is.
+Dialogue: 0,0:45:19.77,0:45:20.77,ASS,,0,0,0,,No matter what kind of flower it is.
+Dialogue: 0,0:45:20.77,0:45:21.77,ASS,,0,0,0,,It's different, isn't it?
+Dialogue: 0,0:45:21.77,0:45:22.77,ASS,,0,0,0,,It's different, isn't it?
+Dialogue: 0,0:45:22.77,0:45:24.77,ASS,,0,0,0,,Until the day that sweat still opens.
+Dialogue: 0,0:45:24.77,0:45:25.77,ASS,,0,0,0,,Until the day that sweat still opens.
+Dialogue: 0,0:45:25.77,0:45:27.77,ASS,,0,0,0,,The day and the month are different.
+Dialogue: 0,0:45:27.77,0:45:28.77,ASS,,0,0,0,,The day and the month are different.
+Dialogue: 0,0:45:28.77,0:45:31.77,ASS,,0,0,0,,Don't compare yourself to others.
+Dialogue: 0,0:45:31.77,0:45:34.77,ASS,,0,0,0,,Aren't you yourself?
+Dialogue: 0,0:45:34.77,0:45:38.77,ASS,,0,0,0,,Someday you'll understand your own pace.
+Dialogue: 0,0:45:38.77,0:45:41.77,ASS,,0,0,0,,The important thing is to be desperate.
+Dialogue: 0,0:45:41.77,0:45:44.77,ASS,,0,0,0,,To live without hesitation.
+Dialogue: 0,0:45:44.77,0:45:47.77,ASS,,0,0,0,,I don't want to do what I want to do.
+Dialogue: 0,0:45:47.77,0:45:51.77,ASS,,0,0,0,,A life without regret.
+Dialogue: 0,0:45:51.77,0:45:53.77,ASS,,0,0,0,,It's Manzai time!
+Dialogue: 0,0:45:53.77,0:45:57.77,ASS,,0,0,0,,Let's sing with our shoulders together.
+Dialogue: 0,0:45:57.77,0:46:03.77,ASS,,0,0,0,,Let's be friends who can't say anything.
+Dialogue: 0,0:46:03.77,0:46:06.77,ASS,,0,0,0,,Good points and bad points.
+Dialogue: 0,0:46:06.77,0:46:09.77,ASS,,0,0,0,,Let's expose everything.
+Dialogue: 0,0:46:09.77,0:46:14.77,ASS,,0,0,0,,I want to be your friend.
+Dialogue: 0,0:46:14.77,0:46:16.77,ASS,,0,0,0,,Go! Anzen time!
+Dialogue: 0,0:46:16.77,0:46:20.77,ASS,,0,0,0,,Let's hit the floor and take the rhythm.
+Dialogue: 0,0:46:20.77,0:46:23.77,ASS,,0,0,0,,Your message.
+Dialogue: 0,0:46:23.77,0:46:26.77,ASS,,0,0,0,,Let's resonate today.
+Dialogue: 0,0:46:26.77,0:46:27.77,ASS,,0,0,0,,Let's sing.
+Dialogue: 0,0:46:27.77,0:46:28.77,ASS,,0,0,0,,Let's sing.
+Dialogue: 0,0:46:28.77,0:46:29.77,ASS,,0,0,0,,Let's sing.
+Dialogue: 0,0:46:29.77,0:46:31.77,ASS,,0,0,0,,Let's get ready for the best.
+Dialogue: 0,0:46:31.77,0:46:37.77,ASS,,0,0,0,,I want to be a member like that.
+Dialogue: 0,0:46:37.77,0:46:42.77,ASS,,0,0,0,,Please keep it in your memory.
+Dialogue: 0,0:46:42.77,0:46:45.77,ASS,,0,0,0,,You're not yet ready.
+Dialogue: 0,0:46:45.77,0:46:48.77,ASS,,0,0,0,,Put the buds in your eyes.
+Dialogue: 0,0:46:48.77,0:46:53.77,ASS,,0,0,0,,Believe that big flowers can bloom.
+Dialogue: 0,0:46:53.77,0:46:59.77,ASS,,0,0,0,,Until the day you graduate someday.
+Dialogue: 0,0:46:59.77,0:47:05.77,ASS,,0,0,0,,Let me see everything.
+Dialogue: 0,0:47:05.77,0:47:07.77,ASS,,0,0,0,,It's Anzen time!
+Dialogue: 0,0:47:07.77,0:47:11.77,ASS,,0,0,0,,Let's sing as loud as you can.
+Dialogue: 0,0:47:11.77,0:47:17.77,ASS,,0,0,0,,So that my feelings for you can be\Nconveyed.
+Dialogue: 0,0:47:17.77,0:47:23.77,ASS,,0,0,0,,Until the day you graduate someday.
+Dialogue: 0,0:47:23.77,0:47:28.77,ASS,,0,0,0,,Let's keep shining.
+Dialogue: 0,0:47:28.77,0:47:30.77,ASS,,0,0,0,,It's Anzen time!
+Dialogue: 0,0:47:30.77,0:47:35.77,ASS,,0,0,0,,Let's raise our hearts.
+Dialogue: 0,0:47:35.77,0:47:40.77,ASS,,0,0,0,,That alone gives me courage.
+Dialogue: 0,0:47:40.77,0:47:45.77,ASS,,0,0,0,,I can see the waterfall from the other\Nside of the stage.
+Dialogue: 0,0:47:45.77,0:47:51.77,ASS,,0,0,0,,I want to raise you
+Dialogue: 0,0:47:51.77,0:47:56.77,ASS,,0,0,0,,with the wind and the sound of the sun.
+Dialogue: 0,0:47:58.77,0:48:04.77,ASS,,0,0,0,,Hey!
+Dialogue: 0,0:48:04.77,0:48:07.77,ASS,,0,0,0,,Hey!
+Dialogue: 0,0:48:27.77,0:48:28.77,ASS,,0,0,0,,Hey!
+Dialogue: 0,0:48:28.77,0:48:30.77,ASS,,0,0,0,,How are you? I wanted to see you.
+Dialogue: 0,0:48:30.77,0:48:31.77,ASS,,0,0,0,,Hey!
+Dialogue: 0,0:48:31.77,0:48:32.77,ASS,,0,0,0,,Hey!
+Dialogue: 0,0:48:32.77,0:48:34.77,ASS,,0,0,0,,I'm not laughing. The sky is so clear.
+Dialogue: 0,0:48:34.77,0:48:35.77,ASS,,0,0,0,,Hey!
+Dialogue: 0,0:48:35.77,0:48:37.77,ASS,,0,0,0,,The world hasn't changed at all.
+Dialogue: 0,0:48:37.77,0:48:38.77,ASS,,0,0,0,,Hey!
+Dialogue: 0,0:48:38.77,0:48:41.77,ASS,,0,0,0,,We're still the same as we were back\Nthen.
+Dialogue: 0,0:48:41.77,0:48:42.77,ASS,,0,0,0,,Hey!
+Dialogue: 0,0:48:42.77,0:48:44.77,ASS,,0,0,0,,The wind of the season, the scent of\Nflowers.
+Dialogue: 0,0:48:44.77,0:48:45.77,ASS,,0,0,0,,Hey!
+Dialogue: 0,0:48:45.77,0:48:47.77,ASS,,0,0,0,,The green trees, the sun's light.
+Dialogue: 0,0:48:47.77,0:48:48.77,ASS,,0,0,0,,Let's live.
+Dialogue: 0,0:48:48.77,0:48:49.77,ASS,,0,0,0,,Let's live.
+Dialogue: 0,0:48:49.77,0:48:50.77,ASS,,0,0,0,,Let's live.
+Dialogue: 0,0:48:50.77,0:48:55.77,ASS,,0,0,0,,Let's live.
+Dialogue: 0,0:48:55.77,0:49:01.77,ASS,,0,0,0,,The foot that took everything
+Dialogue: 0,0:49:01.77,0:49:08.77,ASS,,0,0,0,,has already passed.
+Dialogue: 0,0:49:08.77,0:49:14.77,ASS,,0,0,0,,As if nothing had happened,
+Dialogue: 0,0:49:14.77,0:49:19.77,ASS,,0,0,0,,this earth is peaceful.
+Dialogue: 0,0:49:19.77,0:49:22.77,ASS,,0,0,0,,Everything is over.
+Dialogue: 0,0:49:22.77,0:49:25.77,ASS,,0,0,0,,I can't stop here.
+Dialogue: 0,0:49:25.77,0:49:26.77,ASS,,0,0,0,,Hey!
+Dialogue: 0,0:49:26.77,0:49:28.77,ASS,,0,0,0,,Let's step forward with our own feet.
+Dialogue: 0,0:49:28.77,0:49:29.77,ASS,,0,0,0,,Hey!
+Dialogue: 0,0:49:29.77,0:49:31.77,ASS,,0,0,0,,My heart is looking somewhere far away.
+Dialogue: 0,0:49:31.77,0:49:32.77,ASS,,0,0,0,,Hey!
+Dialogue: 0,0:49:32.77,0:49:35.77,ASS,,0,0,0,,Is there really hope?
+Dialogue: 0,0:49:35.77,0:49:36.77,ASS,,0,0,0,,Hey!
+Dialogue: 0,0:49:36.77,0:49:38.77,ASS,,0,0,0,,If I'm with you, I'm sure I can go.
+Dialogue: 0,0:49:38.77,0:49:39.77,ASS,,0,0,0,,Hey!
+Dialogue: 0,0:49:39.77,0:49:41.77,ASS,,0,0,0,,If I'm with you, I'll get there.
+Dialogue: 0,0:49:41.77,0:49:43.77,ASS,,0,0,0,,Let's walk.
+Dialogue: 0,0:49:43.77,0:49:44.77,ASS,,0,0,0,,Let's walk.
+Dialogue: 0,0:49:44.77,0:49:49.77,ASS,,0,0,0,,Let's walk.
+Dialogue: 0,0:49:49.77,0:49:55.77,ASS,,0,0,0,,Let's walk.
+Dialogue: 0,0:49:55.77,0:50:00.77,ASS,,0,0,0,,Let's walk.
+Dialogue: 0,0:50:00.77,0:50:01.77,ASS,,0,0,0,,My dreams.
+Dialogue: 0,0:50:01.77,0:50:08.77,ASS,,0,0,0,,Let's walk.
+Dialogue: 0,0:50:08.77,0:50:13.77,ASS,,0,0,0,,Let's walk.
+Dialogue: 0,0:50:13.77,0:50:18.77,ASS,,0,0,0,,Like a wonder, we are bunnies
+Dialogue: 0,0:50:31.27,0:50:36.77,ASS,,0,0,0,,Even if we lose something
+Dialogue: 0,0:50:36.77,0:50:41.77,ASS,,0,0,0,,Tomorrow will come again
+Dialogue: 0,0:50:41.77,0:50:44.27,ASS,,0,0,0,,The ice will fall
+Dialogue: 0,0:50:44.27,0:50:49.77,ASS,,0,0,0,,The rain and wind of sadness are\Ndarkness
+Dialogue: 0,0:50:49.77,0:50:54.77,ASS,,0,0,0,,A new day will dawn
+Dialogue: 0,0:50:57.77,0:51:00.77,ASS,,0,0,0,,Let's start again from here
+Dialogue: 0,0:51:00.77,0:51:03.77,ASS,,0,0,0,,It's freedom, because we don't have\Nanything
+Dialogue: 0,0:51:03.77,0:51:07.77,ASS,,0,0,0,,We can go anywhere
+Dialogue: 0,0:51:07.77,0:51:10.77,ASS,,0,0,0,,Let's throw away despair with tears
+Dialogue: 0,0:51:10.77,0:51:13.77,ASS,,0,0,0,,Yo! I've been waiting for you
+Dialogue: 0,0:51:13.77,0:51:16.77,ASS,,0,0,0,,Yo! I've been waiting for you
+Dialogue: 0,0:51:16.77,0:51:23.77,ASS,,0,0,0,,To the future, to the future, to the\Nfuture
+Dialogue: 0,0:51:40.77,0:51:54.77,ASS,,0,0,0,,We are friends
+Dialogue: 0,0:52:06.77,0:52:09.77,ASS,,0,0,0,,Yo! How are you? I wanted to see you
+Dialogue: 0,0:52:09.77,0:52:12.77,ASS,,0,0,0,,Yo! Let's laugh in this city and sky
+Dialogue: 0,0:52:12.77,0:52:15.77,ASS,,0,0,0,,Yo! The world hasn't changed at all
+Dialogue: 0,0:52:15.77,0:52:19.77,ASS,,0,0,0,,Yo! We are the same as we were
+Dialogue: 0,0:52:19.77,0:52:22.77,ASS,,0,0,0,,Yo! The wind of the season, the scent of\Nflowers
+Dialogue: 0,0:52:22.77,0:52:25.77,ASS,,0,0,0,,Yo! The green trees, the leaking\Nsunlight
+Dialogue: 0,0:52:25.77,0:52:32.77,ASS,,0,0,0,,Let's go, let's go, let's go
+Dialogue: 0,0:52:32.77,0:53:00.77,ASS,,0,0,0,,We are bunnies
+Dialogue: 0,0:53:00.77,0:53:05.77,ASS,,0,0,0,,Like a wonder, we are bunnies
+Dialogue: 0,0:53:31.77,0:53:44.77,ASS,,0,0,0,,We are bunnies
+Dialogue: 0,0:53:44.77,0:53:48.77,ASS,,0,0,0,,Like a wonder, we are bunnies
+Dialogue: 0,0:54:15.77,0:54:24.77,ASS,,0,0,0,,We are bunnies
+Dialogue: 0,0:54:24.77,0:54:29.77,ASS,,0,0,0,,Like a wonder, we are bunnies
+Dialogue: 0,0:54:44.77,0:54:48.77,ASS,,0,0,0,,Everyone, are you having fun?
+Dialogue: 0,0:54:53.37,0:54:56.97,ASS,,0,0,0,,Everyone, please take a break and\Nrecharge yourselves.
+Dialogue: 0,0:54:56.97,0:55:01.17,ASS,,0,0,0,,I hope you can enjoy the show with us\Nuntil the end.
+Dialogue: 0,0:55:01.57,0:55:06.57,ASS,,0,0,0,,Well, today is the last day of Yui's\Nconcert.
+Dialogue: 0,0:55:06.57,0:55:10.77,ASS,,0,0,0,,It's the last day of Yui's graduation\Nconcert.
+Dialogue: 0,0:55:10.97,0:55:14.87,ASS,,0,0,0,,We, the 3rd generation, have a lot of\Nfeelings.
+Dialogue: 0,0:55:15.07,0:55:18.47,ASS,,0,0,0,,First, I'd like to hear from Yui.
+Dialogue: 0,0:55:18.47,0:55:19.17,ASS,,0,0,0,,Yui-san.
+Dialogue: 0,0:55:19.17,0:55:19.77,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:55:20.87,0:55:26.87,ASS,,0,0,0,,We just performed "ANTHEM TIME" with 3rd\NGen students. How was it?
+Dialogue: 0,0:55:28.87,0:55:29.87,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:55:30.87,0:55:43.87,ASS,,0,0,0,,Before "ANTHEM TIME" started, there were\Nvideos of 3rd Gen students'\Ndocumentaries and my early videos.
+Dialogue: 0,0:55:43.87,0:55:46.87,ASS,,0,0,0,,It reminded me of "ANTHEM TIME" when we\Nwere dancing.
+Dialogue: 0,0:55:48.01,0:55:53.01,ASS,,0,0,0,,It was like energy. It reminded me of\Nwhen I first joined the group.
+Dialogue: 0,0:55:54.01,0:55:56.01,ASS,,0,0,0,,It made me feel nostalgic.
+Dialogue: 0,0:55:57.01,0:56:04.01,ASS,,0,0,0,,It was fun to be able to do this with\Neveryone with a smile.
+Dialogue: 0,0:56:05.01,0:56:06.01,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:56:07.01,0:56:11.01,ASS,,0,0,0,,We didn't expect to be able to do this\Nwith Yui's graduation concert.
+Dialogue: 0,0:56:12.62,0:56:18.62,ASS,,0,0,0,,We were very happy to have Yui's\Npenlight set up for us.
+Dialogue: 0,0:56:19.62,0:56:21.62,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,0:56:22.62,0:56:24.62,ASS,,0,0,0,,I'd like to ask the third generation as\Nwell.
+Dialogue: 0,0:56:25.62,0:56:26.62,ASS,,0,0,0,,Yu-chan!
+Dialogue: 0,0:56:27.62,0:56:28.62,ASS,,0,0,0,,I'm Murai Yu.
+Dialogue: 0,0:56:30.74,0:56:39.38,ASS,,0,0,0,,Today, I was able to perform with the\Nfeeling that I really love Yui-san.
+Dialogue: 0,0:56:39.38,0:56:45.86,ASS,,0,0,0,,There was a moment when I had an eye\Ncontact with Yui-san during the song at\NAnthem Time.
+Dialogue: 0,0:56:45.86,0:56:49.86,ASS,,0,0,0,,I was really happy from the bottom of my\Nheart.
+Dialogue: 0,0:56:49.86,0:56:57.14,ASS,,0,0,0,,And there was a part where I hugged Yui-\Nsan and everyone in the 3rd grade.
+Dialogue: 0,0:56:57.14,0:57:00.94,ASS,,0,0,0,,I was really happy, but...
+Dialogue: 0,0:57:00.94,0:57:05.94,ASS,,0,0,0,,I want you to hug me one more time.
+Dialogue: 0,0:57:05.94,0:57:07.94,ASS,,0,0,0,,Can you do it now?
+Dialogue: 0,0:57:08.94,0:57:10.94,ASS,,0,0,0,,I love you.
+Dialogue: 0,0:57:12.94,0:57:13.79,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:57:13.79,0:57:15.79,ASS,,0,0,0,,I'm so happy.
+Dialogue: 0,0:57:15.79,0:57:16.79,ASS,,0,0,0,,I'm so happy.
+Dialogue: 0,0:57:16.79,0:57:20.79,ASS,,0,0,0,,We've been hoping for the third\Ngeneration for the past two days.
+Dialogue: 0,0:57:20.79,0:57:24.79,ASS,,0,0,0,,We've been spoiled by Yui.
+Dialogue: 0,0:57:24.79,0:57:28.79,ASS,,0,0,0,,I'd like to ask one more person, Airi.
+Dialogue: 0,0:57:28.79,0:57:30.79,ASS,,0,0,0,,I'm Airi Toriguchi.
+Dialogue: 0,0:57:30.79,0:57:35.79,ASS,,0,0,0,,During the lesson period,
+Dialogue: 0,0:57:35.98,0:57:39.38,ASS,,0,0,0,,he brought me a gift in the lesson room.
+Dialogue: 0,0:57:39.38,0:57:46.18,ASS,,0,0,0,,I was so happy that I went home and said\N"Thank you very much" and contacted him\Nright away.
+Dialogue: 0,0:57:46.18,0:57:54.78,ASS,,0,0,0,,At that time, he sent me a reply saying,\N"Do your best so that you don't overdo\Nit."
+Dialogue: 0,0:57:54.78,0:58:01.78,ASS,,0,0,0,,If I say "Do your best" too much, I feel\Nlike I'm going to feel a little\Ndepressed in myself.
+Dialogue: 0,0:58:02.79,0:58:09.79,ASS,,0,0,0,,I think there is something like that,\Nbut Yui-san's way of conveying it is\Nreally not too heavy and not too light.
+Dialogue: 0,0:58:10.79,0:58:14.79,ASS,,0,0,0,,It may be a little contradictory, but\Nit's just the right amount of "Do your\Nbest".
+Dialogue: 0,0:58:15.79,0:58:17.23,ASS,,0,0,0,,Thanks to those words, I was able to\Nconvey it well.
+Dialogue: 0,0:58:18.23,0:58:20.23,ASS,,0,0,0,,I'm really grateful.
+Dialogue: 0,0:58:21.23,0:58:22.23,ASS,,0,0,0,,That's a wonderful story.
+Dialogue: 0,0:58:23.23,0:58:24.23,ASS,,0,0,0,,Thank you, Airi.
+Dialogue: 0,0:58:25.23,0:58:32.23,ASS,,0,0,0,,As Airi just said, the three of us have\Nbeen working together with Yui for a\Nyear.
+Dialogue: 0,0:58:33.23,0:58:39.23,ASS,,0,0,0,,She taught us a lot of things and guided\Nus with kindness.
+Dialogue: 0,0:58:39.23,0:58:46.23,ASS,,0,0,0,,She is a wonderful senior who makes us\Nfeel like juniors.
+Dialogue: 0,0:58:48.12,0:58:50.12,ASS,,0,0,0,,Thank you for your kindness.
+Dialogue: 0,0:58:50.12,0:59:02.12,ASS,,0,0,0,,I'm so happy to be able to be in this\Nwonderful space with my beloved Yui and\Nthe BUDDIES who have been supporting Yui\Nfor a long time.
+Dialogue: 0,0:59:02.12,0:59:10.12,ASS,,0,0,0,,I hope we can cheerfully and brightly\Nsend Yui out today.
+Dialogue: 0,0:59:10.12,0:59:15.12,ASS,,0,0,0,,So, the live performance will continue.
+Dialogue: 0,0:59:16.42,0:59:18.42,ASS,,0,0,0,,Are you ready to have fun?
+Dialogue: 0,0:59:20.42,0:59:23.42,ASS,,0,0,0,,Let's have fun with us until the end!
+Dialogue: 0,1:00:24.29,1:00:29.29,ASS,,0,0,0,,"Destiny"
+Dialogue: 0,1:00:42.39,1:00:45.79,ASS,,0,0,0,,We'll always be together
+Dialogue: 0,1:00:45.89,1:00:52.89,ASS,,0,0,0,,I met you in the crowd that day
+Dialogue: 0,1:00:52.89,1:00:59.89,ASS,,0,0,0,,I don't want to go out to Shibuya
+Dialogue: 0,1:00:59.89,1:01:06.89,ASS,,0,0,0,,I changed my schedule that day and went\Nalone
+Dialogue: 0,1:01:15.89,1:01:28.89,ASS,,0,0,0,,When I got off the train and was about\Nto go home
+Dialogue: 0,1:01:28.89,1:01:34.89,ASS,,0,0,0,,I climbed the stairs and met you
+Dialogue: 0,1:01:34.89,1:01:41.89,ASS,,0,0,0,,For some reason, we laughed
+Dialogue: 0,1:01:42.89,1:01:46.89,ASS,,0,0,0,,Why are we here?
+Dialogue: 0,1:01:46.89,1:01:50.89,ASS,,0,0,0,,We were surprised by each other
+Dialogue: 0,1:01:51.32,1:01:54.21,ASS,,0,0,0,,I'll make sure to calculate all of it
+Dialogue: 0,1:01:54.21,1:01:58.21,ASS,,0,0,0,,No matter how many times I try, I can't\Nfind the answer
+Dialogue: 0,1:01:58.21,1:02:06.21,ASS,,0,0,0,,Even if we meet, there are times when we\Ncan't see each other
+Dialogue: 0,1:02:06.21,1:02:13.21,ASS,,0,0,0,,But somehow, I'm drawn to a mysterious\Npower
+Dialogue: 0,1:02:13.21,1:02:19.21,ASS,,0,0,0,,I'm being noticed by those three
+Dialogue: 0,1:02:24.21,1:02:27.21,ASS,,0,0,0,,Oh-oh-oh-oh-oh-oh-oh
+Dialogue: 0,1:02:27.21,1:02:31.21,ASS,,0,0,0,,Oh-oh-oh-oh-oh-oh-oh
+Dialogue: 0,1:02:45.21,1:02:52.21,ASS,,0,0,0,,While walking together towards the\Ncenter of the world
+Dialogue: 0,1:02:52.21,1:02:58.21,ASS,,0,0,0,,If someone sees me, I'll be\Nmisunderstood
+Dialogue: 0,1:02:58.21,1:03:05.21,ASS,,0,0,0,,I suddenly thought, "Don't be hated"
+Dialogue: 0,1:03:05.21,1:03:12.21,ASS,,0,0,0,,The fact that we met here must have a\Nmeaning
+Dialogue: 0,1:03:12.21,1:03:13.50,ASS,,0,0,0,,It's a coincidence
+Dialogue: 0,1:03:15.88,1:03:19.88,ASS,,0,0,0,,Will you tell me the answer?
+Dialogue: 0,1:03:19.88,1:03:22.88,ASS,,0,0,0,,Even if I think about it
+Dialogue: 0,1:03:22.88,1:03:26.88,ASS,,0,0,0,,There are so many things I can't say
+Dialogue: 0,1:03:26.88,1:03:31.88,ASS,,0,0,0,,But today is different
+Dialogue: 0,1:03:31.88,1:03:33.88,ASS,,0,0,0,,It's not me
+Dialogue: 0,1:03:33.88,1:03:39.88,ASS,,0,0,0,,Where does the courage come from?
+Dialogue: 0,1:03:39.88,1:03:43.88,ASS,,0,0,0,,If it's a coincidence, we'll stay like\Nthis
+Dialogue: 0,1:03:43.88,1:03:46.88,ASS,,0,0,0,,"It's okay to go out with me, right?"
+Dialogue: 0,1:03:46.88,1:03:49.88,ASS,,0,0,0,,I tried to put it in words like a joke
+Dialogue: 0,1:03:49.88,1:03:52.88,ASS,,0,0,0,,But what should I do?
+Dialogue: 0,1:03:52.88,1:03:55.88,ASS,,0,0,0,,I saw you nodding
+Dialogue: 0,1:03:55.88,1:03:59.88,ASS,,0,0,0,,Is that serious?
+Dialogue: 0,1:03:59.88,1:04:02.88,ASS,,0,0,0,,The next time we meet
+Dialogue: 0,1:04:02.88,1:04:07.88,ASS,,0,0,0,,I want you to hug me
+Dialogue: 0,1:04:08.79,1:04:12.79,ASS,,0,0,0,,Why am I here? Why am I here?
+Dialogue: 0,1:04:14.19,1:04:18.19,ASS,,0,0,0,,Surprised at each other
+Dialogue: 0,1:04:18.19,1:04:23.19,ASS,,0,0,0,,Even if I calculate the probability of\Ncoincidence
+Dialogue: 0,1:04:23.19,1:04:25.19,ASS,,0,0,0,,I can't answer
+Dialogue: 0,1:04:25.19,1:04:28.19,ASS,,0,0,0,,Even if we meet
+Dialogue: 0,1:04:28.19,1:04:31.19,ASS,,0,0,0,,There are things we can't meet
+Dialogue: 0,1:04:31.19,1:04:35.19,ASS,,0,0,0,,Even so, somehow
+Dialogue: 0,1:04:35.19,1:04:40.19,ASS,,0,0,0,,I'm drawn to a mysterious power
+Dialogue: 0,1:04:40.19,1:04:47.19,ASS,,0,0,0,,I'm drawn to that secret
+Dialogue: 0,1:05:11.19,1:05:25.19,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:05:25.19,1:05:30.19,ASS,,0,0,0,,I've never liked anyone this much
+Dialogue: 0,1:05:30.19,1:05:32.19,ASS,,0,0,0,,I feel like that
+Dialogue: 0,1:05:32.19,1:05:34.19,ASS,,0,0,0,,Rather than hurting myself
+Dialogue: 0,1:05:34.33,1:05:36.33,ASS,,0,0,0,,"I don't want to hurt you"
+Dialogue: 0,1:05:36.33,1:05:39.33,ASS,,0,0,0,,I thought to myself
+Dialogue: 0,1:05:39.33,1:05:43.33,ASS,,0,0,0,,While I was waiting for the final\Npunishment
+Dialogue: 0,1:05:43.33,1:05:47.33,ASS,,0,0,0,,The timing was just right
+Dialogue: 0,1:05:47.33,1:05:49.33,ASS,,0,0,0,,We were facing each other
+Dialogue: 0,1:05:49.33,1:05:51.33,ASS,,0,0,0,,To the point where we couldn't even feel\Nthe cold
+Dialogue: 0,1:05:51.33,1:05:54.33,ASS,,0,0,0,,If that's the case, there's no point
+Dialogue: 0,1:05:54.33,1:05:56.33,ASS,,0,0,0,,Ah, how many days until the graduation\Nceremony?
+Dialogue: 0,1:05:56.33,1:05:58.33,ASS,,0,0,0,,What will change from that day?
+Dialogue: 0,1:05:58.33,1:05:59.99,ASS,,0,0,0,,It's just that the place we're going to\Nis going to change
+Dialogue: 0,1:05:59.99,1:06:02.47,ASS,,0,0,0,,Just having new friends is enough to\Nkeep me going
+Dialogue: 0,1:06:02.47,1:06:10.87,ASS,,0,0,0,,Leaving behind something precious, I'm\Ncalled an adult
+Dialogue: 0,1:06:10.87,1:06:18.67,ASS,,0,0,0,,The cherry blossoms that think of you,\Nblown by the wind, soar up in my heart
+Dialogue: 0,1:06:18.67,1:06:25.67,ASS,,0,0,0,,If only you could stay a little longer
+Dialogue: 0,1:06:25.67,1:06:29.87,ASS,,0,0,0,,No matter how much I love you, the\Nseasons pass
+Dialogue: 0,1:06:29.87,1:06:33.47,ASS,,0,0,0,,In the blink of an eye, they all fall\Ndown
+Dialogue: 0,1:06:33.47,1:06:39.07,ASS,,0,0,0,,That day was the cherry blossom season
+Dialogue: 0,1:06:39.07,1:06:46.47,ASS,,0,0,0,,Turururuturu, Turururuturu, Tururururu
+Dialogue: 0,1:06:46.47,1:06:53.77,ASS,,0,0,0,,Turururuturu, Turururuturu, Tururururu
+Dialogue: 0,1:06:53.77,1:06:57.47,ASS,,0,0,0,,What I'm trying to say right now is
+Dialogue: 0,1:06:57.47,1:07:01.47,ASS,,0,0,0,,I feel like I'm going to say something\Nelse
+Dialogue: 0,1:07:01.47,1:07:04.87,ASS,,0,0,0,,If you don't reach your goal, you'll\Nfeel relieved
+Dialogue: 0,1:07:04.87,1:07:08.47,ASS,,0,0,0,,I can't do that
+Dialogue: 0,1:07:08.47,1:07:10.04,ASS,,0,0,0,,I'm going on a trip to Tokyo
+Dialogue: 0,1:07:10.04,1:07:16.04,ASS,,0,0,0,,With determination, I want to push your\Nback
+Dialogue: 0,1:07:16.04,1:07:19.04,ASS,,0,0,0,,Someday, you'll be able to smile and\Nthink "I'm glad I met you"
+Dialogue: 0,1:07:19.04,1:07:23.04,ASS,,0,0,0,,Amatsutai Seishun
+Dialogue: 0,1:07:23.13,1:07:24.73,ASS,,0,0,0,,What are you trying to look cool for?
+Dialogue: 0,1:07:24.73,1:07:26.73,ASS,,0,0,0,,I'm sick of being alone
+Dialogue: 0,1:07:26.73,1:07:28.73,ASS,,0,0,0,,At least when I remember you
+Dialogue: 0,1:07:28.73,1:07:30.73,ASS,,0,0,0,,It was such a beautiful love
+Dialogue: 0,1:07:30.73,1:07:34.73,ASS,,0,0,0,,I don't care if I'm alone
+Dialogue: 0,1:07:34.98,1:07:39.48,ASS,,0,0,0,,I want to praise the me who gave it to\Nyou
+Dialogue: 0,1:07:39.48,1:07:43.48,ASS,,0,0,0,,If I can't be like this
+Dialogue: 0,1:07:43.48,1:07:47.48,ASS,,0,0,0,,So that there's no flower that keeps\Nblooming forever
+Dialogue: 0,1:07:47.48,1:07:53.98,ASS,,0,0,0,,I thought about how to make it beautiful
+Dialogue: 0,1:07:53.98,1:07:56.48,ASS,,0,0,0,,Fly up in the sky
+Dialogue: 0,1:07:56.48,1:08:01.98,ASS,,0,0,0,,So that I can remember it many times
+Dialogue: 0,1:08:01.98,1:08:06.98,ASS,,0,0,0,,Fall slowly and regretfully
+Dialogue: 0,1:08:10.48,1:08:13.98,ASS,,0,0,0,,So that you don't notice me
+Dialogue: 0,1:08:13.98,1:08:17.98,ASS,,0,0,0,,While I'm confused
+Dialogue: 0,1:08:17.98,1:08:19.98,ASS,,0,0,0,,Your voice
+Dialogue: 0,1:08:19.98,1:08:22.48,ASS,,0,0,0,,Listen to it
+Dialogue: 0,1:08:22.48,1:08:25.98,ASS,,0,0,0,,I tried to leave it in my memory
+Dialogue: 0,1:08:26.98,1:08:29.48,ASS,,0,0,0,,Beyond the dark night sky
+Dialogue: 0,1:08:29.48,1:08:31.48,ASS,,0,0,0,,Certainly, even now
+Dialogue: 0,1:08:31.48,1:08:34.98,ASS,,0,0,0,,I can see the cherry blossoms in full\Nbloom
+Dialogue: 0,1:08:34.98,1:08:39.98,ASS,,0,0,0,,I loved that flower
+Dialogue: 0,1:08:39.98,1:08:41.48,ASS,,0,0,0,,People
+Dialogue: 0,1:08:41.48,1:08:43.48,ASS,,0,0,0,,Become an adult
+Dialogue: 0,1:08:43.48,1:08:44.98,ASS,,0,0,0,,Dreams and ideals
+Dialogue: 0,1:08:44.98,1:08:49.48,ASS,,0,0,0,,Even if I can't think of them
+Dialogue: 0,1:08:49.48,1:08:56.48,ASS,,0,0,0,,If I can make such a beautiful flower
+Dialogue: 0,1:08:56.48,1:08:58.98,ASS,,0,0,0,,Cherry blossoms that think of you
+Dialogue: 0,1:08:58.98,1:09:00.98,ASS,,0,0,0,,Are blown by the wind
+Dialogue: 0,1:09:00.98,1:09:04.48,ASS,,0,0,0,,And fly up in my heart
+Dialogue: 0,1:09:04.48,1:09:11.48,ASS,,0,0,0,,If only you could be a little more\Ncheerful
+Dialogue: 0,1:09:11.48,1:09:13.48,ASS,,0,0,0,,No matter how much I love you
+Dialogue: 0,1:09:13.48,1:09:15.48,ASS,,0,0,0,,The season will pass
+Dialogue: 0,1:09:15.48,1:09:19.48,ASS,,0,0,0,,And everything will fall in a blink of\Nan eye
+Dialogue: 0,1:09:19.48,1:09:21.98,ASS,,0,0,0,,Don't cry
+Dialogue: 0,1:09:21.98,1:09:24.48,ASS,,0,0,0,,Cherry blossoms
+Dialogue: 0,1:09:28.98,1:09:31.98,ASS,,0,0,0,,Cherry Blossoms
+Dialogue: 0,1:09:58.98,1:10:01.98,ASS,,0,0,0,,Cherry Blossoms
+Dialogue: 0,1:10:58.98,1:11:00.98,ASS,,0,0,0,,Cherry Blossoms
+Dialogue: 0,1:11:28.98,1:11:30.98,ASS,,0,0,0,,Cherry Blossoms
+Dialogue: 0,1:11:30.98,1:11:32.98,ASS,,0,0,0,,Cherry Blossoms
+Dialogue: 0,1:11:32.98,1:11:34.98,ASS,,0,0,0,,Cherry Blossoms
+Dialogue: 0,1:11:34.98,1:11:36.98,ASS,,0,0,0,,Cherry Blossoms
+Dialogue: 0,1:12:58.98,1:13:03.98,ASS,,0,0,0,,Music by Uratanuki
+Dialogue: 0,1:13:03.98,1:13:08.98,ASS,,0,0,0,,Illustration by Uratanuki
+Dialogue: 0,1:13:08.98,1:13:13.98,ASS,,0,0,0,,Movie by Uratanuki
+Dialogue: 0,1:13:13.98,1:13:18.98,ASS,,0,0,0,,Movie by Uratanuki
+Dialogue: 0,1:13:18.98,1:13:21.98,ASS,,0,0,0,,Movie by Uratanuki
+Dialogue: 0,1:13:21.98,1:13:26.98,ASS,,0,0,0,,I'm not trying to change this world
+Dialogue: 0,1:13:26.98,1:13:29.98,ASS,,0,0,0,,I'm not trying to change this world
+Dialogue: 0,1:13:30.98,1:13:34.98,ASS,,0,0,0,,The sky I swore to the side that I\Ndidn't know
+Dialogue: 0,1:13:34.98,1:13:37.98,ASS,,0,0,0,,The sky I swore to the side that I\Ndidn't know is a knife to the universe
+Dialogue: 0,1:13:39.98,1:13:42.98,ASS,,0,0,0,,The window I closed with the breath and\Nsoul I wanted to exhale
+Dialogue: 0,1:13:42.98,1:13:47.98,ASS,,0,0,0,,The window I closed with the breath and\Nsoul I wanted to exhale is a common\Nsense
+Dialogue: 0,1:13:48.98,1:13:51.98,ASS,,0,0,0,,Let's change the neck of the heart
+Dialogue: 0,1:13:51.98,1:13:56.98,ASS,,0,0,0,,Even so, if you want to dream
+Dialogue: 0,1:13:56.98,1:14:00.98,ASS,,0,0,0,,No! No! No! Don't blame people
+Dialogue: 0,1:14:00.98,1:14:05.98,ASS,,0,0,0,,Who is the voice reflected in the\Nmirror?
+Dialogue: 0,1:14:05.98,1:14:09.98,ASS,,0,0,0,,I'm despairing on my own
+Dialogue: 0,1:14:09.98,1:14:13.98,ASS,,0,0,0,,Because there is no nature, notice it\Nalready
+Dialogue: 0,1:14:13.98,1:14:17.98,ASS,,0,0,0,,No! No! No! Even if it's someone else's\Nfault
+Dialogue: 0,1:14:17.98,1:14:21.98,ASS,,0,0,0,,There is only one history game
+Dialogue: 0,1:14:21.98,1:14:26.98,ASS,,0,0,0,,If that's the case, loneliness is a\Nlamina
+Dialogue: 0,1:14:26.98,1:14:31.98,ASS,,0,0,0,,No! No! No! Nobody's fault
+Dialogue: 0,1:14:31.98,1:14:43.98,ASS,,0,0,0,,I try to change my way of living
+Dialogue: 0,1:14:43.98,1:14:48.98,ASS,,0,0,0,,Is it okay to cry?
+Dialogue: 0,1:14:48.98,1:14:53.98,ASS,,0,0,0,,I grew up somehow
+Dialogue: 0,1:14:53.98,1:14:57.98,ASS,,0,0,0,,I'm sick and tired of making excuses
+Dialogue: 0,1:14:57.98,1:15:01.48,ASS,,0,0,0,,I don't want to hear you cry
+Dialogue: 0,1:15:01.48,1:15:06.48,ASS,,0,0,0,,No matter how much you hate me, I'll\Nscream
+Dialogue: 0,1:15:06.48,1:15:10.48,ASS,,0,0,0,,Is that all there is to it?
+Dialogue: 0,1:15:10.48,1:15:15.48,ASS,,0,0,0,,If I were to be born again
+Dialogue: 0,1:15:15.48,1:15:19.48,ASS,,0,0,0,,No, no, no, don't say such beautiful\Nthings
+Dialogue: 0,1:15:19.48,1:15:23.48,ASS,,0,0,0,,I won't do it, I won't do it, I won't do\Nit
+Dialogue: 0,1:15:23.98,1:15:25.98,ASS,,0,0,0,,Even so, I'll live on
+Dialogue: 0,1:15:25.98,1:15:28.48,ASS,,0,0,0,,Believe in your strength
+Dialogue: 0,1:15:28.48,1:15:33.48,ASS,,0,0,0,,No, no, no, nobody's fault
+Dialogue: 0,1:15:33.48,1:15:35.98,ASS,,0,0,0,,No matter how deep the forest is
+Dialogue: 0,1:15:35.98,1:15:41.48,ASS,,0,0,0,,A single tree will gather and grow
+Dialogue: 0,1:15:42.48,1:15:47.48,ASS,,0,0,0,,You'll understand when the wind blows
+Dialogue: 0,1:15:48.48,1:15:54.48,ASS,,0,0,0,,No matter how many times the light and\Nshadow overlap
+Dialogue: 0,1:15:54.48,1:15:58.48,ASS,,0,0,0,,It'll become a big forest
+Dialogue: 0,1:15:58.48,1:16:05.48,ASS,,0,0,0,,Don't blame yourself
+Dialogue: 0,1:16:07.98,1:16:11.98,ASS,,0,0,0,,No, no, no, nobody's fault
+Dialogue: 0,1:16:11.98,1:16:14.48,ASS,,0,0,0,,Don't hold a grudge against me
+Dialogue: 0,1:16:15.48,1:16:20.48,ASS,,0,0,0,,No, no, no, don't blame others
+Dialogue: 0,1:16:20.48,1:16:24.48,ASS,,0,0,0,,Who are you reflected in the mirror?
+Dialogue: 0,1:16:24.48,1:16:29.48,ASS,,0,0,0,,The reason you're despairing
+Dialogue: 0,1:16:29.48,1:16:33.48,ASS,,0,0,0,,Is because you don't believe in yourself
+Dialogue: 0,1:16:33.48,1:16:38.48,ASS,,0,0,0,,No, no, no, even if it's someone else's\Nfault
+Dialogue: 0,1:16:38.48,1:16:42.48,ASS,,0,0,0,,There's only one thing left to do
+Dialogue: 0,1:16:42.48,1:16:46.48,ASS,,0,0,0,,If that's the case, I'd rather choose\Nsolitude
+Dialogue: 0,1:16:46.48,1:16:51.48,ASS,,0,0,0,,No, no, no, nobody's fault
+Dialogue: 0,1:17:12.48,1:17:28.48,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:17:42.48,1:17:52.48,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:18:13.48,1:18:21.48,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:18:21.48,1:18:23.48,ASS,,0,0,0,,I was watching TV on my phone
+Dialogue: 0,1:18:23.48,1:18:25.48,ASS,,0,0,0,,There's no way I'm going to be hated
+Dialogue: 0,1:18:25.48,1:18:27.48,ASS,,0,0,0,,I was late for everything
+Dialogue: 0,1:18:27.48,1:18:29.48,ASS,,0,0,0,,I skipped class again today
+Dialogue: 0,1:18:29.48,1:18:32.48,ASS,,0,0,0,,I should've just given up on love
+Dialogue: 0,1:18:32.48,1:18:37.48,ASS,,0,0,0,,I'm going to do it, I won't do it, I\Nwon't do it, I won't do it
+Dialogue: 0,1:18:43.48,1:18:45.48,ASS,,0,0,0,,What do you want to do? What do you want\Nto do?
+Dialogue: 0,1:18:45.48,1:18:47.48,ASS,,0,0,0,,You're tired, aren't you? You're not\Nwaking up
+Dialogue: 0,1:18:47.48,1:18:49.48,ASS,,0,0,0,,While you were playing games
+Dialogue: 0,1:18:49.48,1:18:51.48,ASS,,0,0,0,,You became an adult
+Dialogue: 0,1:18:51.48,1:18:53.48,ASS,,0,0,0,,Where did everyone go?
+Dialogue: 0,1:18:53.48,1:18:54.48,ASS,,0,0,0,,Why is it so boring?
+Dialogue: 0,1:18:54.48,1:18:56.48,ASS,,0,0,0,,Wait a minute
+Dialogue: 0,1:18:56.48,1:18:58.48,ASS,,0,0,0,,You're still the same
+Dialogue: 0,1:18:58.48,1:19:05.48,ASS,,0,0,0,,I'm the only one who knows the power of\Nlife
+Dialogue: 0,1:19:05.48,1:19:07.48,ASS,,0,0,0,,Even if I'm judged, even if I'm\Nforbidden
+Dialogue: 0,1:19:07.48,1:19:09.48,ASS,,0,0,0,,Even if I'm told I'm no good
+Dialogue: 0,1:19:09.48,1:19:13.48,ASS,,0,0,0,,It's not like I can be a different\Nperson now
+Dialogue: 0,1:19:13.48,1:19:15.48,ASS,,0,0,0,,Even if I'm judged, even if I'm\Nforbidden
+Dialogue: 0,1:19:15.48,1:19:17.48,ASS,,0,0,0,,Even if I'm told I'm no good
+Dialogue: 0,1:19:17.48,1:19:20.48,ASS,,0,0,0,,I get it, I won't regret it
+Dialogue: 0,1:19:20.48,1:19:24.48,ASS,,0,0,0,,God, is there something I can't do?
+Dialogue: 0,1:19:24.48,1:19:28.48,ASS,,0,0,0,,I wonder if that's the standard
+Dialogue: 0,1:19:28.48,1:19:29.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:19:32.48,1:19:33.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:19:35.48,1:19:37.48,ASS,,0,0,0,,The sand of the time we spent together
+Dialogue: 0,1:19:37.48,1:19:39.48,ASS,,0,0,0,,Disappears without knowing anything
+Dialogue: 0,1:19:39.48,1:19:41.48,ASS,,0,0,0,,When I became that age
+Dialogue: 0,1:19:41.48,1:19:43.48,ASS,,0,0,0,,I thought I could do anything
+Dialogue: 0,1:19:43.48,1:19:45.48,ASS,,0,0,0,,What am I doing here?
+Dialogue: 0,1:19:45.48,1:19:47.48,ASS,,0,0,0,,I'm the only one playing
+Dialogue: 0,1:19:47.48,1:19:48.48,ASS,,0,0,0,,Someone tell me
+Dialogue: 0,1:19:48.48,1:19:50.48,ASS,,0,0,0,,Is it something that has to change?
+Dialogue: 0,1:19:50.48,1:19:54.48,ASS,,0,0,0,,I'm about to die
+Dialogue: 0,1:19:54.48,1:19:57.48,ASS,,0,0,0,,I was disqualified
+Dialogue: 0,1:19:57.48,1:19:59.48,ASS,,0,0,0,,What should I do if I get punched?
+Dialogue: 0,1:19:59.48,1:20:01.48,ASS,,0,0,0,,I just didn't know
+Dialogue: 0,1:20:01.48,1:20:02.48,ASS,,0,0,0,,One more time
+Dialogue: 0,1:20:02.48,1:20:04.48,ASS,,0,0,0,,Give me a chance to start over
+Dialogue: 0,1:20:04.48,1:20:06.48,ASS,,0,0,0,,What should I do if I get punched?
+Dialogue: 0,1:20:06.48,1:20:08.48,ASS,,0,0,0,,Is it a mistake?
+Dialogue: 0,1:20:08.48,1:20:12.48,ASS,,0,0,0,,I believed that it was for the sake of\Nmy sister
+Dialogue: 0,1:20:12.48,1:20:15.48,ASS,,0,0,0,,Please forgive me for this
+Dialogue: 0,1:20:15.48,1:20:20.48,ASS,,0,0,0,,I didn't know it would be so sudden
+Dialogue: 0,1:20:20.48,1:20:21.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:20:21.48,1:20:22.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:20:23.48,1:20:24.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:20:27.48,1:20:28.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:20:35.48,1:20:39.48,ASS,,0,0,0,,The sun is too bright
+Dialogue: 0,1:20:39.48,1:20:42.48,ASS,,0,0,0,,It leaks from the bottom of the wind
+Dialogue: 0,1:20:42.48,1:20:45.48,ASS,,0,0,0,,Until the darkness comes
+Dialogue: 0,1:20:45.48,1:20:49.48,ASS,,0,0,0,,I can still make it
+Dialogue: 0,1:20:49.48,1:20:51.48,ASS,,0,0,0,,Even if I get punched, even if I get\Ndisqualified
+Dialogue: 0,1:20:51.48,1:20:53.48,ASS,,0,0,0,,Even if I'm told it's no good
+Dialogue: 0,1:20:53.48,1:20:54.48,ASS,,0,0,0,,It's too late
+Dialogue: 0,1:20:54.48,1:20:57.48,ASS,,0,0,0,,There's no way I can become a different\Nperson
+Dialogue: 0,1:20:57.48,1:20:59.48,ASS,,0,0,0,,Even if I get punched, even if I get\Ndisqualified
+Dialogue: 0,1:20:59.48,1:21:01.48,ASS,,0,0,0,,Even if I'm told to stop
+Dialogue: 0,1:21:01.48,1:21:02.48,ASS,,0,0,0,,I understand
+Dialogue: 0,1:21:02.48,1:21:04.48,ASS,,0,0,0,,I won't throw it away again
+Dialogue: 0,1:21:04.48,1:21:06.48,ASS,,0,0,0,,God, what is it?
+Dialogue: 0,1:21:06.48,1:21:08.48,ASS,,0,0,0,,Can't I run away?
+Dialogue: 0,1:21:08.48,1:21:11.48,ASS,,0,0,0,,I wonder if that's the standard
+Dialogue: 0,1:21:11.48,1:21:15.48,ASS,,0,0,0,,Even if I'm driven into a situation I\Nwant to know
+Dialogue: 0,1:21:16.48,1:21:20.48,ASS,,0,0,0,,I'll definitely get punched
+Dialogue: 0,1:21:20.48,1:21:21.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:21:23.48,1:21:24.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:21:46.48,1:21:48.48,ASS,,0,0,0,,God, what is it?
+Dialogue: 0,1:21:48.48,1:21:50.48,ASS,,0,0,0,,I don't know
+Dialogue: 0,1:21:50.48,1:21:52.48,ASS,,0,0,0,,Even if I get punched, even if I get\Ndisqualified
+Dialogue: 0,1:21:52.48,1:21:54.48,ASS,,0,0,0,,Even if I'm driven into a situation I\Nwant to know
+Dialogue: 0,1:21:54.48,1:21:56.48,ASS,,0,0,0,,I'll definitely get punched
+Dialogue: 0,1:21:56.48,1:21:57.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:22:00.48,1:22:01.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:22:02.48,1:22:03.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:22:03.48,1:22:04.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:22:06.48,1:22:07.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:22:10.48,1:22:11.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:22:12.48,1:22:13.48,ASS,,0,0,0,,Hey!
+Dialogue: 0,1:22:45.48,1:22:51.50,ASS,,0,0,0,,"Wandering"
+Dialogue: 0,1:22:51.50,1:22:54.80,ASS,,0,0,0,,The city goes crazy with the digital age
+Dialogue: 0,1:22:54.80,1:22:56.50,ASS,,0,0,0,,Oh oh oh oh
+Dialogue: 0,1:22:56.50,1:22:58.54,ASS,,0,0,0,,It's so annoying
+Dialogue: 0,1:22:58.54,1:23:02.10,ASS,,0,0,0,,Even if it's messaged in such a hurry
+Dialogue: 0,1:23:02.10,1:23:03.66,ASS,,0,0,0,,Oh oh oh oh
+Dialogue: 0,1:23:03.66,1:23:05.74,ASS,,0,0,0,,A short-term sense of reality
+Dialogue: 0,1:23:05.74,1:23:07.74,ASS,,0,0,0,,The world is always creative
+Dialogue: 0,1:23:07.74,1:23:09.38,ASS,,0,0,0,,I keep screaming "I love you"
+Dialogue: 0,1:23:09.38,1:23:11.74,ASS,,0,0,0,,I, I, me
+Dialogue: 0,1:23:11.74,1:23:12.94,ASS,,0,0,0,,Can can
+Dialogue: 0,1:23:12.94,1:23:15.04,ASS,,0,0,0,,Is there anything you want to tell me?
+Dialogue: 0,1:23:15.04,1:23:16.80,ASS,,0,0,0,,I can't be replaced by anyone
+Dialogue: 0,1:23:16.80,1:23:19.16,ASS,,0,0,0,,You, you, you
+Dialogue: 0,1:23:19.16,1:23:20.24,ASS,,0,0,0,,Jump Jump
+Dialogue: 0,1:23:20.24,1:23:24.64,ASS,,0,0,0,,Hey, I wave my hand in my heart
+Dialogue: 0,1:23:24.64,1:23:27.84,ASS,,0,0,0,,Do you know I'm here?
+Dialogue: 0,1:23:27.84,1:23:28.84,ASS,,0,0,0,,(Bounce, bounce, bounce, bounce)
+Dialogue: 0,1:23:28.84,1:23:32.34,ASS,,0,0,0,,Everyone is too strong to be a witness
+Dialogue: 0,1:23:32.34,1:23:36.04,ASS,,0,0,0,,Can't you believe in yourself?
+Dialogue: 0,1:23:36.04,1:23:38.54,ASS,,0,0,0,,I want to see more, but I can't stop
+Dialogue: 0,1:23:38.54,1:23:39.64,ASS,,0,0,0,,SNS
+Dialogue: 0,1:23:39.64,1:23:42.04,ASS,,0,0,0,,I'm saying I'm watching you
+Dialogue: 0,1:23:43.04,1:23:45.04,ASS,,0,0,0,,(Bounce, bounce, bounce, bounce)
+Dialogue: 0,1:23:45.04,1:23:48.54,ASS,,0,0,0,,Listen to me, nod more
+Dialogue: 0,1:23:48.54,1:23:52.04,ASS,,0,0,0,,I want you to praise me
+Dialogue: 0,1:23:52.04,1:23:56.04,ASS,,0,0,0,,What is different from others?
+Dialogue: 0,1:23:56.04,1:24:00.04,ASS,,0,0,0,,You are only you
+Dialogue: 0,1:24:01.54,1:24:04.92,ASS,,0,0,0,,A special existence called "me"
+Dialogue: 0,1:24:04.92,1:24:08.92,ASS,,0,0,0,,When will you notice me?
+Dialogue: 0,1:24:08.92,1:24:09.92,ASS,,0,0,0,,Hey, what's wrong with you?
+Dialogue: 0,1:24:09.92,1:24:11.92,ASS,,0,0,0,,I can see it in your eyes, you know
+Dialogue: 0,1:24:11.92,1:24:13.92,ASS,,0,0,0,,The same thing for both of us
+Dialogue: 0,1:24:13.92,1:24:15.92,ASS,,0,0,0,,Misunderstandings, we were mad
+Dialogue: 0,1:24:15.92,1:24:17.92,ASS,,0,0,0,,We were always like this
+Dialogue: 0,1:24:18.44,1:24:20.44,ASS,,0,0,0,,I feel like I'm going to lose my mind
+Dialogue: 0,1:24:20.44,1:24:22.44,ASS,,0,0,0,,Shut up, I'm so confused
+Dialogue: 0,1:24:22.44,1:24:23.44,ASS,,0,0,0,,Jump, jump
+Dialogue: 0,1:24:23.44,1:24:25.44,ASS,,0,0,0,,I'm trying so hard to live
+Dialogue: 0,1:24:25.44,1:24:27.44,ASS,,0,0,0,,But no one understands me, is it a\Ntrial?
+Dialogue: 0,1:24:27.44,1:24:29.44,ASS,,0,0,0,,I run away at night, I can't catch up
+Dialogue: 0,1:24:29.44,1:24:30.44,ASS,,0,0,0,,Jump, jump
+Dialogue: 0,1:24:30.44,1:24:33.44,ASS,,0,0,0,,Hey, communication
+Dialogue: 0,1:24:33.44,1:24:38.44,ASS,,0,0,0,,What should I do with my efforts?
+Dialogue: 0,1:24:38.44,1:24:39.44,ASS,,0,0,0,,Jump, jump, jump, jump
+Dialogue: 0,1:24:39.44,1:24:42.44,ASS,,0,0,0,,It's a victim, that's what it is
+Dialogue: 0,1:24:42.44,1:24:46.44,ASS,,0,0,0,,I'm looking after you
+Dialogue: 0,1:24:46.44,1:24:50.44,ASS,,0,0,0,,If I'm accepted by someone, it's a\Nterrible mistake
+Dialogue: 0,1:24:50.44,1:24:52.44,ASS,,0,0,0,,I don't want to lose you
+Dialogue: 0,1:24:52.44,1:24:55.44,ASS,,0,0,0,,Tears won't stop coming
+Dialogue: 0,1:24:55.44,1:24:56.44,ASS,,0,0,0,,I won't let you go
+Dialogue: 0,1:24:56.44,1:24:58.44,ASS,,0,0,0,,I'm going to die
+Dialogue: 0,1:24:58.44,1:25:00.44,ASS,,0,0,0,,Why? I don't have any hope
+Dialogue: 0,1:25:00.44,1:25:02.44,ASS,,0,0,0,,I'm always like this
+Dialogue: 0,1:25:07.44,1:25:09.44,ASS,,0,0,0,,Hey, hey
+Dialogue: 0,1:25:09.44,1:25:16.44,ASS,,0,0,0,,Hey, hey
+Dialogue: 0,1:25:16.44,1:25:20.44,ASS,,0,0,0,,I don't care who it is
+Dialogue: 0,1:25:20.44,1:25:21.44,ASS,,0,0,0,,(I don't, I don't)
+Dialogue: 0,1:25:21.44,1:25:24.44,ASS,,0,0,0,,Everyone is too strong to admit
+Dialogue: 0,1:25:24.44,1:25:28.44,ASS,,0,0,0,,Is that all you can do for yourself?
+Dialogue: 0,1:25:28.44,1:25:32.44,ASS,,0,0,0,,I want to see more, I want to see more\NSNS
+Dialogue: 0,1:25:32.44,1:25:34.44,ASS,,0,0,0,,I'm telling you I'm watching you
+Dialogue: 0,1:25:34.44,1:25:37.44,ASS,,0,0,0,,But you're greedy
+Dialogue: 0,1:25:37.44,1:25:41.44,ASS,,0,0,0,,Listen to me, nod more
+Dialogue: 0,1:25:41.44,1:25:44.44,ASS,,0,0,0,,I want you to praise me specifically
+Dialogue: 0,1:25:44.44,1:25:48.44,ASS,,0,0,0,,You're different from others, you're\Nselfish
+Dialogue: 0,1:25:48.44,1:25:52.44,ASS,,0,0,0,,You're just you
+Dialogue: 0,1:26:08.44,1:26:10.44,ASS,,0,0,0,,(I don't, I don't)
+Dialogue: 0,1:26:10.44,1:26:12.44,ASS,,0,0,0,,(I don't, I don't)
+Dialogue: 0,1:26:12.44,1:26:14.44,ASS,,0,0,0,,(I don't, I don't)
+Dialogue: 0,1:26:19.44,1:26:21.44,ASS,,0,0,0,,I've got the hang of it
+Dialogue: 0,1:26:21.44,1:26:23.44,ASS,,0,0,0,,Jump until your legs are torn
+Dialogue: 0,1:26:23.44,1:26:25.44,ASS,,0,0,0,,Jump, jump, jump, jump
+Dialogue: 0,1:26:25.44,1:26:27.44,ASS,,0,0,0,,Come on
+Dialogue: 0,1:26:27.44,1:26:29.44,ASS,,0,0,0,,Jump, jump, jump, jump
+Dialogue: 0,1:26:29.44,1:26:31.44,ASS,,0,0,0,,You can still go
+Dialogue: 0,1:26:31.44,1:26:33.44,ASS,,0,0,0,,Jump, jump, jump, jump
+Dialogue: 0,1:26:33.44,1:26:35.44,ASS,,0,0,0,,Hurry up
+Dialogue: 0,1:26:36.44,1:26:38.44,ASS,,0,0,0,,Jump, jump, jump, jump
+Dialogue: 0,1:26:38.44,1:26:40.44,ASS,,0,0,0,,Come on
+Dialogue: 0,1:26:40.44,1:26:42.44,ASS,,0,0,0,,Jump, jump, jump, jump
+Dialogue: 0,1:26:44.44,1:26:46.44,ASS,,0,0,0,,Jump, jump, jump, jump
+Dialogue: 0,1:26:46.44,1:26:48.44,ASS,,0,0,0,,Hurry up
+Dialogue: 0,1:26:48.44,1:26:50.44,ASS,,0,0,0,,Jump, jump, jump, jump
+Dialogue: 0,1:26:52.44,1:26:54.44,ASS,,0,0,0,,You can still go
+Dialogue: 0,1:26:54.44,1:26:56.44,ASS,,0,0,0,,Jump
+Dialogue: 0,1:27:05.44,1:27:07.44,ASS,,0,0,0,,(I don't, I don't)
+Dialogue: 0,1:27:07.44,1:27:09.44,ASS,,0,0,0,,(I don't, I don't)
+Dialogue: 0,1:27:09.44,1:27:11.44,ASS,,0,0,0,,(I don't, I don't)
+Dialogue: 0,1:27:11.44,1:27:13.44,ASS,,0,0,0,,(I don't, I don't)
+Dialogue: 0,1:27:29.44,1:27:32.44,ASS,,0,0,0,,Do you have a dream or something?
+Dialogue: 0,1:27:32.44,1:27:36.44,ASS,,0,0,0,,I'm sure there's a reason why you want\Nto do it someday
+Dialogue: 0,1:27:36.44,1:27:39.44,ASS,,0,0,0,,I don't want to do this tomorrow
+Dialogue: 0,1:27:39.44,1:27:40.44,ASS,,0,0,0,,So don't sleep
+Dialogue: 0,1:27:40.44,1:27:42.44,ASS,,0,0,0,,People all forget what they don't want
+Dialogue: 0,1:27:42.44,1:27:44.44,ASS,,0,0,0,,If you get over today
+Dialogue: 0,1:27:44.44,1:27:47.44,ASS,,0,0,0,,Let me hear you say "I'll do it somehow"
+Dialogue: 0,1:27:47.44,1:27:49.44,ASS,,0,0,0,,At night like this
+Dialogue: 0,1:27:49.44,1:27:51.44,ASS,,0,0,0,,In the convenience store microwave
+Dialogue: 0,1:27:51.44,1:27:53.44,ASS,,0,0,0,,Warm your lunch
+Dialogue: 0,1:27:53.44,1:27:55.44,ASS,,0,0,0,,What kind of miracle are you waiting\Nfor?
+Dialogue: 0,1:27:55.44,1:27:57.44,ASS,,0,0,0,,I'm sure you know
+Dialogue: 0,1:27:57.44,1:28:00.44,ASS,,0,0,0,,That you're giving up before you know it
+Dialogue: 0,1:28:00.44,1:28:01.44,ASS,,0,0,0,,But
+Dialogue: 0,1:28:01.44,1:28:03.44,ASS,,0,0,0,,Pretend you don't notice
+Dialogue: 0,1:28:03.44,1:28:05.44,ASS,,0,0,0,,Stand over
+Dialogue: 0,1:28:05.44,1:28:07.44,ASS,,0,0,0,,Stand over
+Dialogue: 0,1:28:07.44,1:28:11.44,ASS,,0,0,0,,If you think you're going to do it again
+Dialogue: 0,1:28:11.44,1:28:13.44,ASS,,0,0,0,,Now is the only time
+Dialogue: 0,1:28:13.44,1:28:15.44,ASS,,0,0,0,,There's no turning back
+Dialogue: 0,1:28:15.44,1:28:20.44,ASS,,0,0,0,,Wake up, the you who's running away
+Dialogue: 0,1:28:20.44,1:28:22.44,ASS,,0,0,0,,In the reality reflected in the glass\Nwindow
+Dialogue: 0,1:28:22.44,1:28:24.44,ASS,,0,0,0,,I want to laugh or lose
+Dialogue: 0,1:28:24.44,1:28:26.44,ASS,,0,0,0,,But the moment I open the door
+Dialogue: 0,1:28:26.44,1:28:30.44,ASS,,0,0,0,,I can't stand it
+Dialogue: 0,1:28:30.44,1:28:32.44,ASS,,0,0,0,,What's important is
+Dialogue: 0,1:28:32.44,1:28:35.44,ASS,,0,0,0,,Where to start over
+Dialogue: 0,1:28:35.44,1:28:38.44,ASS,,0,0,0,,That's a few seconds before you give up
+Dialogue: 0,1:28:41.44,1:28:43.44,ASS,,0,0,0,,Then what am I?
+Dialogue: 0,1:28:43.44,1:28:45.44,ASS,,0,0,0,,Can I say anything about anyone?
+Dialogue: 0,1:28:45.44,1:28:46.44,ASS,,0,0,0,,I don't know, I don't know
+Dialogue: 0,1:28:46.44,1:28:47.44,ASS,,0,0,0,,I want to be safe
+Dialogue: 0,1:28:47.44,1:28:48.44,ASS,,0,0,0,,Like a critic
+Dialogue: 0,1:28:48.44,1:28:50.44,ASS,,0,0,0,,Look from above
+Dialogue: 0,1:28:50.44,1:28:51.44,ASS,,0,0,0,,What should I do?
+Dialogue: 0,1:28:51.44,1:28:53.44,ASS,,0,0,0,,Let's get out of the warm environment
+Dialogue: 0,1:28:53.44,1:28:55.44,ASS,,0,0,0,,Even if I fail anyway
+Dialogue: 0,1:28:55.44,1:28:58.44,ASS,,0,0,0,,I want to be a good person
+Dialogue: 0,1:28:58.44,1:29:02.44,ASS,,0,0,0,,Rather than being protected by a\Nsecurity camera
+Dialogue: 0,1:29:02.44,1:29:06.44,ASS,,0,0,0,,I just want freedom that no one can see
+Dialogue: 0,1:29:06.44,1:29:08.44,ASS,,0,0,0,,I wonder if I can sacrifice anything
+Dialogue: 0,1:29:08.44,1:29:11.44,ASS,,0,0,0,,It's better to be a two-faced coward
+Dialogue: 0,1:29:11.44,1:29:13.44,ASS,,0,0,0,,So don't worry about other people
+Dialogue: 0,1:29:13.44,1:29:17.44,ASS,,0,0,0,,Make it, make it
+Dialogue: 0,1:29:17.44,1:29:21.44,ASS,,0,0,0,,Until today, I didn't have anything
+Dialogue: 0,1:29:21.44,1:29:22.44,ASS,,0,0,0,,It doesn't matter
+Dialogue: 0,1:29:22.44,1:29:24.44,ASS,,0,0,0,,Don't be mean
+Dialogue: 0,1:29:24.44,1:29:26.44,ASS,,0,0,0,,Don't be cool
+Dialogue: 0,1:29:26.44,1:29:30.44,ASS,,0,0,0,,If I wake up, I'll be a two-faced coward
+Dialogue: 0,1:29:30.44,1:29:33.44,ASS,,0,0,0,,Even if I'm energetic
+Dialogue: 0,1:29:33.44,1:29:34.44,ASS,,0,0,0,,I'm not stupid
+Dialogue: 0,1:29:34.44,1:29:35.44,ASS,,0,0,0,,I'm not stupid
+Dialogue: 0,1:29:35.44,1:29:38.44,ASS,,0,0,0,,I'm a little better
+Dialogue: 0,1:29:38.44,1:29:40.44,ASS,,0,0,0,,Baby, hey
+Dialogue: 0,1:29:40.44,1:29:43.44,ASS,,0,0,0,,Toward you
+Dialogue: 0,1:29:43.44,1:29:46.44,ASS,,0,0,0,,I want to be a good person
+Dialogue: 0,1:29:46.44,1:29:49.44,ASS,,0,0,0,,In the end, I'm just a nuisance
+Dialogue: 0,1:29:56.44,1:30:01.44,ASS,,0,0,0,,Translated by ST Translates
+Dialogue: 0,1:30:19.61,1:30:21.61,ASS,,0,0,0,,I'll be there for you in the future
+Dialogue: 0,1:30:21.61,1:30:23.61,ASS,,0,0,0,,Anyway, self-destruction
+Dialogue: 0,1:30:24.23,1:30:26.23,ASS,,0,0,0,,The lump of time
+Dialogue: 0,1:30:29.23,1:30:33.23,ASS,,0,0,0,,Start over, start over
+Dialogue: 0,1:30:33.23,1:30:37.23,ASS,,0,0,0,,If you think you can do it again
+Dialogue: 0,1:30:37.23,1:30:42.23,ASS,,0,0,0,,There's no other way but now
+Dialogue: 0,1:30:42.23,1:30:46.23,ASS,,0,0,0,,Wake up your sleeping eyes
+Dialogue: 0,1:30:46.23,1:30:48.23,ASS,,0,0,0,,The reality reflected in the glass\Nwindow
+Dialogue: 0,1:30:48.23,1:30:50.23,ASS,,0,0,0,,Makes my heart unable to turn my back
+Dialogue: 0,1:30:50.23,1:30:52.23,ASS,,0,0,0,,But the moment I opened the door
+Dialogue: 0,1:30:52.23,1:30:56.23,ASS,,0,0,0,,There was no other way
+Dialogue: 0,1:30:56.23,1:30:58.23,ASS,,0,0,0,,What's important is
+Dialogue: 0,1:30:58.23,1:31:01.23,ASS,,0,0,0,,Where to start over
+Dialogue: 0,1:31:01.23,1:31:05.23,ASS,,0,0,0,,That's what I thought a few seconds ago
+Dialogue: 0,1:31:20.23,1:31:25.23,ASS,,0,0,0,,"Self-Destruct"
+Dialogue: 0,1:31:50.23,1:32:16.23,ASS,,0,0,0,,"Self-Destruct"
+Dialogue: 0,1:32:20.23,1:32:35.23,ASS,,0,0,0,,"Self-Destruct"
+Dialogue: 0,1:32:50.23,1:33:05.23,ASS,,0,0,0,,"Self-Destruct"
+Dialogue: 0,1:33:20.23,1:33:32.23,ASS,,0,0,0,,"Self-Destruct"
+Dialogue: 0,1:33:32.23,1:33:33.23,ASS,,0,0,0,,"Self-Destruct"
+Dialogue: 0,1:33:33.23,1:33:40.23,ASS,,0,0,0,,"Self-Destruct"
+Dialogue: 0,1:33:40.23,1:33:47.23,ASS,,0,0,0,,"Self-Destruct"
+Dialogue: 0,1:33:47.23,1:34:01.23,ASS,,0,0,0,,"Self-Destruct"
+Dialogue: 0,1:34:01.23,1:34:15.23,ASS,,0,0,0,,"Self-Destruct"
+Dialogue: 0,1:34:16.23,1:34:18.23,ASS,,0,0,0,,The gap in my heart
+Dialogue: 0,1:34:18.23,1:34:20.23,ASS,,0,0,0,,Where does it come from?
+Dialogue: 0,1:34:20.23,1:34:22.23,ASS,,0,0,0,,I've been hurt before I knew it
+Dialogue: 0,1:34:22.23,1:34:25.23,ASS,,0,0,0,,I've been lonely and sighed
+Dialogue: 0,1:34:25.23,1:34:28.23,ASS,,0,0,0,,Only my broken heart
+Dialogue: 0,1:34:28.23,1:34:32.23,ASS,,0,0,0,,Is slowly getting buried
+Dialogue: 0,1:34:32.23,1:34:35.23,ASS,,0,0,0,,I can't notice it
+Dialogue: 0,1:34:35.23,1:34:39.23,ASS,,0,0,0,,With a quiet force
+Dialogue: 0,1:34:39.23,1:34:41.23,ASS,,0,0,0,,I pull my legs
+Dialogue: 0,1:34:41.23,1:34:43.23,ASS,,0,0,0,,I can only feel it
+Dialogue: 0,1:34:43.23,1:34:45.23,ASS,,0,0,0,,With a faint wind
+Dialogue: 0,1:34:51.23,1:34:55.23,ASS,,0,0,0,,I've been looking at something dazzling
+Dialogue: 0,1:34:55.26,1:34:58.26,ASS,,0,0,0,,I'm getting dizzy
+Dialogue: 0,1:34:58.26,1:35:02.26,ASS,,0,0,0,,I just need to close my eyes for a\Nmoment
+Dialogue: 0,1:35:02.26,1:35:05.26,ASS,,0,0,0,,It will be easier
+Dialogue: 0,1:35:05.26,1:35:08.26,ASS,,0,0,0,,It's not a big dream
+Dialogue: 0,1:35:08.26,1:35:11.26,ASS,,0,0,0,,Do I have to see it?
+Dialogue: 0,1:35:11.26,1:35:15.26,ASS,,0,0,0,,Even if I just pretend to be like that
+Dialogue: 0,1:35:15.26,1:35:19.26,ASS,,0,0,0,,I hate myself
+Dialogue: 0,1:35:19.26,1:35:21.18,ASS,,0,0,0,,Yes, I'm like this
+Dialogue: 0,1:35:21.18,1:35:26.86,ASS,,0,0,0,,I can't convince you that I'm different,\Nbut I'll ignore the world and go around
+Dialogue: 0,1:35:26.86,1:35:30.57,ASS,,0,0,0,,If that's the case, don't know me\Nforever
+Dialogue: 0,1:35:30.57,1:35:33.57,ASS,,0,0,0,,Don't say "I love you"
+Dialogue: 0,1:35:33.57,1:35:37.57,ASS,,0,0,0,,I'm crying without a sound in the gap
+Dialogue: 0,1:35:37.57,1:35:40.57,ASS,,0,0,0,,I don't feel it because I'm used to\Nbeing hurt
+Dialogue: 0,1:35:40.57,1:35:44.57,ASS,,0,0,0,,If you want to know anything, you can\Nsay it yourself
+Dialogue: 0,1:35:44.57,1:35:49.57,ASS,,0,0,0,,I don't understand the obvious
+Dialogue: 0,1:35:49.57,1:35:53.57,ASS,,0,0,0,,Every time I breathe
+Dialogue: 0,1:35:53.57,1:35:58.57,ASS,,0,0,0,,I've been hiding what I'm running away\Nfrom
+Dialogue: 0,1:35:58.57,1:36:03.57,ASS,,0,0,0,,It's like a hope that I secretly sucked\Nin
+Dialogue: 0,1:36:12.57,1:36:15.57,ASS,,0,0,0,,I can't tell anyone
+Dialogue: 0,1:36:15.57,1:36:22.57,ASS,,0,0,0,,I'm sure there's something in my heart
+Dialogue: 0,1:36:22.57,1:36:25.57,ASS,,0,0,0,,I don't know, little by little
+Dialogue: 0,1:36:25.57,1:36:31.57,ASS,,0,0,0,,I feel like I'm drowning in words
+Dialogue: 0,1:36:31.57,1:36:36.57,ASS,,0,0,0,,If you don't mind, open that hole wide
+Dialogue: 0,1:36:38.57,1:36:40.57,ASS,,0,0,0,,A little bit of this chest
+Dialogue: 0,1:36:40.57,1:36:43.57,ASS,,0,0,0,,Get out of the wind
+Dialogue: 0,1:36:46.57,1:36:48.57,ASS,,0,0,0,,A gap in the back of my chest
+Dialogue: 0,1:36:48.57,1:36:50.57,ASS,,0,0,0,,Where does it come from?
+Dialogue: 0,1:36:50.57,1:36:53.57,ASS,,0,0,0,,I hurt myself before I knew it
+Dialogue: 0,1:36:53.57,1:36:57.57,ASS,,0,0,0,,I'm lonely, I'm worried, I'm out of\Nbreath
+Dialogue: 0,1:36:57.57,1:37:02.57,ASS,,0,0,0,,Only this is leaking little by little
+Dialogue: 0,1:37:02.57,1:37:09.57,ASS,,0,0,0,,With a quiet power that I don't notice
+Dialogue: 0,1:37:09.57,1:37:11.57,ASS,,0,0,0,,I pull my feet
+Dialogue: 0,1:37:11.57,1:37:16.57,ASS,,0,0,0,,I only feel a faint wind
+Dialogue: 0,1:37:20.57,1:37:31.57,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:37:50.57,1:38:00.57,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:38:20.57,1:38:30.57,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:38:50.57,1:39:00.57,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:39:20.57,1:39:30.57,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:39:50.57,1:40:00.57,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:40:20.57,1:40:30.57,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:40:50.57,1:41:00.57,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:41:00.76,1:41:07.16,ASS,,0,0,0,,I don't want to be noticed by the sun\Nthat is different from yesterday, which\Ndawns as if it were a dream
+Dialogue: 0,1:41:07.16,1:41:10.36,ASS,,0,0,0,,There are so many kind words on the\Nfloor
+Dialogue: 0,1:41:10.50,1:41:13.90,ASS,,0,0,0,,Even if I touch it, I close my eyes\Nwithout picking it up
+Dialogue: 0,1:41:13.90,1:41:16.58,ASS,,0,0,0,,We were just waiting
+Dialogue: 0,1:41:16.58,1:41:20.78,ASS,,0,0,0,,What kind of reason is there?
+Dialogue: 0,1:41:20.78,1:41:25.30,ASS,,0,0,0,,It's too late to ask
+Dialogue: 0,1:41:25.30,1:41:28.74,ASS,,0,0,0,,I'm getting sick of myself
+Dialogue: 0,1:41:28.74,1:41:34.42,ASS,,0,0,0,,I know the truth
+Dialogue: 0,1:41:34.42,1:41:38.94,ASS,,0,0,0,,Let's shine our eyes so much
+Dialogue: 0,1:41:38.94,1:41:42.62,ASS,,0,0,0,,The days when we talked about our dreams
+Dialogue: 0,1:41:42.62,1:41:45.74,ASS,,0,0,0,,Even if you don't want to say goodbye
+Dialogue: 0,1:41:45.74,1:41:47.98,ASS,,0,0,0,,I can't say it
+Dialogue: 0,1:41:47.98,1:41:52.22,ASS,,0,0,0,,I know how many
+Dialogue: 0,1:41:52.22,1:41:54.78,ASS,,0,0,0,,Memories are scattered
+Dialogue: 0,1:41:54.78,1:41:57.06,ASS,,0,0,0,,I can't sort out love
+Dialogue: 0,1:41:57.06,1:42:00.42,ASS,,0,0,0,,How long will the sadness be kind?
+Dialogue: 0,1:42:00.42,1:42:05.26,ASS,,0,0,0,,Don't look back anymore
+Dialogue: 0,1:42:05.26,1:42:11.34,ASS,,0,0,0,,Until the day we can meet again
+Dialogue: 0,1:42:21.90,1:42:24.22,ASS,,0,0,0,,When I opened the last door
+Dialogue: 0,1:42:24.22,1:42:26.46,ASS,,0,0,0,,I was exposed to a dazzling light
+Dialogue: 0,1:42:26.46,1:42:28.70,ASS,,0,0,0,,That I couldn't reach
+Dialogue: 0,1:42:28.70,1:42:31.02,ASS,,0,0,0,,I couldn't see anything
+Dialogue: 0,1:42:31.02,1:42:33.26,ASS,,0,0,0,,What was outside until now
+Dialogue: 0,1:42:33.26,1:42:35.54,ASS,,0,0,0,,The world I've always believed in
+Dialogue: 0,1:42:35.54,1:42:37.66,ASS,,0,0,0,,Whose thought was it?
+Dialogue: 0,1:42:37.66,1:42:40.34,ASS,,0,0,0,,It's like something was wrong
+Dialogue: 0,1:42:40.34,1:42:44.54,ASS,,0,0,0,,The way to stop it
+Dialogue: 0,1:42:44.54,1:42:49.10,ASS,,0,0,0,,I don't think it's left anymore
+Dialogue: 0,1:42:49.10,1:42:52.50,ASS,,0,0,0,,The time I've been eating here
+Dialogue: 0,1:42:52.50,1:42:58.10,ASS,,0,0,0,,For a new dream
+Dialogue: 0,1:42:58.10,1:43:02.70,ASS,,0,0,0,,Even if I hurt my wings in an unfamiliar\Ncity
+Dialogue: 0,1:43:02.70,1:43:06.38,ASS,,0,0,0,,I hope you won't come back
+Dialogue: 0,1:43:06.38,1:43:09.50,ASS,,0,0,0,,If I can do something
+Dialogue: 0,1:43:09.50,1:43:11.78,ASS,,0,0,0,,I'll do anything
+Dialogue: 0,1:43:11.78,1:43:15.98,ASS,,0,0,0,,I don't need you anymore
+Dialogue: 0,1:43:15.98,1:43:20.82,ASS,,0,0,0,,I've decided to live alone
+Dialogue: 0,1:43:20.82,1:43:24.22,ASS,,0,0,0,,I've become more compassionate than\Nanyone else
+Dialogue: 0,1:43:24.22,1:43:29.02,ASS,,0,0,0,,I just look up at the far sky
+Dialogue: 0,1:43:29.02,1:43:35.14,ASS,,0,0,0,,I just look up at the far sky
+Dialogue: 0,1:43:36.90,1:43:45.66,ASS,,0,0,0,,I don't want to get in the way of the\Nfuture
+Dialogue: 0,1:43:45.66,1:43:50.18,ASS,,0,0,0,,Let me forget today
+Dialogue: 0,1:43:50.18,1:43:56.14,ASS,,0,0,0,,I've been watching from afar
+Dialogue: 0,1:43:56.14,1:43:59.26,ASS,,0,0,0,,If I can do something
+Dialogue: 0,1:43:59.26,1:44:01.54,ASS,,0,0,0,,I'll do anything
+Dialogue: 0,1:44:01.54,1:44:05.74,ASS,,0,0,0,,I don't need you anymore
+Dialogue: 0,1:44:05.74,1:44:10.58,ASS,,0,0,0,,I've decided to live alone
+Dialogue: 0,1:44:10.58,1:44:14.22,ASS,,0,0,0,,I've become more compassionate than\Nanyone else
+Dialogue: 0,1:44:14.22,1:44:17.38,ASS,,0,0,0,,If you say goodbye
+Dialogue: 0,1:44:17.38,1:44:19.66,ASS,,0,0,0,,I can't say it
+Dialogue: 0,1:44:19.66,1:44:23.86,ASS,,0,0,0,,I know how many
+Dialogue: 0,1:44:23.86,1:44:26.42,ASS,,0,0,0,,Memories scatter
+Dialogue: 0,1:44:26.42,1:44:28.66,ASS,,0,0,0,,I can't get love
+Dialogue: 0,1:44:28.66,1:44:32.06,ASS,,0,0,0,,How long will the sadness be kind?
+Dialogue: 0,1:44:32.06,1:44:36.86,ASS,,0,0,0,,Don't look back anymore
+Dialogue: 0,1:44:36.86,1:44:42.86,ASS,,0,0,0,,Until the day we meet again
+Dialogue: 0,1:45:23.86,1:45:32.86,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:45:53.86,1:46:03.86,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:46:23.86,1:46:33.86,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:46:53.86,1:47:03.86,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:47:03.86,1:47:13.86,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:47:13.86,1:47:23.86,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:47:23.86,1:47:33.86,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:47:33.86,1:47:43.86,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:47:43.86,1:47:53.86,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:47:53.86,1:48:03.86,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:48:03.86,1:48:13.86,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:48:13.86,1:48:23.86,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:48:23.86,1:48:33.86,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:48:43.86,1:48:51.86,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:48:51.86,1:49:01.27,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,1:49:01.27,1:49:04.71,ASS,,0,0,0,,I really joined when I was in the first\Nyear of high school,
+Dialogue: 0,1:49:04.71,1:49:09.91,ASS,,0,0,0,,so all my youth was here.
+Dialogue: 0,1:49:09.91,1:49:15.51,ASS,,0,0,0,,I didn't know how to live other than\Nhere.
+Dialogue: 0,1:49:15.51,1:49:19.63,ASS,,0,0,0,,I'm 16-year-old Yui Kobayashi in the\Nfirst year of high school.
+Dialogue: 0,1:49:19.63,1:49:24.59,ASS,,0,0,0,,I'm a normal girl who grew up in a\Nnormal family.
+Dialogue: 0,1:49:24.59,1:49:27.79,ASS,,0,0,0,,Someday I want to be someone
+Dialogue: 0,1:49:27.79,1:49:32.43,ASS,,0,0,0,,who can be admired by someone.
+Dialogue: 0,1:49:43.71,1:49:47.07,ASS,,0,0,0,,I don't know what it's like to be an\Nidol.
+Dialogue: 0,1:49:47.07,1:49:49.07,ASS,,0,0,0,,I'm so embarrassed.
+Dialogue: 0,1:49:49.07,1:49:51.55,ASS,,0,0,0,,I'm getting emotional.
+Dialogue: 0,1:49:51.55,1:49:53.55,ASS,,0,0,0,,I'm like, "Oh!"
+Dialogue: 0,1:49:57.47,1:50:02.17,ASS,,0,0,0,,I'm not very good at telling people\Nabout myself.
+Dialogue: 0,1:50:02.17,1:50:06.47,ASS,,0,0,0,,I'm not good at showing myself.
+Dialogue: 0,1:50:06.47,1:50:10.17,ASS,,0,0,0,,But if I can convey it to the people who\Ncan convey it...
+Dialogue: 0,1:50:12.14,1:50:17.14,ASS,,0,0,0,,I want to convey it to the people who\Ncan convey it...
+Dialogue: 0,1:50:18.14,1:50:22.14,ASS,,0,0,0,,To the members who have overcome many\Nthings so far...
+Dialogue: 0,1:50:41.14,1:50:50.14,ASS,,0,0,0,,I want to convey it to the people who\Ncan convey it.
+Dialogue: 0,1:50:51.14,1:50:52.14,ASS,,0,0,0,,Thank you.
+Dialogue: 0,1:50:52.92,1:50:54.92,ASS,,0,0,0,,I will graduate from this group.
+Dialogue: 0,1:50:56.92,1:51:01.92,ASS,,0,0,0,,I look forward to working with you for\Nthe rest of my life.
+Dialogue: 0,1:51:01.92,1:51:03.92,ASS,,0,0,0,,Thank you.
+Dialogue: 0,1:51:03.92,1:51:17.92,ASS,,0,0,0,,Thank you for watching.
+Dialogue: 0,1:51:18.11,1:51:26.11,ASS,,0,0,0,,I think I've done everything I can, so\NI'm satisfied.
+Dialogue: 0,1:51:27.60,1:51:31.60,ASS,,0,0,0,,I'll do my best.
+Dialogue: 0,1:51:31.60,1:51:35.60,ASS,,0,0,0,,I'll do my best.
+Dialogue: 0,1:51:43.60,1:51:47.60,ASS,,0,0,0,,I'll do my best.
+Dialogue: 0,1:52:17.60,1:52:22.60,ASS,,0,0,0,,(Applause)
+Dialogue: 0,1:52:47.60,1:52:52.60,ASS,,0,0,0,,(Music)
+Dialogue: 0,1:53:18.60,1:53:21.60,ASS,,0,0,0,,(Music)
+Dialogue: 0,1:53:21.60,1:53:27.60,ASS,,0,0,0,,(Applause)
+Dialogue: 0,1:53:27.60,1:53:27.93,ASS,,0,0,0,,Yeah
+Dialogue: 0,1:53:27.93,1:53:32.93,ASS,,0,0,0,,Once again, I'm Yui Kobayashi from\NSAKURAZAKA46
+Dialogue: 0,1:53:38.30,1:53:48.30,ASS,,0,0,0,,Thank you to everyone who came to see\NKobayashi Yu's graduation concert and\Nwatched the live stream today.
+Dialogue: 0,1:53:51.30,1:53:57.30,ASS,,0,0,0,,It feels like this day has finally come.
+Dialogue: 0,1:53:57.30,1:54:08.30,ASS,,0,0,0,,It's been about two months since I told\Nyou about my graduation.
+Dialogue: 0,1:54:09.46,1:54:21.46,ASS,,0,0,0,,It's been two months for me, and I've\Nhad a really good time.
+Dialogue: 0,1:54:23.46,1:54:34.46,ASS,,0,0,0,,I've been able to spend every day of my\Nlife taking great care of the group's\Nactivities, and I'm looking forward to\Ntoday.
+Dialogue: 0,1:54:34.46,1:54:38.46,ASS,,0,0,0,,What are you doing here?
+Dialogue: 0,1:54:38.67,1:55:02.67,ASS,,0,0,0,,I've been thinking a lot about what to\Ntalk about, but there are some parts\Nthat are not very organized, so I think\Nthere are some parts that are not\Norganized for a long time, but I would\Nbe happy if you could listen to it while\Nsitting down.
+Dialogue: 0,1:55:02.67,1:55:07.67,ASS,,0,0,0,,First of all, can I borrow this place?
+Dialogue: 0,1:55:09.03,1:55:20.03,ASS,,0,0,0,,First of all, I would like to express my\Ngratitude to everyone who supported me.
+Dialogue: 0,1:55:20.03,1:55:22.03,ASS,,0,0,0,,First of all, Sankisei.
+Dialogue: 0,1:55:22.84,1:55:38.84,ASS,,0,0,0,,The 3rd generation came in a year ago,\Nand the atmosphere of SAKURAZAKA became\Neven brighter.
+Dialogue: 0,1:55:38.84,1:55:51.84,ASS,,0,0,0,,The 1st and 2nd generation are really\Ncute, and they are very important.
+Dialogue: 0,1:55:53.43,1:56:07.43,ASS,,0,0,0,,From now on, I don't have to worry or\Nget hurt.
+Dialogue: 0,1:56:07.43,1:56:17.43,ASS,,0,0,0,,I hope you enjoy your life as a group.
+Dialogue: 0,1:56:17.43,1:56:20.43,ASS,,0,0,0,,Thank you for coming in.
+Dialogue: 0,1:56:20.43,1:56:22.43,ASS,,0,0,0,,And...
+Dialogue: 0,1:56:22.43,1:56:23.96,ASS,,0,0,0,,I'm Mikisei.
+Dialogue: 0,1:56:23.96,1:56:33.96,ASS,,0,0,0,,Miki-sensei really came to me as a\Nkeyakizaka at first,
+Dialogue: 0,1:56:33.96,1:56:45.96,ASS,,0,0,0,,and I felt that I couldn't let her do\Nwhat she wanted to do.
+Dialogue: 0,1:56:45.96,1:56:52.59,ASS,,0,0,0,,I felt sorry for her for coming to me at\Nfirst.
+Dialogue: 0,1:56:52.59,1:57:12.59,ASS,,0,0,0,,She came to me at first, but she was so\Nbright that I couldn't feel it, and when\NI noticed it, she started to play with\Nme a lot, and I'm so happy that I'm\Ngetting closer and closer to everyone.
+Dialogue: 0,1:57:12.59,1:57:22.48,ASS,,0,0,0,,As a member of SAKURAZAKA, I'm sure\NMikise will take the lead and make\NSAKURAZAKA a group that is loved so far.
+Dialogue: 0,1:57:23.48,1:57:46.48,ASS,,0,0,0,,Mikise is always full of gratitude, and\NI think that's what I'm going to\Ngraduate from today and Mikise is going\Nto take the lead and lead the group.
+Dialogue: 0,1:57:46.48,1:57:51.48,ASS,,0,0,0,,We all share a sense of responsibility.
+Dialogue: 0,1:57:52.40,1:58:02.40,ASS,,0,0,0,,I hope everyone will continue to love\NSakura Zakawa.
+Dialogue: 0,1:58:02.40,1:58:04.40,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,1:58:05.40,1:58:06.40,ASS,,0,0,0,,And...
+Dialogue: 0,1:58:06.40,1:58:08.19,ASS,,0,0,0,,Ikkisei.
+Dialogue: 0,1:58:08.19,1:58:22.19,ASS,,0,0,0,,I think that the remaining members are\Nvery mysterious.
+Dialogue: 0,1:58:22.19,1:58:30.19,ASS,,0,0,0,,But they all have a lot of guts and are\Nkind.
+Dialogue: 0,1:58:30.19,1:58:36.19,ASS,,0,0,0,,They are good people who can think of\Npeople's feelings.
+Dialogue: 0,1:58:36.19,1:58:37.18,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,1:58:38.18,1:58:50.18,ASS,,0,0,0,,You've been with us for a long time, and\NI think you've done a great job as a\Ngroup of young girls.
+Dialogue: 0,1:58:51.18,1:58:54.18,ASS,,0,0,0,,I'm really grateful.
+Dialogue: 0,1:58:54.18,1:59:07.18,ASS,,0,0,0,,We've been together every day for eight\Nand a half years, and we've been able to\Nexpress all of our feelings.
+Dialogue: 0,1:59:08.23,1:59:12.23,ASS,,0,0,0,,We've been together for eight and a half\Nyears, and we've been able to express\Nall of our feelings.
+Dialogue: 0,1:59:14.23,1:59:31.23,ASS,,0,0,0,,I hope that we can continue to have fun\Nand be happy in the future.
+Dialogue: 0,1:59:31.23,1:59:36.23,ASS,,0,0,0,,I hope that we can continue to have fun\Nand be happy in the future.
+Dialogue: 0,1:59:37.78,1:59:40.78,ASS,,0,0,0,,I'm looking forward to seeing you on TV.
+Dialogue: 0,1:59:40.78,1:59:42.78,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,1:59:44.78,1:59:46.78,ASS,,0,0,0,,And...
+Dialogue: 0,1:59:46.78,1:59:48.78,ASS,,0,0,0,,The staff...
+Dialogue: 0,1:59:48.78,1:59:52.78,ASS,,0,0,0,,To be alone with the staff,
+Dialogue: 0,1:59:52.78,1:59:56.78,ASS,,0,0,0,,I was supported by a lot of people.
+Dialogue: 0,1:59:59.78,2:00:03.78,ASS,,0,0,0,,I can't talk to the members much.
+Dialogue: 0,2:00:03.78,2:00:06.78,ASS,,0,0,0,,It's better to talk to an adult.
+Dialogue: 0,2:00:07.22,2:00:20.22,ASS,,0,0,0,,I had a lot of feelings of comfort, and\NI was supported a lot, and I was\Nanswered to a lot of selfishness.
+Dialogue: 0,2:00:20.22,2:00:35.22,ASS,,0,0,0,,I was a high school student, but I think\Nit was the staff who raised me in this\Nworld.
+Dialogue: 0,2:00:35.22,2:00:37.04,ASS,,0,0,0,,Really.
+Dialogue: 0,2:00:38.04,2:00:48.04,ASS,,0,0,0,,I want to say thank you for supporting\Nme as a child for a long time.
+Dialogue: 0,2:00:48.04,2:01:08.04,ASS,,0,0,0,,And I can't always say thank you to my\Nfamily, even though they came here\Ntoday.
+Dialogue: 0,2:01:08.73,2:01:10.73,ASS,,0,0,0,,I would like to tell you
+Dialogue: 0,2:01:11.73,2:01:13.73,ASS,,0,0,0,,Really
+Dialogue: 0,2:01:14.73,2:01:19.73,ASS,,0,0,0,,Without denying my feelings
+Dialogue: 0,2:01:20.73,2:01:24.73,ASS,,0,0,0,,My family has always been on my side
+Dialogue: 0,2:01:25.73,2:01:28.51,ASS,,0,0,0,,I want to tell you a lot of things
+Dialogue: 0,2:01:28.51,2:01:32.51,ASS,,0,0,0,,So I want to say thank you for letting\Nme be spoiled
+Dialogue: 0,2:01:32.51,2:01:37.51,ASS,,0,0,0,,and I hope you'll continue to spoil me.
+Dialogue: 0,2:01:37.51,2:01:40.51,ASS,,0,0,0,,That's all. Thank you very much.
+Dialogue: 0,2:01:42.51,2:01:45.51,ASS,,0,0,0,,And to all the Buddy's,
+Dialogue: 0,2:01:45.51,2:01:47.51,ASS,,0,0,0,,sorry to keep you waiting.
+Dialogue: 0,2:01:47.51,2:01:58.51,ASS,,0,0,0,,I wonder how many of you have been\Nsupporting me since the time of\NKeyakizaka.
+Dialogue: 0,2:01:58.66,2:02:04.66,ASS,,0,0,0,,Of course, some of you may have left us\Nduring the time of "Kaimei".
+Dialogue: 0,2:02:04.66,2:02:12.66,ASS,,0,0,0,,I'm sure there are some BUDDIES who fell\Nin love with me because they got to know\Nthe charm of SAKURASAKA and became\NSAKURASAKA.
+Dialogue: 0,2:02:13.66,2:02:25.66,ASS,,0,0,0,,Each and every one of you gave us a lot\Nof love in your own way.
+Dialogue: 0,2:02:25.66,2:02:27.66,ASS,,0,0,0,,Thank you so much.
+Dialogue: 0,2:02:28.73,2:02:30.73,ASS,,0,0,0,,Thank you so much.
+Dialogue: 0,2:02:34.73,2:02:41.73,ASS,,0,0,0,,If it wasn't for all of you, we wouldn't\Nbe here today.
+Dialogue: 0,2:02:43.73,2:02:54.73,ASS,,0,0,0,,I was able to know the reason why I\Nexist.
+Dialogue: 0,2:02:56.89,2:03:04.41,ASS,,0,0,0,,One blog, one talk, one selfie, everyone\Nwas so happy
+Dialogue: 0,2:03:04.41,2:03:08.65,ASS,,0,0,0,,Even though I'm not that kind of person
+Dialogue: 0,2:03:08.65,2:03:16.09,ASS,,0,0,0,,I was able to do something that could\Nhave an impact on a person's life
+Dialogue: 0,2:03:16.09,2:03:22.17,ASS,,0,0,0,,I was able to have a very mysterious\Nfeeling and I was able to exist there
+Dialogue: 0,2:03:22.17,2:03:25.53,ASS,,0,0,0,,I'm very proud of that
+Dialogue: 0,2:03:25.53,2:03:26.45,ASS,,0,0,0,,I'm very proud of that
+Dialogue: 0,2:03:26.45,2:03:31.45,ASS,,0,0,0,,Thank you so much for letting me be who\NI am
+Dialogue: 0,2:03:39.58,2:03:46.58,ASS,,0,0,0,,It's been a long time, but I'm really\Ngrateful to so many people.
+Dialogue: 0,2:03:46.58,2:03:48.58,ASS,,0,0,0,,8 and a half years.
+Dialogue: 0,2:03:50.58,2:03:51.58,ASS,,0,0,0,,What is it?
+Dialogue: 0,2:03:51.58,2:03:57.58,ASS,,0,0,0,,It was very hard, of course.
+Dialogue: 0,2:03:57.58,2:04:00.58,ASS,,0,0,0,,It was really fun.
+Dialogue: 0,2:04:00.58,2:04:07.58,ASS,,0,0,0,,It was fun to be able to perform with\Neveryone like this.
+Dialogue: 0,2:04:07.58,2:04:08.32,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:04:09.32,2:04:14.32,ASS,,0,0,0,,I had a lot of fun being in the dressing\Nroom with the members.
+Dialogue: 0,2:04:16.32,2:04:22.32,ASS,,0,0,0,,I think that time was youth for me.
+Dialogue: 0,2:04:22.32,2:04:38.32,ASS,,0,0,0,,When I remembered the youth in everyone,\NI thought of Yui Kobayashi.
+Dialogue: 0,2:04:39.62,2:04:52.62,ASS,,0,0,0,,I'm happy just to be remembered, and I'd\Nbe happy if I could be a little bit in\Nthe corner of everyone's memory.
+Dialogue: 0,2:04:53.62,2:04:57.62,ASS,,0,0,0,,Well, isn't it a little organized?
+Dialogue: 0,2:04:57.62,2:05:07.62,ASS,,0,0,0,,I've been supported by a lot of people\Nfor 8 and a half years, and I'm happy to\Nbe here today.
+Dialogue: 0,2:05:09.29,2:05:11.29,ASS,,0,0,0,,I was able to live.
+Dialogue: 0,2:05:11.29,2:05:14.29,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,2:05:24.12,2:05:33.12,ASS,,0,0,0,,So, I think I'll call the members.
+Dialogue: 0,2:05:34.12,2:05:36.12,ASS,,0,0,0,,Are you there?
+Dialogue: 0,2:05:36.12,2:05:37.12,ASS,,0,0,0,,Yes.
+Dialogue: 0,2:05:37.12,2:05:38.12,ASS,,0,0,0,,Ah!
+Dialogue: 0,2:05:38.12,2:05:40.12,ASS,,0,0,0,,I'm here.
+Dialogue: 0,2:05:40.12,2:05:42.12,ASS,,0,0,0,,Welcome back.
+Dialogue: 0,2:05:42.12,2:05:43.12,ASS,,0,0,0,,Wow.
+Dialogue: 0,2:05:43.12,2:05:45.12,ASS,,0,0,0,,I'm alive.
+Dialogue: 0,2:05:46.84,2:05:48.84,ASS,,0,0,0,,I was listening to all the speeches.
+Dialogue: 0,2:05:48.84,2:05:49.84,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:05:49.84,2:05:51.84,ASS,,0,0,0,,I'm sorry I didn't get to hear all of\Nthem.
+Dialogue: 0,2:05:52.84,2:05:56.84,ASS,,0,0,0,,I think Yui-pon's feelings were conveyed\Nto a lot of people.
+Dialogue: 0,2:05:56.84,2:05:57.84,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:05:58.84,2:06:01.84,ASS,,0,0,0,,How do you all like Yui-pon's dress?
+Dialogue: 0,2:06:02.84,2:06:03.84,ASS,,0,0,0,,It's beautiful.
+Dialogue: 0,2:06:06.84,2:06:07.84,ASS,,0,0,0,,It's Yui-pon-like.
+Dialogue: 0,2:06:07.84,2:06:08.84,ASS,,0,0,0,,It's fashionable.
+Dialogue: 0,2:06:08.84,2:06:09.84,ASS,,0,0,0,,That's right.
+Dialogue: 0,2:06:10.84,2:06:12.84,ASS,,0,0,0,,It has flowers on it.
+Dialogue: 0,2:06:13.94,2:06:14.94,ASS,,0,0,0,,I like it.
+Dialogue: 0,2:06:14.94,2:06:16.94,ASS,,0,0,0,,The fabric is also leather.
+Dialogue: 0,2:06:16.94,2:06:17.94,ASS,,0,0,0,,Yes, it is.
+Dialogue: 0,2:06:17.94,2:06:21.94,ASS,,0,0,0,,It's a little different design from the\Nones we've seen so far.
+Dialogue: 0,2:06:21.94,2:06:22.94,ASS,,0,0,0,,I think it's a good one.
+Dialogue: 0,2:06:22.94,2:06:23.94,ASS,,0,0,0,,Yes, it is.
+Dialogue: 0,2:06:24.94,2:06:25.94,ASS,,0,0,0,,It's cute.
+Dialogue: 0,2:06:26.94,2:06:29.94,ASS,,0,0,0,,So, the three of us will be the MCs from\Nnow on.
+Dialogue: 0,2:06:29.94,2:06:30.94,ASS,,0,0,0,,Yes.
+Dialogue: 0,2:06:30.94,2:06:31.94,ASS,,0,0,0,,I'd like to talk to you a little bit.
+Dialogue: 0,2:06:31.94,2:06:32.94,ASS,,0,0,0,,Yes.
+Dialogue: 0,2:06:32.94,2:06:33.94,ASS,,0,0,0,,Yes.
+Dialogue: 0,2:06:33.94,2:06:41.94,ASS,,0,0,0,,So, Yuipon, you showed us the solo song\N"Kimi ga Sayonara Ietatte" yesterday.
+Dialogue: 0,2:06:41.94,2:06:42.06,ASS,,0,0,0,,Yes.
+Dialogue: 0,2:06:43.06,2:06:44.06,ASS,,0,0,0,,How was it today?
+Dialogue: 0,2:06:45.06,2:07:00.06,ASS,,0,0,0,,Yesterday, I felt like I was doing my\Nbest, but today, I felt like I was\Nwalking forward without looking back.
+Dialogue: 0,2:07:01.06,2:07:05.06,ASS,,0,0,0,,I think I was able to sing with that\Nkind of feeling. Thank you very much.
+Dialogue: 0,2:07:06.06,2:07:09.06,ASS,,0,0,0,,That's great.
+Dialogue: 0,2:07:10.52,2:07:12.52,ASS,,0,0,0,,Everyone was looking at us.
+Dialogue: 0,2:07:12.52,2:07:13.52,ASS,,0,0,0,,It's embarrassing.
+Dialogue: 0,2:07:13.52,2:07:15.52,ASS,,0,0,0,,Everyone was looking at us.
+Dialogue: 0,2:07:16.52,2:07:25.52,ASS,,0,0,0,,Rina, this is the last time we're going\Nto have a concert with you.
+Dialogue: 0,2:07:25.52,2:07:27.52,ASS,,0,0,0,,How do you feel?
+Dialogue: 0,2:07:29.52,2:07:33.52,ASS,,0,0,0,,I haven't realized it yet.
+Dialogue: 0,2:07:33.68,2:07:39.12,ASS,,0,0,0,,But I was often behind Yui-pon rather\Nthan next to her.
+Dialogue: 0,2:07:39.12,2:07:51.36,ASS,,0,0,0,,I was often dancing while looking at\NYui-pon, so I had that song today, and I\Nwas thinking, "Is this the last one?"
+Dialogue: 0,2:07:51.36,2:08:03.36,ASS,,0,0,0,,I remembered that I learned this\Nchoreography from Yui-pon, and I danced\Na lot in front of Yui-pon in terms of\Nperformance.
+Dialogue: 0,2:08:04.74,2:08:19.74,ASS,,0,0,0,,I'm so grateful to Yui-pon for taking\Ncare of me, and I'm so happy to be able\Nto send Yui-pon, who has been working\Nhard for 8 and a half years, to such a\Nwonderful graduation concert in a\Nbeautiful way.
+Dialogue: 0,2:08:20.74,2:08:21.74,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:08:25.74,2:08:26.74,ASS,,0,0,0,,How about you, Fuyu-chan?
+Dialogue: 0,2:08:26.74,2:08:32.74,ASS,,0,0,0,,I'm really grateful to Yui-pon.
+Dialogue: 0,2:08:34.09,2:08:49.09,ASS,,0,0,0,,To be honest, I don't think I've been\Nable to show my cool back to my juniors.
+Dialogue: 0,2:08:49.09,2:08:55.09,ASS,,0,0,0,,Yui-pon has been standing in front of me\Nfor a long time as a first-generation\Nstudent.
+Dialogue: 0,2:08:55.09,2:08:58.09,ASS,,0,0,0,,Do you have it?
+Dialogue: 0,2:09:02.27,2:09:08.91,ASS,,0,0,0,,He has always shown the correct way of\Nbeing to all of the members.
+Dialogue: 0,2:09:10.91,2:09:21.47,ASS,,0,0,0,,To be honest, I think I've had the\Ntiming to think about graduation several\Ntimes in the last 8 and a half years.
+Dialogue: 0,2:09:21.47,2:09:28.27,ASS,,0,0,0,,But I'm really grateful that he's still\Nhere today.
+Dialogue: 0,2:09:30.49,2:09:41.49,ASS,,0,0,0,,I'm grateful for that, and I'm proud to\Nbe a member of IKISEI.
+Dialogue: 0,2:09:41.49,2:09:45.49,ASS,,0,0,0,,I can only say thank you.
+Dialogue: 0,2:09:45.49,2:09:47.49,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:09:52.49,2:09:55.49,ASS,,0,0,0,,That's how we feel.
+Dialogue: 0,2:09:55.49,2:09:59.49,ASS,,0,0,0,,That's how IKISEI is now.
+Dialogue: 0,2:10:01.19,2:10:10.19,ASS,,0,0,0,,I'd like to sing one more song, but\Nbefore that, there's one more IKISEI.
+Dialogue: 0,2:10:12.19,2:10:15.19,ASS,,0,0,0,,She's here today.
+Dialogue: 0,2:10:16.19,2:10:19.19,ASS,,0,0,0,,Can we all call her?
+Dialogue: 0,2:10:20.19,2:10:21.19,ASS,,0,0,0,,Let's call her.
+Dialogue: 0,2:10:23.19,2:10:24.19,ASS,,0,0,0,,One, two...
+Dialogue: 0,2:10:24.19,2:10:27.19,ASS,,0,0,0,,Mii-chan!
+Dialogue: 0,2:10:28.76,2:10:30.76,ASS,,0,0,0,,It's been a long time.
+Dialogue: 0,2:10:34.76,2:10:36.76,ASS,,0,0,0,,I'm Minami Koike.
+Dialogue: 0,2:10:42.76,2:10:46.76,ASS,,0,0,0,,I'm taking a break now.
+Dialogue: 0,2:10:47.76,2:10:52.76,ASS,,0,0,0,,I'd like to see the last of Yui-pon.
+Dialogue: 0,2:10:52.76,2:10:55.76,ASS,,0,0,0,,I wanted to be on stage with you.
+Dialogue: 0,2:10:55.76,2:10:57.33,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:10:57.33,2:10:59.33,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:11:05.95,2:11:13.95,ASS,,0,0,0,,Then, the four of us will play that song\Nfor the last time.
+Dialogue: 0,2:11:13.95,2:11:15.95,ASS,,0,0,0,,Music, start!
+Dialogue: 0,2:11:17.95,2:11:20.61,ASS,,0,0,0,,Yeah, I'll go close to everyone.
+Dialogue: 0,2:11:21.61,2:11:24.61,ASS,,0,0,0,,Hi, everyone.
+Dialogue: 0,2:11:24.61,2:11:26.61,ASS,,0,0,0,,Which way are you going?
+Dialogue: 0,2:11:28.61,2:11:30.61,ASS,,0,0,0,,Wait for me.
+Dialogue: 0,2:11:30.61,2:11:32.61,ASS,,0,0,0,,I'll go close to everyone.
+Dialogue: 0,2:11:36.61,2:11:37.61,ASS,,0,0,0,,Hello.
+Dialogue: 0,2:11:37.61,2:11:39.61,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:11:39.61,2:11:41.61,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:11:41.61,2:11:43.61,ASS,,0,0,0,,I'll go close to everyone.
+Dialogue: 0,2:11:43.61,2:11:45.61,ASS,,0,0,0,,I'll go close to everyone.
+Dialogue: 0,2:11:45.61,2:11:47.61,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:11:47.61,2:11:49.61,ASS,,0,0,0,,I'll go close to everyone.
+Dialogue: 0,2:11:49.61,2:11:51.61,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:11:51.61,2:11:53.61,ASS,,0,0,0,,All right.
+Dialogue: 0,2:11:53.61,2:11:55.61,ASS,,0,0,0,,I'll go close to everyone.
+Dialogue: 0,2:11:55.61,2:11:57.61,ASS,,0,0,0,,I'll go close to everyone.
+Dialogue: 0,2:11:57.61,2:11:59.61,ASS,,0,0,0,,All right.
+Dialogue: 0,2:11:59.61,2:12:01.61,ASS,,0,0,0,,Let's go.
+Dialogue: 0,2:12:01.61,2:12:03.61,ASS,,0,0,0,,Time machine.
+Dialogue: 0,2:12:03.61,2:12:05.61,ASS,,0,0,0,,Yeah!
+Dialogue: 0,2:12:05.61,2:12:14.61,ASS,,0,0,0,,(Music)
+Dialogue: 0,2:12:14.61,2:12:15.61,ASS,,0,0,0,,Yeah!
+Dialogue: 0,2:12:15.61,2:12:16.61,ASS,,0,0,0,,How are you?
+Dialogue: 0,2:12:16.61,2:12:19.61,ASS,,0,0,0,,It's been a while, hasn't it?
+Dialogue: 0,2:12:19.61,2:12:24.61,ASS,,0,0,0,,Let's go back to that time while saying\Nhello.
+Dialogue: 0,2:12:24.61,2:12:25.61,ASS,,0,0,0,,Yeah!
+Dialogue: 0,2:12:25.61,2:12:29.61,ASS,,0,0,0,,What have you been doing since then?
+Dialogue: 0,2:12:29.61,2:12:35.61,ASS,,0,0,0,,We can't get in touch with each other.
+Dialogue: 0,2:12:35.61,2:12:36.61,ASS,,0,0,0,,Yeah!
+Dialogue: 0,2:12:36.61,2:12:40.61,ASS,,0,0,0,,I can't believe we're meeting in a place\Nlike this.
+Dialogue: 0,2:12:40.61,2:12:41.61,ASS,,0,0,0,,Yeah!
+Dialogue: 0,2:12:41.61,2:12:42.61,ASS,,0,0,0,,It's a miracle.
+Dialogue: 0,2:12:42.61,2:12:46.61,ASS,,0,0,0,,It's an unbelievable certainty.
+Dialogue: 0,2:12:46.61,2:12:48.61,ASS,,0,0,0,,Yeah!
+Dialogue: 0,2:12:48.61,2:12:53.61,ASS,,0,0,0,,Let's go on a time machine.
+Dialogue: 0,2:12:53.61,2:12:58.61,ASS,,0,0,0,,I still can't forget the time when I\Nloved you.
+Dialogue: 0,2:12:58.61,2:13:04.54,ASS,,0,0,0,,Let's go on a time machine.
+Dialogue: 0,2:13:04.54,2:13:07.17,ASS,,0,0,0,,愛された時代になる (ai sareta jidai ni naru) The\Nera of being loved will come to an end.
+Dialogue: 0,2:13:07.17,2:13:14.17,ASS,,0,0,0,,もう戻れない I love you (mou modorenai I love\Nyou) I can't go back, I love you
+Dialogue: 0,2:13:14.17,2:13:20.17,ASS,,0,0,0,,Yeah! Yeah! Yeah! Yeah!
+Dialogue: 0,2:13:20.17,2:13:25.17,ASS,,0,0,0,,みなさんの声たくさん聞かせてください! (minasan no koe\Ntakusan kikasete kudasai!) Please let me\Nhear everyone's voice a lot!
+Dialogue: 0,2:13:25.17,2:13:27.17,ASS,,0,0,0,,ありがとう! (arigatou!) Thank you!
+Dialogue: 0,2:13:30.17,2:13:35.17,ASS,,0,0,0,,Yeah! さよならなんて言ったんだろう Yeah! Sayonara\Nnante ittandarou Yeah! Why did I say\Ngoodbye?
+Dialogue: 0,2:13:35.17,2:13:37.17,ASS,,0,0,0,,どうかしていたんだ douka shite itanda What was I\Ndoing?
+Dialogue: 0,2:13:37.91,2:13:40.41,ASS,,0,0,0,,It's all because of me that day
+Dialogue: 0,2:13:40.41,2:13:41.41,ASS,,0,0,0,,Yeah!
+Dialogue: 0,2:13:41.41,2:13:45.41,ASS,,0,0,0,,Let me say "I'm sorry"
+Dialogue: 0,2:13:45.41,2:13:47.91,ASS,,0,0,0,,It's too late now, but
+Dialogue: 0,2:13:47.91,2:13:50.91,ASS,,0,0,0,,I've always wanted to apologize
+Dialogue: 0,2:13:50.91,2:13:51.91,ASS,,0,0,0,,Yeah!
+Dialogue: 0,2:13:51.91,2:13:52.67,ASS,,0,0,0,,God!
+Dialogue: 0,2:13:52.67,2:13:56.67,ASS,,0,0,0,,I didn't throw it away
+Dialogue: 0,2:13:56.67,2:14:01.67,ASS,,0,0,0,,Thank you, for meeting you again
+Dialogue: 0,2:14:03.67,2:14:08.67,ASS,,0,0,0,,Time machine, anywhere
+Dialogue: 0,2:14:08.67,2:14:11.00,ASS,,0,0,0,,I'll go find love
+Dialogue: 0,2:14:11.00,2:14:14.00,ASS,,0,0,0,,The two of us in the picture from that\Nday
+Dialogue: 0,2:14:14.00,2:14:16.00,ASS,,0,0,0,,Time machine girl
+Dialogue: 0,2:14:16.00,2:14:19.00,ASS,,0,0,0,,I know
+Dialogue: 0,2:14:19.00,2:14:21.00,ASS,,0,0,0,,I can't tell you
+Dialogue: 0,2:14:21.31,2:14:29.31,ASS,,0,0,0,,時に埋められた I miss you
+Dialogue: 0,2:14:39.31,2:14:44.31,ASS,,0,0,0,,失ってやっとわかるものさ
+Dialogue: 0,2:14:44.31,2:14:49.31,ASS,,0,0,0,,そう本当に大切なもの
+Dialogue: 0,2:14:49.31,2:14:52.31,ASS,,0,0,0,,もう一度 mou ichido Once again
+Dialogue: 0,2:14:52.38,2:14:54.38,ASS,,0,0,0,,Let's do it again
+Dialogue: 0,2:14:55.76,2:15:00.76,ASS,,0,0,0,,Let's overwrite our lives
+Dialogue: 0,2:15:03.76,2:15:07.76,ASS,,0,0,0,,If I had a time machine
+Dialogue: 0,2:15:08.76,2:15:13.76,ASS,,0,0,0,,I would be able to cope with this pain
+Dialogue: 0,2:15:13.76,2:15:18.76,ASS,,0,0,0,,Let's ride on the time machine
+Dialogue: 0,2:15:18.76,2:15:23.76,ASS,,0,0,0,,I still haven't forgotten the times when\NI loved you
+Dialogue: 0,2:15:23.76,2:15:28.76,ASS,,0,0,0,,Let's ride on the time machine
+Dialogue: 0,2:15:28.76,2:15:33.76,ASS,,0,0,0,,I still haven't forgotten the times when\NI loved you
+Dialogue: 0,2:15:33.76,2:15:36.76,ASS,,0,0,0,,I love you
+Dialogue: 0,2:15:53.76,2:15:58.76,ASS,,0,0,0,,Let's ride on the time machine
+Dialogue: 0,2:16:23.76,2:16:24.99,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:16:24.99,2:16:31.49,ASS,,0,0,0,,I was really happy to be able to listen\Nto that song with all four of you.
+Dialogue: 0,2:16:31.49,2:16:33.49,ASS,,0,0,0,,And from now on,
+Dialogue: 0,2:16:33.49,2:16:37.49,ASS,,0,0,0,,Reina and Mio came to the encore!
+Dialogue: 0,2:16:37.49,2:16:39.49,ASS,,0,0,0,,Thank you!
+Dialogue: 0,2:16:39.49,2:16:40.49,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:16:40.49,2:16:47.49,ASS,,0,0,0,,Let's spend the rest of the time\Ntogether.
+Dialogue: 0,2:16:48.49,2:16:49.49,ASS,,0,0,0,,I'm glad.
+Dialogue: 0,2:16:49.49,2:16:51.49,ASS,,0,0,0,,I'm so happy.
+Dialogue: 0,2:16:52.22,2:17:02.22,ASS,,0,0,0,,So, in a blink of an eye, two days are\Nabout to end, but Yui-san, how do you\Nfeel now that you've come this far?
+Dialogue: 0,2:17:02.22,2:17:05.22,ASS,,0,0,0,,I'm very satisfied.
+Dialogue: 0,2:17:05.22,2:17:07.22,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:17:07.22,2:17:15.22,ASS,,0,0,0,,Today's live was really fun, and\Nyesterday's live was fun, and I'm really\Nsatisfied.
+Dialogue: 0,2:17:15.22,2:17:17.22,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:17:18.57,2:17:26.57,ASS,,0,0,0,,I'm glad to hear that from Yui.
+Dialogue: 0,2:17:26.57,2:17:29.57,ASS,,0,0,0,,I'd like to ask the members.
+Dialogue: 0,2:17:29.57,2:17:33.57,ASS,,0,0,0,,Ten-chan, what do you think?
+Dialogue: 0,2:17:44.57,2:17:46.57,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,2:17:47.57,2:17:50.57,ASS,,0,0,0,,Ten-chan, what do you think?
+Dialogue: 0,2:18:01.72,2:18:03.72,ASS,,0,0,0,,It's okay, it's okay.
+Dialogue: 0,2:18:03.72,2:18:05.72,ASS,,0,0,0,,Well...
+Dialogue: 0,2:18:05.72,2:18:07.72,ASS,,0,0,0,,Yes, well...
+Dialogue: 0,2:18:07.74,2:18:08.74,ASS,,0,0,0,,Yes, that's right.
+Dialogue: 0,2:18:08.74,2:18:09.74,ASS,,0,0,0,,Second generation.
+Dialogue: 0,2:18:09.74,2:18:10.74,ASS,,0,0,0,,Yes.
+Dialogue: 0,2:18:12.74,2:18:13.74,ASS,,0,0,0,,Yes.
+Dialogue: 0,2:18:13.74,2:18:14.74,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,2:18:14.74,2:18:15.74,ASS,,0,0,0,,Second generation.
+Dialogue: 0,2:18:16.51,2:18:29.51,ASS,,0,0,0,,Since I was a child, I have been\Nadmiring and admiring Keyakizaka.
+Dialogue: 0,2:18:29.51,2:18:43.51,ASS,,0,0,0,,I am very happy to be able to sing and\Ndance next to such a person.
+Dialogue: 0,2:18:46.51,2:18:48.51,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:18:48.92,2:18:56.44,ASS,,0,0,0,,Just having Yui-san by my side makes me\Nfeel at ease.
+Dialogue: 0,2:18:56.44,2:19:07.72,ASS,,0,0,0,,When she's in front of me, I feel like\Nmy back is too big and I'm desperate to\Nfollow her.
+Dialogue: 0,2:19:07.72,2:19:15.40,ASS,,0,0,0,,But her back is so cool, so we can learn\Na lot from her.
+Dialogue: 0,2:19:16.70,2:19:25.70,ASS,,0,0,0,,I learned a lot from Yui's dance, her\Nexpressiveness, her acting, her work as\Na model,
+Dialogue: 0,2:19:25.70,2:19:33.70,ASS,,0,0,0,,and she led the group in many aspects.
+Dialogue: 0,2:19:33.70,2:19:45.46,ASS,,0,0,0,,I'm worried that I won't be able to come\Nback with Yui from the next single.
+Dialogue: 0,2:19:45.46,2:20:14.46,ASS,,0,0,0,,When I think about it, I feel a lot of\Nanxiety, but when I graduate and look at\Nit from the outside, I want to do my\Nbest so that people will think that I\Nhave become a little stronger, or that I\Nhave grown up.
+Dialogue: 0,2:20:14.94,2:20:25.14,ASS,,0,0,0,,I hope that Yui's life from now on will\Nbe a life full of happiness.
+Dialogue: 0,2:20:26.14,2:20:31.64,ASS,,0,0,0,,We are also supporting Yui with all our\Nmight, so I love you.
+Dialogue: 0,2:20:31.64,2:20:32.64,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:20:33.14,2:20:34.14,ASS,,0,0,0,,I love you.
+Dialogue: 0,2:20:36.64,2:20:38.94,ASS,,0,0,0,,Thank you for telling me a lot.
+Dialogue: 0,2:20:39.34,2:20:39.94,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,2:20:39.94,2:20:40.94,ASS,,0,0,0,,It's okay.
+Dialogue: 0,2:20:40.94,2:20:43.84,ASS,,0,0,0,,I have another question for Hono-chan.
+Dialogue: 0,2:20:45.16,2:20:50.16,ASS,,0,0,0,,I've been thinking a lot about what to\Ntalk about,
+Dialogue: 0,2:20:50.16,2:20:52.16,ASS,,0,0,0,,and I thought about this.
+Dialogue: 0,2:20:52.16,2:20:54.16,ASS,,0,0,0,,It's very similar to Ten-chan.
+Dialogue: 0,2:20:54.16,2:21:00.16,ASS,,0,0,0,,I'm glad that we're together.
+Dialogue: 0,2:21:00.16,2:21:07.16,ASS,,0,0,0,,I've been watching Ikisei-san and\NYuupon-san in front of the TV.
+Dialogue: 0,2:21:07.16,2:21:13.16,ASS,,0,0,0,,Even if I'm doing a live show,
+Dialogue: 0,2:21:13.87,2:21:32.87,ASS,,0,0,0,,I want to share the same pain, the same\Njoy, the same sadness, the same\Nhappiness, and the same smile with you.
+Dialogue: 0,2:21:32.87,2:21:42.77,ASS,,0,0,0,,I want to make a lot of songs, do a lot\Nof live shows, and rehearse together.
+Dialogue: 0,2:21:42.77,2:21:56.61,ASS,,0,0,0,,We did a lot of lessons together, and\Nthe number of times we said "the same"\Nand "together" increased a lot, and I\Nwas really happy about that.
+Dialogue: 0,2:21:56.61,2:22:10.77,ASS,,0,0,0,,For us juniors, that time is a great\Nasset, and we had a lot to learn from\Neach other until the very end of the\Nday.
+Dialogue: 0,2:22:13.26,2:22:22.26,ASS,,0,0,0,,We want to continue to connect with\NSakurazaka46, who loved us so much until\Nthe very end,
+Dialogue: 0,2:22:23.26,2:22:34.26,ASS,,0,0,0,,and we want to do our best so that\NYuipon-san and BUDDIES can think that\Nthis group is still fun.
+Dialogue: 0,2:22:35.26,2:22:39.26,ASS,,0,0,0,,Thank you so much. I love you.
+Dialogue: 0,2:22:42.26,2:22:45.26,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,2:22:45.75,2:22:52.75,ASS,,0,0,0,,I'm sure everyone has their own feelings\Nabout Yui.
+Dialogue: 0,2:22:52.75,2:23:00.75,ASS,,0,0,0,,Yui has a lot of past photos on VTR.
+Dialogue: 0,2:23:00.75,2:23:06.75,ASS,,0,0,0,,Looking at that, there was a time when I\Ndidn't know her.
+Dialogue: 0,2:23:06.75,2:23:11.75,ASS,,0,0,0,,When we were working together, I was\Nalso full of myself.
+Dialogue: 0,2:23:11.75,2:23:13.75,ASS,,0,0,0,,That's why Yui...
+Dialogue: 0,2:23:13.76,2:23:22.56,ASS,,0,0,0,,I really can't imagine what kind of\Nthings she had to carry and what she had\Nto think about when she was working.
+Dialogue: 0,2:23:22.56,2:23:29.76,ASS,,0,0,0,,I'm sure there were times when she\Nworked hard while holding it all to\Nherself.
+Dialogue: 0,2:23:29.76,2:23:35.76,ASS,,0,0,0,,She carried a lot of things and kept\Npulling the group together.
+Dialogue: 0,2:23:35.76,2:23:42.76,ASS,,0,0,0,,Even when she became Sakurazuka, she\Ncontinued to do it.
+Dialogue: 0,2:23:44.06,2:23:49.06,ASS,,0,0,0,,We have something to aim for.
+Dialogue: 0,2:23:49.06,2:23:55.06,ASS,,0,0,0,,We have been able to pursue our cool\Nappearance and back.
+Dialogue: 0,2:23:55.06,2:24:00.06,ASS,,0,0,0,,I think that's why we have the current\NSakurazuka.
+Dialogue: 0,2:24:00.06,2:24:07.06,ASS,,0,0,0,,I think there are many people who have\Ntaken their eyes off us in our\Nperformances.
+Dialogue: 0,2:24:08.11,2:24:11.55,ASS,,0,0,0,,In terms of the performance of\N"SAKURAZAKA",
+Dialogue: 0,2:24:11.55,2:24:18.51,ASS,,0,0,0,,Yui was there, so the power to raise it\Nwas really amazing.
+Dialogue: 0,2:24:18.51,2:24:24.35,ASS,,0,0,0,,That's why I think we have to work\Nharder from now on.
+Dialogue: 0,2:24:24.35,2:24:31.55,ASS,,0,0,0,,Yui showed us a lot of cool back,
+Dialogue: 0,2:24:31.55,2:24:34.99,ASS,,0,0,0,,so we should aim for it.
+Dialogue: 0,2:24:34.99,2:24:35.70,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,2:24:36.70,2:24:40.70,ASS,,0,0,0,,I'm not aiming for it, but I have a\Ndesire to achieve it.
+Dialogue: 0,2:24:41.70,2:24:43.70,ASS,,0,0,0,,I'm sure it will be there forever.
+Dialogue: 0,2:24:44.70,2:24:50.70,ASS,,0,0,0,,If we keep improving ourselves,
+Dialogue: 0,2:24:51.70,2:24:58.70,ASS,,0,0,0,,I'm sure what Yui left and showed us\Nwill live on in Sakurazaka.
+Dialogue: 0,2:24:59.70,2:25:04.70,ASS,,0,0,0,,I'm really grateful for Yui's activities\Nso far.
+Dialogue: 0,2:25:06.66,2:25:19.66,ASS,,0,0,0,,I'm afraid that time is running out, and\NI'm worried that I'm going to be active\Nwithout Yui, but I'm going to get over\Nthat anxiety and work together again.
+Dialogue: 0,2:25:20.66,2:25:26.66,ASS,,0,0,0,,I want to do activities that can exceed\NYui's and everyone's expectations.
+Dialogue: 0,2:25:26.66,2:25:32.66,ASS,,0,0,0,,And I got an encore from everyone.
+Dialogue: 0,2:25:34.44,2:25:36.44,ASS,,0,0,0,,Can I perform one more song?
+Dialogue: 0,2:25:38.44,2:25:40.44,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,2:25:41.44,2:25:50.44,ASS,,0,0,0,,I hope everyone here can see Yui's\Nfigure and enjoy this time together.
+Dialogue: 0,2:25:51.44,2:25:54.44,ASS,,0,0,0,,Everyone, can you make the siren pink?
+Dialogue: 0,2:25:56.71,2:25:57.71,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:25:57.71,2:25:58.71,ASS,,0,0,0,,That was fast.
+Dialogue: 0,2:25:58.71,2:26:00.71,ASS,,0,0,0,,Since we're already here,
+Dialogue: 0,2:26:00.71,2:26:02.71,ASS,,0,0,0,,Yui-san, can you play the song for us?
+Dialogue: 0,2:26:02.71,2:26:05.71,ASS,,0,0,0,,Yes, I'll play it for you.
+Dialogue: 0,2:26:05.71,2:26:06.71,ASS,,0,0,0,,One, two...
+Dialogue: 0,2:26:06.71,2:26:08.71,ASS,,0,0,0,,"Sakurazaka no Uta"
+Dialogue: 0,2:26:08.71,2:26:13.71,ASS,,0,0,0,,"Sakurazaka no Uta"
+Dialogue: 0,2:26:22.36,2:26:29.36,ASS,,0,0,0,,I thought ordinary days were not natural
+Dialogue: 0,2:26:30.36,2:26:34.36,ASS,,0,0,0,,I couldn't meet you until today
+Dialogue: 0,2:26:35.36,2:26:39.36,ASS,,0,0,0,,There was a hole in my heart
+Dialogue: 0,2:26:44.36,2:26:46.07,ASS,,0,0,0,,Who is the real loneliness?
+Dialogue: 0,2:26:46.07,2:26:48.07,ASS,,0,0,0,,It's not that there's no one else
+Dialogue: 0,2:26:48.07,2:26:48.77,ASS,,0,0,0,,It's just that there's no one else
+Dialogue: 0,2:26:48.77,2:26:52.77,ASS,,0,0,0,,The fact that I can't see the person I\Nlove
+Dialogue: 0,2:26:52.77,2:26:57.77,ASS,,0,0,0,,I don't know what happened
+Dialogue: 0,2:26:57.77,2:27:01.77,ASS,,0,0,0,,But I'm sure you can overcome it
+Dialogue: 0,2:27:11.77,2:27:15.77,ASS,,0,0,0,,The day of the full bloom cherry\Nblossoms
+Dialogue: 0,2:27:15.77,2:27:20.77,ASS,,0,0,0,,I've never forgotten
+Dialogue: 0,2:27:20.77,2:27:24.77,ASS,,0,0,0,,Even if spring passes and flowers fall
+Dialogue: 0,2:27:24.77,2:27:29.77,ASS,,0,0,0,,Dreams should repeat and bloom here
+Dialogue: 0,2:27:29.77,2:27:34.77,ASS,,0,0,0,,So that I can suddenly remember
+Dialogue: 0,2:27:34.77,2:27:38.77,ASS,,0,0,0,,We gather here
+Dialogue: 0,2:27:38.77,2:27:43.77,ASS,,0,0,0,,If I can talk about you
+Dialogue: 0,2:27:43.77,2:27:48.77,ASS,,0,0,0,,I feel like I can meet you again
+Dialogue: 0,2:27:52.77,2:27:57.77,ASS,,0,0,0,,There were sad things that no one could\Ntell
+Dialogue: 0,2:27:57.77,2:28:01.77,ASS,,0,0,0,,I was looking at you from afar and\Nworried
+Dialogue: 0,2:28:01.77,2:28:06.77,ASS,,0,0,0,,There's nothing we can do
+Dialogue: 0,2:28:06.77,2:28:11.77,ASS,,0,0,0,,I was waiting for you to stand up
+Dialogue: 0,2:28:11.77,2:28:20.77,ASS,,0,0,0,,Oh, oh, oh
+Dialogue: 0,2:28:20.77,2:28:24.77,ASS,,0,0,0,,The day of the full bloom cherry\Nblossoms
+Dialogue: 0,2:28:24.77,2:28:29.77,ASS,,0,0,0,,I was blown by the summer, fall, and\Nwinter winds
+Dialogue: 0,2:28:29.77,2:28:34.77,ASS,,0,0,0,,What was I waiting for
+Dialogue: 0,2:28:34.77,2:28:38.77,ASS,,0,0,0,,On that branch of a wild rose?
+Dialogue: 0,2:28:38.77,2:28:43.77,ASS,,0,0,0,,Even if people who pass by
+Dialogue: 0,2:28:43.77,2:28:47.77,ASS,,0,0,0,,Forget the flowers of that day
+Dialogue: 0,2:28:47.77,2:28:52.77,ASS,,0,0,0,,The scenery of the next spring
+Dialogue: 0,2:28:52.77,2:28:57.77,ASS,,0,0,0,,We'll always remember
+Dialogue: 0,2:28:57.77,2:29:06.77,ASS,,0,0,0,,Oh, oh, oh
+Dialogue: 0,2:29:06.77,2:29:15.77,ASS,,0,0,0,,Oh, oh, oh
+Dialogue: 0,2:29:15.77,2:29:20.77,ASS,,0,0,0,,Why do people love cherry blossoms so\Nmuch?
+Dialogue: 0,2:29:20.77,2:29:24.77,ASS,,0,0,0,,My heart trembles with nostalgia
+Dialogue: 0,2:29:24.77,2:29:29.77,ASS,,0,0,0,,Like the petals of each flower
+Dialogue: 0,2:29:29.77,2:29:33.77,ASS,,0,0,0,,Cherry blossoms will be in full bloom
+Dialogue: 0,2:29:36.77,2:29:43.77,ASS,,0,0,0,,Oh, oh, oh
+Dialogue: 0,2:29:45.82,2:29:50.32,ASS,,0,0,0,,Thank you for coming to Kobayashi's\Ngraduation concert today.
+Dialogue: 0,2:29:51.32,2:29:55.82,ASS,,0,0,0,,I've been with Sakurazaka46 for 3 years.
+Dialogue: 0,2:29:56.32,2:30:00.32,ASS,,0,0,0,,I really love this group.
+Dialogue: 0,2:30:00.82,2:30:08.32,ASS,,0,0,0,,I think it will be a group that everyone\Nwill love in the future.
+Dialogue: 0,2:30:08.82,2:30:13.32,ASS,,0,0,0,,Everyone, please continue to support\NSakurazaka46.
+Dialogue: 0,2:30:15.82,2:30:17.82,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,2:30:28.92,2:30:30.92,ASS,,0,0,0,,Take your time, you'll be fine.
+Dialogue: 0,2:30:30.92,2:30:32.92,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,2:30:33.92,2:30:35.92,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,2:30:35.92,2:30:38.92,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,2:30:39.92,2:30:40.92,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,2:30:40.92,2:30:41.92,ASS,,0,0,0,,I'll hurry up.
+Dialogue: 0,2:30:41.92,2:30:43.92,ASS,,0,0,0,,Take your time.
+Dialogue: 0,2:30:48.92,2:30:49.92,ASS,,0,0,0,,Is this okay?
+Dialogue: 0,2:30:49.92,2:30:51.92,ASS,,0,0,0,,Yes, that's perfect.
+Dialogue: 0,2:30:51.92,2:30:52.92,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,2:30:52.92,2:30:54.92,ASS,,0,0,0,,From the 3rd generation.
+Dialogue: 0,2:30:54.92,2:30:56.92,ASS,,0,0,0,,And the representative.
+Dialogue: 0,2:30:56.92,2:30:57.92,ASS,,0,0,0,,Mio.
+Dialogue: 0,2:30:59.29,2:31:03.29,ASS,,0,0,0,,Then, the 3rd graders, please come\Ncloser.
+Dialogue: 0,2:31:05.29,2:31:06.29,ASS,,0,0,0,,Yui-san.
+Dialogue: 0,2:31:07.29,2:31:13.29,ASS,,0,0,0,,I think it's the last time we can work\Ntogether.
+Dialogue: 0,2:31:23.16,2:31:33.16,ASS,,0,0,0,,I'm really lonely and my heart is about\Nto be crushed,
+Dialogue: 0,2:31:33.16,2:31:40.16,ASS,,0,0,0,,but I'm also about to be crushed\Ntomorrow,
+Dialogue: 0,2:31:40.16,2:31:44.16,ASS,,0,0,0,,and if I think that Yui-san won't be\Nhere from tomorrow,
+Dialogue: 0,2:31:44.16,2:31:49.16,ASS,,0,0,0,,I'm really lonely and I'm filled with\Nlonely feelings,
+Dialogue: 0,2:31:49.16,2:31:52.16,ASS,,0,0,0,,but Yui-san...
+Dialogue: 0,2:31:52.54,2:32:00.54,ASS,,0,0,0,,No matter where I live, not on Earth,\Nbut on Mars or somewhere I don't know,
+Dialogue: 0,2:32:00.54,2:32:04.54,ASS,,0,0,0,,I'll always admire you and love you.
+Dialogue: 0,2:32:07.54,2:32:15.54,ASS,,0,0,0,,From now on, I'll remember the time I've\Nspent with you.
+Dialogue: 0,2:32:15.54,2:32:22.54,ASS,,0,0,0,,I'll make sure to take what you've left\Nbehind.
+Dialogue: 0,2:32:23.90,2:32:26.90,ASS,,0,0,0,,I did my best.
+Dialogue: 0,2:32:28.90,2:32:31.90,ASS,,0,0,0,,Congratulations on your graduation.
+Dialogue: 0,2:32:32.90,2:32:34.90,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:32:42.33,2:32:44.33,ASS,,0,0,0,,I wish you happiness.
+Dialogue: 0,2:32:44.33,2:32:45.33,ASS,,0,0,0,,Yes.
+Dialogue: 0,2:32:50.33,2:32:51.33,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:32:53.33,2:32:54.33,ASS,,0,0,0,,I did it.
+Dialogue: 0,2:32:55.45,2:32:57.45,ASS,,0,0,0,,Thank you!
+Dialogue: 0,2:32:57.45,2:32:59.45,ASS,,0,0,0,,Congratulations!
+Dialogue: 0,2:32:59.45,2:33:01.45,ASS,,0,0,0,,Thank you!
+Dialogue: 0,2:33:01.45,2:33:03.45,ASS,,0,0,0,,Thank you!
+Dialogue: 0,2:33:03.45,2:33:05.45,ASS,,0,0,0,,Thank you!
+Dialogue: 0,2:33:05.45,2:33:07.45,ASS,,0,0,0,,Thank you!
+Dialogue: 0,2:33:07.45,2:33:09.45,ASS,,0,0,0,,Thank you...!
+Dialogue: 0,2:33:09.45,2:33:11.35,ASS,,0,0,0,,Thank you!!!
+Dialogue: 0,2:33:11.35,2:33:14.35,ASS,,0,0,0,,Let's move on to the second-year\Nstudents.
+Dialogue: 0,2:33:18.35,2:33:20.35,ASS,,0,0,0,,I'll represent the second-year students.
+Dialogue: 0,2:33:21.35,2:33:23.35,ASS,,0,0,0,,Hikaru-chan, please.
+Dialogue: 0,2:33:24.35,2:33:28.35,ASS,,0,0,0,,Yui-san, congratulations on your\Ngraduation.
+Dialogue: 0,2:33:29.35,2:33:30.35,ASS,,0,0,0,,It's really beautiful.
+Dialogue: 0,2:33:31.35,2:33:32.35,ASS,,0,0,0,,I'm happy.
+Dialogue: 0,2:33:32.35,2:33:40.35,ASS,,0,0,0,,Since the second-year students joined\Nus, they have taken great care of us.
+Dialogue: 0,2:33:42.33,2:33:47.33,ASS,,0,0,0,,There are many members who have been\Nhelped by Yui-san, and I am one of them.
+Dialogue: 0,2:33:48.33,2:33:53.33,ASS,,0,0,0,,Yui-san's presence is really big for the\Ngroup and for the members.
+Dialogue: 0,2:33:54.33,2:33:58.33,ASS,,0,0,0,,I'm really sad that she'll be gone from\Ntomorrow.
+Dialogue: 0,2:33:59.33,2:34:02.33,ASS,,0,0,0,,But more than that, I'm very grateful.
+Dialogue: 0,2:34:02.33,2:34:07.33,ASS,,0,0,0,,As I said in my speech,
+Dialogue: 0,2:34:08.19,2:34:12.93,ASS,,0,0,0,,I was told that I couldn't do anything\Nfor them.
+Dialogue: 0,2:34:12.93,2:34:17.43,ASS,,0,0,0,,Rather, there are so many things they've\Ndone for me.
+Dialogue: 0,2:34:17.43,2:34:24.97,ASS,,0,0,0,,I don't know if I can express how\Ngrateful I am.
+Dialogue: 0,2:34:24.97,2:34:28.77,ASS,,0,0,0,,We're really grateful.
+Dialogue: 0,2:34:29.88,2:34:39.88,ASS,,0,0,0,,I was really happy and happy that Yuu-\Nsan was smiling and looking happy at\Ntoday's live.
+Dialogue: 0,2:34:40.88,2:34:47.88,ASS,,0,0,0,,The rehearsal period of this live was\Nalso spent very Yuu-san-like.
+Dialogue: 0,2:34:47.88,2:34:53.88,ASS,,0,0,0,,Yuu-san's back was big, and it was very\NYuu-san-like.
+Dialogue: 0,2:34:55.51,2:35:04.51,ASS,,0,0,0,,I think that's what I like the most, and\Nit was a period of time when I was\Nstruck by the fact that I was cool no\Nmatter where I went.
+Dialogue: 0,2:35:06.51,2:35:20.51,ASS,,0,0,0,,I think that there are various things\Nthat Yuu-san will graduate from now on,\Nbut when I look at it from the outside,
+Dialogue: 0,2:35:20.51,2:35:21.60,ASS,,0,0,0,,I think that's what I like the most.
+Dialogue: 0,2:35:22.60,2:35:30.60,ASS,,0,0,0,,We will do our best so that you can\Nthink that it was good to leave it to\Nus, so please come to the live show\Nagain.
+Dialogue: 0,2:35:31.60,2:35:33.60,ASS,,0,0,0,,I really love you. Thank you very much.
+Dialogue: 0,2:35:45.95,2:35:46.95,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:35:48.95,2:35:50.95,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:35:51.95,2:35:53.95,ASS,,0,0,0,,I had fun.
+Dialogue: 0,2:35:54.95,2:35:55.95,ASS,,0,0,0,,I love you.
+Dialogue: 0,2:35:56.95,2:35:58.95,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:36:01.95,2:36:05.95,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:36:08.95,2:36:11.95,ASS,,0,0,0,,I was too moved to get flowers.
+Dialogue: 0,2:36:15.13,2:36:17.13,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:36:20.13,2:36:26.13,ASS,,0,0,0,,Next, please send a message to the\Nfirst-year students one by one.
+Dialogue: 0,2:36:27.13,2:36:31.13,ASS,,0,0,0,,Thank you for your hard work for 8 and a\Nhalf years.
+Dialogue: 0,2:36:32.13,2:36:44.10,ASS,,0,0,0,,I think I was able to do a lot of things\Nfor the first-year students because they\Nwere unreliable and unreliable members.
+Dialogue: 0,2:36:45.10,2:36:52.10,ASS,,0,0,0,,But you've been doing your best so far,\Nso I think this group has continued, so\Nthank you very much.
+Dialogue: 0,2:36:53.10,2:36:55.10,ASS,,0,0,0,,I'm rooting for you from now on.
+Dialogue: 0,2:36:56.10,2:36:57.10,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,2:37:07.55,2:37:09.55,ASS,,0,0,0,,Yuinpon, yes.
+Dialogue: 0,2:37:10.55,2:37:16.55,ASS,,0,0,0,,I'm really sorry that I couldn't be with\Nyou until the end.
+Dialogue: 0,2:37:16.55,2:37:18.55,ASS,,0,0,0,,I'm really full.
+Dialogue: 0,2:37:19.55,2:37:28.55,ASS,,0,0,0,,I think there were a lot of things that\NI couldn't notice about Yuinpon or\NYuinpon.
+Dialogue: 0,2:37:29.55,2:37:35.55,ASS,,0,0,0,,I've been thinking a lot about what I\Ncan do for Yuinpon.
+Dialogue: 0,2:37:37.72,2:37:43.72,ASS,,0,0,0,,Sometimes, Yuinpon comes to me and\Npamper me.
+Dialogue: 0,2:37:43.72,2:37:48.72,ASS,,0,0,0,,I think that's what I can do.
+Dialogue: 0,2:37:48.72,2:37:54.72,ASS,,0,0,0,,I thought it would be nice if there was\Na place where I could be pampered.
+Dialogue: 0,2:37:54.72,2:37:57.72,ASS,,0,0,0,,I don't rely on her at all.
+Dialogue: 0,2:37:57.72,2:38:03.72,ASS,,0,0,0,,I treated Yuinpon as my sister.
+Dialogue: 0,2:38:06.72,2:38:08.72,ASS,,0,0,0,,Yuinpon!
+Dialogue: 0,2:38:08.92,2:38:21.92,ASS,,0,0,0,,I'm really sorry, but I'm really happy\Nthat I was able to make a lot of\Nmemories with Yukon and get active.
+Dialogue: 0,2:38:21.92,2:38:26.92,ASS,,0,0,0,,There are many things that will be new\Nyear after the cherry blossoms have\Nfallen.
+Dialogue: 0,2:38:26.92,2:38:34.92,ASS,,0,0,0,,I don't say anything to each other, but\NI think that it is connected in the\Nperformance.
+Dialogue: 0,2:38:34.92,2:38:36.91,ASS,,0,0,0,,That's what I want to say.
+Dialogue: 0,2:38:37.91,2:38:41.91,ASS,,0,0,0,,I was very happy and motivated to do\Nactivities.
+Dialogue: 0,2:38:42.91,2:38:44.91,ASS,,0,0,0,,Thank you very much.
+Dialogue: 0,2:38:45.91,2:38:47.91,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:38:56.22,2:38:58.22,ASS,,0,0,0,,I'm so glad.
+Dialogue: 0,2:39:02.22,2:39:05.22,ASS,,0,0,0,,Even after many years and decades,
+Dialogue: 0,2:39:05.22,2:39:08.22,ASS,,0,0,0,,there are such wonderful members.
+Dialogue: 0,2:39:08.22,2:39:11.20,ASS,,0,0,0,,I want to be remembered by them.
+Dialogue: 0,2:39:12.20,2:39:14.20,ASS,,0,0,0,,Thank you for your hard work.
+Dialogue: 0,2:39:15.20,2:39:16.20,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:39:18.20,2:39:19.20,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:39:21.20,2:39:24.20,ASS,,0,0,0,,Yui-san, thank you for your hard work\Nfor 8 and a half years.
+Dialogue: 0,2:39:25.20,2:39:30.20,ASS,,0,0,0,,Please support Kobayashi Yui-san who is\Ngoing to take a new path.
+Dialogue: 0,2:39:31.20,2:39:32.20,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:39:33.20,2:39:34.20,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:39:35.20,2:39:36.20,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:39:37.20,2:39:38.20,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:39:39.20,2:39:39.53,ASS,,0,0,0,,Thank you.
+Dialogue: 0,2:39:39.53,2:39:42.53,ASS,,0,0,0,,Thank you. Thank you.
+Dialogue: 0,2:40:39.53,2:40:44.53,ASS,,0,0,0,,Thank you. Thank you.
+Dialogue: 0,2:41:00.53,2:41:05.53,ASS,,0,0,0,,Thank you for coming to the venue and\Nwatching the live stream today.
+Dialogue: 0,2:41:06.53,2:41:16.53,ASS,,0,0,0,,I'm really happy to be able to spend\Nthese two days with you and have fun\Nwith you.
+Dialogue: 0,2:41:17.53,2:41:24.53,ASS,,0,0,0,,I hope that the members will be happy\Nthat there is a lot of happiness waiting\Nfor Yui's future.
+Dialogue: 0,2:41:25.53,2:41:27.53,ASS,,0,0,0,,BUDDIES, together with us,
+Dialogue: 0,2:41:27.53,2:41:29.15,ASS,,0,0,0,,I'm really looking forward to it.
+Dialogue: 0,2:41:29.15,2:41:32.15,ASS,,0,0,0,,I would be happy if you could support\NYui-san together.
+Dialogue: 0,2:41:32.15,2:41:37.15,ASS,,0,0,0,,And SAKURAZAKA46 will also move forward\Nwith strength.
+Dialogue: 0,2:41:37.15,2:41:40.90,ASS,,0,0,0,,Support for SAKURAZAKA46 and support for\NKobayashi Yui-san!
+Dialogue: 0,2:41:41.90,2:41:44.90,ASS,,0,0,0,,That's all! We are SAKURAZAKA46!
+Dialogue: 0,2:41:45.90,2:41:48.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:42:10.90,2:42:12.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:42:40.90,2:42:42.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:42:43.90,2:42:45.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:42:49.90,2:42:51.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:43:10.90,2:43:12.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:43:12.90,2:43:14.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:43:14.90,2:43:16.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:43:16.90,2:43:18.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:43:18.90,2:43:20.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:43:20.90,2:43:22.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:43:22.90,2:43:24.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:43:24.90,2:43:26.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:43:26.90,2:43:28.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:43:28.90,2:43:30.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:43:30.90,2:43:32.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:43:32.90,2:43:34.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:43:34.90,2:43:36.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:43:36.90,2:43:38.90,ASS,,0,0,0,,Thank you very much!
+Dialogue: 0,2:44:08.90,2:44:32.90,ASS,,0,0,0,,Translated by Releska
+Dialogue: 0,2:44:38.90,2:44:40.88,ASS,,0,0,0,,Translated by Releska
