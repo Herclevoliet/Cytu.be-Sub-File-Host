@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Sakurazaka46/Other/2024.02.01%20-%20Kobayashi%20Yui%20Graduation%20Concert.mp4",
+      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Sakurazaka46/Other/Sakura%20Meets/230420%20Sakura%20Meets%20ep03%20[720p%20h264].mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2024.02.01%20-%20Kobayashi%20Yui%20Graduation%20Concert.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/230420%20Sakura%20Meets%20ep03.ass",
             "contentType": "text/x-ass"
         }
   ]
