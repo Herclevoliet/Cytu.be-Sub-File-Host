@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Sakurazaka46/Other/2024.02.01%20-%20Kobayashi%20Yui%20Graduation%20Concert%20BTS.mp4",
+      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Sakurazaka46/Other/2021.07.24%20-%20SHOWROOM/2022.03.04%20-%20Koike%20Minami%20&%20Masumoto%20Kira%20SHOWROOM.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2024.02.01%20-%20Kobayashi%20Yui%20Graduation%20Concert%20BTS.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2022.03.04%20-%20Koike%20Minami%20%26%20Masumoto%20Kira%20SHOWROOM.ass",
             "contentType": "text/x-ass"
         }
   ]
