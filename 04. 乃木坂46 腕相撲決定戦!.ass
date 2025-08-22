@@ -1,0 +1,585 @@
+[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: 
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: ASS,Arial,50,&H00FFFF00,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4.0,0.0,2,10,10,30,1
+Style: TC,Arial,45,&H00FFFFFF,&H0000FFFF,&H00FF9000,&H00000000,-1,0,0,0,100,100,0,0,1,5.0,0.0,2,10,10,20,1
+Style: Default,Arial,75,&H00FFFF00,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.35,0:00:03.35,ASS,,0,0,0,,Who will be the number one song?
+Dialogue: 0,0:00:03.35,0:00:05.09,ASS,,0,0,0,,Nogibinko Uresumo Uke
+Dialogue: 0,0:00:06.09,0:00:10.09,ASS,,0,0,0,,Uresumo Uke
+Dialogue: 0,0:00:14.09,0:00:20.09,ASS,,0,0,0,,This is the first Uresumo Uke, which was\Npopular at Assistant MC Gachinko\NAudition.
+Dialogue: 0,0:00:21.09,0:00:24.09,ASS,,0,0,0,,There were a lot of reactions from the\Naudience, and there were a lot of voices\Nthat they wanted to see more.
+Dialogue: 0,0:00:25.09,0:00:29.09,ASS,,0,0,0,,Actually, this is a project to decide\Nthe number one song in Omizaka.
+Dialogue: 0,0:00:29.09,0:00:33.09,ASS,,0,0,0,,This is the first Uresumo Uke, which was\Npopular at Assistant MC Gachinko\NAudition.
+Dialogue: 0,0:00:34.09,0:00:36.09,ASS,,0,0,0,,At that time, there were only a few\Npeople doing it.
+Dialogue: 0,0:00:37.09,0:00:41.09,ASS,,0,0,0,,Mr. Akimoto, I heard that the recording\Nwas popular at the Uresumo competition.
+Dialogue: 0,0:00:42.09,0:00:43.09,ASS,,0,0,0,,How was it?
+Dialogue: 0,0:00:44.09,0:00:49.09,ASS,,0,0,0,,Karin-chan and I fought, and it turned\Nout to be surprisingly strong.
+Dialogue: 0,0:00:50.09,0:00:52.09,ASS,,0,0,0,,I was told that I had no power.
+Dialogue: 0,0:00:52.70,0:00:57.70,ASS,,0,0,0,,I did it with some people because I had\Nthe power.
+Dialogue: 0,0:00:57.70,0:01:00.70,ASS,,0,0,0,,Do you have any regrets?
+Dialogue: 0,0:01:02.70,0:01:04.70,ASS,,0,0,0,,Rime, I'm more interested in you.
+Dialogue: 0,0:01:04.70,0:01:06.70,ASS,,0,0,0,,You're the one who shook it.
+Dialogue: 0,0:01:10.70,0:01:14.70,ASS,,0,0,0,,If everyone fought, the possibility was\Nstrong.
+Dialogue: 0,0:01:14.70,0:01:16.70,ASS,,0,0,0,,It was good.
+Dialogue: 0,0:01:16.70,0:01:18.70,ASS,,0,0,0,,I think I can win with both hands.
+Dialogue: 0,0:01:18.70,0:01:21.70,ASS,,0,0,0,,I think I can win with both hands.
+Dialogue: 0,0:01:21.70,0:01:23.70,ASS,,0,0,0,,Like a real bird.
+Dialogue: 0,0:01:23.70,0:01:25.70,ASS,,0,0,0,,Like a real bird.
+Dialogue: 0,0:01:25.70,0:01:26.68,ASS,,0,0,0,,I think I can win.
+Dialogue: 0,0:01:26.68,0:01:28.68,ASS,,0,0,0,,I was confident in the first round of\Nhigh-time.
+Dialogue: 0,0:01:28.68,0:01:30.68,ASS,,0,0,0,,It was exciting, wasn't it?
+Dialogue: 0,0:01:30.68,0:01:31.68,ASS,,0,0,0,,It was fun.
+Dialogue: 0,0:01:31.68,0:01:32.68,ASS,,0,0,0,,I see.
+Dialogue: 0,0:01:32.68,0:01:38.68,ASS,,0,0,0,,Then, let's do such an exciting project\Nat the dressing room with a special\Nvideo today.
+Dialogue: 0,0:01:41.68,0:01:44.68,ASS,,0,0,0,,So, here is the match card this time.
+Dialogue: 0,0:01:44.68,0:01:45.68,ASS,,0,0,0,,Here you are.
+Dialogue: 0,0:01:47.68,0:01:49.68,ASS,,0,0,0,,I made a list of goals.
+Dialogue: 0,0:01:50.68,0:01:53.68,ASS,,0,0,0,,There are 10 finals, 10 finals, and\Nfinals.
+Dialogue: 0,0:01:53.68,0:01:54.68,ASS,,0,0,0,,Please look forward to it.
+Dialogue: 0,0:01:55.61,0:01:57.61,ASS,,0,0,0,,Like "I'm Sawa"
+Dialogue: 0,0:01:57.61,0:01:59.61,ASS,,0,0,0,,Takayama Kitakome
+Dialogue: 0,0:02:00.91,0:02:02.91,ASS,,0,0,0,,I feel like I have a lot of power.
+Dialogue: 0,0:02:04.91,0:02:09.91,ASS,,0,0,0,,I lost to Takayama before, so I'm going\Nto take revenge this time.
+Dialogue: 0,0:02:10.91,0:02:11.91,ASS,,0,0,0,,I only did 5.
+Dialogue: 0,0:02:14.91,0:02:16.91,ASS,,0,0,0,,Minami, do you have a favorite player?
+Dialogue: 0,0:02:17.91,0:02:19.91,ASS,,0,0,0,,I think Nunami is different.
+Dialogue: 0,0:02:23.91,0:02:25.91,ASS,,0,0,0,,Nunami, you played bingo before, right?
+Dialogue: 0,0:02:25.91,0:02:27.91,ASS,,0,0,0,,Yes, I lost to Ame-chan.
+Dialogue: 0,0:02:29.91,0:02:31.91,ASS,,0,0,0,,I think I'm pretty weak.
+Dialogue: 0,0:02:32.91,0:02:34.91,ASS,,0,0,0,,My right index finger is weak.
+Dialogue: 0,0:02:36.91,0:02:38.91,ASS,,0,0,0,,I have a lot of scars.
+Dialogue: 0,0:02:40.91,0:02:42.91,ASS,,0,0,0,,My nails are crooked.
+Dialogue: 0,0:02:44.91,0:02:46.91,ASS,,0,0,0,,I want you to throw me.
+Dialogue: 0,0:02:50.91,0:02:53.91,ASS,,0,0,0,,And this time, as a reward for the\Nwinner,
+Dialogue: 0,0:02:54.91,0:02:56.91,ASS,,0,0,0,,I prepared something like this.
+Dialogue: 0,0:02:56.91,0:03:05.91,ASS,,0,0,0,,This is a high-end brand roast steak.
+Dialogue: 0,0:03:07.91,0:03:09.91,ASS,,0,0,0,,It's in here.
+Dialogue: 0,0:03:12.91,0:03:14.91,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:03:16.91,0:03:18.91,ASS,,0,0,0,,I'm serious.
+Dialogue: 0,0:03:26.91,0:03:29.91,ASS,,0,0,0,,This is the match card for the first\Nround A group.
+Dialogue: 0,0:03:30.49,0:03:33.99,ASS,,0,0,0,,Will Hashimoto, who is injured, be able\Nto win?
+Dialogue: 0,0:03:34.99,0:03:36.49,ASS,,0,0,0,,The first match is
+Dialogue: 0,0:03:36.49,0:03:39.99,ASS,,0,0,0,,Hashimoto Nanami vs Nakadakana
+Dialogue: 0,0:03:40.99,0:03:42.99,ASS,,0,0,0,,Congratulations
+Dialogue: 0,0:03:42.99,0:03:44.99,ASS,,0,0,0,,Nanami, it's your first time, right?
+Dialogue: 0,0:03:44.99,0:03:45.99,ASS,,0,0,0,,That's right
+Dialogue: 0,0:03:45.99,0:03:48.99,ASS,,0,0,0,,I was learning baton
+Dialogue: 0,0:03:49.66,0:03:53.66,ASS,,0,0,0,,I used to use this muscle a lot when I\Nwas a student.
+Dialogue: 0,0:03:53.66,0:03:57.66,ASS,,0,0,0,,Kanarin also did it on the first day of\N6th grade.
+Dialogue: 0,0:03:57.66,0:03:59.66,ASS,,0,0,0,,That's right. I actually won.
+Dialogue: 0,0:03:59.66,0:04:04.66,ASS,,0,0,0,,So I'm going to do my best today.
+Dialogue: 0,0:04:04.66,0:04:09.66,ASS,,0,0,0,,I personally think that Kanarin is a\Ndark horse.
+Dialogue: 0,0:04:09.66,0:04:12.66,ASS,,0,0,0,,She seems to have a lot of muscle.
+Dialogue: 0,0:04:12.66,0:04:14.66,ASS,,0,0,0,,She is also good at dancing.
+Dialogue: 0,0:04:14.66,0:04:17.66,ASS,,0,0,0,,So I'm going to do my best.
+Dialogue: 0,0:04:18.30,0:04:23.64,ASS,,0,0,0,,The first match of the first round is\NNanami Hashimoto vs. Kana Nakada.
+Dialogue: 0,0:04:25.39,0:04:26.39,ASS,,0,0,0,,I'm nervous.
+Dialogue: 0,0:04:27.39,0:04:28.39,ASS,,0,0,0,,Let's go.
+Dialogue: 0,0:04:28.39,0:04:29.39,ASS,,0,0,0,,The first round.
+Dialogue: 0,0:04:30.39,0:04:31.39,ASS,,0,0,0,,Ready.
+Dialogue: 0,0:04:31.39,0:04:32.39,ASS,,0,0,0,,Go!
+Dialogue: 0,0:04:42.39,0:04:44.39,ASS,,0,0,0,,The winner is Nanami!
+Dialogue: 0,0:04:48.39,0:04:50.39,ASS,,0,0,0,,I'm happy, but I was surprised.
+Dialogue: 0,0:04:50.39,0:04:52.39,ASS,,0,0,0,,Actually, I was careful.
+Dialogue: 0,0:04:52.39,0:04:56.39,ASS,,0,0,0,,I saw you playing the rhythm in the main\Nstory the other day.
+Dialogue: 0,0:04:56.92,0:04:58.92,ASS,,0,0,0,,Hinachima was really strong.
+Dialogue: 0,0:04:58.92,0:04:59.92,ASS,,0,0,0,,I'm glad.
+Dialogue: 0,0:04:59.92,0:05:02.92,ASS,,0,0,0,,Hinachima said she would defeat herself.
+Dialogue: 0,0:05:02.92,0:05:03.91,ASS,,0,0,0,,I see.
+Dialogue: 0,0:05:04.91,0:05:06.91,ASS,,0,0,0,,It was a little different from what I\Nthought.
+Dialogue: 0,0:05:06.91,0:05:07.91,ASS,,0,0,0,,Great.
+Dialogue: 0,0:05:07.91,0:05:10.91,ASS,,0,0,0,,Hinachimono lived here.
+Dialogue: 0,0:05:10.91,0:05:12.91,ASS,,0,0,0,,I lost by a head-to-head battle.
+Dialogue: 0,0:05:12.91,0:05:13.91,ASS,,0,0,0,,I see.
+Dialogue: 0,0:05:13.91,0:05:16.91,ASS,,0,0,0,,But, the prize is meat.
+Dialogue: 0,0:05:16.91,0:05:18.91,ASS,,0,0,0,,To be honest, I didn't have much\Nmotivation.
+Dialogue: 0,0:05:18.91,0:05:19.91,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:05:23.91,0:05:28.91,ASS,,0,0,0,,The next match is Itomurica vs.\NHorimiyona.
+Dialogue: 0,0:05:28.91,0:05:29.91,ASS,,0,0,0,,Go for it.
+Dialogue: 0,0:05:33.91,0:05:36.91,ASS,,0,0,0,,I don't have much image of her arms.
+Dialogue: 0,0:05:36.91,0:05:38.91,ASS,,0,0,0,,What do you think?
+Dialogue: 0,0:05:38.91,0:05:41.91,ASS,,0,0,0,,She is muscular.
+Dialogue: 0,0:05:41.91,0:05:42.91,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:05:46.91,0:05:47.91,ASS,,0,0,0,,She is muscular.
+Dialogue: 0,0:05:47.91,0:05:49.91,ASS,,0,0,0,,I can beat her.
+Dialogue: 0,0:05:49.91,0:05:50.91,ASS,,0,0,0,,Really?
+Dialogue: 0,0:05:50.91,0:05:51.91,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:05:52.06,0:05:54.06,ASS,,0,0,0,,I've been to the track and field.
+Dialogue: 0,0:05:54.06,0:05:55.06,ASS,,0,0,0,,Oh, I see.
+Dialogue: 0,0:05:55.06,0:05:57.06,ASS,,0,0,0,,I've been to Odetate.
+Dialogue: 0,0:05:57.06,0:05:59.06,ASS,,0,0,0,,I've been to Igaiki.
+Dialogue: 0,0:05:59.06,0:06:01.06,ASS,,0,0,0,,I've been to Hime.
+Dialogue: 0,0:06:01.06,0:06:03.06,ASS,,0,0,0,,I've been to Taiketsu.
+Dialogue: 0,0:06:03.64,0:06:08.64,ASS,,0,0,0,,The second match of the first round is\NIto Marika vs. Horigiyona!
+Dialogue: 0,0:06:09.77,0:06:11.77,ASS,,0,0,0,,Here we go!
+Dialogue: 0,0:06:11.77,0:06:13.77,ASS,,0,0,0,,The second match!
+Dialogue: 0,0:06:13.77,0:06:15.77,ASS,,0,0,0,,Ready, go!
+Dialogue: 0,0:06:21.77,0:06:23.77,ASS,,0,0,0,,Ito Marika wins!
+Dialogue: 0,0:06:24.77,0:06:26.77,ASS,,0,0,0,,When I first ran away,
+Dialogue: 0,0:06:26.77,0:06:30.77,ASS,,0,0,0,,I felt like I was shaking hands with\Nboth of you.
+Dialogue: 0,0:06:30.77,0:06:33.77,ASS,,0,0,0,,But I think I was the one who started\Nit.
+Dialogue: 0,0:06:34.77,0:06:36.77,ASS,,0,0,0,,Why do you look so happy?
+Dialogue: 0,0:06:36.77,0:06:38.77,ASS,,0,0,0,,I'm happy.
+Dialogue: 0,0:06:38.77,0:06:39.77,ASS,,0,0,0,,Really?
+Dialogue: 0,0:06:39.77,0:06:40.77,ASS,,0,0,0,,I'm happy.
+Dialogue: 0,0:06:42.87,0:06:47.87,ASS,,0,0,0,,In the second block, Takayama and\NKitano, who are likely to win, will have\Na rematch.
+Dialogue: 0,0:06:49.87,0:06:51.87,ASS,,0,0,0,,The next match is the third match.
+Dialogue: 0,0:06:51.87,0:06:54.87,ASS,,0,0,0,,Takayama Kazumi vs. Kitano Hinako.
+Dialogue: 0,0:06:58.87,0:07:00.87,ASS,,0,0,0,,This is the biggest match of the day.
+Dialogue: 0,0:07:01.87,0:07:03.87,ASS,,0,0,0,,It's the first round, so I'm a little\Nnervous.
+Dialogue: 0,0:07:04.03,0:07:06.03,ASS,,0,0,0,,It was unexpected.
+Dialogue: 0,0:07:06.03,0:07:08.03,ASS,,0,0,0,,I'm nervous.
+Dialogue: 0,0:07:08.03,0:07:10.03,ASS,,0,0,0,,I'm nervous.
+Dialogue: 0,0:07:10.03,0:07:12.03,ASS,,0,0,0,,I'm nervous.
+Dialogue: 0,0:07:12.03,0:07:14.03,ASS,,0,0,0,,Which team do you think will win?
+Dialogue: 0,0:07:14.03,0:07:16.03,ASS,,0,0,0,,I'm nervous.
+Dialogue: 0,0:07:16.03,0:07:19.29,ASS,,0,0,0,,I think Kazumin will win.
+Dialogue: 0,0:07:19.29,0:07:23.29,ASS,,0,0,0,,I always watch the dance videos of the\Nmembers and the dancers.
+Dialogue: 0,0:07:23.29,0:07:24.29,ASS,,0,0,0,,I see.
+Dialogue: 0,0:07:24.29,0:07:27.29,ASS,,0,0,0,,I watch them every time I go to the\Ndance studio.
+Dialogue: 0,0:07:27.29,0:07:28.29,ASS,,0,0,0,,Me too.
+Dialogue: 0,0:07:28.35,0:07:31.35,ASS,,0,0,0,,I feel like I'm going to lose.
+Dialogue: 0,0:07:35.07,0:07:40.07,ASS,,0,0,0,,The third match of the first round is\NTakayama Kazumi vs. Kitano Hinako.
+Dialogue: 0,0:07:40.07,0:07:43.07,ASS,,0,0,0,,I'm nervous. What is it?
+Dialogue: 0,0:07:43.07,0:07:44.07,ASS,,0,0,0,,I'm under pressure.
+Dialogue: 0,0:07:44.07,0:07:45.07,ASS,,0,0,0,,Aren't you nervous?
+Dialogue: 0,0:07:45.07,0:07:46.07,ASS,,0,0,0,,I'm nervous.
+Dialogue: 0,0:07:46.07,0:07:48.07,ASS,,0,0,0,,I'm grateful for this.
+Dialogue: 0,0:07:49.45,0:07:50.45,ASS,,0,0,0,,The third match.
+Dialogue: 0,0:07:50.45,0:07:52.45,ASS,,0,0,0,,Ready...
+Dialogue: 0,0:07:52.45,0:07:53.45,ASS,,0,0,0,,Go!
+Dialogue: 0,0:07:59.45,0:08:01.45,ASS,,0,0,0,,I'm sorry.
+Dialogue: 0,0:08:01.45,0:08:02.45,ASS,,0,0,0,,You did a good job.
+Dialogue: 0,0:08:02.45,0:08:03.45,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:08:06.45,0:08:09.45,ASS,,0,0,0,,It's hard to get the last vote.
+Dialogue: 0,0:08:13.45,0:08:14.45,ASS,,0,0,0,,It was fun.
+Dialogue: 0,0:08:15.45,0:08:16.45,ASS,,0,0,0,,You did a good job.
+Dialogue: 0,0:08:18.45,0:08:20.45,ASS,,0,0,0,,I'll keep up the good work.
+Dialogue: 0,0:08:20.45,0:08:22.45,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:08:26.45,0:08:27.45,ASS,,0,0,0,,The fourth match.
+Dialogue: 0,0:08:27.45,0:08:30.45,ASS,,0,0,0,,Iketani Erika vs. Sagara Iori.
+Dialogue: 0,0:08:33.45,0:08:35.45,ASS,,0,0,0,,I don't know.
+Dialogue: 0,0:08:41.45,0:08:43.45,ASS,,0,0,0,,I've never won in my life.
+Dialogue: 0,0:08:45.45,0:08:48.45,ASS,,0,0,0,,I can't imagine Iori-chan.
+Dialogue: 0,0:08:48.45,0:08:52.45,ASS,,0,0,0,,I haven't done this since elementary\Nschool.
+Dialogue: 0,0:08:52.45,0:08:55.45,ASS,,0,0,0,,This is my first time.
+Dialogue: 0,0:08:55.45,0:08:56.45,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:08:57.45,0:08:59.45,ASS,,0,0,0,,Which one will win?
+Dialogue: 0,0:09:00.89,0:09:03.53,ASS,,0,0,0,,The 4th match of the first round, Victor\NErica vs. Kyo Kusanagi.
+Dialogue: 0,0:09:03.53,0:09:09.53,ASS,,0,0,0,,The 4th match. Ready, go!
+Dialogue: 0,0:09:33.53,0:09:39.53,ASS,,0,0,0,,The winner is Kyo Kusanagi.
+Dialogue: 0,0:09:41.53,0:09:42.53,ASS,,0,0,0,,You won.
+Dialogue: 0,0:09:42.53,0:09:43.53,ASS,,0,0,0,,Thank you.
+Dialogue: 0,0:09:43.53,0:09:44.53,ASS,,0,0,0,,I won.
+Dialogue: 0,0:09:44.53,0:09:45.53,ASS,,0,0,0,,How was it?
+Dialogue: 0,0:09:45.53,0:09:49.53,ASS,,0,0,0,,I couldn't move at all.
+Dialogue: 0,0:09:49.53,0:09:53.53,ASS,,0,0,0,,I tried to resist, but I couldn't go\Nthis way.
+Dialogue: 0,0:09:53.53,0:09:55.53,ASS,,0,0,0,,I see.
+Dialogue: 0,0:09:55.53,0:09:57.53,ASS,,0,0,0,,It's been a long time since we played\Narm wrestling.
+Dialogue: 0,0:09:57.53,0:09:58.53,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:09:58.53,0:09:59.53,ASS,,0,0,0,,It was fun.
+Dialogue: 0,0:09:59.53,0:10:00.53,ASS,,0,0,0,,Really?
+Dialogue: 0,0:10:00.53,0:10:01.53,ASS,,0,0,0,,I'm glad.
+Dialogue: 0,0:10:03.53,0:10:06.53,ASS,,0,0,0,,The 4 of them will play against each\Nother in the first round.
+Dialogue: 0,0:10:06.53,0:10:10.53,ASS,,0,0,0,,Will Akimoto be able to win?
+Dialogue: 0,0:10:11.53,0:10:15.53,ASS,,0,0,0,,The 5th match. Fukagawa Mai vs. Hoshino\NMinami.
+Dialogue: 0,0:10:18.53,0:10:20.53,ASS,,0,0,0,,Both of them are very soft.
+Dialogue: 0,0:10:20.53,0:10:24.53,ASS,,0,0,0,,But I have a big body.
+Dialogue: 0,0:10:24.53,0:10:25.53,ASS,,0,0,0,,You have a big body.
+Dialogue: 0,0:10:25.53,0:10:26.53,ASS,,0,0,0,,You have a big body.
+Dialogue: 0,0:10:26.53,0:10:27.53,ASS,,0,0,0,,You have a big body.
+Dialogue: 0,0:10:27.53,0:10:28.53,ASS,,0,0,0,,You have a big body.
+Dialogue: 0,0:10:28.53,0:10:29.53,ASS,,0,0,0,,You have a big body.
+Dialogue: 0,0:10:29.53,0:10:30.53,ASS,,0,0,0,,You have a big body.
+Dialogue: 0,0:10:30.53,0:10:31.53,ASS,,0,0,0,,You have a big body.
+Dialogue: 0,0:10:31.53,0:10:32.53,ASS,,0,0,0,,I have a big body.
+Dialogue: 0,0:10:32.53,0:10:33.53,ASS,,0,0,0,,I'm more like a zombie.
+Dialogue: 0,0:10:33.53,0:10:35.53,ASS,,0,0,0,,What about you, Minami?
+Dialogue: 0,0:10:35.53,0:10:36.53,ASS,,0,0,0,,I have a big body.
+Dialogue: 0,0:10:36.67,0:10:40.67,ASS,,0,0,0,,I was in the gymnastics class when I was\Nin the third year of high school, and I\Nhad a physical strength of 3400.
+Dialogue: 0,0:10:42.32,0:10:44.32,ASS,,0,0,0,,That's amazing.
+Dialogue: 0,0:10:45.32,0:10:47.32,ASS,,0,0,0,,I think that's why I'm strong.
+Dialogue: 0,0:10:47.32,0:10:48.32,ASS,,0,0,0,,Really?
+Dialogue: 0,0:10:48.32,0:10:49.32,ASS,,0,0,0,,I'll do my best.
+Dialogue: 0,0:10:50.32,0:10:54.32,ASS,,0,0,0,,The fifth match of the first round,\NTsukagawa Mai vs. Hoshino Minami.
+Dialogue: 0,0:10:55.32,0:10:56.32,ASS,,0,0,0,,The fifth match.
+Dialogue: 0,0:10:56.32,0:10:58.32,ASS,,0,0,0,,Ready, go!
+Dialogue: 0,0:10:58.32,0:10:59.32,ASS,,0,0,0,,Go!
+Dialogue: 0,0:11:06.32,0:11:07.32,ASS,,0,0,0,,Tsukagawa Mai.
+Dialogue: 0,0:11:10.32,0:11:11.32,ASS,,0,0,0,,How was it?
+Dialogue: 0,0:11:12.32,0:11:15.32,ASS,,0,0,0,,I heard that I was strong, so I was very\Ndetermined to do it.
+Dialogue: 0,0:11:16.32,0:11:17.32,ASS,,0,0,0,,Surprisingly, I was able to do it.
+Dialogue: 0,0:11:17.32,0:11:18.32,ASS,,0,0,0,,Really?
+Dialogue: 0,0:11:18.32,0:11:20.32,ASS,,0,0,0,,I thought I was strong at first.
+Dialogue: 0,0:11:22.32,0:11:24.32,ASS,,0,0,0,,Maybe it's the feeling at first.
+Dialogue: 0,0:11:24.32,0:11:25.32,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:11:28.32,0:11:30.32,ASS,,0,0,0,,The next match is the sixth match.
+Dialogue: 0,0:11:30.32,0:11:33.32,ASS,,0,0,0,,Nishino Nanase vs. Akimoto Konatsu.
+Dialogue: 0,0:11:35.32,0:11:36.32,ASS,,0,0,0,,Go ahead.
+Dialogue: 0,0:11:40.32,0:11:41.32,ASS,,0,0,0,,How was it?
+Dialogue: 0,0:11:41.32,0:11:43.32,ASS,,0,0,0,,This is my first time.
+Dialogue: 0,0:11:45.32,0:11:47.32,ASS,,0,0,0,,Both of you look weak.
+Dialogue: 0,0:11:47.32,0:11:49.32,ASS,,0,0,0,,I feel like I'm weak.
+Dialogue: 0,0:11:49.32,0:11:50.32,ASS,,0,0,0,,Really?
+Dialogue: 0,0:11:51.32,0:11:53.32,ASS,,0,0,0,,Are you confident that you can win?
+Dialogue: 0,0:11:54.32,0:11:55.32,ASS,,0,0,0,,I'll do my best.
+Dialogue: 0,0:11:55.32,0:11:56.32,ASS,,0,0,0,,I'll do my best.
+Dialogue: 0,0:11:56.32,0:11:58.32,ASS,,0,0,0,,You have to win.
+Dialogue: 0,0:11:58.32,0:11:59.32,ASS,,0,0,0,,I have to win.
+Dialogue: 0,0:11:59.32,0:12:00.32,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:12:01.32,0:12:06.04,ASS,,0,0,0,,The sixth match of the first round,\NNishino Nanase vs. Akimoto Konatsu.
+Dialogue: 0,0:12:06.04,0:12:08.04,ASS,,0,0,0,,- Bye. - Bye.
+Dialogue: 0,0:12:09.39,0:12:11.89,ASS,,0,0,0,,- You're strong. - I'm not.
+Dialogue: 0,0:12:12.39,0:12:14.39,ASS,,0,0,0,,- You're strong. - I'm not, I'm not.
+Dialogue: 0,0:12:16.39,0:12:18.39,ASS,,0,0,0,,- You're strong - I'm not.
+Dialogue: 0,0:12:18.39,0:12:22.39,ASS,,0,0,0,,The 6th match, ready go!
+Dialogue: 0,0:12:29.39,0:12:32.39,ASS,,0,0,0,,They're a team!
+Dialogue: 0,0:12:32.39,0:12:34.39,ASS,,0,0,0,,[The second round ends!]
+Dialogue: 0,0:12:34.39,0:12:36.39,ASS,,0,0,0,,That was amazing.
+Dialogue: 0,0:12:36.39,0:12:38.39,ASS,,0,0,0,,You were strong.
+Dialogue: 0,0:12:38.39,0:12:40.39,ASS,,0,0,0,,Yes, I was.
+Dialogue: 0,0:12:40.39,0:12:42.39,ASS,,0,0,0,,I won.
+Dialogue: 0,0:12:42.39,0:12:44.39,ASS,,0,0,0,,I lost.
+Dialogue: 0,0:12:44.39,0:12:48.39,ASS,,0,0,0,,I thought you were weak when you were in\Nthe arm wrestling.
+Dialogue: 0,0:12:48.39,0:12:50.39,ASS,,0,0,0,,That's not true.
+Dialogue: 0,0:12:50.39,0:12:52.39,ASS,,0,0,0,,That's not true.
+Dialogue: 0,0:12:52.39,0:12:54.39,ASS,,0,0,0,,No one was taking care of me.
+Dialogue: 0,0:12:54.39,0:12:56.39,ASS,,0,0,0,,I'm glad there's no one to take care of\Nyou.
+Dialogue: 0,0:12:56.39,0:12:58.39,ASS,,0,0,0,,Are you okay?
+Dialogue: 0,0:12:58.39,0:13:00.39,ASS,,0,0,0,,Yes, I'm okay.
+Dialogue: 0,0:13:00.39,0:13:02.39,ASS,,0,0,0,,Are you okay?
+Dialogue: 0,0:13:02.39,0:13:04.39,ASS,,0,0,0,,Yes, I'm okay.
+Dialogue: 0,0:13:06.39,0:13:08.31,ASS,,0,0,0,,[To be continued]
+Dialogue: 0,0:13:08.31,0:13:15.31,ASS,,0,0,0,,Can Higuchi, who showed overwhelming\Nstrength in the last broadcast, show his\Nstrength this time as well?
+Dialogue: 0,0:13:16.31,0:13:21.31,ASS,,0,0,0,,The 7th match, Ikomarina vs. Sakurai\NReika
+Dialogue: 0,0:13:23.31,0:13:25.31,ASS,,0,0,0,,How is it?
+Dialogue: 0,0:13:26.31,0:13:30.31,ASS,,0,0,0,,I was told that I was like a small bird
+Dialogue: 0,0:13:30.31,0:13:32.31,ASS,,0,0,0,,I came out with a little margin
+Dialogue: 0,0:13:32.31,0:13:33.27,ASS,,0,0,0,,Really?
+Dialogue: 0,0:13:33.27,0:13:35.75,ASS,,0,0,0,,I don't think I'll ever win a game like\Nthis again.
+Dialogue: 0,0:13:35.75,0:13:39.05,ASS,,0,0,0,,[I don't think I'll ever win a game like\Nthis again.]
+Dialogue: 0,0:13:39.05,0:13:40.63,ASS,,0,0,0,,But Reika is strong.
+Dialogue: 0,0:13:40.63,0:13:43.43,ASS,,0,0,0,,I don't remember playing Uda-sama that\Nmuch
+Dialogue: 0,0:13:44.49,0:13:46.49,ASS,,0,0,0,,I don't remember winning, so I don't\Nreally like it
+Dialogue: 0,0:13:47.49,0:13:48.49,ASS,,0,0,0,,To be honest
+Dialogue: 0,0:13:49.49,0:13:51.49,ASS,,0,0,0,,Round 1, 7th match
+Dialogue: 0,0:13:51.49,0:13:54.49,ASS,,0,0,0,,Rina Ikoma vs Reika Sakurai
+Dialogue: 0,0:14:05.49,0:14:08.49,ASS,,0,0,0,,7th match, ready, go!
+Dialogue: 0,0:14:13.49,0:14:14.49,ASS,,0,0,0,,She's doing it!
+Dialogue: 0,0:14:14.49,0:14:15.49,ASS,,0,0,0,,She's doing it!
+Dialogue: 0,0:14:15.49,0:14:16.49,ASS,,0,0,0,,She's doing it!
+Dialogue: 0,0:14:16.49,0:14:17.49,ASS,,0,0,0,,She's doing it!
+Dialogue: 0,0:14:23.49,0:14:24.49,ASS,,0,0,0,,I don't know! I don't know!
+Dialogue: 0,0:14:24.49,0:14:25.49,ASS,,0,0,0,,She's doing it!
+Dialogue: 0,0:14:29.49,0:14:30.49,ASS,,0,0,0,,Thank you!
+Dialogue: 0,0:14:33.49,0:14:34.49,ASS,,0,0,0,,Which one is it next?
+Dialogue: 0,0:14:34.49,0:14:35.49,ASS,,0,0,0,,Yeah, next
+Dialogue: 0,0:14:37.49,0:14:38.49,ASS,,0,0,0,,I can't get the meat
+Dialogue: 0,0:14:40.49,0:14:41.49,ASS,,0,0,0,,I'll do my best
+Dialogue: 0,0:14:43.49,0:14:47.49,ASS,,0,0,0,,8th match, Shiraishimai vs Higuchi Hina
+Dialogue: 0,0:14:50.49,0:14:52.49,ASS,,0,0,0,,This is the last round
+Dialogue: 0,0:14:52.49,0:14:54.49,ASS,,0,0,0,,Yes, it's the last match
+Dialogue: 0,0:14:55.49,0:14:56.49,ASS,,0,0,0,,How was it?
+Dialogue: 0,0:14:56.49,0:14:57.49,ASS,,0,0,0,,I'm confident
+Dialogue: 0,0:14:57.49,0:14:58.49,ASS,,0,0,0,,Really?
+Dialogue: 0,0:14:58.49,0:14:59.49,ASS,,0,0,0,,Because Hina is really strong
+Dialogue: 0,0:14:59.49,0:15:00.49,ASS,,0,0,0,,Hina was strong
+Dialogue: 0,0:15:00.49,0:15:05.49,ASS,,0,0,0,,But I think Sayurin was really weak
+Dialogue: 0,0:15:05.49,0:15:06.49,ASS,,0,0,0,,No, no, no
+Dialogue: 0,0:15:06.49,0:15:09.49,ASS,,0,0,0,,Because she was so strong
+Dialogue: 0,0:15:09.49,0:15:10.49,ASS,,0,0,0,,She was amazing
+Dialogue: 0,0:15:11.49,0:15:14.49,ASS,,0,0,0,,I was sleepy and my hands were really\Nhot
+Dialogue: 0,0:15:14.49,0:15:15.49,ASS,,0,0,0,,I'm sorry
+Dialogue: 0,0:15:19.49,0:15:20.49,ASS,,0,0,0,,Round 1, 8th match
+Dialogue: 0,0:15:20.51,0:15:23.24,ASS,,0,0,0,,The next match is Shiraishi Mai vs.\NHiguchi Higuchi!
+Dialogue: 0,0:15:24.24,0:15:26.24,ASS,,0,0,0,,Ready?
+Dialogue: 0,0:15:32.24,0:15:35.24,ASS,,0,0,0,,The 8th match! Ready? Go!
+Dialogue: 0,0:15:53.24,0:15:56.24,ASS,,0,0,0,,Shiraishi Mai wins!
+Dialogue: 0,0:15:57.24,0:15:59.24,ASS,,0,0,0,,I lost.
+Dialogue: 0,0:15:59.24,0:16:01.24,ASS,,0,0,0,,I didn't feel like I was going to win.
+Dialogue: 0,0:16:01.24,0:16:03.24,ASS,,0,0,0,,Really?
+Dialogue: 0,0:16:03.24,0:16:04.24,ASS,,0,0,0,,It's been a while since we've done this.
+Dialogue: 0,0:16:04.24,0:16:06.24,ASS,,0,0,0,,It's been a while since we've done this.
+Dialogue: 0,0:16:06.24,0:16:08.24,ASS,,0,0,0,,I was sweating.
+Dialogue: 0,0:16:08.24,0:16:09.24,ASS,,0,0,0,,I was sweating.
+Dialogue: 0,0:16:09.24,0:16:12.24,ASS,,0,0,0,,I was confident when I did the siren.
+Dialogue: 0,0:16:12.24,0:16:15.24,ASS,,0,0,0,,But when I did it with Kazumi in the\Ndressing room, I lost a lot.
+Dialogue: 0,0:16:15.24,0:16:19.24,ASS,,0,0,0,,The siren was really loud.
+Dialogue: 0,0:16:20.24,0:16:22.24,ASS,,0,0,0,,I realized that today.
+Dialogue: 0,0:16:22.24,0:16:24.24,ASS,,0,0,0,,There are a lot of people like that.
+Dialogue: 0,0:16:24.24,0:16:25.24,ASS,,0,0,0,,Shiraishi Mai.
+Dialogue: 0,0:16:25.34,0:16:28.34,ASS,,0,0,0,,I'll do my best to get the first place!
+Dialogue: 0,0:16:28.34,0:16:30.34,ASS,,0,0,0,,Thank you!
+Dialogue: 0,0:16:31.90,0:16:36.90,ASS,,0,0,0,,After winning the first round, these\Neight players advanced to the semi-\Nfinal.
+Dialogue: 0,0:16:36.90,0:16:41.90,ASS,,0,0,0,,It's a disastrous development that the\Nwinning candidate Higuchi will be\Ndisqualified.
+Dialogue: 0,0:16:41.90,0:16:45.83,ASS,,0,0,0,,Who will advance to the semi-final?
+Dialogue: 0,0:16:46.83,0:16:49.83,ASS,,0,0,0,,The first match of the semi-final,\NNanami Hashimoto vs. Marika Ito
+Dialogue: 0,0:16:50.83,0:16:55.83,ASS,,0,0,0,,The first match of the semi-final,\NNanami Hashimoto vs. Marika Ito
+Dialogue: 0,0:16:56.83,0:16:59.83,ASS,,0,0,0,,Now, the first match of the semi-final.
+Dialogue: 0,0:17:00.83,0:17:02.83,ASS,,0,0,0,,Ready, go!
+Dialogue: 0,0:17:05.83,0:17:06.83,ASS,,0,0,0,,She's got it!
+Dialogue: 0,0:17:07.83,0:17:08.83,ASS,,0,0,0,,She's got it!
+Dialogue: 0,0:17:10.83,0:17:11.83,ASS,,0,0,0,,Nanami!
+Dialogue: 0,0:17:15.83,0:17:16.83,ASS,,0,0,0,,She's got it!
+Dialogue: 0,0:17:17.83,0:17:18.83,ASS,,0,0,0,,Really?
+Dialogue: 0,0:17:19.83,0:17:20.83,ASS,,0,0,0,,I thought she would win.
+Dialogue: 0,0:17:21.83,0:17:24.83,ASS,,0,0,0,,I feel like I've gotten stronger since I\Ncame here.
+Dialogue: 0,0:17:26.83,0:17:27.83,ASS,,0,0,0,,Really?
+Dialogue: 0,0:17:28.83,0:17:31.83,ASS,,0,0,0,,Nanami doesn't look like she has a\Nstrong arm.
+Dialogue: 0,0:17:32.83,0:17:34.83,ASS,,0,0,0,,The next match is the semi-final.
+Dialogue: 0,0:17:36.83,0:17:37.79,ASS,,0,0,0,,Kasumi or Yuri?
+Dialogue: 0,0:17:37.79,0:17:38.79,ASS,,0,0,0,,That's right.
+Dialogue: 0,0:17:38.79,0:17:39.79,ASS,,0,0,0,,I see.
+Dialogue: 0,0:17:39.79,0:17:41.79,ASS,,0,0,0,,I don't think so.
+Dialogue: 0,0:17:43.79,0:17:45.79,ASS,,0,0,0,,The second match of the semi-final.
+Dialogue: 0,0:17:45.79,0:17:48.79,ASS,,0,0,0,,Kazumi Takayama vs. Iori Sagara.
+Dialogue: 0,0:17:49.87,0:17:51.87,ASS,,0,0,0,,Ready, go!
+Dialogue: 0,0:18:03.87,0:18:04.87,ASS,,0,0,0,,You were pretty strong.
+Dialogue: 0,0:18:04.87,0:18:06.87,ASS,,0,0,0,,I just did 10 push-ups.
+Dialogue: 0,0:18:06.87,0:18:08.87,ASS,,0,0,0,,You're already exhausted.
+Dialogue: 0,0:18:08.87,0:18:11.87,ASS,,0,0,0,,But you were pretty strong.
+Dialogue: 0,0:18:11.87,0:18:15.87,ASS,,0,0,0,,But you were pretty strong.
+Dialogue: 0,0:18:15.87,0:18:17.87,ASS,,0,0,0,,I was like, "Oh, I'm exhausted."
+Dialogue: 0,0:18:17.87,0:18:19.87,ASS,,0,0,0,,But then you came back.
+Dialogue: 0,0:18:19.87,0:18:21.87,ASS,,0,0,0,,I was like, "Let's play."
+Dialogue: 0,0:18:25.87,0:18:27.87,ASS,,0,0,0,,The third match of the semi-final.
+Dialogue: 0,0:18:27.87,0:18:30.87,ASS,,0,0,0,,Tsukagawa Mai vs. Akimoto Manatsu.
+Dialogue: 0,0:18:31.87,0:18:33.87,ASS,,0,0,0,,The third match of the semi-final.
+Dialogue: 0,0:18:33.87,0:18:35.87,ASS,,0,0,0,,Ready, go!
+Dialogue: 0,0:18:42.87,0:18:44.87,ASS,,0,0,0,,You did it!
+Dialogue: 0,0:18:46.87,0:18:47.87,ASS,,0,0,0,,What was it again?
+Dialogue: 0,0:18:47.87,0:18:48.87,ASS,,0,0,0,,What was the pressure?
+Dialogue: 0,0:18:48.87,0:18:49.87,ASS,,0,0,0,,It was 7.
+Dialogue: 0,0:18:49.87,0:18:51.87,ASS,,0,0,0,,It was definitely 7.
+Dialogue: 0,0:18:51.87,0:18:53.87,ASS,,0,0,0,,Yeah, you said it.
+Dialogue: 0,0:18:53.87,0:18:55.87,ASS,,0,0,0,,It was 7.
+Dialogue: 0,0:18:55.87,0:18:56.87,ASS,,0,0,0,,Try it next time.
+Dialogue: 0,0:18:56.87,0:18:57.87,ASS,,0,0,0,,I'll try it.
+Dialogue: 0,0:18:57.87,0:18:59.87,ASS,,0,0,0,,I wonder if I can do it.
+Dialogue: 0,0:19:00.87,0:19:01.87,ASS,,0,0,0,,The fourth match of the semi-final.
+Dialogue: 0,0:19:01.87,0:19:04.87,ASS,,0,0,0,,Sakurai Reika vs. Shirai Shimai.
+Dialogue: 0,0:19:07.87,0:19:09.87,ASS,,0,0,0,,Stop it!
+Dialogue: 0,0:19:10.87,0:19:12.87,ASS,,0,0,0,,You're just shaking hands.
+Dialogue: 0,0:19:13.87,0:19:14.87,ASS,,0,0,0,,Are you ready?
+Dialogue: 0,0:19:14.87,0:19:16.87,ASS,,0,0,0,,The fourth match of the semi-final.
+Dialogue: 0,0:19:16.87,0:19:18.87,ASS,,0,0,0,,Ready, go!
+Dialogue: 0,0:19:25.87,0:19:26.87,ASS,,0,0,0,,Amazing!
+Dialogue: 0,0:19:28.87,0:19:30.87,ASS,,0,0,0,,You were better than when you fought\Nwith Shimai.
+Dialogue: 0,0:19:32.87,0:19:35.87,ASS,,0,0,0,,I did push-ups.
+Dialogue: 0,0:19:35.87,0:19:39.87,ASS,,0,0,0,,I thought I could do it.
+Dialogue: 0,0:19:39.87,0:19:42.87,ASS,,0,0,0,,So I did push-ups.
+Dialogue: 0,0:19:44.87,0:19:45.87,ASS,,0,0,0,,It was perfect.
+Dialogue: 0,0:19:47.87,0:19:49.43,ASS,,0,0,0,,The semi-final is over.
+Dialogue: 0,0:19:49.43,0:19:51.43,ASS,,0,0,0,,Who do you think will win?
+Dialogue: 0,0:19:51.43,0:19:53.43,ASS,,0,0,0,,Iku-chan!
+Dialogue: 0,0:20:04.23,0:20:06.23,ASS,,0,0,0,,Mayan.
+Dialogue: 0,0:20:06.23,0:20:07.23,ASS,,0,0,0,,Mayan.
+Dialogue: 0,0:20:07.23,0:20:10.23,ASS,,0,0,0,,I've been saying "Mayan" in a low voice\Nfor a while now.
+Dialogue: 0,0:20:10.23,0:20:12.23,ASS,,0,0,0,,I'll do my best for Erika.
+Dialogue: 0,0:20:15.23,0:20:17.23,ASS,,0,0,0,,This is a delicious place.
+Dialogue: 0,0:20:17.23,0:20:18.23,ASS,,0,0,0,,I see.
+Dialogue: 0,0:20:18.23,0:20:20.23,ASS,,0,0,0,,I want you two to eat meat.
+Dialogue: 0,0:20:20.23,0:20:21.23,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:20:21.23,0:20:22.23,ASS,,0,0,0,,How about you, Na-chan?
+Dialogue: 0,0:20:22.23,0:20:23.23,ASS,,0,0,0,,Eh?
+Dialogue: 0,0:20:23.23,0:20:25.23,ASS,,0,0,0,,Who do you think will win?
+Dialogue: 0,0:20:25.23,0:20:29.23,ASS,,0,0,0,,I lost to Manatsu, so I want Manatsu to\Ndo her best.
+Dialogue: 0,0:20:29.23,0:20:30.23,ASS,,0,0,0,,I'm happy.
+Dialogue: 0,0:20:30.23,0:20:31.23,ASS,,0,0,0,,That's good.
+Dialogue: 0,0:20:31.23,0:20:32.23,ASS,,0,0,0,,I'll do my best.
+Dialogue: 0,0:20:33.23,0:20:34.23,ASS,,0,0,0,,You lost to Manatsu.
+Dialogue: 0,0:20:34.23,0:20:36.23,ASS,,0,0,0,,I'll do my best for Na-chan.
+Dialogue: 0,0:20:36.23,0:20:37.23,ASS,,0,0,0,,Please do your best.
+Dialogue: 0,0:20:37.23,0:20:38.23,ASS,,0,0,0,,I'll do my best.
+Dialogue: 0,0:20:38.23,0:20:39.23,ASS,,0,0,0,,Please eat it together.
+Dialogue: 0,0:20:39.23,0:20:40.23,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:20:44.23,0:20:46.23,ASS,,0,0,0,,The first match of the semi-final.
+Dialogue: 0,0:20:46.23,0:20:50.23,ASS,,0,0,0,,Nanami Hashimoto vs. Kazumi Takayama.
+Dialogue: 0,0:20:54.23,0:20:55.23,ASS,,0,0,0,,It's coming to an end.
+Dialogue: 0,0:20:57.23,0:20:59.23,ASS,,0,0,0,,It's the semi-final.
+Dialogue: 0,0:20:59.23,0:21:00.23,ASS,,0,0,0,,Yeah.
+Dialogue: 0,0:21:00.23,0:21:01.23,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:21:01.23,0:21:02.23,ASS,,0,0,0,,I feel like I'm going to be scolded.
+Dialogue: 0,0:21:02.23,0:21:04.23,ASS,,0,0,0,,No, that's not true.
+Dialogue: 0,0:21:04.23,0:21:05.23,ASS,,0,0,0,,Not at all.
+Dialogue: 0,0:21:06.23,0:21:07.23,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:21:07.23,0:21:08.23,ASS,,0,0,0,,I think I can do it.
+Dialogue: 0,0:21:08.23,0:21:09.23,ASS,,0,0,0,,I'm nervous.
+Dialogue: 0,0:21:09.23,0:21:10.23,ASS,,0,0,0,,I want to see this.
+Dialogue: 0,0:21:10.23,0:21:11.23,ASS,,0,0,0,,Me too.
+Dialogue: 0,0:21:11.23,0:21:12.23,ASS,,0,0,0,,I'm nervous too.
+Dialogue: 0,0:21:13.23,0:21:14.23,ASS,,0,0,0,,The first match of the semi-final.
+Dialogue: 0,0:21:14.23,0:21:17.23,ASS,,0,0,0,,Nanami Hashimoto vs. Kazumi Takayama.
+Dialogue: 0,0:21:18.23,0:21:18.94,ASS,,0,0,0,,It's coming to an end.
+Dialogue: 0,0:21:18.94,0:21:20.94,ASS,,0,0,0,,It's a little different at this point.
+Dialogue: 0,0:21:22.64,0:21:24.64,ASS,,0,0,0,,The first match of the semi-final.
+Dialogue: 0,0:21:24.64,0:21:26.64,ASS,,0,0,0,,Ready, go!
+Dialogue: 0,0:21:26.64,0:21:27.64,ASS,,0,0,0,,Huh?
+Dialogue: 0,0:21:27.64,0:21:28.64,ASS,,0,0,0,,Wait, what?
+Dialogue: 0,0:21:36.64,0:21:37.64,ASS,,0,0,0,,I'm sorry!
+Dialogue: 0,0:21:42.64,0:21:43.64,ASS,,0,0,0,,I'm sorry!
+Dialogue: 0,0:21:43.64,0:21:44.64,ASS,,0,0,0,,What's wrong?
+Dialogue: 0,0:21:49.64,0:21:50.64,ASS,,0,0,0,,You're talking, right?
+Dialogue: 0,0:21:50.64,0:21:51.64,ASS,,0,0,0,,You're talking, right?
+Dialogue: 0,0:21:51.64,0:21:52.64,ASS,,0,0,0,,You're talking, right?
+Dialogue: 0,0:21:52.64,0:21:55.64,ASS,,0,0,0,,I don't know why you called me\Ndiagonally.
+Dialogue: 0,0:21:55.64,0:21:58.64,ASS,,0,0,0,,I don't know why you called me\Ndiagonally.
+Dialogue: 0,0:21:59.64,0:22:01.64,ASS,,0,0,0,,You have an effect.
+Dialogue: 0,0:22:04.64,0:22:05.64,ASS,,0,0,0,,But it's not like that.
+Dialogue: 0,0:22:05.64,0:22:07.64,ASS,,0,0,0,,Your fingers are thin, too.
+Dialogue: 0,0:22:07.64,0:22:09.64,ASS,,0,0,0,,I thought it was casual.
+Dialogue: 0,0:22:09.64,0:22:10.64,ASS,,0,0,0,,But...
+Dialogue: 0,0:22:11.64,0:22:14.64,ASS,,0,0,0,,I thought it was casual.
+Dialogue: 0,0:22:14.64,0:22:15.64,ASS,,0,0,0,,I see.
+Dialogue: 0,0:22:16.64,0:22:19.64,ASS,,0,0,0,,As soon as you called me, I knew you\Nwere going to take this.
+Dialogue: 0,0:22:19.64,0:22:20.64,ASS,,0,0,0,,Really?
+Dialogue: 0,0:22:20.64,0:22:22.64,ASS,,0,0,0,,I don't know how to think.
+Dialogue: 0,0:22:22.64,0:22:23.64,ASS,,0,0,0,,I don't know how to think.
+Dialogue: 0,0:22:23.64,0:22:24.64,ASS,,0,0,0,,No, no, no, no, no, no.
+Dialogue: 0,0:22:24.64,0:22:26.64,ASS,,0,0,0,,That's strong.
+Dialogue: 0,0:22:26.64,0:22:27.64,ASS,,0,0,0,,Yay! It's the final!
+Dialogue: 0,0:22:27.64,0:22:29.64,ASS,,0,0,0,,Yay! It's the final!
+Dialogue: 0,0:22:32.64,0:22:34.64,ASS,,0,0,0,,The second match of the semi-final.
+Dialogue: 0,0:22:34.64,0:22:37.64,ASS,,0,0,0,,Akimoto Manatsu vs. Shirai Shimai!
+Dialogue: 0,0:22:39.64,0:22:40.64,ASS,,0,0,0,,Go ahead.
+Dialogue: 0,0:22:41.64,0:22:45.64,ASS,,0,0,0,,How's this match?
+Dialogue: 0,0:22:46.64,0:22:52.64,ASS,,0,0,0,,I didn't feel like I was wrestling, but\NI felt strong.
+Dialogue: 0,0:22:52.64,0:22:54.64,ASS,,0,0,0,,I'm a little worried about this.
+Dialogue: 0,0:22:54.64,0:22:57.64,ASS,,0,0,0,,I was playing softball.
+Dialogue: 0,0:22:57.64,0:22:58.64,ASS,,0,0,0,,I see.
+Dialogue: 0,0:22:58.64,0:23:00.60,ASS,,0,0,0,,Muscles.
+Dialogue: 0,0:23:00.60,0:23:10.60,ASS,,0,0,0,,Well, there was, but I've been watching\NManatsu's matches for a long time, so I\Nthink she's strong, but I want to win if\NI can.
+Dialogue: 0,0:23:11.60,0:23:13.60,ASS,,0,0,0,,I've come this far.
+Dialogue: 0,0:23:13.60,0:23:14.60,ASS,,0,0,0,,For Erica.
+Dialogue: 0,0:23:17.60,0:23:18.43,ASS,,0,0,0,,The second semi-final.
+Dialogue: 0,0:23:18.43,0:23:22.43,ASS,,0,0,0,,The second match is Manatsu Akimoto vs.\NMai Shirai!
+Dialogue: 0,0:23:22.43,0:23:24.31,ASS,,0,0,0,,The second match of the semi-final!
+Dialogue: 0,0:23:24.31,0:23:26.31,ASS,,0,0,0,,Ready, go!
+Dialogue: 0,0:23:26.73,0:23:28.73,ASS,,0,0,0,,Wow!
+Dialogue: 0,0:23:28.73,0:23:30.73,ASS,,0,0,0,,Wow!
+Dialogue: 0,0:23:30.73,0:23:32.73,ASS,,0,0,0,,Wow!
+Dialogue: 0,0:23:32.73,0:23:34.73,ASS,,0,0,0,,Wow!
+Dialogue: 0,0:23:34.73,0:23:36.73,ASS,,0,0,0,,Wow!
+Dialogue: 0,0:23:36.73,0:23:38.73,ASS,,0,0,0,,Wow!
+Dialogue: 0,0:23:38.73,0:23:40.73,ASS,,0,0,0,,Wow!
+Dialogue: 0,0:23:40.73,0:23:42.73,ASS,,0,0,0,,Wow!
+Dialogue: 0,0:23:42.73,0:23:44.73,ASS,,0,0,0,,I didn't know at first, but
+Dialogue: 0,0:23:44.73,0:23:46.73,ASS,,0,0,0,,I've definitely calculated this so far.
+Dialogue: 0,0:23:46.73,0:23:48.73,ASS,,0,0,0,,Really?
+Dialogue: 0,0:23:48.73,0:23:50.73,ASS,,0,0,0,,Really?
+Dialogue: 0,0:23:50.73,0:23:52.73,ASS,,0,0,0,,I knew it.
+Dialogue: 0,0:23:52.73,0:23:54.73,ASS,,0,0,0,,I knew it.
+Dialogue: 0,0:23:54.73,0:23:56.73,ASS,,0,0,0,,I thought I would lose, but
+Dialogue: 0,0:23:56.73,0:23:58.73,ASS,,0,0,0,,I won unexpectedly.
+Dialogue: 0,0:23:58.73,0:24:00.73,ASS,,0,0,0,,Ikoma-chan...
+Dialogue: 0,0:24:00.73,0:24:02.73,ASS,,0,0,0,,I can get another score.
+Dialogue: 0,0:24:02.73,0:24:04.73,ASS,,0,0,0,,I can get another score.
+Dialogue: 0,0:24:04.73,0:24:06.73,ASS,,0,0,0,,I can get another score.
+Dialogue: 0,0:24:06.73,0:24:08.73,ASS,,0,0,0,,I can get another score.
+Dialogue: 0,0:24:08.73,0:24:10.73,ASS,,0,0,0,,I can get another score.
+Dialogue: 0,0:24:10.73,0:24:12.73,ASS,,0,0,0,,You've seen it, right?
+Dialogue: 0,0:24:12.73,0:24:14.73,ASS,,0,0,0,,You can't be surprised.
+Dialogue: 0,0:24:20.73,0:24:22.73,ASS,,0,0,0,,Now,
+Dialogue: 0,0:24:22.73,0:24:24.73,ASS,,0,0,0,,it's a tie.
+Dialogue: 0,0:24:24.73,0:24:26.73,ASS,,0,0,0,,Kazumi vs Manatsu.
+Dialogue: 0,0:24:26.73,0:24:28.73,ASS,,0,0,0,,Kazumi vs Manatsu.
+Dialogue: 0,0:24:28.73,0:24:30.73,ASS,,0,0,0,,Who do you think will win, Yori-chan?
+Dialogue: 0,0:24:30.73,0:24:32.73,ASS,,0,0,0,,I don't know.
+Dialogue: 0,0:24:32.73,0:24:34.73,ASS,,0,0,0,,Takayama-san was really strong.
+Dialogue: 0,0:24:34.73,0:24:36.73,ASS,,0,0,0,,Takayama-san was really strong.
+Dialogue: 0,0:24:36.73,0:24:38.73,ASS,,0,0,0,,So, I think Takayama-san will win.
+Dialogue: 0,0:24:38.73,0:24:40.73,ASS,,0,0,0,,So, I think Takayama-san will win.
+Dialogue: 0,0:24:40.73,0:24:42.73,ASS,,0,0,0,,How about you, Ika-chan?
+Dialogue: 0,0:24:42.73,0:24:44.73,ASS,,0,0,0,,I really don't know.
+Dialogue: 0,0:24:44.73,0:24:46.73,ASS,,0,0,0,,Honestly, among the four of us,
+Dialogue: 0,0:24:46.73,0:24:48.73,ASS,,0,0,0,,I thought Manatsu would be the first.
+Dialogue: 0,0:24:48.73,0:24:50.73,ASS,,0,0,0,,Honestly, among the four of us,
+Dialogue: 0,0:24:50.73,0:24:52.73,ASS,,0,0,0,,she was really strong.
+Dialogue: 0,0:24:52.73,0:24:54.73,ASS,,0,0,0,,I don't know.
+Dialogue: 0,0:24:54.73,0:24:56.73,ASS,,0,0,0,,I think it's a difference in technique.
+Dialogue: 0,0:24:56.73,0:24:58.73,ASS,,0,0,0,,I think it's a difference in technique.
+Dialogue: 0,0:24:58.73,0:25:00.73,ASS,,0,0,0,,It's not just about strength.
+Dialogue: 0,0:25:01.15,0:25:02.15,ASS,,0,0,0,,I see.
+Dialogue: 0,0:25:02.15,0:25:03.56,ASS,,0,0,0,,Then, the champion is...
+Dialogue: 0,0:25:04.56,0:25:06.56,ASS,,0,0,0,,Let's decide the winner.
+Dialogue: 0,0:25:07.56,0:25:11.56,ASS,,0,0,0,,The final match is Kazumi Takayama vs\NManatsu Akimoto.
+Dialogue: 0,0:25:12.56,0:25:14.56,ASS,,0,0,0,,Let's decide the winner.
+Dialogue: 0,0:25:19.56,0:25:23.56,ASS,,0,0,0,,Please look at the camera one by one.
+Dialogue: 0,0:25:24.56,0:25:26.56,ASS,,0,0,0,,I've fought with Manatsu before.
+Dialogue: 0,0:25:27.56,0:25:30.56,ASS,,0,0,0,,I think I got the meat when she came.
+Dialogue: 0,0:25:31.56,0:25:32.56,ASS,,0,0,0,,I'll do my best.
+Dialogue: 0,0:25:33.56,0:25:36.47,ASS,,0,0,0,,I lost when I fought with Kazumi.
+Dialogue: 0,0:25:36.47,0:25:41.47,ASS,,0,0,0,,I feel like I'm getting stronger when\NI'm fighting now.
+Dialogue: 0,0:25:41.47,0:25:45.47,ASS,,0,0,0,,I want to win the second place with this\Nfeeling.
+Dialogue: 0,0:25:47.31,0:25:49.31,ASS,,0,0,0,,TAKAYAMA TAZUMI VS AKIMOTO MANATSU
+Dialogue: 0,0:25:49.31,0:25:54.31,ASS,,0,0,0,,The final match of fate, TAKAYAMA TAZUMI\Nvs AKIMOTO MANATSU
+Dialogue: 0,0:25:54.31,0:25:57.31,ASS,,0,0,0,,TAKAYAMA TAZUMI
+Dialogue: 0,0:25:57.31,0:26:00.31,ASS,,0,0,0,,I didn't expect to win here.
+Dialogue: 0,0:26:00.31,0:26:02.31,ASS,,0,0,0,,The final match.
+Dialogue: 0,0:26:03.31,0:26:05.31,ASS,,0,0,0,,The final match.
+Dialogue: 0,0:26:05.31,0:26:06.31,ASS,,0,0,0,,Ready.
+Dialogue: 0,0:26:06.31,0:26:07.31,ASS,,0,0,0,,Go!
+Dialogue: 0,0:26:10.31,0:26:11.31,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:26:11.31,0:26:12.31,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:26:12.31,0:26:13.31,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:26:13.31,0:26:14.31,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:26:15.31,0:26:16.31,ASS,,0,0,0,,Good luck.
+Dialogue: 0,0:26:16.31,0:26:17.31,ASS,,0,0,0,,Good luck.
+Dialogue: 0,0:26:17.31,0:26:18.31,ASS,,0,0,0,,Good luck.
+Dialogue: 0,0:26:18.31,0:26:19.31,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:26:20.31,0:26:21.31,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:26:21.31,0:26:22.31,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:26:24.31,0:26:25.31,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:26:27.31,0:26:28.31,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:26:31.31,0:26:32.31,ASS,,0,0,0,,It's amazing.
+Dialogue: 0,0:26:33.31,0:26:34.31,ASS,,0,0,0,,You were strong.
+Dialogue: 0,0:26:35.31,0:26:37.31,ASS,,0,0,0,,I have fought with everyone so far.
+Dialogue: 0,0:26:37.31,0:26:41.31,ASS,,0,0,0,,Manatsu was strong without the GUN.
+Dialogue: 0,0:26:41.31,0:26:42.31,ASS,,0,0,0,,Really?
+Dialogue: 0,0:26:42.31,0:26:43.31,ASS,,0,0,0,,Yes.
+Dialogue: 0,0:26:43.31,0:26:44.31,ASS,,0,0,0,,You were strong.
+Dialogue: 0,0:26:44.31,0:26:45.31,ASS,,0,0,0,,It was fun.
+Dialogue: 0,0:26:45.31,0:26:47.31,ASS,,0,0,0,,It was a burning final match.
+Dialogue: 0,0:26:47.31,0:26:48.31,ASS,,0,0,0,,It was fun.
+Dialogue: 0,0:26:48.31,0:26:49.31,ASS,,0,0,0,,It was fun.
+Dialogue: 0,0:26:50.31,0:26:54.31,ASS,,0,0,0,,Manatsu lost in the end.
+Dialogue: 0,0:26:54.31,0:26:56.31,ASS,,0,0,0,,But you won a lot.
+Dialogue: 0,0:26:56.31,0:27:00.31,ASS,,0,0,0,,I saw a new Manatsu today.
+Dialogue: 0,0:27:00.31,0:27:01.31,ASS,,0,0,0,,It was good.
+Dialogue: 0,0:27:01.31,0:27:03.31,ASS,,0,0,0,,I didn't mean to show my strength.
+Dialogue: 0,0:27:03.31,0:27:05.31,ASS,,0,0,0,,What do you think?
+Dialogue: 0,0:27:05.31,0:27:07.31,ASS,,0,0,0,,You said you didn't mean to show your\Nstrength.
+Dialogue: 0,0:27:07.31,0:27:08.31,ASS,,0,0,0,,No.
+Dialogue: 0,0:27:08.31,0:27:09.31,ASS,,0,0,0,,No.
+Dialogue: 0,0:27:09.31,0:27:10.31,ASS,,0,0,0,,No.
+Dialogue: 0,0:27:10.31,0:27:11.31,ASS,,0,0,0,,No.
+Dialogue: 0,0:27:11.31,0:27:12.31,ASS,,0,0,0,,That's not true.
+Dialogue: 0,0:27:12.31,0:27:13.31,ASS,,0,0,0,,That's not true.
+Dialogue: 0,0:27:13.31,0:27:14.31,ASS,,0,0,0,,That's not true.
+Dialogue: 0,0:27:14.31,0:27:15.31,ASS,,0,0,0,,You are generous.
+Dialogue: 0,0:27:15.31,0:27:16.31,ASS,,0,0,0,,You are generous.
+Dialogue: 0,0:27:18.31,0:27:19.31,ASS,,0,0,0,,That's true.
+Dialogue: 0,0:27:19.31,0:27:20.31,ASS,,0,0,0,,That's true.
+Dialogue: 0,0:27:20.99,0:27:23.69,ASS,,0,0,0,,And so, the winner is...
+Dialogue: 0,0:27:23.69,0:27:28.69,ASS,,0,0,0,,The winner is Kazumi, and she gets a\Nwhole beef steak!
+Dialogue: 0,0:27:28.69,0:27:30.69,ASS,,0,0,0,,Thank you! I'm so happy!
+Dialogue: 0,0:27:33.69,0:27:35.69,ASS,,0,0,0,,Here you go, champion!
+Dialogue: 0,0:27:35.69,0:27:37.69,ASS,,0,0,0,,Thank you so much!
+Dialogue: 0,0:27:37.69,0:27:39.69,ASS,,0,0,0,,Thank you!
+Dialogue: 0,0:27:39.69,0:27:41.69,ASS,,0,0,0,,Thank you!
+Dialogue: 0,0:27:41.69,0:27:47.69,ASS,,0,0,0,,I can't eat it all by myself, so I'll\Neither send it to my parents or give it\Nto someone in need.
+Dialogue: 0,0:27:47.69,0:27:48.69,ASS,,0,0,0,,I see!
+Dialogue: 0,0:27:48.69,0:27:53.69,ASS,,0,0,0,,And so, that was the Nagibingo arm\Nwrestling!
+Dialogue: 0,0:27:54.69,0:27:56.69,ASS,,0,0,0,,Bye bye!
