@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Sakurazaka46/Sakura%20Meets/2023.06.29%20-%20Sakura%20Meets%20ep12.mp4",
+      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Other/Cutscenes/Nogizaka46/2015.12.20%20-%20Nogi%20Eigo%20Christmas%20SP-06-cut-merged_baseline.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2023.06.29%20-%20Sakura%20Meets%20ep12.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2015.12.20%20-%20Nogi%20Eigo%20Christmas%20SP-06-cut-merged.ass",
             "contentType": "text/x-ass"
         }
   ]
