@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Other/Cutscenes/Nogizaka46/2017.07.09%20-%20Nogi%20Eigo%20Summer%20SP-20-21-cut-merged.mp4",
+      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Sakurazaka46/Other/2024.08.25%20-%20SAKURAZAKA46%209th%20Single%20BACKS%20LIVE!!%20DAY3.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2017.07.09%20-%20NogiEigo%20Summer%20SP-20-21-cut-merged.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2024.08.25%20-%20SAKURAZAKA46%209th%20Single%20BACKS%20LIVE!!%20DAY3.ass",
             "contentType": "text/x-ass"
         }
   ]
