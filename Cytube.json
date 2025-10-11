@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Sakurazaka46/2023.04.06%20-%20Sakura%20Meets/2023.07.06%20-%20Sakura%20Meets%20ep13.mp4",
+      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Sakurazaka46/Other/2024.11.24%20-%204th%20YEAR%20ANNIVERSARY%20LIVE.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2023.07.06%20-%20Sakura%20Meets%20ep13.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2024.11.24%20-%204th%20YEAR%20ANNIVERSARY%20LIVE%20AI%20Eng.ass",
             "contentType": "text/x-ass"
         }
   ]
