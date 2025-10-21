@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Sakurazaka46/2023.04.06%20-%20Sakura%20Meets/2023.07.13%20-%20Sakura%20Meets%20ep14.mp4",
+      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Nogizaka46/2012.02.19%20-%20Nogizakatte,%20Koko!/2012.05.10%20-%20Nogizakatte,%20Koko!%20EP%2002%20Talk%20Studio%20No.1.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2023.07.13%20-%20Sakura%20Meets%20ep14.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2012.05.10%20-%20Nogizakatte%2C%20Koko!%20EP%2002%20Talk%20Studio%20No.1.ass",
             "contentType": "text/x-ass"
         }
   ]
