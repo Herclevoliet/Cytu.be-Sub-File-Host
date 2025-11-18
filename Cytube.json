@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Nogizaka46/2012.02.19%20-%20Nogizakatte,%20Koko!/2012.05.10%20-%20Nogizakatte,%20Koko!%20EP%2002%20Talk%20Studio%20No.1.mp4",
+      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sharings/%E3%80%90%E7%94%9F%E3%80%91251118%20%E6%9D%BE%E7%94%B0%E9%87%8C%E5%A5%881st%E5%86%99%E7%9C%9F%E9%9B%86%E7%99%BA%E5%A3%B2%E8%A8%98%E5%BF%B5%E7%94%9F%E9%85%8D%E4%BF%A1.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2012.05.10%20-%20Nogizakatte%2C%20Koko!%20EP%2002%20Talk%20Studio%20No.1.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/80E79F80209DE7B087E5881st86E79F9BE7BAA3E898BFE79F85E4A1%20AI%20English.ass",
             "contentType": "text/x-ass"
         }
   ]
