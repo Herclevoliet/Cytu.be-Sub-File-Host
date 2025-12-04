@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercleonedrive-herclevoliets-projects.vercel.app/Sakamichi%20Series/Nogizaka46/2012.02.19%20-%20Nogizakatte,%20Koko!/2013.10.25%20-%20Nogizakatte,%20Koko!%20EP%2033.mp4",
+      "url": "https://hercle.vercel.app/Sakamichi%20Series/Nogizaka46/2012.02.19%20-%20Nogizakatte,%20Koko!/2014.03.22%20-%20Nogizakatte,%20Koko!%20EP%2034.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2013.10.25%20-%20Nogizakatte%2C%20Koko!%20EP%2033.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2014.03.22%20-%20Nogizakatte%2C%20Koko!%20EP%2034.ass",
             "contentType": "text/x-ass"
         }
   ]
