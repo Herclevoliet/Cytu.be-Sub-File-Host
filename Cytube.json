@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/2015.07.18%20-%20Nogi%20Eigo%20EP%2002.mp4",
+      "url": "https://files.nogizaka46.cc/d/TV/%E4%B9%83%E6%9C%A8%E5%9D%82%2046%20Show/EP10%2020160211%20%E4%B9%83%E6%9C%A8%E5%9D%8246%E7%BA%A2%E7%99%BDSP%E6%89%A9%E5%A4%A7%E7%89%88.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/150719%20Nogizaka46%20Eigo%20(Nogi%20Eigo)%20ep02.ass",
+            "url": "https://raw.githubusercontent.com/Herclevoliet/Cytu.be-Sub-File-Host/refs/heads/main/2016.02.11%20-%20Nogizaka46%20SHOW!%20%E2%80%93%20Nogizaka46%20Red%20%26%20White%20SP%20Extended%20Edition%20-%20CNSubbed%20AIsub.ass",
             "contentType": "text/x-ass"
         }
   ]
