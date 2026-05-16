@@ -2,13 +2,8 @@
   "title": "Cytube",
   "duration": 60000,
   "sources": [
-     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/2026.05.13%20-%20Sakurazaka46%2014th%20Single%20BACKS%20LIVE!!%20Day2%20(Take%20Focus).mp4",
-      "contentType": "video/mp4",
-      "quality": 720
-    },
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/2026.05.13%20-%20Sakurazaka46%2014th%20Single%20BACKS%20LIVE!!%20Day2.mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/2017.09.24%20-%20Nogi%20Eigo%20EP%2021.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -17,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/2026.05.13%20-%20Sakurazaka46%2014th%20Single%20BACKS%20LIVE!!%20Day2%20AIsub.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/2017.09.24%20-%20Nogi%20Eigo%20EP%2021%20AI.ass",
             "contentType": "text/x-ass"
         }
   ]
