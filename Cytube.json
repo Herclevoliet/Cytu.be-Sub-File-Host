@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/2017.09.24%20-%20Nogi%20Eigo%20EP%2021.mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/2017.08.09%20-%2018th%20Single%20Bonus%20-%203rd%20Generation%20MV%20BTS.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/2017.09.24%20-%20Nogi%20Eigo%20EP%2021%20AI.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/2017.08.09%20-%2018th%20Single%20Bonus%20-%203rd%20Generation%20MV%20BTS%20AIsub.ass",
             "contentType": "text/x-ass"
         }
   ]
