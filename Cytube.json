@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/NOGIBINGO!9%20Filmed%20by%20the%20Members!%20%E2%80%9CNOGI%20Camera%E2%80%9D.mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/NOGIBINGO!9%20Nogizaka%20on%20the%20Move.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/NOGIBINGO!9%20Filmed%20by%20the%20Members!%20%E2%80%9CNOGI%20Camera%E2%80%9D.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/NOGIBINGO!9%20Nogizaka%20on%20the%20Move.ass",
             "contentType": "text/x-ass"
         }
   ]
