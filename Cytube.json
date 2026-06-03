@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/2017.11.26%20-%20Nogi%20Eigo%20EP%2023.mp4",
+      "url": "https://files.nogizaka46.cc/d/Live/2017/%E3%80%90%E5%9D%82%E9%81%93%E4%B9%8B%E8%AF%97%E3%80%91%E4%B9%83%E6%9C%A8%E5%9D%8246%20%E7%9C%9F%E5%A4%8F%E5%85%A8%E5%9B%BD%E5%B7%A1%E6%BC%942017%20FINAL%EF%BC%81IN%20TOKYO%20DOME%20%E5%85%A8%E5%9C%BA.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/2017.11.26%20-%20Nogi%20Eigo%20EP%2023%20AI.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/2017.11.08%20-%20Nogizaka46%20Summer%20National%20Tour%202017%20FINAL!%20IN%20TOKYO%20DOME%20AIsub.ass",
             "contentType": "text/x-ass"
         }
   ]
