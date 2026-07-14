@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/2018.06.10%20-%20Nogiten2%20(049)%20Indoor%20Sports%20Tournament%20(Live).mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/2025.11.30%20-%20SokoSaku%20263.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/2018.06.10%20-%20Nogiten2%20(049)%20Indoor%20Sports%20Tournament%20(Live)%20-%20AISub.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/2025.11.30%20-%20SokoSaku%20263.ass",
             "contentType": "text/x-ass"
         }
   ]
