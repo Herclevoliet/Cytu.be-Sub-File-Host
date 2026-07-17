@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/2025.12.07%20-%20SokoSaku%20264.mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/2018.06.26%20-%20Uchi%20no%20Gaya%20ga%20Sumimasen!%20(Nogizaka46).mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/2025.12.07%20-%20SokoSaku%20264.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/2018.06.26%20-%20Uchi%20no%20Gaya%20ga%20Sumimasen!%20(Nogizaka46)%20AIsub.ass",
             "contentType": "text/x-ass"
         }
   ]
