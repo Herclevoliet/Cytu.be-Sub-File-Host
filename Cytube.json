@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/2026.02.15%20-%20SokoSaku%20273.mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/2018.11.03%20-%20CDTV%20Artist%20File%20-%20Nogizaka46%20-%20Part%201.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/2026.02.15%20-%20SokoSaku%20273.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/2018.11.03%20-%20CDTV%20Artist%20File%20-%20Nogizaka46%20-%20Part%201%20AIsub.ass",
             "contentType": "text/x-ass"
         }
   ]
