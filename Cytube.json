@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/NOGIBINGO!10%20-%20Nogizaka%20OO%20Channel%20ep08.mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/2018.11.22%20-%20Nogiten2%20(060)%20Presented%20by%20Miria%20Watanabe;%20Personality%20Test.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/NOGIBINGO!10%20-%20Nogizaka%20OO%20Channel%20ep08.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/2018.11.22%20-%20Nogiten2%20(060)%20Presented%20by%20Miria%20Watanabe;%20Personality%20Test%20-%20AISub.ass",
             "contentType": "text/x-ass"
         }
   ]
