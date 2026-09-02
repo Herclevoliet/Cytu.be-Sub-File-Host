@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.02.15%20-%20Nogiten2%20(066)%202nd%20Board%20Game%20Tournament.mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.02.24%20-%20Nogi%20Eigo%20EP%2034.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.02.15%20-%20Nogiten2%20(066)%202nd%20Board%20Game%20Tournament%20-%20AISub.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.02.24%20-%20Nogi%20Eigo%20EP%2034%20AI.ass",
             "contentType": "text/x-ass"
         }
   ]
