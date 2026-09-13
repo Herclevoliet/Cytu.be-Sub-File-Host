@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.04.26%20-%20Nogiten2%20(070)%20Talking%20Excitedly%20with%20Junna%20Itou%20About%20Stage%20Plays.mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.04.28%20-%20Nogi%20Eigo%20EP%2036.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.04.26%20-%20Nogiten2%20(070)%20Talking%20Excitedly%20with%20Junna%20Itou%20About%20Stage%20Plays%20-%20AISub.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.04.28%20-%20Nogi%20Eigo%20EP%2036%20AI.ass",
             "contentType": "text/x-ass"
         }
   ]
