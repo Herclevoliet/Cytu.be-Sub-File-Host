@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/converted_2019.05.12%20-%20Nogizaka46%20no%20Gaku%20Tabi!%20ep09%20(in%20Tochigi%20and%20Fukuoka).mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.05.26%20-%20Nogi%20Eigo%20EP%2037.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.05.12%20-%20Nogizaka46%20no%20Gaku%20Tabi!%20ep09%20(in%20Tochigi%20and%20Fukuoka)%20-%20AISub.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.05.26%20-%20Nogi%20Eigo%20EP%2037%20AI.ass",
             "contentType": "text/x-ass"
         }
   ]
