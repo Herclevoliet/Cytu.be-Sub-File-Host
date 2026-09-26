@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.08.25%20-%20Nogi%20Eigo%20EP%2040.mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.09.01%20-%20Nogizaka46%20Midsummer%20National%20Tour%202019%20Day%203%20Final%20-%20Sakurai%20Reika's%20Graduation%20-%20CNSub.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.08.25%20-%20Nogi%20Eigo%20EP%2040%20AI.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.09.01%20-%20Nogizaka46%20Midsummer%20National%20Tour%202019%20Day%203%20Final%20-%20Sakurai%20Reika's%20Graduation%20AIsub.ass",
             "contentType": "text/x-ass"
         }
   ]
