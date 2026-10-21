@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.12.29%20-%20Nogi%20Eigo%20EP%2044.mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.12.25%20-%20Nogizaka46's%20Documentary%20Before%20We%20Knew%20It,%20We%20Were%20Here.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.12.29%20-%20Nogi%20Eigo%20EP%2044%20AI.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.12.25%20-%20Nogizaka46's%20Documentary%20Before%20We%20Knew%20It,%20We%20Were%20Here%20-%20Eng%20Sub.ass",
             "contentType": "text/x-ass"
         }
   ]
