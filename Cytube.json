@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.xx.xx%20-%20Nostalgic%20Mouse%20Diner%20Summary.mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/2026.06.21%20-%20SokoSaku%20290.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/2019.xx.xx%20-%20Nostalgic%20Mouse%20Diner%20Summary%20AI%20Eng.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/2026.06.21%20-%20SokoSaku%20290.ass",
             "contentType": "text/x-ass"
         }
   ]
