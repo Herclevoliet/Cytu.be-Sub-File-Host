@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/seg2.mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/%E4%B9%83%E6%9C%A8%E5%9D%8246%208th%20YEAR%20BIRTHDAY%20LIVE%20DAY2.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/seg2%20AIsub.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/B9E6A89D208th20BIRTHDAY20DAY2%20AIsub.ass",
             "contentType": "text/x-ass"
         }
   ]
