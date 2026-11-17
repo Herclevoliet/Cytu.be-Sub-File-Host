@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/%E6%AB%BB%E5%9D%8246%206th%20YEAR%20ANNIVERSARY%20LIVE%20DAY2%20%E3%80%8C%E6%9D%BE%E7%94%B0%E9%87%8C%E5%A5%88%20%E5%8D%92%E6%A5%AD%E3%82%BB%E3%83%AC%E3%83%A2%E3%83%8B%E3%83%BC%E3%80%8D%20%5B2026.11.15%5D.mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/Nogizaka%20Doko%20e%20Bonus%20-%2001.%20Making-of%20Footage.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/MatsuGrad%20AIsub.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/Nogizaka%20Doko%20e%20Bonus%20-%2001.%20Making-of%20Footage%20AIsub.ass",
             "contentType": "text/x-ass"
         }
   ]
