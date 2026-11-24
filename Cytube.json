@@ -3,7 +3,7 @@
   "duration": 60000,
   "sources": [
     {
-      "url": "https://hercledrive.pffnuv.workers.dev/0:/2020.03.28%20-%20Nogizaka46%20meets%20Asia!%20~Taipei%20ver.%20%25232~.mp4",
+      "url": "https://hercledrive.pffnuv.workers.dev/0:/2020.04.26%20-%20Nogi%20Eigo%20EP%2047.mp4",
       "contentType": "video/mp4",
       "quality": 1080
     }
@@ -12,7 +12,7 @@
         {
             "language": "en",
             "label": "AI .ass Subtitles",
-            "url": "https://hercledrive.pffnuv.workers.dev/0:/2020.03.28%20-%20Nogizaka46%20meets%20Asia!%20~Taipei%20ver.%20%25232~.en.ass",
+            "url": "https://hercledrive.pffnuv.workers.dev/0:/2020.04.26%20-%20Nogi%20Eigo%20EP%2047%20AI.ass",
             "contentType": "text/x-ass"
         }
   ]
